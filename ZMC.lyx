@@ -1172,11 +1172,12 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="31" columns="4">
+<lyxtabular version="3" rows="31" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <row bottomspace="2mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
@@ -1211,6 +1212,15 @@ Example
 
 \begin_layout Plain Layout
 Dihedrals
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1275,6 +1285,15 @@ Also CCl4 and NH4, CH4
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1320,6 +1339,15 @@ Si
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1347,11 +1375,11 @@ Si
 \begin_inset Text
 
 \begin_layout Plain Layout
-KrO
+(Kr)(O
 \begin_inset Formula $_{3}$
 \end_inset
 
-S
+S)
 \begin_inset Note Note
 status collapsed
 
@@ -1361,6 +1389,15 @@ Also CHBr3 and CH3O
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1420,6 +1457,15 @@ Te
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1464,7 +1510,17 @@ H
 \begin_inset Text
 
 \begin_layout Plain Layout
+0,180?
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019 Vogt, Pg.
+ 318
 \end_layout
 
 \end_inset
@@ -1523,7 +1579,17 @@ Also C2H2O
 \begin_inset Text
 
 \begin_layout Plain Layout
+0,180?
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019 Vogt, Pg.
+ 102
 \end_layout
 
 \end_inset
@@ -1577,6 +1643,16 @@ Si
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019 Vogt, Og.
+ 107
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1626,6 +1702,15 @@ Si
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1658,6 +1743,15 @@ BFH
 \end_inset
 
 O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1720,6 +1814,15 @@ O
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="2mm">
 <cell alignment="center" valignment="top" usebox="none">
@@ -1751,6 +1854,15 @@ CN
 \begin_inset Formula $_{4}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1814,6 +1926,15 @@ H
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1846,6 +1967,15 @@ BF
 \end_inset
 
 HO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1904,6 +2034,15 @@ OH
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1949,6 +2088,15 @@ NaO
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1980,6 +2128,15 @@ HNO
 \begin_inset Formula $_{3}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2053,6 +2210,15 @@ Also CH2O2
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2088,6 +2254,15 @@ N
 \begin_inset Formula $_{2}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2147,6 +2322,15 @@ N
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2178,6 +2362,15 @@ CHClF
 \begin_inset Formula $_{2}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2237,6 +2430,15 @@ O)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2282,6 +2484,15 @@ N
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2314,6 +2525,15 @@ N
 \end_inset
 
 )(CO)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2376,6 +2596,15 @@ Given!
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2421,6 +2650,15 @@ N
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2446,6 +2684,15 @@ Linear
 
 \begin_layout Plain Layout
 (CO)(HCN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2504,6 +2751,15 @@ C
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2539,6 +2795,15 @@ Ge
 \begin_inset Formula $_{2}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2612,6 +2877,15 @@ H
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2644,6 +2918,15 @@ O
 \begin_inset Formula $_{2}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
