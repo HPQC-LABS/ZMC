@@ -13,4 +13,4 @@ eq      = R_eq*[cosd(A_eq/2) sind(A_eq/2) 0           ];
 % subspace(A',B') = acos(A dot B/(norm(A)norm(B)):
 A_ax_eq = rad2deg(subspace(ax',eq')) 
 
-
+% Result: 88.96731310345567
