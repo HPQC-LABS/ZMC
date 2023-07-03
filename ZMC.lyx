@@ -756,12 +756,12 @@ Planar
 \begin_inset Text
 
 \begin_layout Plain Layout
-Planar?
+Planar
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-H2O2 is non-planary but it's C2.
+H2O2 is non-planar but it's C2.
  Does the C2v guarantee that we're planar here because we need the molecule's
  plane to be a mirror plane?
 \end_layout
@@ -819,14 +819,14 @@ S
 \begin_layout Plain Layout
 Planar?
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 How do we know though? C
 \begin_inset Formula $_{2v}$
 \end_inset
 
- can also be non-planar
+ can also be non-planar as in H2Si2
 \end_layout
 
 \end_inset
@@ -1430,7 +1430,7 @@ Also CHBr3 and CH3O
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Seesaw
 \end_layout
 
 \end_inset
