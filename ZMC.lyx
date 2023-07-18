@@ -21437,7 +21437,7 @@ Information missing
 status open
 
 \begin_layout Plain Layout
- (angles not given in any particular order)
+(angles not given in any particular order)
 \end_layout
 
 \end_inset
@@ -22086,7 +22086,7 @@ Sam's molecule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="3">
+<lyxtabular version="3" rows="14" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -22147,7 +22147,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si bond length
+C(1)-C(2) bond length
 \end_layout
 
 \end_inset
@@ -22179,7 +22179,7 @@ H-Si bond length
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si-N bond length
+C(2)-C(2)' bond length
 \end_layout
 
 \end_inset
@@ -22211,89 +22211,7 @@ Si-N bond length
 \begin_inset Text
 
 \begin_layout Plain Layout
-N-Si bond length
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Si(1) vs Si(2) don't need to be distinguished if we know it's a 
-\begin_inset Quotes eld
-\end_inset
-
-path of length 4
-\begin_inset Quotes erd
-\end_inset
-
-: just follow the order!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Si-N-Si bond angle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row bottomspace="2mm">
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H-Si-N bond angle
+C(2)-Si bond length
 \end_layout
 
 \end_inset
@@ -22318,7 +22236,7 @@ Information missing
 status open
 
 \begin_layout Plain Layout
- (angles not given in any particular order)
+(angles not given in any particular order)
 \end_layout
 
 \end_inset
@@ -22364,7 +22282,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-N...H distance
+C(1)...Si distance
 \end_layout
 
 \end_inset
@@ -22384,7 +22302,7 @@ N...H distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{5}$
+\begin_inset Formula $\theta_{1}$
 \end_inset
 
 
@@ -22396,7 +22314,7 @@ N...H distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si...Si distance
+C(2)-C(1)-C(2)' angle
 \end_layout
 
 \end_inset
@@ -22416,7 +22334,7 @@ Si...Si distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{6}$
+\begin_inset Formula $\theta_{2}$
 \end_inset
 
 
@@ -22428,19 +22346,7 @@ Si...Si distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si...H distance
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-by using ...
- instead of —, it seems that we might be able to avoid needing Si(1) and
- Si(2)!
-\end_layout
-
-\end_inset
-
-
+C(1)-C(2)-C(2)' angle
 \end_layout
 
 \end_inset
@@ -22472,7 +22378,7 @@ by using ...
 \begin_inset Text
 
 \begin_layout Plain Layout
-N=Si...Si angle
+Si-C(2)-C(2)' angle
 \end_layout
 
 \end_inset
@@ -22504,7 +22410,7 @@ N=Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H...Si...Si angle
+C(2)-Si-C(2)' angle
 \end_layout
 
 \end_inset
@@ -22536,7 +22442,7 @@ H...Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si...Si angle
+Si-C(2)-C(1) angle
 \end_layout
 
 \end_inset
@@ -22568,7 +22474,39 @@ H-Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H...Si-N angle
+Si...C(1)-C(2) angle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta_{7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C(1)...Si-C(2) angle
 \end_layout
 
 \end_inset
@@ -22623,8 +22561,25 @@ Dihedral angles between various other pairs of planes
 \end_layout
 
 \begin_layout Standard
-We have the following expressions for the missing geometric information
- (waiting for Mia):
+We have the following expressions for the missing geometric information:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+\theta_{1}=\arccos{(\frac{2r_{1}^{2}-r_{2}^{2}}{2r_{1}^{2}})}\\
+\ensuremath{\theta_{2}=\arccos{(\frac{r_{2}}{2r_{1}})}=\frac{180-\theta_{1}}{2}}\\
+\theta_{3}=\arccos{(\frac{r_{2}}{2r_{3}})}=\frac{180-\theta_{4}}{2}\\
+\theta_{4}=\arccos{(\frac{2r_{3}^{2}-r_{2}^{2}}{2r_{3}^{2}})}\\
+\theta_{5}=\theta_{2}+\theta_{3}\\
+\theta_{6}=\frac{\theta_{1}}{2}\\
+\theta_{7}=\frac{\theta_{4}}{2}\\
+r_{4}=\sqrt{r_{1}^{2}+r_{3}^{2}-2r_{1}r_{3}\cos(\theta_{5})}
+\end{multline*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -22648,7 +22603,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
+\begin_inset Formula $C(1)$
 \end_inset
 
 
@@ -22716,7 +22671,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt N}$
+\begin_inset Formula $C(2)$
 \end_inset
 
 
@@ -22790,7 +22745,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
+\begin_inset Formula $C(2)'$
 \end_inset
 
 
@@ -22835,7 +22790,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{1}$
+\begin_inset Formula $\theta_{2}$
 \end_inset
 
 
@@ -22867,7 +22822,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt H}$
+\begin_inset Formula ${\tt Si}$
 \end_inset
 
 
@@ -22912,7 +22867,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{2}$
+\begin_inset Formula $\theta_{3}$
 \end_inset
 
 
@@ -22967,7 +22922,7 @@ Sam's molecule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="3">
+<lyxtabular version="3" rows="14" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -23028,7 +22983,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si bond length
+C(1)-C(2) bond length
 \end_layout
 
 \end_inset
@@ -23060,7 +23015,7 @@ H-Si bond length
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si-N bond length
+Si-C(2) bond length
 \end_layout
 
 \end_inset
@@ -23092,89 +23047,7 @@ Si-N bond length
 \begin_inset Text
 
 \begin_layout Plain Layout
-N-Si bond length
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Si(1) vs Si(2) don't need to be distinguished if we know it's a 
-\begin_inset Quotes eld
-\end_inset
-
-path of length 4
-\begin_inset Quotes erd
-\end_inset
-
-: just follow the order!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Si-N-Si bond angle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row bottomspace="2mm">
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H-Si-N bond angle
+Si-C(1) bond length
 \end_layout
 
 \end_inset
@@ -23265,7 +23138,7 @@ N...H distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{5}$
+\begin_inset Formula $\theta_{1}$
 \end_inset
 
 
@@ -23277,7 +23150,7 @@ N...H distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si...Si distance
+C(1)...C(1)'-C(2) angle
 \end_layout
 
 \end_inset
@@ -23297,7 +23170,7 @@ Si...Si distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{6}$
+\begin_inset Formula $\theta_{2}$
 \end_inset
 
 
@@ -23309,19 +23182,7 @@ Si...Si distance
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si...H distance
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-by using ...
- instead of —, it seems that we might be able to avoid needing Si(1) and
- Si(2)!
-\end_layout
-
-\end_inset
-
-
+C(1)-C(2)-C(1)' angle
 \end_layout
 
 \end_inset
@@ -23353,7 +23214,7 @@ by using ...
 \begin_inset Text
 
 \begin_layout Plain Layout
-N=Si...Si angle
+C(1)-C(2)-Si angle
 \end_layout
 
 \end_inset
@@ -23385,7 +23246,7 @@ N=Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H...Si...Si angle
+Si-C(1)-C(2) angle
 \end_layout
 
 \end_inset
@@ -23417,7 +23278,7 @@ H...Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si...Si angle
+C(1)-Si-C(2) angle
 \end_layout
 
 \end_inset
@@ -23449,7 +23310,39 @@ H-Si...Si angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H...Si-N angle
+C(1)-Si-C(1)' angle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\theta_{7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C(1)...C(1)'-Si angle
 \end_layout
 
 \end_inset
@@ -23504,8 +23397,24 @@ Dihedral angles between various other pairs of planes
 \end_layout
 
 \begin_layout Standard
-We have the following expressions for the missing geometric information
- (waiting for Mia):
+We have the following expressions for the missing geometric information:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+\theta_{1}=90-\theta_{3}\\
+\theta_{2}=2{\theta_{3}}\\
+\theta_{3}=\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})}\\
+\theta_{4}=\arccos{(\frac{r_{1}^{2}+r_{3}^{2}-r_{2}^{2}}{2r_{1}r_{3}})}\\
+\theta_{5}=\arccos{(\frac{r_{2}^{2}+r_{3}^{2}-r_{1}^{2}}{2r_{2}r_{3}})}\\
+\theta_{6}=2{\theta_{5}}\\
+\theta_{7}=90-\theta_{5}\\
+\end{multline*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -23529,10 +23438,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
-\end_inset
-
-
+C(1)
 \end_layout
 
 \end_inset
@@ -23597,10 +23503,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt N}$
-\end_inset
-
-
+C(2)
 \end_layout
 
 \end_inset
@@ -23671,7 +23574,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
+\begin_inset Formula $\textnormal{C(1)'}$
 \end_inset
 
 
@@ -23692,7 +23595,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{2}$
+\begin_inset Formula $r_{1}$
 \end_inset
 
 
@@ -23716,7 +23619,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{1}$
+\begin_inset Formula $\theta_{2}$
 \end_inset
 
 
@@ -23748,10 +23651,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt H}$
-\end_inset
-
-
+Si
 \end_layout
 
 \end_inset
@@ -23793,7 +23693,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{2}$
+\begin_inset Formula $\theta_{4}$
 \end_inset
 
 
