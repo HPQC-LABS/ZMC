@@ -22566,16 +22566,86 @@ We have the following expressions for the missing geometric information:
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{multline*}
-\theta_{1}=\arccos{(\frac{2r_{1}^{2}-r_{2}^{2}}{2r_{1}^{2}})}\\
-\ensuremath{\theta_{2}=\arccos{(\frac{r_{2}}{2r_{1}})}=\frac{180-\theta_{1}}{2}}\\
-\theta_{3}=\arccos{(\frac{r_{2}}{2r_{3}})}=\frac{180-\theta_{4}}{2}\\
-\theta_{4}=\arccos{(\frac{2r_{3}^{2}-r_{2}^{2}}{2r_{3}^{2}})}\\
-\theta_{5}=\theta_{2}+\theta_{3}\\
-\theta_{6}=\frac{\theta_{1}}{2}\\
-\theta_{7}=\frac{\theta_{4}}{2}\\
+\begin{equation}
+\theta_{1}=\arccos{(\frac{2r_{1}^{2}-r_{2}^{2}}{2r_{1}^{2}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{2}=\arccos{(\frac{r_{2}}{2r_{1}})}=\frac{180-\theta_{1}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{3}=\arccos{(\frac{r_{2}}{2r_{3}})}=\frac{180-\theta_{4}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{4}=\arccos{(\frac{2r_{3}^{2}-r_{2}^{2}}{2r_{3}^{2}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{5}=\theta_{2}+\theta_{3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{6}=\frac{\theta_{1}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{7}=\frac{\theta_{4}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
 r_{4}=\sqrt{r_{1}^{2}+r_{3}^{2}-2r_{1}r_{3}\cos(\theta_{5})}
-\end{multline*}
+\end{equation}
 
 \end_inset
 
@@ -22671,7 +22741,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $C(2)$
+\begin_inset Formula ${\tt C(2)}$
 \end_inset
 
 
@@ -22745,7 +22815,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $C(2)'$
+\begin_inset Formula ${\tt C(2)'}$
 \end_inset
 
 
@@ -23402,15 +23472,86 @@ We have the following expressions for the missing geometric information:
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{multline*}
-\theta_{1}=90-\theta_{3}\\
-\theta_{2}=2{\theta_{3}}\\
-\theta_{3}=\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})}\\
-\theta_{4}=\arccos{(\frac{r_{1}^{2}+r_{3}^{2}-r_{2}^{2}}{2r_{1}r_{3}})}\\
-\theta_{5}=\arccos{(\frac{r_{2}^{2}+r_{3}^{2}-r_{1}^{2}}{2r_{2}r_{3}})}\\
-\theta_{6}=2{\theta_{5}}\\
-\theta_{7}=90-\theta_{5}\\
-\end{multline*}
+\begin{equation}
+\theta_{1}=90-\theta_{3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{2}=2{\theta_{3}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{3}=\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{4}=\arccos{(\frac{r_{1}^{2}+r_{3}^{2}-r_{2}^{2}}{2r_{1}r_{3}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{5}=\arccos{(\frac{r_{2}^{2}+r_{3}^{2}-r_{1}^{2}}{2r_{2}r_{3}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{6}=2{\theta_{5}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{7}=90-\theta_{5}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\ensuremath{r_{4}=\sqrt{2r_{1}^{2}-2r_{1}^{2}cos(\theta_{2})}}
+\end{equation}
 
 \end_inset
 
@@ -23438,7 +23579,10 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-C(1)
+\begin_inset Formula ${\tt C(1)}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -23503,7 +23647,10 @@ C(1)
 \begin_inset Text
 
 \begin_layout Plain Layout
-C(2)
+\begin_inset Formula ${\tt C(2)}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -23574,7 +23721,7 @@ C(2)
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\textnormal{C(1)'}$
+\begin_inset Formula ${\tt C(1)'}$
 \end_inset
 
 
@@ -23651,7 +23798,10 @@ C(2)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si
+\begin_inset Formula ${\tt Si}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
