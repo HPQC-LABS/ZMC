@@ -22567,7 +22567,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{1}=\arccos{(\frac{2r_{1}^{2}-r_{2}^{2}}{2r_{1}^{2}})}
+\theta_{1}=\arccos{(1-\frac{r_{2}^{2}}{2r_{1}^{2}})}
 \end{equation}
 
 \end_inset
@@ -22578,7 +22578,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{2}=\arccos{(\frac{r_{2}}{2r_{1}})}=\frac{180-\theta_{1}}{2}
+\theta_{2}=\arccos{(\frac{r_{2}}{2r_{1}})}
 \end{equation}
 
 \end_inset
@@ -22589,7 +22589,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{3}=\arccos{(\frac{r_{2}}{2r_{3}})}=\frac{180-\theta_{4}}{2}
+\theta_{3}=\arccos{(\frac{r_{2}}{2r_{3}})}
 \end{equation}
 
 \end_inset
@@ -22600,7 +22600,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{4}=\arccos{(\frac{2r_{3}^{2}-r_{2}^{2}}{2r_{3}^{2}})}
+\theta_{4}=\arccos{(1-\frac{r_{2}^{2}}{2r_{3}^{2}})}
 \end{equation}
 
 \end_inset
@@ -22611,7 +22611,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{5}=\theta_{2}+\theta_{3}
+\theta_{5}=\arccos{(\frac{r_{2}}{2r_{1}})}+\arccos{(\frac{r_{2}}{2r_{3}})}
 \end{equation}
 
 \end_inset
@@ -22622,7 +22622,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{6}=\frac{\theta_{1}}{2}
+\theta_{6}=\frac{1}{2}\arccos{(1-\frac{r_{2}^{2}}{2r_{1}^{2}})}
 \end{equation}
 
 \end_inset
@@ -22633,7 +22633,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{7}=\frac{\theta_{4}}{2}
+\theta_{7}=\frac{1}{2}\arccos{(1-\frac{r_{2}^{2}}{2r_{3}^{2}})}
 \end{equation}
 
 \end_inset
@@ -22644,7 +22644,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-r_{4}=\sqrt{r_{1}^{2}+r_{3}^{2}-2r_{1}r_{3}\cos(\theta_{5})}
+r_{4}=r_{3}\sqrt{1-\frac{r_{2}^{2}}{4r_{3}^{2}}}+r_{1}\sqrt{1-\frac{r_{2}^{2}}{4r_{1}^{2}}}
 \end{equation}
 
 \end_inset
@@ -23473,7 +23473,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{1}=90-\theta_{3}
+\theta_{1}=90-\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})}
 \end{equation}
 
 \end_inset
@@ -23484,7 +23484,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{2}=2{\theta_{3}}
+\theta_{2}=2\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})}
 \end{equation}
 
 \end_inset
@@ -23528,7 +23528,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{6}=2{\theta_{5}}
+\theta_{6}=2\arccos{(\frac{r_{2}^{2}+r_{3}^{2}-r_{1}^{2}}{2r_{2}r_{3}})}
 \end{equation}
 
 \end_inset
@@ -23539,7 +23539,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta_{7}=90-\theta_{5}
+\theta_{7}=90-\arccos{(\frac{r_{2}^{2}+r_{3}^{2}-r_{1}^{2}}{2r_{2}r_{3}})}
 \end{equation}
 
 \end_inset
@@ -23550,7 +23550,7 @@ We have the following expressions for the missing geometric information:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\ensuremath{r_{4}=\sqrt{2r_{1}^{2}-2r_{1}^{2}cos(\theta_{2})}}
+\ensuremath{r_{4}=2r_{1}\cos{(90-\arccos{(\frac{r_{1}^{2}+r_{2}^{2}-r_{3}^{2}}{2r_{1}r_{2}})})}}
 \end{equation}
 
 \end_inset
