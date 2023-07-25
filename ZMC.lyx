@@ -23992,7 +23992,7 @@ Information missing
 \begin_inset Text
 
 \begin_layout Plain Layout
-P-As-P angle
+P-As-P angles
 \end_layout
 
 \end_inset
@@ -24071,8 +24071,8 @@ P-P-P angle
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -24084,7 +24084,7 @@ P-P-P angle
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -24112,7 +24112,7 @@ Dihedral angle between
 </cell>
 </row>
 <row bottomspace="2mm">
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -24124,7 +24124,7 @@ Dihedral angle between
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -24141,7 +24141,7 @@ Dihedral angle between
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
