@@ -24141,7 +24141,7 @@ We have the following expressions for the missing geometric information:
 
 \begin_inset Formula 
 \[
-\varphi=\cos^{-1}\left(\frac{\cos\theta(1-\cos\theta)}{\sin^{2}\theta}\right)
+\varphi=\cos^{-1}\left(\frac{\cos\theta_{1}(1-\cos\theta_{1})}{\sin^{2}\theta_{1}}\right)
 \]
 
 \end_inset
