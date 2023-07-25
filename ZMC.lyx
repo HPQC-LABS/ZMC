@@ -24197,7 +24197,7 @@ We have the following expressions for the missing geometric information:
 
 \begin_inset Formula 
 \[
-\varphi_{_{2}}=\cos^{-1}\left(\frac{\cos\theta_{_{2}}}{\sqrt{3}\sin\theta_{2}}\right)
+\varphi_{_{2}}=\cos^{-1}\left(\frac{\cot\theta_{_{2}}}{\sqrt{3}}\right)
 \]
 
 \end_inset
