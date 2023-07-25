@@ -23848,7 +23848,7 @@ Sichao's molecule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="3">
+<lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -24076,7 +24076,7 @@ P-P-P angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\varphi$
+\begin_inset Formula $\varphi_{1}$
 \end_inset
 
 
@@ -24088,7 +24088,55 @@ P-P-P angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dihedral angle
+Dihedral angle between 
+\begin_inset Formula $AsP_{2}$
+\end_inset
+
+ plane and 
+\begin_inset Formula $AsP_{2}$
+\end_inset
+
+ plane
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="2mm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\varphi_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dihedral angle between 
+\begin_inset Formula $AsP_{2}$
+\end_inset
+
+ plane and 
+\begin_inset Formula $P_{3}$
+\end_inset
+
+ plane
 \end_layout
 
 \end_inset
@@ -24141,7 +24189,15 @@ We have the following expressions for the missing geometric information:
 
 \begin_inset Formula 
 \[
-\varphi=\cos^{-1}\left(\frac{\cos\theta_{1}(1-\cos\theta_{1})}{\sin^{2}\theta_{1}}\right)
+\varphi_{1}=\cos^{-1}\left(\frac{\cos\theta_{1}(1-\cos\theta_{1})}{\sin^{2}\theta_{1}}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi_{_{2}}=\cos^{-1}\left(\frac{\cos\theta_{_{2}}}{\sqrt{3}\sin\theta_{2}}\right)
 \]
 
 \end_inset
@@ -24155,7 +24211,7 @@ We are able to construct the z-matrix using just the information on
 \end_inset
 
  and 
-\begin_inset Formula $\varphi$
+\begin_inset Formula $\varphi_{1}$
 \end_inset
 
 :
@@ -24463,7 +24519,7 @@ We are able to construct the z-matrix using just the information on
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\varphi$
+\begin_inset Formula $\varphi_{1}$
 \end_inset
 
 
