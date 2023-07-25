@@ -23848,7 +23848,7 @@ Sichao's molecule
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="3">
+<lyxtabular version="3" rows="8" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -23859,16 +23859,6 @@ Sichao's molecule
 
 \begin_layout Plain Layout
 Information provided
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-2019 Vogt
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -23909,7 +23899,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si bond length
+As-P bond length
 \end_layout
 
 \end_inset
@@ -23941,7 +23931,7 @@ H-Si bond length
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si-N bond length
+P-P bond length
 \end_layout
 
 \end_inset
@@ -23956,41 +23946,20 @@ Si-N bond length
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
+<row topspace="2mm" bottomspace="2mm">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{3}$
-\end_inset
-
-
+Information missing
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-N-Si bond length
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Si(1) vs Si(2) don't need to be distinguished if we know it's a 
-\begin_inset Quotes eld
-\end_inset
-
-path of length 4
-\begin_inset Quotes erd
-\end_inset
-
-: just follow the order!
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -24019,11 +23988,11 @@ path of length 4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si-N-Si bond angle
+P-As-P angle
 \end_layout
 
 \end_inset
@@ -24038,7 +24007,7 @@ Si-N-Si bond angle
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -24055,154 +24024,7 @@ Si-N-Si bond angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-H-Si-N bond angle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="2mm" bottomspace="2mm">
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Information missing
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
- (angles not given in any particular order)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="2mm">
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $r_{4}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-N...H distance
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $r_{5}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Si...Si distance
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $r_{6}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Si...H distance
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-by using ...
- instead of —, it seems that we might be able to avoid needing Si(1) and
- Si(2)!
-\end_layout
-
-\end_inset
-
-
+As-P-P angle
 \end_layout
 
 \end_inset
@@ -24230,107 +24052,11 @@ by using ...
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-N=Si...Si angle
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{4}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H...Si...Si angle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{5}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H-Si...Si angle
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta_{6}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H...Si-N angle
+P-P-P angle
 \end_layout
 
 \end_inset
@@ -24350,7 +24076,7 @@ H...Si-N angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\varphi_{i}$
+\begin_inset Formula $\varphi$
 \end_inset
 
 
@@ -24362,7 +24088,7 @@ H...Si-N angle
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dihedral angles between various other pairs of planes
+Dihedral angle
 \end_layout
 
 \end_inset
@@ -24385,12 +24111,54 @@ Dihedral angles between various other pairs of planes
 \end_layout
 
 \begin_layout Standard
-We have the following expressions for the missing geometric information
- (waiting for Mia):
+We have the following expressions for the missing geometric information:
 \end_layout
 
 \begin_layout Standard
-But we can make the z-matrix with only information given to us originally:
+\begin_inset Formula 
+\[
+\theta_{1}=\cos^{-1}\left(\frac{2r_{1}^{2}-\ensuremath{r_{2}^{2}}}{2r_{1}^{2}}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\theta_{2}=\frac{180-\theta_{1}}{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\theta_{3}=60
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi=\cos^{-1}\left(\frac{\cos\theta(1-\cos\theta)}{\sin^{2}\theta}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We are able to construct the z-matrix using just the information on 
+\begin_inset Formula $r_{1},\theta_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\varphi$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
@@ -24410,7 +24178,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
+\begin_inset Formula ${\tt As}$
 \end_inset
 
 
@@ -24478,7 +24246,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt N}$
+\begin_inset Formula ${\tt P}$
 \end_inset
 
 
@@ -24490,10 +24258,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1$
-\end_inset
-
-
+1
 \end_layout
 
 \end_inset
@@ -24552,7 +24317,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt Si}$
+\begin_inset Formula ${\tt P}$
 \end_inset
 
 
@@ -24564,7 +24329,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+1
 \end_layout
 
 \end_inset
@@ -24573,7 +24338,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{2}$
+\begin_inset Formula $r_{1}$
 \end_inset
 
 
@@ -24585,7 +24350,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1$
+\begin_inset Formula $2$
 \end_inset
 
 
@@ -24629,7 +24394,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\tt H}$
+\begin_inset Formula ${\tt P}$
 \end_inset
 
 
@@ -24641,7 +24406,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+1
 \end_layout
 
 \end_inset
@@ -24650,7 +24415,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $r_{3}$
+\begin_inset Formula $r_{1}$
 \end_inset
 
 
@@ -24674,7 +24439,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\theta_{2}$
+\begin_inset Formula $\theta_{1}$
 \end_inset
 
 
@@ -24686,7 +24451,7 @@ But we can make the z-matrix with only information given to us originally:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1$
+\begin_inset Formula $3$
 \end_inset
 
 
