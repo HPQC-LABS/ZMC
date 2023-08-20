@@ -1,32 +1,12 @@
-(* Content-type: application/vnd.wolfram.cdf.text *)
-
-(*** Wolfram CDF File ***)
-(* http://www.wolfram.com/cdf *)
-
-(* CreatedBy='Mathematica 13.3' *)
-
-(***************************************************************************)
-(*                                                                         *)
-(*                                                                         *)
-(*  Under the Wolfram FreeCDF terms of use, this file and its content are  *)
-(*  bound by the Creative Commons BY-SA Attribution-ShareAlike license.    *)
-(*                                                                         *)
-(*        For additional information concerning CDF licensing, see:        *)
-(*                                                                         *)
-(*         www.wolfram.com/cdf/adopting-cdf/licensing-options.html         *)
-(*                                                                         *)
-(*                                                                         *)
-(***************************************************************************)
-
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[      1088,         20]
-NotebookDataLength[     14225,        408]
-NotebookOptionsPosition[     14438,        401]
-NotebookOutlinePosition[     14877,        418]
-CellTagsIndexPosition[     14834,        415]
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     14224,        408]
+NotebookOptionsPosition[     13350,        381]
+NotebookOutlinePosition[     13789,        398]
+CellTagsIndexPosition[     13746,        395]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -404,7 +384,7 @@ WindowMargins->{{4, Automatic}, {Automatic, 4}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (June 3, 2023)",
 StyleDefinitions->"ReverseColor.nb",
-ExpressionUUID->"723140a6-28dd-4601-83ce-b480d0f16ff3"
+ExpressionUUID->"119ecae8-e24d-4604-bd67-c22d45a8c875"
 ]
 (* End of Notebook Content *)
 
@@ -418,15 +398,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1510, 35, 9738, 279, 1049, "Input",ExpressionUUID->"04cede38-f319-4cec-a380-f6c25a57757c"],
-Cell[11251, 316, 1260, 32, 60, "Output",ExpressionUUID->"e350fc95-73d6-48f1-bb3c-2f8fa9ab26b6"],
-Cell[12514, 350, 986, 24, 56, "Output",ExpressionUUID->"e7f6152c-0f6b-43f8-95e4-e2542f472260"],
-Cell[13503, 376, 919, 22, 56, "Output",ExpressionUUID->"3d3cc132-e25e-44d0-b90e-eb0576177e61"]
+Cell[422, 15, 9738, 279, 1049, "Input",ExpressionUUID->"04cede38-f319-4cec-a380-f6c25a57757c"],
+Cell[10163, 296, 1260, 32, 60, "Output",ExpressionUUID->"e350fc95-73d6-48f1-bb3c-2f8fa9ab26b6"],
+Cell[11426, 330, 986, 24, 56, "Output",ExpressionUUID->"e7f6152c-0f6b-43f8-95e4-e2542f472260"],
+Cell[12415, 356, 919, 22, 56, "Output",ExpressionUUID->"3d3cc132-e25e-44d0-b90e-eb0576177e61"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)
-
-(* NotebookSignature 8xD4ngDrrENxYAwskwNekzjc *)
