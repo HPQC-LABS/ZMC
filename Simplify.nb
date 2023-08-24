@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18988,        554]
-NotebookOptionsPosition[     18080,        532]
-NotebookOutlinePosition[     18519,        549]
-CellTagsIndexPosition[     18476,        546]
+NotebookDataLength[     18559,        549]
+NotebookOptionsPosition[     17651,        527]
+NotebookOutlinePosition[     18090,        544]
+CellTagsIndexPosition[     18047,        541]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,402 +26,397 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"Formulas", " ", "for", " ", "CsNO2"}], ",", " ", 
     RowBox[{"no", " ", "simplification", " ", "found"}]}], "*)"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      SqrtBox[
-       RowBox[{
-        SuperscriptBox[
-         SubscriptBox["r", "1"], "2"], "+", 
-        SuperscriptBox[
-         SubscriptBox["r", "2"], "2"], "-", 
-        RowBox[{"2", 
-         SubscriptBox["r", "1"], 
-         SubscriptBox["r", "2"], 
-         RowBox[{"Cos", "[", 
-          RowBox[{
-           FractionBox[
-            RowBox[{"\[Pi]", "-", 
-             SubscriptBox["\[Theta]", "1"]}], "2"], "+", 
-           RowBox[{"ArcCos", "[", 
-            RowBox[{
-             FractionBox[
-              SubscriptBox["r", "2"], 
-              RowBox[{"2", 
-               SubscriptBox["r", "1"]}]], 
-             SqrtBox[
-              RowBox[{"2", "[", 
-               RowBox[{"1", "-", 
-                RowBox[{"Cos", "[", 
-                 SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], 
-          "]"}]}]}]], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{
-       FractionBox[
-        RowBox[{"\[Pi]", "-", 
-         SubscriptBox["\[Theta]", "1"]}], "2"], "+", 
-       RowBox[{"ArcCos", "[", 
-        RowBox[{
-         FractionBox[
-          SubscriptBox["r", "2"], 
-          RowBox[{"2", 
-           SubscriptBox["r", "1"]}]], 
-         SqrtBox[
-          RowBox[{"2", "[", 
-           RowBox[{"1", "-", 
-            RowBox[{"Cos", "[", 
-             SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], ",", 
-      " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"2", 
-       RowBox[{"ArcSin", "[", 
-        RowBox[{
-         FractionBox[
-          SubscriptBox["r", "2"], 
-          RowBox[{"2", 
-           SubscriptBox["r", "1"]}]], 
-         SqrtBox[
-          RowBox[{"2", "[", 
-           RowBox[{"1", "-", 
-            RowBox[{"Cos", "[", 
-             SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], ",", 
-      " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}]}], 
-   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{
-    RowBox[{"Formulas", " ", "for", " ", "C3H"}], ",", " ", 
+  RowBox[{
+   RowBox[{"FullSimplify", "[", 
     RowBox[{
-    "All", " ", "of", " ", "these", " ", "can", " ", "be", " ", 
-     "simplified"}]}], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      SqrtBox[
-       RowBox[{
-        SuperscriptBox[
-         SubscriptBox["r", "2"], "2"], "+", 
-        SuperscriptBox[
-         SubscriptBox["r", "3"], "2"], "-", 
-        RowBox[{"2", 
-         SubscriptBox["r", "2"], 
-         SubscriptBox["r", "3"], 
-         RowBox[{"Cos", "[", 
-          RowBox[{
-           FractionBox["\[Pi]", "2"], "+", 
-           RowBox[{"ArcCos", "[", 
-            FractionBox[
-             SubscriptBox["r", "1"], 
-             RowBox[{"2", 
-              SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"ArcCos", "[", 
-       FractionBox[
-        SubscriptBox["r", "1"], 
-        RowBox[{"2", 
-         SqrtBox[
-          RowBox[{
-           SuperscriptBox[
-            SubscriptBox["r", "2"], "2"], "+", 
-           SuperscriptBox[
-            SubscriptBox["r", "3"], "2"], "-", 
-           RowBox[{"2", 
-            SubscriptBox["r", "2"], 
-            SubscriptBox["r", "3"], 
-            RowBox[{"Cos", "[", 
-             RowBox[{
-              FractionBox["\[Pi]", "2"], "+", 
-              RowBox[{"ArcCos", "[", 
-               FractionBox[
-                SubscriptBox["r", "1"], 
-                RowBox[{"2", 
-                 SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], 
-      ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
+     SqrtBox[
       RowBox[{
-       RowBox[{"ArcCos", "[", 
-        FractionBox[
-         SubscriptBox["r", "1"], 
-         RowBox[{"2", 
-          SqrtBox[
-           RowBox[{
-            SuperscriptBox[
-             SubscriptBox["r", "2"], "2"], "+", 
-            SuperscriptBox[
-             SubscriptBox["r", "3"], "2"], "-", 
-            RowBox[{"2", 
-             SubscriptBox["r", "2"], 
-             SubscriptBox["r", "3"], 
-             RowBox[{"Cos", "[", 
-              RowBox[{
-               FractionBox["\[Pi]", "2"], "+", 
-               RowBox[{"ArcCos", "[", 
-                FractionBox[
-                 SubscriptBox["r", "1"], 
-                 RowBox[{"2", 
-                  SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], 
-       "-", 
-       RowBox[{"ArcCos", "[", 
-        FractionBox[
-         SubscriptBox["r", "1"], 
-         RowBox[{"2", 
-          SubscriptBox["r", "2"]}]], "]"}]}], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"ArcSin", "[", 
-       FractionBox[
+       SuperscriptBox[
+        SubscriptBox["r", "1"], "2"], "+", 
+       SuperscriptBox[
+        SubscriptBox["r", "2"], "2"], "-", 
+       RowBox[{"2", 
         SubscriptBox["r", "1"], 
-        RowBox[{"2", 
-         SqrtBox[
-          RowBox[{
-           SuperscriptBox[
-            SubscriptBox["r", "2"], "2"], "+", 
-           SuperscriptBox[
-            SubscriptBox["r", "3"], "2"], "-", 
-           RowBox[{"2", 
-            SubscriptBox["r", "2"], 
-            SubscriptBox["r", "3"], 
-            RowBox[{"Cos", "[", 
-             RowBox[{
-              FractionBox["\[Pi]", "2"], "+", 
-              RowBox[{"ArcCos", "[", 
-               FractionBox[
-                SubscriptBox["r", "1"], 
-                RowBox[{"2", 
-                 SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], 
-      ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}]}], 
-   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{
-    RowBox[{"Formulas", " ", "for", " ", "S2H2"}], ",", " ", 
-    RowBox[{"no", " ", "simplification", " ", "found"}]}], "*)"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"FullSimplify", "[", 
+        SubscriptBox["r", "2"], 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          FractionBox[
+           RowBox[{"\[Pi]", "-", 
+            SubscriptBox["\[Theta]", "1"]}], "2"], "+", 
+          RowBox[{"ArcCos", "[", 
+           RowBox[{
+            FractionBox[
+             SubscriptBox["r", "2"], 
+             RowBox[{"2", 
+              SubscriptBox["r", "1"]}]], 
+            SqrtBox[
+             RowBox[{"2", "[", 
+              RowBox[{"1", "-", 
+               RowBox[{"Cos", "[", 
+                SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], 
+         "]"}]}]}]], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
      RowBox[{
+      FractionBox[
+       RowBox[{"\[Pi]", "-", 
+        SubscriptBox["\[Theta]", "1"]}], "2"], "+", 
       RowBox[{"ArcCos", "[", 
        RowBox[{
-        SubscriptBox["r", "1"], 
+        FractionBox[
+         SubscriptBox["r", "2"], 
+         RowBox[{"2", 
+          SubscriptBox["r", "1"]}]], 
         SqrtBox[
-         FractionBox[
+         RowBox[{"2", "[", 
           RowBox[{"1", "-", 
            RowBox[{"Cos", "[", 
-            SubscriptBox["\[Theta]", "1"], "]"}]}], 
-          RowBox[{"2", "[", 
-           RowBox[{
-            SuperscriptBox[
-             SubscriptBox["r", "1"], "2"], "+", 
-            SuperscriptBox[
-             SubscriptBox["r", "2"], "2"], "-", 
+            SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], ",", 
+     " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"2", 
+      RowBox[{"ArcSin", "[", 
+       RowBox[{
+        FractionBox[
+         SubscriptBox["r", "2"], 
+         RowBox[{"2", 
+          SubscriptBox["r", "1"]}]], 
+        SqrtBox[
+         RowBox[{"2", "[", 
+          RowBox[{"1", "-", 
+           RowBox[{"Cos", "[", 
+            SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}]]}], "]"}]}], ",", 
+     " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Formulas", " ", "for", " ", "C3H"}], ",", " ", 
+     RowBox[{
+     "All", " ", "of", " ", "these", " ", "can", " ", "be", " ", 
+      "simplified"}]}], "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox["r", "2"], "2"], "+", 
+       SuperscriptBox[
+        SubscriptBox["r", "3"], "2"], "-", 
+       RowBox[{"2", 
+        SubscriptBox["r", "2"], 
+        SubscriptBox["r", "3"], 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          FractionBox["\[Pi]", "2"], "+", 
+          RowBox[{"ArcCos", "[", 
+           FractionBox[
+            SubscriptBox["r", "1"], 
             RowBox[{"2", 
-             SubscriptBox["r", "1"], 
-             SubscriptBox["r", "2"], 
-             RowBox[{"Cos", "[", 
-              SubscriptBox["\[Theta]", "2"], "]"}]}]}], "]"}]]]}], "]"}], ",",
-       " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"ArcCos", "[", 
-       FractionBox[
-        RowBox[{
-         SubscriptBox["r", "1"], "-", 
-         RowBox[{
-          SubscriptBox["r", "2"], 
-          RowBox[{"Cos", "[", 
-           SubscriptBox["\[Theta]", "2"], "]"}]}]}], 
+             SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      FractionBox[
+       SubscriptBox["r", "1"], 
+       RowBox[{"2", 
         SqrtBox[
          RowBox[{
           SuperscriptBox[
-           SubscriptBox["r", "1"], "2"], "+", 
+           SubscriptBox["r", "2"], "2"], "+", 
           SuperscriptBox[
-           SubscriptBox["r", "2"], "2"], "-", 
+           SubscriptBox["r", "3"], "2"], "-", 
           RowBox[{"2", 
-           SubscriptBox["r", "1"], 
            SubscriptBox["r", "2"], 
+           SubscriptBox["r", "3"], 
            RowBox[{"Cos", "[", 
-            SubscriptBox["\[Theta]", "2"], "]"}]}]}]]], "]"}], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
+            RowBox[{
+             FractionBox["\[Pi]", "2"], "+", 
+             RowBox[{"ArcCos", "[", 
+              FractionBox[
+               SubscriptBox["r", "1"], 
+               RowBox[{"2", 
+                SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], ",",
+      " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
      RowBox[{
       RowBox[{"ArcCos", "[", 
        FractionBox[
-        RowBox[{
-         SubscriptBox["r", "2"], "-", 
-         RowBox[{
-          SubscriptBox["r", "1"], 
-          RowBox[{"Cos", "[", 
-           SubscriptBox["\[Theta]", "2"], "]"}]}]}], 
+        SubscriptBox["r", "1"], 
+        RowBox[{"2", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox[
+            SubscriptBox["r", "2"], "2"], "+", 
+           SuperscriptBox[
+            SubscriptBox["r", "3"], "2"], "-", 
+           RowBox[{"2", 
+            SubscriptBox["r", "2"], 
+            SubscriptBox["r", "3"], 
+            RowBox[{"Cos", "[", 
+             RowBox[{
+              FractionBox["\[Pi]", "2"], "+", 
+              RowBox[{"ArcCos", "[", 
+               FractionBox[
+                SubscriptBox["r", "1"], 
+                RowBox[{"2", 
+                 SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], 
+      "-", 
+      RowBox[{"ArcCos", "[", 
+       FractionBox[
+        SubscriptBox["r", "1"], 
+        RowBox[{"2", 
+         SubscriptBox["r", "2"]}]], "]"}]}], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcSin", "[", 
+      FractionBox[
+       SubscriptBox["r", "1"], 
+       RowBox[{"2", 
         SqrtBox[
          RowBox[{
           SuperscriptBox[
-           SubscriptBox["r", "1"], "2"], "+", 
+           SubscriptBox["r", "2"], "2"], "+", 
           SuperscriptBox[
-           SubscriptBox["r", "2"], "2"], "-", 
+           SubscriptBox["r", "3"], "2"], "-", 
           RowBox[{"2", 
-           SubscriptBox["r", "1"], 
            SubscriptBox["r", "2"], 
+           SubscriptBox["r", "3"], 
            RowBox[{"Cos", "[", 
-            SubscriptBox["\[Theta]", "2"], "]"}]}]}]]], "]"}], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["r", "2"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"ArcCos", "[", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"Cos", "[", 
-          SubscriptBox["\[Theta]", "1"], "]"}], "-", 
-         RowBox[{
-          SuperscriptBox["Cos", "2"], "[", 
-          SubscriptBox["\[Theta]", "2"], "]"}]}], 
-        RowBox[{
-         SuperscriptBox["Sin", "2"], "[", 
-         SubscriptBox["\[Theta]", "2"], "]"}]], "]"}], ",", " ", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
-       RowBox[{
-        SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{
-      RowBox[{"ArcCos", "[", 
-       FractionBox[
-        RowBox[{
-         RowBox[{"Cos", "[", 
-          SubscriptBox["\[Theta]", "2"], "]"}], "[", 
+            RowBox[{
+             FractionBox["\[Pi]", "2"], "+", 
+             RowBox[{"ArcCos", "[", 
+              FractionBox[
+               SubscriptBox["r", "1"], 
+               RowBox[{"2", 
+                SubscriptBox["r", "2"]}]], "]"}]}], "]"}]}]}]]}]], "]"}], ",",
+      " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "3"], ">", "0"}]}]}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Formulas", " ", "for", " ", "S2H2"}], ",", " ", 
+     RowBox[{"no", " ", "simplification", " ", "found"}]}], "*)"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      RowBox[{
+       SubscriptBox["r", "1"], 
+       SqrtBox[
+        FractionBox[
          RowBox[{"1", "-", 
           RowBox[{"Cos", "[", 
-           SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}], 
+           SubscriptBox["\[Theta]", "1"], "]"}]}], 
+         RowBox[{"2", "[", 
+          RowBox[{
+           SuperscriptBox[
+            SubscriptBox["r", "1"], "2"], "+", 
+           SuperscriptBox[
+            SubscriptBox["r", "2"], "2"], "-", 
+           RowBox[{"2", 
+            SubscriptBox["r", "1"], 
+            SubscriptBox["r", "2"], 
+            RowBox[{"Cos", "[", 
+             SubscriptBox["\[Theta]", "2"], "]"}]}]}], "]"}]]]}], "]"}], ",", 
+     " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      FractionBox[
+       RowBox[{
+        SubscriptBox["r", "1"], "-", 
         RowBox[{
-         RowBox[{"Sin", "[", 
-          SubscriptBox["\[Theta]", "2"], "]"}], 
-         RowBox[{"Sin", "[", 
-          SubscriptBox["\[Theta]", "1"], "]"}]}]], "]"}], ",", " ", 
-      RowBox[{"Assumptions", "->", 
+         SubscriptBox["r", "2"], 
+         RowBox[{"Cos", "[", 
+          SubscriptBox["\[Theta]", "2"], "]"}]}]}], 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox[
+          SubscriptBox["r", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["r", "2"], "2"], "-", 
+         RowBox[{"2", 
+          SubscriptBox["r", "1"], 
+          SubscriptBox["r", "2"], 
+          RowBox[{"Cos", "[", 
+           SubscriptBox["\[Theta]", "2"], "]"}]}]}]]], "]"}], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      FractionBox[
        RowBox[{
-        SubscriptBox["\[Theta]", "1"], ">", "0"}]}], ",", 
-      RowBox[{"Assumptions", "->", 
+        SubscriptBox["r", "2"], "-", 
+        RowBox[{
+         SubscriptBox["r", "1"], 
+         RowBox[{"Cos", "[", 
+          SubscriptBox["\[Theta]", "2"], "]"}]}]}], 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox[
+          SubscriptBox["r", "1"], "2"], "+", 
+         SuperscriptBox[
+          SubscriptBox["r", "2"], "2"], "-", 
+         RowBox[{"2", 
+          SubscriptBox["r", "1"], 
+          SubscriptBox["r", "2"], 
+          RowBox[{"Cos", "[", 
+           SubscriptBox["\[Theta]", "2"], "]"}]}]}]]], "]"}], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["r", "2"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      FractionBox[
        RowBox[{
-        SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}]}], 
-   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]"}]], "Input",
+        RowBox[{"Cos", "[", 
+         SubscriptBox["\[Theta]", "1"], "]"}], "-", 
+        RowBox[{
+         SuperscriptBox["Cos", "2"], "[", 
+         SubscriptBox["\[Theta]", "2"], "]"}]}], 
+       RowBox[{
+        SuperscriptBox["Sin", "2"], "[", 
+        SubscriptBox["\[Theta]", "2"], "]"}]], "]"}], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{
+     RowBox[{"ArcCos", "[", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"Cos", "[", 
+         SubscriptBox["\[Theta]", "2"], "]"}], "[", 
+        RowBox[{"1", "-", 
+         RowBox[{"Cos", "[", 
+          SubscriptBox["\[Theta]", "1"], "]"}]}], "]"}], 
+       RowBox[{
+        RowBox[{"Sin", "[", 
+         SubscriptBox["\[Theta]", "2"], "]"}], 
+        RowBox[{"Sin", "[", 
+         SubscriptBox["\[Theta]", "1"], "]"}]}]], "]"}], ",", " ", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "1"], ">", "0"}]}], ",", 
+     RowBox[{"Assumptions", "->", 
+      RowBox[{
+       SubscriptBox["\[Theta]", "2"], ">", "0"}]}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Input",
  CellChangeTimes->CompressedData["
-1:eJwVzUEoQwEAh/FZXi012y4bO2iLEO0iB2lqm8UzBxllUpK2i8XwdtB777A1
-WRsnvaFc1HOQxmrakeYlh8Vy0GSKMK+spvaKw1rY//D1O37GeZ/TI5fJZM21
-YM6gfIyoS9Z2/0oe5hPKAhTN2hK067r/YEPa3Bit6cyc6aC3TJnhpIu0QGnf
-NA47M59TUC0apmFgNOCDvMO/Cm82fhmYaO1iISEkg7BpZjAE6UVPGK4vj+xC
-uVHg4Xad5RC2vQZPoY0hEnCNek5B9n3vGuZMTBaWXbZ72HsQEWH047wIY2/E
-N3xihn5g9vKrAou8VIU7s2z9Jn6aDgVsEUgVdBxfaKA+dTsM0/GHMXgXJ920
-pmTlFKoFqO8bWIK094WCsQIXgm4tF4Y94skWtNP9PJQmqkfwqjKXhP+PBL5+
-
+1:eJwdzTFIAgEAhWGTBAlMbdBwCKWwMFyiIcLAu6TMhsiCjCAidEnKSoe4c1CM
+RGuI0ApagmuIsATDsTKJBilpCCODotKDhBMUahCxfA2Pb3nwq+YdZhufx+Mp
+6oMZpeg5IOEItWslC7NRUQ6yOhkHDfLuX9iU0DUH65pT53JoLzl1cNJi1MPy
+gXYcdqW+pqCEVU5Dz6jHARmTaxXebdRoGG3XuKEgGfPC1plBH6QWbX64vjyy
+B/mqJAN3GvRHsOPdewZJWhCFa87XOHR/7t/CjJZOw5KFfIS9hwEWBvMXBRj+
+EHzDF3roB6avixVYYMpVuDvrbtxET9ophG1JoxiaTi6lUBG/H4aJyNMYfIgY
+rZSUI0JC8QJU9A0sQcr+5oThXMgHrbKQH/awp1vQQPUzsDxRPYY3lbnY/++K
+5NQtHKHZrhXhH7syxkM=
   "],ExpressionUUID->"04cede38-f319-4cec-a380-f6c25a57757c"],
 
 Cell[BoxData[
@@ -549,12 +544,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 13864, 402, 1120, "Input",ExpressionUUID->"04cede38-f319-4cec-a380-f6c25a57757c"],
-Cell[14447, 426, 800, 21, 64, "Output",ExpressionUUID->"112898ba-4d92-4169-93e1-9eeb98b3e397"],
-Cell[15250, 449, 773, 21, 58, "Output",ExpressionUUID->"eceefdfc-656c-4af4-b07e-5432c020b547"],
-Cell[16026, 472, 796, 22, 58, "Output",ExpressionUUID->"6cde4a8c-fe19-41f6-a4e7-f9a573e71526"],
-Cell[16825, 496, 592, 15, 57, "Output",ExpressionUUID->"33727f99-9839-441c-b2aa-2830b8e743f5"],
-Cell[17420, 513, 644, 16, 34, "Output",ExpressionUUID->"b2781ddb-056d-4e5a-8430-240d1e0ab1e7"]
+Cell[580, 22, 13435, 397, 1275, "Input",ExpressionUUID->"04cede38-f319-4cec-a380-f6c25a57757c"],
+Cell[14018, 421, 800, 21, 64, "Output",ExpressionUUID->"112898ba-4d92-4169-93e1-9eeb98b3e397"],
+Cell[14821, 444, 773, 21, 58, "Output",ExpressionUUID->"eceefdfc-656c-4af4-b07e-5432c020b547"],
+Cell[15597, 467, 796, 22, 58, "Output",ExpressionUUID->"6cde4a8c-fe19-41f6-a4e7-f9a573e71526"],
+Cell[16396, 491, 592, 15, 57, "Output",ExpressionUUID->"33727f99-9839-441c-b2aa-2830b8e743f5"],
+Cell[16991, 508, 644, 16, 34, "Output",ExpressionUUID->"b2781ddb-056d-4e5a-8430-240d1e0ab1e7"]
 }, Open  ]]
 }
 ]
