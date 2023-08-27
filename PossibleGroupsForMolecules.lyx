@@ -917,10 +917,193 @@ Action of the inversion operation,
 :
 \end_layout
 
+\begin_layout Standard
+
+\lang british
+We can always choose center of inversion to be at the origin 
+\begin_inset Formula $(0,0,0),$
+\end_inset
+
+ so if an atom is located at 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+, the inversion operator will move it to 
+\begin_inset Formula $(-x,-y,-z).$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 
 \lang british
 Minimum number of atoms and possible molecular formulas for each point group
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+As usual, we only consider the maximum point group.
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+\begin_inset Formula $C_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Any three atoms form a plane, and if all atoms of a molecule are on the
+ same plane, then that plane is a reflection/mirror plane.
+ Therefore if a molecule has three or fewer atoms, it will at least have
+ one reflection plane, and would be promoted from 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ to at least 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+.
+ Four atoms is enough for the point group of a molecule to be 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ though, as in the example ABCD.
+ 
+\series bold
+The minimum number of atoms required is four, and any formula is allowed.
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+An 
+\begin_inset Formula $n$
+\end_inset
+
+-atom molecule with all 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms being from different elements of the periodic table, would have a
+ formula of the following form: ABCD....
+ The 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ point group would be possible for any molecule with that form, and also
+ for formulas in which any of the letters after the first one were replaced
+ with a previous letter (e.g.
+ H
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS has the point group 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ and the formula A
+\begin_inset Formula $_{2}$
+\end_inset
+
+BC).
+ As more letters in the formula become the same, it becomes less likely
+ for 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ to be the molecule's largest point group, for example a molecule of the
+ form A
+\begin_inset Formula $_{4}$
+\end_inset
+
+ is likely to have all of its bond lengths (and angles?) equal since identical
+ atoms are expected to interact identically with each other, but mathematically
+ it is still possible to construct an object with 4 identical points (or
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ identical points) that are located in such a way so that 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ is the largest point group describing them.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+\begin_inset Formula $C_{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Any two atoms form a line, and if all atoms of a molecule are on the same
+ line, then the point group will be promoted to either 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+.
+ Likewise, a single atom has the point group 
+\begin_inset Formula $K_{h}$
+\end_inset
+
+, so it is not possible for a molecule with fewer than three atoms to have
+ the point group 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+.
+ three atoms is enough for the point group of a molecule to be 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ though, as in the example ABC.
+ 
+\series bold
+The minimum number of atoms required is three, and any formula is allowed.
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+\begin_inset Formula $C_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Any point 
 \end_layout
 
 \begin_layout Standard
