@@ -20,6 +20,7 @@
 %\usepackage{datetime2}
 \usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
 \usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+%\usepackage[square,numbers]{natbib}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,prl,superscriptaddress,Hyperref,twocolumn
 \use_default_options false
@@ -313,10 +314,17 @@ literal "false"
 
 , the questions that are being addressed in this paper do not appear to
  have been answered yet.
- Indeed we have asked all living authors of  if they have ever come across
- a list of all possible point groups for a 4-atom (tetraatomic) system,
- and in all cases we were explicitly told that they were unaware of such
- a list, or we received no response at all.
+ Indeed we have asked all living authors of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+ if they have ever come across a list of all possible point groups for a
+ 4-atom (tetraatomic) system, and in all cases we were explicitly told that
+ they were unaware of such a list, or we received no response at all.
 \end_layout
 
 \begin_layout Standard
@@ -8360,8 +8368,8 @@ OS
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "../pCloud Sync/library,/Users/leroy/Dropbox (Personal)/NSD/Papers/library,C:/Users/Nike/Desktop/Dropbox/NSD/Papers/library,C:/Users/Richard/Documents/Bibtex/library,apssamp,references"
-options "IEEEtran"
+bibfiles "references"
+options "apsrev4-1"
 
 \end_inset
 
