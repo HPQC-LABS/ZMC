@@ -303,9 +303,17 @@ Introduction
 
 \lang british
 One might wonder why, despite group theory being applied to molecules for
- about 100 years (Bethe 1929), the questions that are being addressed in
- this paper do not appear to have been answered yet.
- Indeed we have asked all living authors of () if they have ever come across
+ about 100 years 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "1929Bethe"
+literal "false"
+
+\end_inset
+
+, the questions that are being addressed in this paper do not appear to
+ have been answered yet.
+ Indeed we have asked all living authors of  if they have ever come across
  a list of all possible point groups for a 4-atom (tetraatomic) system,
  and in all cases we were explicitly told that they were unaware of such
  a list, or we received no response at all.
@@ -8351,7 +8359,8 @@ OS
 \lang british
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "../pCloud Sync/library,/Users/leroy/Dropbox (Personal)/NSD/Papers/library,C:/Users/Nike/Desktop/Dropbox/NSD/Papers/library,C:/Users/Richard/Documents/Bibtex/library,apssamp"
+btprint "btPrintCited"
+bibfiles "../pCloud Sync/library,/Users/leroy/Dropbox (Personal)/NSD/Papers/library,C:/Users/Nike/Desktop/Dropbox/NSD/Papers/library,C:/Users/Richard/Documents/Bibtex/library,apssamp,references"
 options "IEEEtran"
 
 \end_inset
