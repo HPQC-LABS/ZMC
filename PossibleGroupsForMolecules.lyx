@@ -18,9 +18,11 @@
 }
 %\usepackage[backend=biber,style=ieee, maxnames=1]{biblatex}
 %\usepackage{datetime2}
-\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
-\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+%\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+%\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
 %\usepackage[square,numbers]{natbib}
+\usepackage[sort&compress]{natbib}
+\usepackage[english]{babel}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,prl,superscriptaddress,Hyperref,twocolumn
 \use_default_options false
@@ -233,7 +235,54 @@ HPQC Labs, Waterloo, Canada
 \uwave off
 \noun off
 \color none
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 \begin_inset Formula ${\rm \cleanlookdateon\ensuremath{\today}}$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -8369,7 +8418,7 @@ OS
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "references"
-options "apsrev4-1"
+options "plainnat"
 
 \end_inset
 
