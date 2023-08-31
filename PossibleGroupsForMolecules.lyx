@@ -25,7 +25,7 @@
 \usepackage[english]{babel}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,prl,superscriptaddress,Hyperref,twocolumn
-\use_default_options false
+\use_default_options true
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -81,7 +81,7 @@
 \topmargin 1.5cm
 \rightmargin 2cm
 \bottommargin 2.3cm
-\secnumdepth 3
+\secnumdepth 4
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
