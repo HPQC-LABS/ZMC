@@ -105,7 +105,7 @@
 
 \lang american
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -129,7 +129,7 @@ newgeometry{top=1.3cm,bottom=1.3cm,right=1.3cm,left=1.3cm}
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -163,7 +163,7 @@ What point groups can a molecule of a certain size or formula have?
 \begin_layout Author
 Nike Dattani
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 www.hpqc.org
@@ -261,7 +261,7 @@ today
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -301,7 +301,7 @@ status open
 \lang british
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -381,8 +381,7 @@ literal "false"
 \lang british
 Our need for answers to the question in the present paper's title, arose
  during other work.
- GW100 (MJ van Setten 2015) is a dataset of 100 systems (95 molecules and
- 5 atoms)
+ GW100 is a dataset of 100 systems (95 molecules and 5 atoms)
 \begin_inset Note Note
 status open
 
@@ -394,12 +393,34 @@ worth confirming
 
 \end_inset
 
- which was introduced in a 2015 paper and by the end of 2020, already more
- than 100 electronic structure methods/codes were used to calculate energies
- for all systems in the dataset.
+ which was introduced in a 2015 paper 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2015vanSetten"
+literal "false"
+
+\end_inset
+
+ and by the end of 2020, already more than 100 electronic structure methods/code
+s were used to calculate energies for all systems in the dataset.
  It has therefore become a monumental dataset for benchmarking, and efforts
- were made in (2021 Bruneval) and (2023 Monzel, Wim Klopper) to improve
- the 
+ were made in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2021Bruneval"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2023Monzel"
+literal "false"
+
+\end_inset
+
+ to improve the 
 \begin_inset Note Note
 status open
 
@@ -413,21 +434,53 @@ CCSD(T)/def-TZVPP
 
 most accurate calculations that had been done on the system until then (and
  used to benchmark the other 100+ calculations from various research groups)
- (Harding 2016).
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2015Krause"
+literal "false"
+
+\end_inset
+
+.
  But the geometries were wrong and we need to be able to generate them from
- places like the Landolt-Bornstein volumes.
+ places like the Landolt-Bornstein volumes 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
+literal "false"
+
+\end_inset
+
+.
  Such volumes provide only the point group, a 3D diagram, and a minimal
  set of bond lengths, angles and dihedrals.
- For example H2Si2 (not in GW100 but good for illustrating this point) gives
- only two bond lengths and a dihedral, but to do electronic structure calculatio
-ns we need either the XYZ coordinates of all atoms, or a z-matrix for the
- molecule, and there is no softawre for obtaining either of these from just
- the limited information given.
+ For example H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+ (not in GW100 but good for illustrating this point) gives only two bond
+ lengths and a dihedral, but to do electronic structure calculations we
+ need either the XYZ coordinates of all atoms, or a z-matrix for the molecule,
+ and there is no softawre for obtaining either of these from just the limited
+ information given.
  A software for generating a z-matrix from this data would be significantly
  simpler to write than a software for generating XYZ coordinates of all
  atoms, but the z-matrix for this system would need at least one bond angle,
  and you might find it surprising that the simplest formulas for the HHSi?
- angle in H2Si2 is...
+ angle in H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is...
  Determining this bond angle can be accomplished with some high school level
  trigonometry (applications of the ordinary cosin law), and appliocations
  of the 
