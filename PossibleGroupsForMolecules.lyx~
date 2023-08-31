@@ -329,6 +329,15 @@ We list all possible point groups for
  We establish a small set of principles that can be used for proofs about
  the possibility or impossibility for a molecule of a certain size and/or
  formula to have a point group symmetry.
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "references"
+options "plainnat"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -8444,20 +8453,6 @@ OS
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align left
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "references"
-options "plainnat"
 
 \end_inset
 
