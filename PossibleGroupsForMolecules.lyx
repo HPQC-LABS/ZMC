@@ -66,6 +66,7 @@
 \cite_engine natbib
 \cite_engine_type numerical
 \biblio_style plainnat
+\multibib part
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -175,7 +176,6 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
-
 nike@hpqc.org
 \end_layout
 
@@ -195,11 +195,6 @@ HPQC College, Waterloo, Canada
 Sichao Xiong
 \end_layout
 
-\begin_layout Author Email
-
-sichao@hpqc.org
-\end_layout
-
 \begin_layout Affiliation
 
 \lang british
@@ -211,7 +206,6 @@ Hemanth H.
 \end_layout
 
 \begin_layout Author Email
-
 hemanth@hpqc.org
 \end_layout
 
@@ -459,7 +453,7 @@ Si
  A software for generating a z-matrix from this data would be significantly
  simpler to write than a software for generating XYZ coordinates of all
  atoms, but the z-matrix for this system would need at least one bond angle,
- and you might find it surprising that the simplest formulas for the HHSi?
+ and you might find it surprising that the simplest formulas for the H-Si-H
  angle in H
 \begin_inset Formula $_{2}$
 \end_inset
@@ -468,29 +462,103 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- is...
- Determining this bond angle can be accomplished with some high school level
- trigonometry (applications of the ordinary cosin law), and appliocations
+ are (in terms of the provided dihedral angle 
+\begin_inset Formula $\varphi$
+\end_inset
+
+, the provided Si-Si bond length 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ and the provided Si-H bond length 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Formula 
+\begin{align}
+\theta & ={\rm arccos}\left(\frac{\cos\varphi\left(4r_{1}^{2}-r_{2}^{2}\right)+r_{2}^{2}}{4r_{1}^{2}}\right)\label{eq:HSiH}\\
+ & ={\rm arcsin}\left(\frac{\sin\left(\frac{\varphi}{2}\right)\sqrt{4r_{2}^{2}-r_{1}^{2}}}{r_{2}}\right).\label{eq:HSiHalternative}
+\end{align}
+
+\end_inset
+
+Determining this bond angle can be accomplished with some high school level
+ trigonometry (applications of the ordinary cosine law), and appliocations
  of the 
 \emph on
 dihedral cosine law
 \emph default
  which is unlikely to be taught in high school or university-level curricula,
- and can be learned and applied to such small molecules within a day by
- most researchers, but with the pace of research today, the derivation of
- such a formulas as in Eqs.
- () would ideally be done by softawre rather than by hand.
+ but can be learned and applied to such small molecules within a day by
+ most researchers; however with the pace of research today, the derivation
+ of such a formulas as in Eqs.
  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:HSiH"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:HSiHalternative"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ would ideally be done by softawre rather than by hand.
+ Unfortunately, not even the most advanced symbolic computation or comptuer
+ algebra software can provide a user with Eqs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:HSiH"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:HSiHalternative"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ based on the information given.
 \end_layout
 
 \begin_layout Standard
 
 \lang british
 Furthermore, the interest today in machine learning and big data analysis
- has lead to the introduction of much larger datasets such as GW5000, OE31?
- and OE62 (all from [Rinke]) which involve 5000, 31000 and 61000 molecules
- respectively, but they have the same geometry problem (crystal structures
- vs spectroscopic geometries).
+ has lead to the introduction of much larger datasets such as GW5000 and
+ OE62 (both from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Stuke2020"
+literal "true"
+
+\end_inset
+
+) which involve more than 5000 and 61000 molecules respectively, but they
+ have the same geometry problem (crystal structures vs spectroscopic geometries).
  This reinforces our motivation for constructing a software that could,
  for example, convert the ~5000 geometries from Landolt-Bornstein into z-matrice
 s or XYZ coordinates.
@@ -508,14 +576,48 @@ s or XYZ coordinates.
 \series bold
 \lang british
 A software to generate z-matrices (or even XYZ coordinates) for molecules
- with the data presented in experimental papers, such as (r1=,r2=,phi=)
- for H2Si2 would require specific code blocks for each molecular shape.
+ with the data presented in experimental papers, such as (
+\begin_inset Formula $r_{1}=2.2079,r_{2}=1.6839,\varphi=103.18^{\circ}$
+\end_inset
+
+) for 
+\series default
+H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\series bold
+ would require specific code blocks for each molecular shape.
  
 \series default
 It is possible for two molecules with the same point group to have very
  different shapes (e.g.
- C2v for H2Si2 and C2v planar and maybe another 4-atom C2v, all have 4 atoms
- but one is pyramidal, one is planar, etc.), so a 
+ 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ for H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ planar and maybe another 4-atom 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+, all have 4 atoms but one is pyramidal, one is planar, etc.), so a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -546,11 +648,34 @@ For n atoms, how many cases do we need to consider in order to cover each
  tell us that it hasn't been done yet.
  We take this even one step further, by looking at the possible formulas,
  for example for a 7-atom molecule to have the point group Ci you need its
- formula to be A2B2C2D (with any of B,C,D being allowed to be a duplicate
- of one of the previous letters) but a molecule with any other formula cannot
- have the point group Ci (for example A2B3C2 would no work unless B and
- C are A, which would bring us back to the previously mentioned formula
- in the case in which A=B=C=D).
+ formula to be A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D (with any of B,C,D being allowed to be a duplicate of one of the previous
+ letters) but a molecule with any other formula cannot have the point group
+ Ci (for example A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+ would no work unless B and C are A, which would bring us back to the previously
+ mentioned formula in the case in which A=B=C=D).
  
 \end_layout
 
@@ -565,8 +690,16 @@ In the initial stages of the development of our z-matrix constructor, we
  groups, and this required us to first determine the possible point groups
  for 4-atom molecules (which surprisingly we couldn't find, and we found
  that experts who wrote books on the topics were also unaware).
- In doing this, we discovered that D2 and D2d are possible but not yet found,
- so this may be an avenue for further experimental research.
+ In doing this, we discovered that 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+ are possible but not yet found, so this may be an avenue for further experiment
+al research.
 \end_layout
 
 \begin_layout Standard
@@ -5058,6 +5191,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5201,6 +5336,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5213,6 +5350,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5225,6 +5364,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5237,6 +5378,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5249,6 +5392,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5261,6 +5406,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5273,6 +5420,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5332,6 +5481,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5344,6 +5495,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5356,6 +5509,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5368,6 +5523,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5380,6 +5537,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5392,6 +5551,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5404,6 +5565,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5491,6 +5654,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5503,6 +5668,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5515,6 +5682,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5527,6 +5696,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5539,6 +5710,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5551,6 +5724,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5634,6 +5809,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5646,6 +5823,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5658,6 +5837,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5670,6 +5851,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5682,6 +5865,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5781,6 +5966,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5793,6 +5980,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5805,6 +5994,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5817,6 +6008,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5829,6 +6022,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5915,6 +6110,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5927,6 +6124,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5939,6 +6138,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5951,6 +6152,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -5963,6 +6166,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6097,6 +6302,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6171,6 +6378,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6183,6 +6392,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6195,6 +6406,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6207,6 +6420,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6219,6 +6434,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6231,6 +6448,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6317,6 +6536,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6329,6 +6550,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6341,6 +6564,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6353,6 +6578,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6365,6 +6592,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6451,6 +6680,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6463,6 +6694,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6475,6 +6708,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6487,6 +6722,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6499,6 +6736,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6570,6 +6809,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6582,6 +6823,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6594,6 +6837,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6606,6 +6851,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6618,6 +6865,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6630,6 +6879,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6737,6 +6988,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6749,6 +7002,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6761,6 +7016,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6844,6 +7101,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6856,6 +7115,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6868,6 +7129,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6880,6 +7143,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -6892,6 +7157,8 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color lime
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
@@ -7086,6 +7353,8 @@ CO
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -7233,6 +7502,8 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -7519,6 +7790,10 @@ P
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{4}$
+\end_inset
+
 
 \end_layout
 
@@ -7595,6 +7870,8 @@ H
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -7604,7 +7881,11 @@ Unlikely
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{3}$
+\end_inset
 
+H
 \end_layout
 
 \end_inset
@@ -7613,7 +7894,7 @@ Unlikely
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ABAB?
 \end_layout
 
 \end_inset
@@ -7733,6 +8014,10 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{4}$
+\end_inset
+
 
 \end_layout
 
@@ -7814,6 +8099,8 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -7878,7 +8165,11 @@ Na
 \begin_inset Text
 
 \begin_layout Plain Layout
-Possible but unknown
+S
+\begin_inset Formula $_{4}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7949,7 +8240,10 @@ Possible but unknown
 \begin_inset Text
 
 \begin_layout Plain Layout
-Possible but unknown
+
+\series bold
+\color red
+Unknown
 \end_layout
 
 \end_inset
@@ -8101,6 +8395,10 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+IF
+\begin_inset Formula $_{3}$
+\end_inset
+
 
 \end_layout
 
@@ -8136,10 +8434,11 @@ Si
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\textrm{CH_{2}O}$
+CH
+\begin_inset Formula $_{2}$
 \end_inset
 
-
+O
 \end_layout
 
 \end_inset
@@ -8183,6 +8482,8 @@ Si
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -8265,6 +8566,8 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
 Unlikely
 \end_layout
 
@@ -8338,6 +8641,10 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+HO
+\begin_inset Formula $_{3}^{+}$
+\end_inset
+
 
 \end_layout
 
@@ -8369,7 +8676,7 @@ OS
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CHFO
 \end_layout
 
 \end_inset
@@ -8432,7 +8739,7 @@ OS
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CHBrCl
 \end_layout
 
 \end_inset
