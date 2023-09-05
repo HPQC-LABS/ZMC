@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass revtex4-2
+\textclass revtex4-1
 \begin_preamble
 \usepackage{amsfonts}
 \usepackage{palatino}
@@ -65,7 +65,7 @@
 \use_package undertilde 1
 \cite_engine natbib
 \cite_engine_type numerical
-\biblio_style plainnat
+\biblio_style unsrt
 \multibib part
 \use_bibtopic false
 \use_indices false
@@ -8768,7 +8768,7 @@ CHBrCl
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "references"
-options "plainnat"
+options "apsrev4-1"
 
 \end_inset
 
