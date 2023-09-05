@@ -158,7 +158,7 @@ restoregeometry
 \begin_layout Title
 
 \size larger
-What point groups can a molecule of a certain size or formula have?
+What are the possible point groups for a molecule of a certain size or formula?
 \end_layout
 
 \begin_layout Author
@@ -176,6 +176,7 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
+
 nike@hpqc.org
 \end_layout
 
@@ -196,6 +197,7 @@ Sichao Xiong
 \end_layout
 
 \begin_layout Author Email
+
 sichao@hpqc.org
 \end_layout
 
@@ -210,6 +212,7 @@ Hemanth H.
 \end_layout
 
 \begin_layout Author Email
+
 hemanth@hpqc.org
 \end_layout
 
@@ -486,8 +489,8 @@ Si
 \lang british
 \begin_inset Formula 
 \begin{align}
-\theta & ={\rm arccos}\left(\frac{\cos\varphi\left(4r_{1}^{2}-r_{2}^{2}\right)+r_{2}^{2}}{4r_{1}^{2}}\right)\label{eq:HSiH}\\
- & ={\rm arcsin}\left(\frac{\sin\left(\frac{\varphi}{2}\right)\sqrt{4r_{2}^{2}-r_{1}^{2}}}{r_{2}}\right).\label{eq:HSiHalternative}
+\theta & ={\rm arccos}\left(\frac{\cos\varphi\left(4r_{1}^{2}-r_{2}^{2}\right)+r_{2}^{2}}{4r_{1}^{2}}\right),\label{eq:HSiH}\\
+\theta & ={\rm arcsin}\left(\frac{\sin\left(\frac{\varphi}{2}\right)\sqrt{4r_{2}^{2}-r_{1}^{2}}}{r_{2}}\right).\label{eq:HSiHalternative}
 \end{align}
 
 \end_inset
@@ -746,6 +749,13 @@ The following general principles will be used.
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -754,6 +764,13 @@ The following general principles will be used.
 \lang british
 Ability to orient a molecule according to the valid point group operations
  on the molecule:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -849,6 +866,13 @@ Any molecule with a rotation axis, or
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -860,6 +884,13 @@ Existence of a
 \end_inset
 
  axis:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -959,6 +990,13 @@ can be or must be?
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -970,6 +1008,13 @@ Necessary and sufficient conditions for the
 \end_inset
 
  point group:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1009,6 +1054,13 @@ Subset of vertices is needed? Or the literally all atoms have to?
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -1020,6 +1072,13 @@ Action of the
 \end_inset
 
  operation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1153,6 +1212,13 @@ can be or must be?
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \series bold
@@ -1164,6 +1230,13 @@ Action of the inversion operation,
 \end_inset
 
 :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1198,10 +1271,27 @@ As usual, we only consider the maximum point group.
  What about D2, C2, C2v, C2h, D2d?
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1250,10 +1340,27 @@ atoms form a line, and if all atoms of a molecule are on the same line,
 The minimum number of atoms required is three, and any formula is allowed.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1352,10 +1459,27 @@ BC).
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1552,9 +1676,26 @@ D
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $D_{nh},n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1569,9 +1710,26 @@ D
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
-\begin_inset Formula $D_{nh},n\ge3$
+\begin_inset Formula $D_{nh},n>3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1582,9 +1740,26 @@ Regular n-gon
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{nv},n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1608,9 +1783,26 @@ The minimum number of atoms required is
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{n},n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1645,9 +1837,26 @@ The minimum number of atoms required is
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $C_{nh},n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1674,7 +1883,17 @@ ng the Cn axis.
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $D_{n},n\ge3$
 \end_inset
@@ -1683,20 +1902,7 @@ ng the Cn axis.
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-\lang british
-The minimum number of atoms required is 
-\begin_inset Formula $2n$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection*
-
-\lang british
-\begin_inset Formula $D_{nd},n\ge3$
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -1714,9 +1920,63 @@ The minimum number of atoms required is
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $D_{nd},n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang british
+The minimum number of atoms required is 
+\begin_inset Formula $2n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
 \lang british
 \begin_inset Formula $S_{2n},n\ge2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -8762,6 +9022,13 @@ CHBrCl
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 \align left
 \begin_inset CommandInset bibtex
@@ -8770,6 +9037,13 @@ btprint "btPrintCited"
 bibfiles "references"
 options "apsrev4-1"
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
