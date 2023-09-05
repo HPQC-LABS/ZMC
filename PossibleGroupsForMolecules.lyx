@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass revtex4-1
+\textclass revtex4-2
 \begin_preamble
 \usepackage{amsfonts}
 \usepackage{palatino}
@@ -29,7 +29,7 @@
 \maintain_unincluded_children false
 \language english
 \language_package default
-\inputencoding auto
+\inputencoding utf8
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -64,8 +64,9 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type authoryear
+\cite_engine_type numerical
 \biblio_style plainnat
+\multibib part
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -175,7 +176,6 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
-
 nike@hpqc.org
 \end_layout
 
@@ -195,6 +195,10 @@ HPQC College, Waterloo, Canada
 Sichao Xiong
 \end_layout
 
+\begin_layout Author Email
+sichao@hpqc.org
+\end_layout
+
 \begin_layout Affiliation
 
 \lang british
@@ -206,7 +210,6 @@ Hemanth H.
 \end_layout
 
 \begin_layout Author Email
-
 hemanth@hpqc.org
 \end_layout
 
@@ -235,18 +238,6 @@ status open
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 
 \backslash
 today
@@ -350,7 +341,7 @@ Introduction
 One might wonder why, despite group theory being applied to molecules for
  about 100 years 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "1929Bethe"
 literal "false"
 
@@ -360,7 +351,7 @@ literal "false"
  have been answered yet.
  Indeed we have asked all living authors of 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
 literal "false"
 
@@ -390,7 +381,7 @@ worth confirming
 
  which was introduced in a 2015 paper 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "2015vanSetten"
 literal "false"
 
@@ -401,7 +392,7 @@ s were used to calculate energies for all systems in the dataset.
  It has therefore become a monumental dataset for benchmarking, and efforts
  were made in 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "2021Bruneval"
 literal "false"
 
@@ -409,7 +400,7 @@ literal "false"
 
  and 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "2023Monzel"
 literal "false"
 
@@ -431,7 +422,7 @@ most accurate calculations that had been done on the system until then (and
  used to benchmark the other 100+ calculations from various research groups)
  
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "2015Krause"
 literal "false"
 
@@ -441,7 +432,7 @@ literal "false"
  But the geometries were wrong and we need to be able to generate them from
  places like the Landolt-Bornstein volumes 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
 literal "false"
 
@@ -8773,8 +8764,6 @@ CHBrCl
 \begin_layout Standard
 \noindent
 \align left
-
-\lang british
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
