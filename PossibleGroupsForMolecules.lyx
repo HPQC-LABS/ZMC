@@ -363,6 +363,9 @@ literal "false"
  if they have ever come across a list of all possible point groups for a
  4-atom (tetraatomic) system, and in all cases we were explicitly told that
  they were unaware of such a list, or we received no response at all.
+ The closest we found was Atkins but it was wrong for minmal S4 (C2, C2v,
+ etc.) and it doesn't include Dnh with extra 2n atoms on axis or extra atom
+ in centre.
 \end_layout
 
 \begin_layout Standard
@@ -1061,7 +1064,11 @@ A regular
 \begin_inset Formula $n$
 \end_inset
 
--gon
+-gon if with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
 \begin_inset Note Note
 status open
 
@@ -2000,6 +2007,13 @@ BCD
 
 \end_layout
 
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 If we have any fewer than three atoms, the point group of the system will
  be promoted to 
@@ -2083,14 +2097,8 @@ The minimum number of atoms required is four, and the most general formula
 
 \begin_layout Standard
 
-\lang british
-1 or two atoms would be linear, and a 3-atom molecule can't have an inversion
- center unless it's linear, so you need at least 4 atoms, as in the case
- of Br2Na2.
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
+\bar under
+\begin_inset Formula $n\ge3$
 \end_inset
 
 
@@ -2098,6 +2106,105 @@ The minimum number of atoms required is four, and the most general formula
 
 \begin_layout Standard
 \begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Since a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with identical atoms at each vertex is both necessary and sufficient
+ for the point group of a system of atoms to be 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ for 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, we can concldue the 
+\series bold
+the minimum number of atoms required is 
+\begin_inset Formula $n$
+\end_inset
+
+, and the formula for this minimal structure would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+.
+ 
+\series default
+An even number of additional atoms can be added along the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in pairs on each side of the plane
+ formed by the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ One additional atom can also be added at the center of the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ Therefore 
+\series bold
+the most general formula for a structure with 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+BC
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+Somehow we need to explain that we can add the additional atoms in other
+ ways, for example an n-gon could be added, but if n is even AnBn is a special
+ case of AnB2C2..., and if it's odd, then it's a special case of AnBC2D2...
+\end_layout
+
 \end_inset
 
 
@@ -2116,7 +2223,7 @@ The minimum number of atoms required is four, and the most general formula
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $C_{n},n\ge3$
+\begin_inset Formula $C_{n}$
 \end_inset
 
 
@@ -2130,7 +2237,250 @@ The minimum number of atoms required is four, and the most general formula
 \end_layout
 
 \begin_layout Standard
-Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
+
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, the point group of the system will
+ be promoted to 
+\begin_inset Formula $K_{h},D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+; and if we have only three atoms, they form a plane which will be a mirror
+ plane, meaning that the point group of the system which contains a 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis will be promoted to 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{3h}$
+\end_inset
+
+.
+ Four atoms would be enough for the point group of the system to be 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ though, as in the case of H
+\begin_inset Formula $_{2}$
+\end_inset
+
+O
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Any number of atoms can be added on the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis without invlidating the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ operation, and if they are placed carefully, no new valid symmetry operations
+ will be introduced, therefore 
+\end_layout
+
+\end_inset
+
+
+\series bold
+\lang british
+The minimum number of atoms required is four.
+ 
+\series default
+In terms of the possible formulas, if we have two atoms at positions 
+\begin_inset Formula $A=(x_{1},y_{1},z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $B=(x_{2},y_{2},z_{2})$
+\end_inset
+
+, then after rotation around the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis (which we will make the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, as we described in the previous section
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+this should reference the section number rather than just saying 
+\begin_inset Quotes eld
+\end_inset
+
+previous section
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), these atoms will be at positions 
+\begin_inset Formula $A^{\prime}=(-x_{1}-y_{1},z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $B^{\prime}=(-x_{2},-y_{2},z_{2})$
+\end_inset
+
+ respectively, and for the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ operation to be valid, the atoms that were originally at positions 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+ need to be identical, and likewise for the atoms that were originally at
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $B^{\prime}.$
+\end_inset
+
+
+\series bold
+ The most general formula is therefore A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+CD
+\begin_inset Formula $\cdots$
+\end_inset
+
+ since the extra atoms C,D,
+\begin_inset Formula $\ldots$
+\end_inset
+
+ can be placed on the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis without any loss of valid symmetry operations, and if their positions
+ are chosen carefully, no new valid symmetry operations would be introduced.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the point group of a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with identical atoms at each vertex is required in order to have the
+ 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis that forms part of the point group 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ and we have already mentioned in the previous section
+\lang british
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+this should reference the section number rather than just saying 
+\begin_inset Quotes eld
+\end_inset
+
+previous section
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang english
+ that the point group of such a structure would be 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+, we would need at least one additional atom to break any symmetries in
+ 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ that are not present in 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+.
+ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
  to break all mirror planes.
  To preserve the Cn axis we need to either add any number of atoms on the
  Cn axis, or at least n atoms that are not on the Cn axis (forming a regular
