@@ -2315,11 +2315,11 @@ The minimum number of atoms required is four.
  
 \series default
 In terms of the possible formulas, if we have two atoms at positions 
-\begin_inset Formula $A=(x_{1},y_{1},z_{1})$
+\begin_inset Formula $A$
 \end_inset
 
  and 
-\begin_inset Formula $B=(x_{2},y_{2},z_{2})$
+\begin_inset Formula $B$
 \end_inset
 
 , then after rotation around the 
@@ -2358,7 +2358,27 @@ previous section
 \begin_inset Formula $B^{\prime}=(-x_{2},-y_{2},z_{2})$
 \end_inset
 
- respectively, and for the 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+we can instead just say A, B, A
+\begin_inset Formula $\ne A'$
+\end_inset
+
+and B
+\begin_inset Formula $\ne$
+\end_inset
+
+B' but then we have to explain that they are not on the axis
+\end_layout
+
+\end_inset
+
+respectively, and for the 
 \begin_inset Formula $C_{2}$
 \end_inset
 
@@ -2433,16 +2453,12 @@ Since the point group of a regular
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is required in order to have the
+-gon with identical atoms at each vertex is required in order to have a
  
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis that forms part of the point group 
-\begin_inset Formula $C_{nv}$
-\end_inset
-
- and we have already mentioned in the previous section
+ axis, and we have already mentioned in the previous section
 \lang british
 
 \begin_inset Note Note
@@ -2476,11 +2492,313 @@ previous section
 \end_inset
 
  that are not present in 
-\begin_inset Formula $C_{nv}$
+\begin_inset Formula $C_{n}$
 \end_inset
 
 .
- Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
+ In order for the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ operation to remain valid, we can either add any number of atoms (including
+ just one) on the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, or a full set of 
+\begin_inset Formula $n$
+\end_inset
+
+ more atoms that form a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis going through its center and perpendicular to the plane formed by
+ the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ However, adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis will not break the 
+\begin_inset Formula $\sigma_{v}$
+\end_inset
+
+ planes, so by adding one or more atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis that goes through the center of a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, would form a structure with a 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ point group, so instead of adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, we must add at least one set of 
+\begin_inset Formula $n$
+\end_inset
+
+ more atoms forming a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon (and we know that this one set is enough for us to form a structure
+ in which 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ is the 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+largest
+\end_layout
+
+\end_inset
+
+point group, as in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:minimalCnStructures"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The two parallel 
+\begin_inset Formula $n$
+\end_inset
+
+-gons, A
+\begin_inset Formula $_{n}$
+\end_inset
+
+ and B
+\begin_inset Formula $_{n}$
+\end_inset
+
+, must lie on different planes so that the molecular is not planar, and
+ therefore would not get promoted to 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+.
+ 
+\series bold
+\lang british
+The minimum number of atoms required is 
+\begin_inset Formula $2n$
+\end_inset
+
+, and the most general formula would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{n}$
+\end_inset
+
+CD
+\begin_inset Formula $\cdots$
+\end_inset
+
+ since in addition to the A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{n}$
+\end_inset
+
+ structure, extra atoms C,D,
+\begin_inset Formula $\ldots$
+\end_inset
+
+ can be placed on the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis without any loss of valid symmetry operations, and if their positions
+ are chosen carefully, no new valid symmetry operations would be introduced.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Structures with the 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maximal
+\end_layout
+
+\end_inset
+
+point group 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and with the minimum number of atoms, 
+\begin_inset Formula $2n$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:minimalCnStructures"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename minimalC3structure.png
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename minimalC4structure.png
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename minimalC5structure.png
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang british
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
  to break all mirror planes.
  To preserve the Cn axis we need to either add any number of atoms on the
  Cn axis, or at least n atoms that are not on the Cn axis (forming a regular
@@ -2498,13 +2816,11 @@ previous section
  mirror plane is just halfway between the planes of the two n-gons), and
  Cnv where the two regular n-gons have their own distinct side-lengths.
  
-\series bold
-\lang british
-The minimum number of atoms required is 
-\begin_inset Formula $2n$
+\end_layout
+
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Subsection*
@@ -2520,7 +2836,7 @@ The minimum number of atoms required is
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $C_{nh},n\ge3$
+\begin_inset Formula $C_{nh}$
 \end_inset
 
 
@@ -2534,23 +2850,104 @@ The minimum number of atoms required is
 \end_layout
 
 \begin_layout Standard
-As in the case of Cn, any structure with fewer than 2n atoms will not have
- enough atoms to break the vertical planes of a Dnh n-gon, and without maintaini
-ng the Cn axis.
- Having two concentric n-gons on the same plane, with one of them rotated
- from the other in order to avoid having D(2n)h, would be one way to construct
- a Cnh molecule with the minimum number of atoms.
- Another way would be to add the extra n atoms to the plane containing the
- original regular n-gon, and no rotation would be necessary if we are careful
- about how we place the bonds.
 
-\series bold
-\lang british
- The minimum number of atoms required is 
-\begin_inset Formula $2n$
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can repeat everything that was written in the section about 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+, except that the structure is now allowed for the two regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gons to be on the same plane (and therefore concentric since they share
+ the same 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis) since having all atoms on the same plane means that the structure
+ lies on a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane, which is allowed (and needed) for the point group to be 
+\begin_inset Formula $C_{nh}$
 \end_inset
 
 .
+ All other elements of the 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+ point group can be generated from the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operations, so the point group of the described structure is indeed 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This needs to be verified !!!
+\end_layout
+
+\end_inset
+
+.
+ Such a structure with 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms is possible, as in the case of...
 \end_layout
 
 \begin_layout Subsection*
@@ -2566,7 +2963,7 @@ ng the Cn axis.
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $D_{n},n\ge3$
+\begin_inset Formula $D_{n}$
 \end_inset
 
 
@@ -2581,13 +2978,49 @@ ng the Cn axis.
 
 \begin_layout Standard
 
-\series bold
-\lang british
-The minimum number of atoms required is 
-\begin_inset Formula $2n$
+\bar under
+\begin_inset Formula $n=2$
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Not explained well.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Not explained well.
 \end_layout
 
 \begin_layout Subsection*
@@ -2603,7 +3036,7 @@ The minimum number of atoms required is
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $D_{nd},n\ge3$
+\begin_inset Formula $D_{nd}$
 \end_inset
 
 
@@ -2618,13 +3051,49 @@ The minimum number of atoms required is
 
 \begin_layout Standard
 
-\series bold
-\lang british
-The minimum number of atoms required is 
-\begin_inset Formula $2n$
+\bar under
+\begin_inset Formula $n=2$
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Not explained well.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Not explained well.
 \end_layout
 
 \begin_layout Subsection*
@@ -2640,7 +3109,7 @@ The minimum number of atoms required is
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $S_{2n},n\ge2$
+\begin_inset Formula $S_{2n}$
 \end_inset
 
 
@@ -2651,6 +3120,53 @@ The minimum number of atoms required is
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, 
 \end_layout
 
 \begin_layout Standard
@@ -9705,14 +10221,6 @@ CHBrCl
 \begin_layout Standard
 \noindent
 \align left
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "references"
-options "apsrev4-1"
-
-\end_inset
-
 
 \end_layout
 
