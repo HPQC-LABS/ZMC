@@ -1,0 +1,149 @@
+{
+  "atoms": {
+    "coords": {
+      "3d": [
+        -1.667856216430664,
+        1.8245478868484497,
+        -5.63418495858059e-07,
+        -1.7332720756530762,
+        -2.296647787094116,
+        -1.126836991716118e-06,
+        2.0117831230163574,
+        -0.23604975640773773,
+        2.2536730739375344e-06,
+        -2.8550312519073486,
+        0.9174344539642334,
+        -1.4968633651733398,
+        1.8768824338912964,
+        1.123799443244934,
+        -1.5124958753585815,
+        -0.18892136216163635,
+        -2.7167227268218994,
+        -1.28989839553833
+      ]
+    },
+    "elements": {
+      "number": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "formalCharges": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "layer": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "bonds": {
+    "connections": {
+      "index": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        3,
+        5,
+        4,
+        5,
+        3,
+        4
+      ]
+    },
+    "order": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "chemicalJson": 1,
+  "layer": {
+    "enable": {
+      "Ball and Stick": [
+        true
+      ],
+      "Cartoons": [
+        true
+      ],
+      "Close Contacts": [
+        false
+      ],
+      "Crystal Lattice": [
+        false
+      ],
+      "Force": [
+        false
+      ],
+      "Labels": [
+        false
+      ],
+      "Licorice": [
+        false
+      ],
+      "Meshes": [
+        false
+      ],
+      "Non-Covalent": [
+        false
+      ],
+      "Van der Waals": [
+        false
+      ],
+      "Van der Waals (AO)": [
+        false
+      ],
+      "Wireframe": [
+        false
+      ]
+    },
+    "locked": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "settings": {
+      "Ball and Stick": [
+        "true true 0.300000 0.100000"
+      ],
+      "Cartoons": [
+        "true false false false true true false"
+      ]
+    },
+    "visible": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}

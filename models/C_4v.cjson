@@ -1,0 +1,144 @@
+{
+  "atoms": {
+    "coords": {
+      "3d": [
+        -2.3333024978637695,
+        1.663558006286621,
+        -2.7787689305114327e-06,
+        1.7629400491714478,
+        1.6678789854049683,
+        1.9848346255457727e-07,
+        -2.2468841075897217,
+        -2.156144380569458,
+        0.0,
+        1.8666430711746216,
+        -2.156144857406616,
+        -5.160571618034737e-06,
+        -0.28715085983276367,
+        0.5803794860839844,
+        5.352598667144775
+      ]
+    },
+    "elements": {
+      "number": [
+        6,
+        6,
+        6,
+        6,
+        8
+      ]
+    },
+    "formalCharges": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "layer": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "bonds": {
+    "connections": {
+      "index": [
+        0,
+        1,
+        1,
+        3,
+        2,
+        3,
+        0,
+        2,
+        2,
+        4,
+        0,
+        4,
+        1,
+        4,
+        3,
+        4
+      ]
+    },
+    "order": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "chemicalJson": 1,
+  "layer": {
+    "enable": {
+      "Ball and Stick": [
+        true
+      ],
+      "Cartoons": [
+        true
+      ],
+      "Close Contacts": [
+        false
+      ],
+      "Crystal Lattice": [
+        false
+      ],
+      "Force": [
+        false
+      ],
+      "Labels": [
+        false
+      ],
+      "Licorice": [
+        false
+      ],
+      "Meshes": [
+        false
+      ],
+      "Non-Covalent": [
+        false
+      ],
+      "Van der Waals": [
+        false
+      ],
+      "Van der Waals (AO)": [
+        false
+      ],
+      "Wireframe": [
+        false
+      ]
+    },
+    "locked": [
+      false,
+      false,
+      false
+    ],
+    "settings": {
+      "Ball and Stick": [
+        "true true 0.300000 0.100000"
+      ],
+      "Cartoons": [
+        "true false false false true true false"
+      ]
+    },
+    "visible": [
+      true,
+      true,
+      true
+    ]
+  }
+}
