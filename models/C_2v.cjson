@@ -15,9 +15,9 @@
     },
     "elements": {
       "number": [
-        6,
         8,
-        8
+        6,
+        6
       ]
     },
     "formalCharges": [
@@ -92,6 +92,7 @@
     },
     "locked": [
       false,
+      false,
       false
     ],
     "settings": {
@@ -103,6 +104,7 @@
       ]
     },
     "visible": [
+      true,
       true,
       true
     ]
