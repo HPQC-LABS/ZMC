@@ -1,0 +1,143 @@
+{
+  "atoms": {
+    "coords": {
+      "3d": [
+        -0.328390896320343,
+        1.8925669193267822,
+        1.5878674730629427e-06,
+        -0.8193975687026978,
+        -1.772106409072876,
+        2.6996161937713623,
+        -2.632262706756592,
+        1.1988825798034668,
+        2.371293067932129,
+        1.2962799072265625,
+        -1.7542985677719116,
+        -6.351473984977929e-06,
+        -3.802419662475586,
+        -1.2357861995697021,
+        -3.572703462850768e-06,
+        2.6616625785827637,
+        1.155273675918579,
+        2.0735957622528076
+      ]
+    },
+    "elements": {
+      "number": [
+        8,
+        8,
+        6,
+        6,
+        1,
+        1
+      ]
+    },
+    "formalCharges": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "layer": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "bonds": {
+    "connections": {
+      "index": [
+        1,
+        5,
+        1,
+        2,
+        2,
+        5,
+        0,
+        4,
+        0,
+        3,
+        3,
+        4
+      ]
+    },
+    "order": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "chemicalJson": 1,
+  "layer": {
+    "enable": {
+      "Ball and Stick": [
+        true
+      ],
+      "Cartoons": [
+        true
+      ],
+      "Close Contacts": [
+        false
+      ],
+      "Crystal Lattice": [
+        false
+      ],
+      "Force": [
+        false
+      ],
+      "Labels": [
+        false
+      ],
+      "Licorice": [
+        false
+      ],
+      "Meshes": [
+        false
+      ],
+      "Non-Covalent": [
+        false
+      ],
+      "Van der Waals": [
+        false
+      ],
+      "Van der Waals (AO)": [
+        false
+      ],
+      "Wireframe": [
+        false
+      ]
+    },
+    "locked": [
+      false,
+      false
+    ],
+    "settings": {
+      "Ball and Stick": [
+        "true true 0.300000 0.100000"
+      ],
+      "Cartoons": [
+        "true false false false true true false"
+      ]
+    },
+    "visible": [
+      true,
+      true
+    ]
+  }
+}
