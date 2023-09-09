@@ -2932,16 +2932,6 @@ We can repeat everything that was written in the section about
 \begin_inset Formula $C_{nh}$
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-This needs to be verified !!!
-\end_layout
-
-\end_inset
-
 .
  Such a structure with 
 \begin_inset Formula $2n$
@@ -3093,7 +3083,28 @@ Not explained well.
 \end_layout
 
 \begin_layout Standard
-Not explained well.
+We can repeat everything that was written in the section about 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+, except with the second regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon (the one that is added) being rotated by 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ radians (and the two regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gons still being on two different planes).
+ Such a structure with 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms is possible, as in the case of...
 \end_layout
 
 \begin_layout Subsection*
@@ -3166,25 +3177,47 @@ If we have any fewer than three atoms,
 \end_layout
 
 \begin_layout Standard
-If we have any fewer than three atoms, 
-\end_layout
-
-\begin_layout Standard
 
 \lang british
-Since S2n is a generator of the S2n point group (or is it Sn) then Cn is
- in the point group because Cn = Sn^2.
- This means we need a regular polygon, but that wouldn't satisfy the S2n
- operaton unless all atoms were to be at the origin.
+Since 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ is a generator of the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ point group, 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ is in the point group because 
+\begin_inset Formula $S_{2n}^{2}=C_{n}$
+\end_inset
+
+.
+ This means we need a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis cutting perpendicularly through its center, but a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon will not satisfy the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operaton unless all atoms are at the origin.
  You need 2n to have an S2n axis, but then you'd get Dnh, so you need another
  2n to break the Dnh.
-\end_layout
-
-\begin_layout Standard
 
 \series bold
-\lang british
-The minimum number of atoms required is 
+ The minimum number of atoms required is 
 \begin_inset Formula $4n$
 \end_inset
 
@@ -8809,7 +8842,18 @@ CO
 \begin_layout Plain Layout
 
 \color blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
 Unlikely
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8956,9 +9000,15 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+H
+\begin_inset Formula $\cdots$
+\end_inset
 
-\color blue
-Unlikely
+H
+\begin_inset Formula $_{2}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9326,7 +9376,18 @@ H
 \begin_layout Plain Layout
 
 \color blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
 Unlikely
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9555,7 +9616,18 @@ B
 \begin_layout Plain Layout
 
 \color blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
 Unlikely
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9938,7 +10010,18 @@ O
 \begin_layout Plain Layout
 
 \color blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
 Unlikely
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10022,7 +10105,18 @@ N
 \begin_layout Plain Layout
 
 \color blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
 Unlikely
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10225,6 +10319,19 @@ CHBrCl
 \end_layout
 
 \begin_layout Standard
+
+\lang british
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "references"
+options "apsrev4-1"
+
+\end_inset
+
+
+\lang english
+
 \begin_inset VSpace defskip
 \end_inset
 
