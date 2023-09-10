@@ -363,9 +363,164 @@ literal "false"
  if they have ever come across a list of all possible point groups for a
  4-atom (tetraatomic) system, and in all cases we were explicitly told that
  they were unaware of such a list, or we received no response at all.
- The closest we found was Atkins but it was wrong for minmal S4 (C2, C2v,
- etc.) and it doesn't include Dnh with extra 2n atoms on axis or extra atom
- in centre.
+ We have determined all possible point groups for systems with 
+\emph on
+any
+\emph default
+ number of atoms, and we have gone a step even further by determining all
+ possible point groups for structures with a given chemical formula.
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+After searching through all of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+ thoroughly, the closest work that we found to the results in this paper,
+ is the table of 
+\begin_inset Quotes eld
+\end_inset
+
+Shapes
+\begin_inset Quotes erd
+\end_inset
+
+ found in the 2008 version of the famous 
+\begin_inset Quotes eld
+\end_inset
+
+Tables for Group Theory
+\begin_inset Quotes erd
+\end_inset
+
+ document by P.
+ Atkins, M.
+ Child and C.
+ Phillips 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+.
+ Nothing similar was found in any of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+, and the table of 
+\begin_inset Quotes eld
+\end_inset
+
+Shapes
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ has several shortcomings which we will address and fix in the next section,
+ before we begin presenting the main results of our work in the following
+ sections.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+For investigating the novelty of our work, we believe that our thorough
+ examination through all of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+ was a fair survey of the known literature on the topic.
+ The 2007 paper 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2007Shirts"
+literal "false"
+
+\end_inset
+
+ reported a thourough survey of known published
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+need better word for this
+\end_layout
+
+\end_inset
+
+ works that provided character tables for the 
+\begin_inset Formula $S_{8}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{8h}$
+\end_inset
+
+ point groups, and our list 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+ includes all of those works, in addition to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2007Shirts"
+literal "false"
+
+\end_inset
+
+ itself, the papers that cited 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2007Shirts"
+literal "false"
+
+\end_inset
+
+, and also thoroughly selected work on the topic that did not provide 
+\begin_inset Formula $S_{8}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{8h}$
+\end_inset
+
+ character tables.
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+Motivation for this work
 \end_layout
 
 \begin_layout Standard
