@@ -1,0 +1,122 @@
+{
+  "atoms": {
+    "coords": {
+      "3d": [
+        -0.8305,
+        0.0,
+        0.0,
+        1.2943975925445557,
+        0.07084359973669052,
+        0.22343644499778748,
+        -1.1530288457870483,
+        1.7390104532241821,
+        -0.6616466045379639,
+        1.7017840147018433,
+        0.7668734788894653,
+        1.6535251140594482
+      ]
+    },
+    "elements": {
+      "number": [
+        16,
+        8,
+        1,
+        1
+      ]
+    },
+    "formalCharges": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "labels": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "layer": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "bonds": {
+    "connections": {
+      "index": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "order": [
+      1,
+      1,
+      1
+    ]
+  },
+  "chemicalJson": 1,
+  "layer": {
+    "enable": {
+      "Ball and Stick": [
+        true
+      ],
+      "Cartoons": [
+        true
+      ],
+      "Close Contacts": [
+        false
+      ],
+      "Crystal Lattice": [
+        false
+      ],
+      "Force": [
+        false
+      ],
+      "Labels": [
+        false
+      ],
+      "Licorice": [
+        false
+      ],
+      "Meshes": [
+        false
+      ],
+      "Non-Covalent": [
+        false
+      ],
+      "Van der Waals": [
+        false
+      ],
+      "Wireframe": [
+        false
+      ],
+      "undef": [
+        false
+      ]
+    },
+    "locked": [
+      false
+    ],
+    "settings": {
+      "Ball and Stick": [
+        "true true 0.300000 0.100000"
+      ],
+      "Cartoons": [
+        "false false false false false true false"
+      ]
+    },
+    "visible": [
+      true
+    ]
+  },
+  "properties": {
+    "totalCharge": 0,
+    "totalSpinMultiplicity": 1
+  }
+}
