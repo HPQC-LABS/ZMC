@@ -176,7 +176,6 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
-
 nike@hpqc.org
 \end_layout
 
@@ -197,7 +196,6 @@ Sichao Xiong
 \end_layout
 
 \begin_layout Author Email
-
 sichao@hpqc.org
 \end_layout
 
@@ -212,7 +210,6 @@ Hemanth H.
 \end_layout
 
 \begin_layout Author Email
-
 hemanth@hpqc.org
 \end_layout
 
@@ -665,7 +662,7 @@ two bond lengths and a dihedral angle:
  
 \emph default
 
-\begin_inset Formula $r_{\text{Si-Si}}=(2.2154\text{\ensuremath{\pm0.0020)\text{\AA}}},r_{\text{Si-H}}=(1.6680+0.0030)\text{\AA},\varphi=(104.22+0.30)^{\circ}$
+\begin_inset Formula $r_{\text{Si-Si}}=(2.2154\text{\ensuremath{\pm0.0020)\text{Å}}},r_{\text{Si-H}}=(1.6680+0.0030)\text{Å},\varphi=(104.22+0.30)^{\circ}$
 \end_inset
 
  (the original experimental paper from which this data came 
@@ -12737,7 +12734,7 @@ S
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_3h.png
+	filename S4_D3h.pdf
 	lyxscale 5
 	width 5text%
 
@@ -13008,7 +13005,7 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
-C
+S
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -13084,17 +13081,10 @@ B
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/D_2h.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
 
 \end_layout
 
@@ -13157,10 +13147,39 @@ B
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
 
 \end_layout
 
@@ -13271,7 +13290,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13387,7 +13406,7 @@ Na
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2d.png
+	filename S4_D2d.pdf
 	lyxscale 5
 	width 5text%
 
@@ -13831,7 +13850,7 @@ Unknown
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_3v.png
+	filename NH3_C3v.pdf
 	lyxscale 5
 	width 5text%
 
@@ -14471,31 +14490,10 @@ O
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2h.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -14558,10 +14556,51 @@ Unlikely
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+Double check this
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -14672,7 +14711,7 @@ Unlikely
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14797,26 +14836,21 @@ N
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_2.png
+	filename S4-2_C2.pdf
 	lyxscale 5
 	width 5text%
 
 \end_inset
 
 
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -14830,50 +14864,6 @@ Unlikely
 	filename models/C_2.png
 	lyxscale 5
 	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
 
 \end_inset
 
@@ -14923,10 +14913,39 @@ Unlikely
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
 
 \end_layout
 
@@ -15037,7 +15056,7 @@ Unlikely
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15205,7 +15224,7 @@ O
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_s.png
+	filename Cl2OS.png
 	lyxscale 5
 	width 5text%
 
