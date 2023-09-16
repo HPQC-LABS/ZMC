@@ -176,6 +176,7 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
+
 nike@hpqc.org
 \end_layout
 
@@ -196,21 +197,8 @@ Sichao Xiong
 \end_layout
 
 \begin_layout Author Email
+
 sichao@hpqc.org
-\end_layout
-
-\begin_layout Affiliation
-
-\lang british
-HPQC Labs, Waterloo, Canada
-\end_layout
-
-\begin_layout Author
-Hemanth H.
-\end_layout
-
-\begin_layout Author Email
-hemanth@hpqc.org
 \end_layout
 
 \begin_layout Affiliation
@@ -794,8 +782,9 @@ We believe that as machine learning and big data analysis become more popular
  categorieze molecules (e.g.
  for training neural networks) and the question of which point groups are
  possible for molecules of a certain size of formula, will be asked more
- and more (and those seeking the answers will be able to find them in this
- paper).
+ and more.
+ Anyone seeking the answers to these questions will be able to find them
+ in this paper.
 \end_layout
 
 \begin_layout Standard
@@ -1723,18 +1712,15 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
-
+,
 \series bold
  would require specific code blocks for each molecular shape.
  
 \series default
-It is possible for two molecules with the same point group to have very
- different shapes (e.g.
- 
-\begin_inset Formula $C_{2v}$
-\end_inset
-
- for H
+It is possible for two molecules with the same point group and formula to
+ have very different shapes (e.g.
+ see Fig.
+ X for examples of H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -1742,19 +1728,16 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- and 
+ for which the point group is 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
- planar and maybe another 4-atom 
-\begin_inset Formula $C_{2v}$
-\end_inset
-
-, all have 4 atoms but one is pyramidal, one is planar, etc.), so a 
+ in both cases, but one of them is pyramidal and the other one is planar),
+ so a general-purpose 
 \begin_inset Quotes eld
 \end_inset
 
-z-matrix generator
+z-matrix constructor
 \begin_inset Quotes erd
 \end_inset
 
@@ -1762,18 +1745,28 @@ z-matrix generator
 \begin_inset Quotes eld
 \end_inset
 
-xyz coordinates generator
+XYZ-coordinates generator
 \begin_inset Quotes erd
 \end_inset
 
- would need specific code blocks for n-atom molecules not just based on
- their point group, but also based on other characteristics (perhaps their
- graph, formula, etc.), but a natural first step towards constructing such
- a software would be to categorize n-atom molecules based on their point
- groups (as done in the Landolt Bornstein series, CCCBDB and a lot of other
- places, check CRC), and to construct code for each case.
+ that uses only bond lengths, bond angles and dihedral angles, would need
+ specific code blocks based on their point groups and formulas, in addition
+ to other characteristics.
+ However, a natural first step towards constructing such a software would
+ be to categorize 
+\begin_inset Formula $n$
+\end_inset
+
+-atom molecules based on their point groups (the Landolt–Börnstein volumes
+ and related books, the CCCBDB and a lot of other places, check CRC), and
+ to construct code for each case.
  
+\end_layout
+
+\begin_layout Standard
+
 \series bold
+\lang british
 For n atoms, how many cases do we need to consider in order to cover each
  point group at least once in the software?
 \series default
@@ -15732,6 +15725,19 @@ CHBrCl
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+
+\lang british
+Outlook
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Apart from finding molecules to fill in the tables, z-matrix generator in
+ OpenMolcas.
 \end_layout
 
 \begin_layout Standard
