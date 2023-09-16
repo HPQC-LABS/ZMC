@@ -157,7 +157,7 @@ restoregeometry
 
 \begin_layout Title
 
-\size larger
+\size huge
 What are the possible point groups for a molecule of a certain size or formula?
 \end_layout
 
@@ -176,7 +176,6 @@ www.hpqc.org
 \end_layout
 
 \begin_layout Author Email
-
 nike@hpqc.org
 \end_layout
 
@@ -197,7 +196,6 @@ Sichao Xiong
 \end_layout
 
 \begin_layout Author Email
-
 sichao@hpqc.org
 \end_layout
 
@@ -212,7 +210,6 @@ Hemanth H.
 \end_layout
 
 \begin_layout Author Email
-
 hemanth@hpqc.org
 \end_layout
 
@@ -549,9 +546,9 @@ literal "false"
 \end_inset
 
  and by the end of 2020, already more than 100 electronic structure methods/code
-s were used to calculate energies for all systems in the dataset.
+s were used to calculate energies for all systems in the GW100 dataset.
  It has therefore become a monumental dataset for benchmarking, and efforts
- were made in 
+ were made in 2021 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "2021Bruneval"
@@ -559,7 +556,7 @@ literal "false"
 
 \end_inset
 
- and 
+ and 2023 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "2023Monzel"
@@ -579,9 +576,7 @@ CCSD(T)/def-TZVPP
 
 \end_inset
 
-most accurate calculations that had been done on the system until then (and
- used to benchmark the other 100+ calculations from various research groups)
- 
+most accurate calculations that had been done on the system until then 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "2015Krause"
@@ -589,9 +584,23 @@ literal "false"
 
 \end_inset
 
-.
- But the geometries were wrong and we need to be able to generate them from
- places like the Landolt-Bornstein volumes 
+, and therefore to create one of the best known sets of benchmark data in
+ existence for electronic structure calculations.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+However, for many of the molecules in the GW100 dataset, calculations are
+ done at geometries that were optimized using density functional theory,
+ which means that the results are dependent on the basis set and density
+ functional used; and it also had an effect on the comparisons that have
+ been made between calculations that were done for the GW100 dataset and
+ experimental data on the same dataset.
+ For many of those molecules, very accurate bond lengths and angles that
+ were determined from high-resolution spectroscopic experiments, are available
+ in places such as the Landolt–Börnstein volumes and related books 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
@@ -599,10 +608,30 @@ literal "false"
 
 \end_inset
 
-.
- Such volumes provide only the point group, a 3D diagram, and a minimal
- set of bond lengths, angles and dihedrals.
- For example H
+ and also in the original papers in which the geometric data was determined.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The books 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
+literal "false"
+
+\end_inset
+
+ provide only the 
+\series bold
+\emph on
+point group
+\series default
+\emph default
+, a 3D diagram, and usually the minimum number of bond lengths, bond angles
+ and dihedrals necessary to generate all XYZ coordinates or a z-matrix.
+ An example is the entry for H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -610,16 +639,68 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- (not in GW100 but good for illustrating this point) gives only two bond
- lengths and a dihedral, but to do electronic structure calculations we
- need either the XYZ coordinates of all atoms, or a z-matrix for the molecule,
- and there is no softawre for obtaining either of these from just the limited
- information given.
+ in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Landolt-Bornstein25A"
+literal "false"
+
+\end_inset
+
+ (this molecule is not in GW100 but it is useful for illustrating this point)
+ which provides the point group (
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+), a 3D shape that is redrawn in Fig.
+ of this paper, and 
+\emph on
+only 
+\emph default
+two bond lengths and a dihedral angle:
+\emph on
+ 
+\emph default
+
+\begin_inset Formula $r_{\text{Si-Si}}=(2.2154\text{\ensuremath{\pm0.0020)\text{Å}}},r_{\text{Si-H}}=(1.6680+0.0030)\text{Å},\varphi=(104.22+0.30)^{\circ}$
+\end_inset
+
+ (the original experimental paper from which this data came 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1994Bogey"
+literal "false"
+
+\end_inset
+
+ and the previous paper on the same molecule 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1991Bogey"
+literal "false"
+
+\end_inset
+
+, also provided no additional bond lengths or angles).
+ But to do electronic structure calculations we need either the XYZ coordinates
+ of all atoms, or a z-matrix for the molecule, and there is no softawre
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+cite private communication with Oskar or MMSE
+\end_layout
+
+\end_inset
+
+for obtaining either of these from just the limited information given (point
+ group, 3D diagram, two bond lengths and a dihedral angle).
  A software for generating a z-matrix from this data would be significantly
  simpler to write than a software for generating XYZ coordinates of all
  atoms, but the z-matrix for this system would need at least one bond angle,
- and you might find it surprising that the simplest formulas for the H-Si-H
- angle in H
+ and the reader might find it surprising that the simplest formula for the
+ H-Si-H angle in H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -627,7 +708,7 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- are (in terms of the provided dihedral angle 
+ is (in terms of the provided dihedral angle 
 \begin_inset Formula $\varphi$
 \end_inset
 
@@ -647,14 +728,14 @@ Si
 \lang british
 \begin_inset Formula 
 \begin{align}
-\theta & ={\rm arccos}\left(\frac{\cos\varphi\left(4r_{1}^{2}-r_{2}^{2}\right)+r_{2}^{2}}{4r_{1}^{2}}\right),\label{eq:HSiH}\\
-\theta & ={\rm arcsin}\left(\frac{\sin\left(\frac{\varphi}{2}\right)\sqrt{4r_{2}^{2}-r_{1}^{2}}}{r_{2}}\right).\label{eq:HSiHalternative}
+\theta & ={\rm arcsin}\left(\frac{\sin\left(\frac{\varphi}{2}\right)\sqrt{4r_{2}^{2}-r_{1}^{2}}}{r_{2}}\right).\label{eq:HSiH}
 \end{align}
 
 \end_inset
 
-Determining this bond angle can be accomplished with some high school level
- trigonometry (applications of the ordinary cosine law), and appliocations
+Such a formula is not expected to be found in any compilation of formulas.
+ Determining this formula can be accomplished with some high school level
+ trigonometry (applications of the ordinary cosine law), and applications
  of the 
 \emph on
 dihedral cosine law
@@ -662,44 +743,17 @@ dihedral cosine law
  which is unlikely to be taught in high school or university-level curricula,
  but can be learned and applied to such small molecules within a day by
  most researchers; however with the pace of research today, the derivation
- of such a formulas as in Eqs.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:HSiH"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
--
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:HSiHalternative"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- would ideally be done by softawre rather than by hand.
+ of such a formula 
+\emph on
+would ideally be done by softawre rather than by hand
+\emph default
+.
  Unfortunately, not even the most advanced symbolic computation or comptuer
- algebra software can provide a user with Eqs.
+ algebra software can provide a user with Eq.
  
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:HSiH"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
--
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:HSiHalternative"
 plural "false"
 caps "false"
 noprefix "false"
@@ -713,8 +767,8 @@ noprefix "false"
 
 \lang british
 Furthermore, the interest today in machine learning and big data analysis
- has lead to the introduction of much larger datasets such as GW5000 and
- OE62 (both from 
+ has lead to the introduction of much larger datasets than GW100, such as
+ GW5000 and OE62 (both from 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Stuke2020"
@@ -722,16 +776,24 @@ literal "true"
 
 \end_inset
 
-) which involve more than 5000 and 61000 molecules respectively, but they
- have the same geometry problem (crystal structures vs spectroscopic geometries).
+) which involve more than 5000 and 61000 molecules respectively, but the
+ geometries for the molecules in these datasets have issues similar to the
+ ones for the GW100 dataset.
  This reinforces our motivation for constructing a software that could,
- for example, convert the ~5000 geometries from Landolt-Bornstein into z-matrice
-s or XYZ coordinates.
- We believe that as machine learning and big data analysis become more popular
+ for example, convert the thousands of geometries from the Landolt–Börnstein
+ series and related compilations of spectroscopically determined geometry
+ data, into z-matrices or XYZ coordinates.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+We believe that as machine learning and big data analysis become more popular
  over the next century, there will be a rise in interest in being able to
  categorieze molecules (e.g.
  for training neural networks) and the question of which point groups are
- possibel for molecules of a certain size of formula, will be asked more
+ possible for molecules of a certain size of formula, will be asked more
  and more (and those seeking the answers will be able to find them in this
  paper).
 \end_layout
@@ -1651,11 +1713,7 @@ status open
 \series bold
 \lang british
 A software to generate z-matrices (or even XYZ coordinates) for molecules
- with the data presented in experimental papers, such as (
-\begin_inset Formula $r_{1}=2.2079,r_{2}=1.6839,\varphi=103.18^{\circ}$
-\end_inset
-
-) for 
+ with the data presented in experimental papers, such as for 
 \series default
 H
 \begin_inset Formula $_{2}$
@@ -12676,7 +12734,7 @@ S
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_3h.png
+	filename S4_D3h.pdf
 	lyxscale 5
 	width 5text%
 
@@ -12947,7 +13005,7 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
-C
+S
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -13023,17 +13081,10 @@ B
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/D_2h.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
 
 \end_layout
 
@@ -13096,10 +13147,39 @@ B
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
 
 \end_layout
 
@@ -13210,7 +13290,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13326,7 +13406,7 @@ Na
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2d.png
+	filename S4_D2d.pdf
 	lyxscale 5
 	width 5text%
 
@@ -13770,7 +13850,7 @@ Unknown
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_3v.png
+	filename NH3_C3v.pdf
 	lyxscale 5
 	width 5text%
 
@@ -14410,31 +14490,10 @@ O
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2h.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -14497,10 +14556,51 @@ Unlikely
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+Double check this
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -14611,7 +14711,7 @@ Unlikely
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14736,26 +14836,21 @@ N
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_2.png
+	filename S4-2_C2.pdf
 	lyxscale 5
 	width 5text%
 
 \end_inset
 
 
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -14769,50 +14864,6 @@ Unlikely
 	filename models/C_2.png
 	lyxscale 5
 	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2.png
-	lyxscale 5
-	width 5text%
-
-\end_inset
-
-
-\color blue
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
 
 \end_inset
 
@@ -14862,10 +14913,39 @@ Unlikely
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
 
 \end_layout
 
@@ -14976,7 +15056,7 @@ Unlikely
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15144,7 +15224,7 @@ O
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_s.png
+	filename Cl2OS.png
 	lyxscale 5
 	width 5text%
 
