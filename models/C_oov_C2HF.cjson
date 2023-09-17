@@ -1,0 +1,145 @@
+{
+  "atoms": {
+    "coords": {
+      "3d": [
+        -2.109898,
+        0.008742,
+        0.0,
+        0.046,
+        -0.0001,
+        0.0,
+        1.830797,
+        0.008742,
+        0.0,
+        3.818405,
+        -0.025826000000000002,
+        0.0
+      ]
+    },
+    "elements": {
+      "number": [
+        9,
+        6,
+        6,
+        1
+      ]
+    },
+    "formalCharges": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "labels": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "layer": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "bonds": {
+    "connections": {
+      "index": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "order": [
+      2,
+      1,
+      1
+    ]
+  },
+  "chemicalJson": 1,
+  "layer": {
+    "enable": {
+      "Ball and Stick": [
+        true
+      ],
+      "Cartoons": [
+        true
+      ],
+      "Close Contacts": [
+        false
+      ],
+      "Crystal Lattice": [
+        false
+      ],
+      "Force": [
+        false
+      ],
+      "Labels": [
+        false
+      ],
+      "Licorice": [
+        false
+      ],
+      "Meshes": [
+        false
+      ],
+      "Non-Covalent": [
+        false
+      ],
+      "Van der Waals": [
+        false
+      ],
+      "Wireframe": [
+        false
+      ],
+      "undef": [
+        false
+      ]
+    },
+    "locked": [
+      false
+    ],
+    "settings": {
+      "Ball and Stick": [
+        "true true 0.300000 0.100000"
+      ],
+      "Cartoons": [
+        "false false false false false true false"
+      ]
+    },
+    "visible": [
+      true
+    ]
+  },
+  "name": "32759",
+  "properties": {
+    "PUBCHEM_ATOM_DEF_STEREO_COUNT": "0",
+    "PUBCHEM_ATOM_UDEF_STEREO_COUNT": "0",
+    "PUBCHEM_BOND_DEF_STEREO_COUNT": "0",
+    "PUBCHEM_BOND_UDEF_STEREO_COUNT": "0",
+    "PUBCHEM_CACTVS_TAUTO_COUNT": "1",
+    "PUBCHEM_COMPONENT_COUNT": "1",
+    "PUBCHEM_COMPOUND_CID": "32759",
+    "PUBCHEM_CONFORMER_DIVERSEORDER": "1",
+    "PUBCHEM_CONFORMER_ID": "00007FF700000001",
+    "PUBCHEM_CONFORMER_RMSD": "0.4",
+    "PUBCHEM_COORDINATE_TYPE": "2\n5\n10",
+    "PUBCHEM_EFFECTIVE_ROTOR_COUNT": "0",
+    "PUBCHEM_FEATURE_SELFOVERLAP": "0",
+    "PUBCHEM_HEAVY_ATOM_COUNT": "3",
+    "PUBCHEM_ISOTOPIC_ATOM_COUNT": "0",
+    "PUBCHEM_MMFF94_ENERGY": "-0.0196",
+    "PUBCHEM_MMFF94_PARTIAL_CHARGES": "4\n1 -0.12\n2 0.12\n3 -0.18\n4 0.18",
+    "PUBCHEM_PHARMACOPHORE_FEATURES": "0",
+    "PUBCHEM_SHAPE_FINGERPRINT": "139733 1 18410856607095543332\n21015797 1 18122624130641403428",
+    "PUBCHEM_SHAPE_MULTIPOLES": "54.46\n1.54\n0.58\n0.58\n0.13\n0\n0\n0\n0\n-0.06\n0\n-0.06\n0\n0",
+    "PUBCHEM_SHAPE_SELFOVERLAP": "89.026",
+    "PUBCHEM_SHAPE_VOLUME": "37.2",
+    "totalCharge": 0,
+    "totalSpinMultiplicity": 1
+  }
+}
