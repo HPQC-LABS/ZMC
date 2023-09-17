@@ -158,7 +158,8 @@ restoregeometry
 \begin_layout Title
 
 \size huge
-What are the possible point groups for a molecule of a certain size or formula?
+What are the possible axial point groups for a molecule of a certain size
+ or formula?
 \end_layout
 
 \begin_layout Author
@@ -1718,9 +1719,8 @@ Si
  
 \series default
 It is possible for two molecules with the same point group and formula to
- have very different shapes (e.g.
- see Fig.
- X for examples of H
+ have very different shapes (for example see Fig.
+ X, in which two isomers of H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -1728,11 +1728,11 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- for which the point group is 
+ are shown, both with the 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
- in both cases, but one of them is pyramidal and the other one is planar),
+ point group, but one of them being pyramidal and the other one being planar),
  so a general-purpose 
 \begin_inset Quotes eld
 \end_inset
@@ -1745,7 +1745,7 @@ z-matrix constructor
 \begin_inset Quotes eld
 \end_inset
 
-XYZ-coordinates generator
+XYZ-coordinates constructor
 \begin_inset Quotes erd
 \end_inset
 
@@ -1757,21 +1757,67 @@ XYZ-coordinates generator
 \begin_inset Formula $n$
 \end_inset
 
--atom molecules based on their point groups (the Landolt–Börnstein volumes
- and related books, the CCCBDB and a lot of other places, check CRC), and
- to construct code for each case.
- 
+-atom molecules based on their molecular formulas and point groups (the
+ Landolt–Börnstein volumes and related books 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
+literal "false"
+
+\end_inset
+
+, the CCCBDB 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CCCBDB"
+literal "false"
+
+\end_inset
+
+, and the CRC Handbook of Chemistry and Physics are some examples in which
+ point groups are already used to help describe molecules), and then to
+ write the relevant z-matrix-construction or XYZ-construction code for each
+ case, adding sub-cases when necessary (e.g.
+ to distingush between the two types of 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ shapes for A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+ molecules as depicted in Fig.
+ X).
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 \lang british
-For n atoms, how many cases do we need to consider in order to cover each
- point group at least once in the software?
+For 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms, how many cases do we need to consider in order to cover each point
+ group at least once in the software?
 \series default
- That is the essence of the question in the present paper's title, and everyone
- tell us that it hasn't been done yet.
+ That is the essence of the question in the present paper's title, and 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+start here
+\end_layout
+
+\end_inset
+
+everyone tell us that it hasn't been done yet.
  We take this even one step further, by looking at the possible formulas,
  for example for a 7-atom molecule to have the point group Ci you need its
  formula to be A
@@ -11472,14 +11518,14 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="51" columns="6">
+<lyxtabular version="3" rows="54" columns="6">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="12mm">
 <column alignment="center" valignment="top" width="12mm">
 <column alignment="center" valignment="top" width="12mm">
-<column alignment="center" valignment="top" width="12mm">
-<column alignment="center" valignment="top" width="12mm">
+<column alignment="left" valignment="middle" width="12mm">
+<column alignment="left" valignment="middle" width="12mm">
 <row topspace="1mm" bottomspace="1mm">
 <cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
 \begin_inset Text
@@ -11589,7 +11635,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11602,7 +11648,7 @@ BC
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11612,7 +11658,7 @@ ABCD
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -11656,7 +11702,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11665,7 +11711,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11898,7 +11944,7 @@ ABCD
 \end_inset
 </cell>
 </row>
-<row topspace="2mm" bottomspace="2mm">
+<row topspace="2mm" bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -11939,7 +11985,7 @@ P
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11948,7 +11994,7 @@ P
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12243,7 +12289,7 @@ H
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12259,7 +12305,7 @@ H
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12319,20 +12365,20 @@ ABAB?
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-H
+C
 \begin_inset Formula $_{2}$
 \end_inset
 
-BN
+HF
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12342,7 +12388,7 @@ HCNO
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -12406,7 +12452,7 @@ HCNO
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12415,7 +12461,7 @@ HCNO
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12652,7 +12698,7 @@ HCNO
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -12693,7 +12739,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12702,7 +12748,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12712,7 +12758,7 @@ S
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -12763,7 +12809,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12772,7 +12818,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12984,7 +13030,7 @@ S
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -13029,7 +13075,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13038,7 +13084,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13048,7 +13094,7 @@ B
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -13063,7 +13109,7 @@ B
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/D_2h_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -13099,7 +13145,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13108,7 +13154,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13283,7 +13329,7 @@ B
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13320,7 +13366,7 @@ B
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -13365,7 +13411,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13374,7 +13420,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13384,7 +13430,7 @@ Na
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -13428,7 +13474,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13437,7 +13483,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13678,7 +13724,7 @@ Na
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -13719,7 +13765,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13728,7 +13774,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13738,8 +13784,71 @@ S
 \end_inset
 </cell>
 </row>
-<row topspace="2mm" bottomspace="2mm">
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<row topspace="1mm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2.png
+	lyxscale 5
+	width 5text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13751,22 +13860,45 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\series bold
-\color red
-Unknown
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
@@ -13775,10 +13907,36 @@ Unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
@@ -13787,10 +13945,36 @@ Unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
@@ -13799,10 +13983,36 @@ Unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
@@ -13812,7 +14022,119 @@ Unknown
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="1mm">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -13827,7 +14149,7 @@ Unknown
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_3v.png
+	filename models/C_3v_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -13863,7 +14185,7 @@ Unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13872,7 +14194,7 @@ Unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13904,7 +14226,7 @@ Unknown
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14056,7 +14378,7 @@ Unknown
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14065,7 +14387,7 @@ Unknown
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14084,7 +14406,7 @@ Unknown
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -14125,7 +14447,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14134,7 +14456,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14144,7 +14466,7 @@ N
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -14218,7 +14540,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14250,7 +14572,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14259,7 +14581,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14268,7 +14590,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14353,7 +14675,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14372,7 +14694,7 @@ N
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -14434,7 +14756,7 @@ Si
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14447,7 +14769,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14457,7 +14779,7 @@ O
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -14472,7 +14794,7 @@ O
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_2h.png
+	filename models/C_2h_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -14508,7 +14830,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14517,7 +14839,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14599,7 +14921,7 @@ Double check this
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14704,7 +15026,7 @@ Double check this
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14722,7 +15044,7 @@ Double check this
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14741,7 +15063,7 @@ Double check this
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -14795,7 +15117,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14804,7 +15126,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14814,7 +15136,7 @@ N
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -14865,7 +15187,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14874,7 +15196,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14944,7 +15266,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15049,7 +15371,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15067,7 +15389,7 @@ N
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15086,7 +15408,7 @@ N
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -15135,7 +15457,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15144,7 +15466,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15154,7 +15476,7 @@ O
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -15169,7 +15491,7 @@ O
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_s.png
+	filename models/C_s_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -15267,7 +15589,7 @@ O
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15276,7 +15598,7 @@ O
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15285,7 +15607,7 @@ O
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15341,7 +15663,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15350,7 +15672,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15360,7 +15682,7 @@ O
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -15422,7 +15744,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15435,7 +15757,7 @@ OS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15445,7 +15767,7 @@ CHFO
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row topspace="1mm">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -15460,7 +15782,7 @@ CHFO
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_1.png
+	filename models/C_1_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -15476,7 +15798,7 @@ CHFO
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/C_1.png
+	filename models/C_1_A3B.png
 	lyxscale 5
 	width 5text%
 
@@ -15558,7 +15880,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15567,7 +15889,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15576,7 +15898,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15632,7 +15954,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15641,7 +15963,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15651,7 +15973,7 @@ CHFO
 \end_inset
 </cell>
 </row>
-<row bottomspace="2mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -15683,6 +16005,33 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\begin_inset space \negthinspace{}
+\end_inset
+
+
+\size scriptsize
 HCl
 \begin_inset Formula $\cdots$
 \end_inset
@@ -15692,7 +16041,7 @@ HCl
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15705,7 +16054,7 @@ OS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
