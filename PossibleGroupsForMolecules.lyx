@@ -503,10 +503,27 @@ literal "false"
  character tables.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 
 \lang british
 Motivation for this work
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+Our principal motivation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1805,58 +1822,140 @@ For
  atoms, how many cases do we need to consider in order to cover each point
  group at least once in the software?
 \series default
- That is the essence of the question in the present paper's title, and 
+ That is the essence of the question in the present paper's title, and as
+ mentioned in the opening paragraph of this Introduction section, it appears
+ that this question has not been answered before, or at least the answer
+ is not easily available.
+ We also go even one step further, by determining all possible 
+\emph on
+chemical formulas
+\emph default
+ for a particular point group of an 
+\begin_inset Formula $n$
+\end_inset
+
+-atom system.
+ For example, in order for a 7-atom molecule to have the point group 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ its formula needs to be A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D (with any of the variables B, C, or D being allowed to be a duplicate
+ of one of the previous letters) but a 7-atom molecule whose chemical formula
+ does not have that structure cannot have the point group 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ (e.g.
+ for reasons that will be explained in this work, there is no arrangement
+ of the atoms of C
+\begin_inset Formula $_{3}$
+\end_inset
+
+H
+\begin_inset Formula $_{3}$
+\end_inset
+
+N such that the point group of the molecule can be 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang british
 \begin_inset Note Note
 status open
+
+\begin_layout Subsubsection*
+
+\lang british
+Categorization and finding gaps in our knowledge
+\end_layout
 
 \begin_layout Plain Layout
 
 \lang british
-start here
+Our primary motivation for this work was to determine the necessary point
+ group 
+\begin_inset Quotes eld
+\end_inset
+
+cases
+\begin_inset Quotes erd
+\end_inset
+
+ that our computer program would need for z-matrix construction.
+ For systems of just one atom, two atoms or three atoms, it is quite easy
+ to list the possible 
+\begin_inset Quotes eld
+\end_inset
+
+shapes
+\begin_inset Quotes erd
+\end_inset
+
+ and to enumerate the number of 
+\begin_inset Quotes eld
+\end_inset
+
+cases
+\begin_inset Quotes erd
+\end_inset
+
+ that the z-matrix construction program would need to consider.
+ For systems with four atoms, we began by categorizing all 4-atom systems
+ listed in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
+literal "false"
+
+\end_inset
+
+.
+ For many of these 4-atom systems, the same computer code can be used to
+ construct the z-matrix (e.g.
+ the z-matrix for H
+\begin_inset Formula $_{3}$
+\end_inset
+
+N, H
+\begin_inset Formula $_{3}$
+\end_inset
+
+Si and other alike 
+\begin_inset Formula $C_{3v}$
+\end_inset
+
+ molecules with a chemical formula of A
+\begin_inset Formula $_{3}$
+\end_inset
+
+B would be calculated with the same program logic, except with a different
+ bond length and different bond angle being used as input).
+ In additon to categorizing molecules based on their point group and chemical
+ formula, we also did it in terms of graph theory
 \end_layout
 
-\end_inset
-
-everyone tell us that it hasn't been done yet.
- We take this even one step further, by looking at the possible formulas,
- for example for a 7-atom molecule to have the point group Ci you need its
- formula to be A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D (with any of B,C,D being allowed to be a duplicate of one of the previous
- letters) but a molecule with any other formula cannot have the point group
- Ci (for example A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
- would no work unless B and C are A, which would bring us back to the previously
- mentioned formula in the case in which A=B=C=D).
- 
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \lang british
-In the initial stages of the development of our z-matrix constructor, we
- found that the Landolt-Bornstein series had all these molecules, but we
- realized that we missed the tadpole structure because we know that there's
+we realized that we missed the tadpole structure because we know that there's
  6 connected 4-vertex graphs.
  Likewise we tried to see if we had representation from all possible point
  groups, and this required us to first determine the possible point groups
@@ -1874,13 +1973,84 @@ In the initial stages of the development of our z-matrix constructor, we
 al research.
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang british
+\begin_inset Note Note
+status open
+
+\begin_layout Subsection*
+Improving geometry optimization
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+In addition to determining the number of point group cases required for
+ a general z-matrix constructor
+\end_layout
+
+\begin_layout Plain Layout
 
 \lang british
 Another motivation was geometry optimization.
  Roland Lindh and others have discovered that you can get fewer cycles,
  but if point group symemtry is included, then we can have a smaller Wilson-B
  matrix.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+In this paper: https://www.sciencedirect.com/science/article/abs/pii/S000926149900
+247X?via%3Dihub Lindh says for H2O2 he uses either 
+\begin_inset Quotes eld
+\end_inset
+
+all internal coordinates
+\begin_inset Quotes erd
+\end_inset
+
+ (6 bonds, 12 angles, 12 torsions
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+why 12 torsions? 6 bonds = number of edges in K4, 12 angles = 3 angles per
+ corner of K4, x 4 corners
+\end_layout
+
+\end_inset
+
+) or the 
+\begin_inset Quotes eld
+\end_inset
+
+valence internal coordinates
+\begin_inset Quotes erd
+\end_inset
+
+ (3 bonds, 2 angles, 1 dihedral), but Landolt-Bornstein only needs 2 bonds,
+ 1 angle and 1 dihedral.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1899,6 +2069,10 @@ s, all of which seems to be novel.
 \end_inset
 
  symmetry.
+\end_layout
+
+\begin_layout Section
+Table of example shapes for all axial point group series
 \end_layout
 
 \begin_layout Section
@@ -16093,12 +16267,6 @@ Apart from finding molecules to fill in the tables, z-matrix generator in
 \begin_inset VSpace defskip
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align left
 
 \end_layout
 
