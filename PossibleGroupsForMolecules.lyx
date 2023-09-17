@@ -1719,9 +1719,8 @@ Si
  
 \series default
 It is possible for two molecules with the same point group and formula to
- have very different shapes (e.g.
- see Fig.
- X for examples of H
+ have very different shapes (for example see Fig.
+ X, in which two isomers of H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -1729,11 +1728,11 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- for which the point group is 
+ are shown, both with the 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
- in both cases, but one of them is pyramidal and the other one is planar),
+ point group, but one of them being pyramidal and the other one being planar),
  so a general-purpose 
 \begin_inset Quotes eld
 \end_inset
@@ -1746,7 +1745,7 @@ z-matrix constructor
 \begin_inset Quotes eld
 \end_inset
 
-XYZ-coordinates generator
+XYZ-coordinates constructor
 \begin_inset Quotes erd
 \end_inset
 
@@ -1775,10 +1774,10 @@ literal "false"
 
 \end_inset
 
-, and the CRC Handbook of Chemistry and Physics are three examples of work
- that already use point groups to help describe molecules), and then to
+, and the CRC Handbook of Chemistry and Physics are some examples in which
+ point groups are already used to help describe molecules), and then to
  write the relevant z-matrix-construction or XYZ-construction code for each
- case, and adding sub-cases when necessary (e.g.
+ case, adding sub-cases when necessary (e.g.
  to distingush between the two types of 
 \begin_inset Formula $C_{2v}$
 \end_inset
@@ -1791,7 +1790,7 @@ B
 \begin_inset Formula $_{2}$
 \end_inset
 
- molecules that are depicted in Fig.
+ molecules as depicted in Fig.
  X).
 \end_layout
 
@@ -1806,8 +1805,19 @@ For
  atoms, how many cases do we need to consider in order to cover each point
  group at least once in the software?
 \series default
- That is the essence of the question in the present paper's title, and everyone
- tell us that it hasn't been done yet.
+ That is the essence of the question in the present paper's title, and 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+start here
+\end_layout
+
+\end_inset
+
+everyone tell us that it hasn't been done yet.
  We take this even one step further, by looking at the possible formulas,
  for example for a 7-atom molecule to have the point group Ci you need its
  formula to be A
