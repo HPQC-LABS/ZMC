@@ -936,13 +936,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/D_2h.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
 
 \end_layout
 
@@ -952,6 +945,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2h.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1025,6 +1025,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Dooh.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1048,6 +1055,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2v(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1137,6 +1151,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Coov.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1160,13 +1181,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2h.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
 
 \end_layout
 
@@ -1176,6 +1190,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2h.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1249,6 +1270,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Cooh.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1272,6 +1300,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2d(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1361,6 +1396,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Dood.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1384,6 +1426,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1473,6 +1522,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Doo.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1496,6 +1552,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1585,6 +1648,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Coo.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1608,6 +1678,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/S_4(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1697,6 +1774,13 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Soo.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
