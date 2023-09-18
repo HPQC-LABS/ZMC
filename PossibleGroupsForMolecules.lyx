@@ -24,7 +24,7 @@
 \usepackage[sort&compress]{natbib}
 \usepackage[english]{babel}
 \end_preamble
-\options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,prl,superscriptaddress,Hyperref,twocolumn
+\options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -65,7 +65,7 @@
 \use_package undertilde 1
 \cite_engine natbib
 \cite_engine_type numerical
-\biblio_style unsrt
+\biblio_style plainnat
 \multibib part
 \use_bibtopic false
 \use_indices false
@@ -409,7 +409,7 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-Shapes
+shapes
 \begin_inset Quotes erd
 \end_inset
 
@@ -421,8 +421,17 @@ literal "false"
 
 \end_inset
 
- has several shortcomings which we will address and fix in the next section,
- before we begin presenting the main results of our work in the following
+ has several shortcomings which we will address and fix in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, before we begin presenting the main results of our work in the following
  sections.
  
 \end_layout
@@ -503,9 +512,564 @@ literal "false"
  character tables.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+Our paper focuses on 
+\emph on
+axial
+\emph default
+ point groups, which are those belonging to the series 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+in what order shall we present these?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $C_{n},C_{nv},C_{nh},S_{2n}D_{n},D_{nh},D_{nd}$
+\end_inset
+
+ (including 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ which is equivalent to 
+\begin_inset Formula $C_{1h}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{1v}$
+\end_inset
+
+, and 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ which is equivalent to 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+).
+ For the 
+\emph on
+polyhedral 
+\emph default
+point groups 
+\lang british
+
+\begin_inset Formula $T,T_{d},T_{h},O,O_{h},I,I_{h}$
+\end_inset
+
+,
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 
 \lang british
+what about 
+\begin_inset Formula $K_{h}$
+\end_inset
+
+?
+\end_layout
+
+\end_inset
+
+ we will present even more novel results in a forthcoming paper.
+ For example, in all of the literature that we have seen (including 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+literal "false"
+
+\end_inset
+
+), the shape with the smallest number of vertices (or the system containing
+ the smallest number of atoms) for which the point group is 
+\begin_inset Formula $O$
+\end_inset
+
+, is the snub cube which has 24 vertices (or atoms), but within the last
+ month we have discovered that it is possible to construct an object with
+ only 20 vertices (or for the atoms in a 20-atom system to be arranged)
+ such that the point group is 
+\begin_inset Formula $O$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DattaniCunningham"
+literal "false"
+
+\end_inset
+
+.
+ Likewise, in all of the literature that we have seen, the shape with the
+ smallest number of vertices for which the point group is 
+\begin_inset Formula $I$
+\end_inset
+
+, is the snub dodecahedron which has 60 vertices, but within the last month
+ we have discovered that it is possible to construct an object with only
+ 50 vertices such that the point group is 
+\begin_inset Formula $I$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DattaniCunningham"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The next section of this paper will explain the context which made 
+\series bold
+\emph on
+us
+\series default
+\emph default
+ feel compelled to answer the questions that this paper addresses; for any
+ readers that wish to skip the motivation section, the rest of the paper
+ is self-contained and does not require knowledge of any of the material
+ presented there.
+ The second paragraph of this introduction already described the contents
+ of Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The diagrams in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ will make it easier to follow Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, which contains the foundation for obtaining our main results which are
+ provided in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and summarized in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Summary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Overall our results are as follows (all results appear to be novel or unusually
+ difficult to find in existing places):
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: A table
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+Actually reference it
+\end_layout
+
+\end_inset
+
+ that presents visual examples of structures for all aforementioned axial
+ point groups for 
+\begin_inset Formula $2\ge n\ge6$
+\end_inset
+
+ and 
+\begin_inset Formula $n=\infty,$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang british
+in a more clear way than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+with inconsistencies in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ resolved, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+with more of the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ shapes presented than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+with structures requiring fewer atoms than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ for the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ series, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+with an extra column showing additional structures (in some cases these
+ are more realistic than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+) for the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ cases, and.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang british
+In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: Properties of some point groups that are very helpful for obtaining or
+ explaining new results, and for pedagogical purposes.
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: For each axial point group, we determine 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang british
+the minimum number of atoms (cardinality) required; 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+all possible cardinalities allowed (the minimum cardinality is a special
+ case of this); and 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+all possible chemical formulas allowed (the list of all possibile cardinalities
+ is a special case of this).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang british
+In Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Summary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: As a consequence of the results in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang british
+we were able to list in table X all possible point groups allowed for systems
+ with 
+\begin_inset Formula $m$
+\end_inset
+
+ atoms for 
+\begin_inset Formula $m=1-8$
+\end_inset
+
+ (and a table with 
+\emph on
+arbitrary 
+\emph default
+values of 
+\begin_inset Formula $m$
+\end_inset
+
+ can be generated with the results from 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ but would take up too much space); 
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+we also explicitly listed the specific point groups (and diagrams of example
+ structures) that are possible for systems with the specific formulas A
+\begin_inset Formula $_{3}$
+\end_inset
+
+, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B, and ABC for triatomic systems and A
+\begin_inset Formula $_{4}$
+\end_inset
+
+, A
+\begin_inset Formula $_{3}$
+\end_inset
+
+B, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+BC, and ABCD for tetraatomic systems (analogous lists for 
+\emph on
+arbirary
+\emph default
+ chemical formulas acn also be generated with the results from 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ but would take up too much space);
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+we attempted to provide examples of known molecules with each possible point
+ group for each formula A
+\begin_inset Formula $_{3}$
+\end_inset
+
+, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B, ABC, A
+\begin_inset Formula $_{4}$
+\end_inset
+
+, A
+\begin_inset Formula $_{3}$
+\end_inset
+
+B, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+BC, and ABCD, and this led us to the discovery of shapes for which no molecule/c
+omplex has yet been synethesized or found, despite the existence of such
+ molecules/complexes being proven to be possible (this was not a surprise
+ for larger structures, but we determined that the minimum number of atoms
+ required for the point group 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ is 4 but we could not find any example of a 4-atom molecule with the 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ point group despite the apparent simplicity that would come with such a
+ small molecular size).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang british
+Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Outlook"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ briefly mentions how the results of this work can be used for forthcoming
+ projects.
+\end_layout
+
+\begin_layout Section
+
+\lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Motivation"
+
+\end_inset
+
 Motivation for this work
 \end_layout
 
@@ -2137,31 +2701,25 @@ valence internal coordinates
 
 \end_layout
 
-\begin_layout Standard
-
-\lang british
-In this paper we provide general principles, 3-atom and 4-atom possible
- groups, formulas and examples, n-atom groups and formulas for minimal structure
-s, all of which seems to be novel.
- We skip the polyhedral groups 
-\begin_inset Formula $T,T_{d},T_{h},O,O_{h},I,I_{h}$
-\end_inset
-
- since we discovered something with fewer vertices than the snub cube that
- has 
-\begin_inset Formula $O$
-\end_inset
-
- symmetry.
-\end_layout
-
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:TableShapes"
+
+\end_inset
+
 Table of example shapes for all axial point group series
 \end_layout
 
 \begin_layout Section
 
 \lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:GeneralPrinciples"
+
+\end_inset
+
 General principles for possible molecules 
 \end_layout
 
@@ -2710,7 +3268,13 @@ We can always choose center of inversion to be at the origin
 \begin_layout Section
 
 \lang british
-Minimum number of atoms and possible molecular formulas for each point group
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:NumberOfAtomsForEachPointGroup"
+
+\end_inset
+
+Possible number of atoms and molecular formulas for each point group
 \end_layout
 
 \begin_layout Standard
@@ -4647,6 +5211,12 @@ Since
 \begin_layout Section
 
 \lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Summary"
+
+\end_inset
+
 Summary of our results
 \end_layout
 
@@ -4660,7 +5230,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="31">
+<lyxtabular version="3" rows="9" columns="32">
 <features tabularvalignment="middle" tabularwidth="100text%">
 <column alignment="center" valignment="top" width="1.5mm">
 <column alignment="left" valignment="top" width="2mm">
@@ -4673,6 +5243,7 @@ status open
 <column alignment="left" valignment="top" width="2mm">
 <column alignment="left" valignment="top" width="2mm">
 <column alignment="left" valignment="top" width="2mm">
+<column alignment="left" valignment="top" width="3mm">
 <column alignment="left" valignment="top" width="3mm">
 <column alignment="left" valignment="top" width="3mm">
 <column alignment="left" valignment="top" width="3mm">
@@ -4837,6 +5408,15 @@ Possible groups (not including subgroups)
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5066,6 +5646,15 @@ Possible groups (not including subgroups)
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5407,6 +5996,15 @@ Possible groups (not including subgroups)
 
 \end_inset
 </cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -5669,6 +6267,15 @@ Possible groups (not including subgroups)
 \begin_inset Formula $C_{2v}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -6038,6 +6645,15 @@ Possible groups (not including subgroups)
 
 \end_inset
 </cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -6373,6 +6989,15 @@ Possible groups (not including subgroups)
 \begin_inset Formula $C_{4v}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -6765,6 +7390,15 @@ Possible groups (not including subgroups)
 \begin_inset Formula $C_{5v}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -7177,6 +7811,15 @@ Possible groups (not including subgroups)
 \begin_inset Formula $C_{6v}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -7600,13 +8243,27 @@ Possible groups (not including subgroups)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size footnotesize
 \begin_inset Formula $C_{7v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $S_{4}$
 \end_inset
 
 
@@ -16337,6 +16994,12 @@ CHBrCl
 \begin_layout Section
 
 \lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Outlook"
+
+\end_inset
+
 Outlook
 \end_layout
 
