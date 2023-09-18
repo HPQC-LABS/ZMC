@@ -1509,7 +1509,17 @@ atoms have to all be the same element, and the red atoms have to all be
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:atkinsImproved"
+name "tab:atkinsImproved"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dnd and such are on different planes
+\end_layout
 
 \end_inset
 
@@ -2006,6 +2016,132 @@ height "0.5pt"
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{n}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_3.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_4.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_5.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2h.png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/Coo.pdf
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -2246,132 +2382,6 @@ height "0.5pt"
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename models/Doo.pdf
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C_{n}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2(1).png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_2.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_3.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_4.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/C_5.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/D_2h.png
-	lyxscale 5
-	width 10text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/Coo.pdf
 	lyxscale 5
 	width 10text%
 
@@ -3069,9 +3079,12 @@ General principles for possible molecules
 \end_layout
 
 \begin_layout Standard
-The following general principles will be used.
- They might seem obvious, but we don't see them in textbooks (maybe the
- first one is in textbooks) 
+In this section we will state some general principles that we will use in
+ the following section when formulating proofs for the required numbers
+ of atoms and required formulas for each point group.
+ Some of the statements made in this section may already be familiar or
+ intuitive to the reader, but we have not seen them stated in textbooks
+ about group theory for chemistry 
 \lang british
 
 \begin_inset CommandInset citation
@@ -3083,6 +3096,25 @@ literal "false"
 
 
 \lang english
+, although the first statement is mentioned in other places, such as 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bakken_efficient_2002"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I think it was actually the Baker paper or one of the other early papers
+ on redundant/internal coordinates, not this one
+\end_layout
+
+\end_inset
+
 .
 \end_layout
 
@@ -3247,18 +3279,34 @@ The existence of a
 \begin_inset Formula $n$
 \end_inset
 
--gon).
+-gon), or if 
+\begin_inset Formula $n<3$
+\end_inset
+
+ we simply need to have 
+\begin_inset Formula $n$
+\end_inset
+
+ identical atoms in the molecule.
  A 
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis would be in the center of this polygon, and since we can call this
- axis the 
+ axis would go through the center of this polygon (or in the case of 
+\begin_inset Formula $n=2$
+\end_inset
+
+, it would go through the centre of the line joining the two identical atoms),
+ and since we can call this axis the 
 \begin_inset Formula $z$
 \end_inset
 
--axis, all atoms that form vertices of the polygon, would have to have the
- same 
+-axis, all atoms that form vertices of the polygon (or the two identical
+ atoms in the case of 
+\begin_inset Formula $n=2$
+\end_inset
+
+), would have to have the same 
 \begin_inset Formula $z$
 \end_inset
 
@@ -3356,7 +3404,11 @@ Necessary and sufficient conditions for the
 \begin_inset Formula $D_{nh}$
 \end_inset
 
- point group:
+ point group when 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
@@ -3378,7 +3430,17 @@ A regular
 \begin_inset Formula $D_{nh}$
 \end_inset
 
-, and any object with the 
+ (this was already depicted visually in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and any object with the 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -3387,7 +3449,7 @@ A regular
 \begin_inset Formula $n$
 \end_inset
 
--gon if with 
+-gon if 
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -3398,7 +3460,7 @@ status open
 \begin_layout Plain Layout
 
 \lang british
-Subset of vertices is needed? Or the literally all atoms have to?
+Subset of vertices is needed? Or literally all atoms have to?
 \end_layout
 
 \end_inset
@@ -3619,7 +3681,7 @@ name "sec:NumberOfAtomsForEachPointGroup"
 
 \end_inset
 
-Possible number of atoms and molecular formulas for each point group
+Possible number of atoms and molecular formulas for each axial point group
 \end_layout
 
 \begin_layout Standard
@@ -3627,6 +3689,24 @@ Possible number of atoms and molecular formulas for each point group
 \lang british
 As usual, we only consider the maximum point group.
  All in order of number of atoms (except Ci is before others).
+\end_layout
+
+\begin_layout Subsection
+
+\lang british
+Point groups without axial rotational symmetry
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+check this term
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4033,7 +4113,276 @@ D
  depenending on if the number of atoms is even or odd.
 \end_layout
 
+\begin_layout Subsection
+
+\lang british
+Point groups with axial rotational symmetry
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+check this term
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, the point group of the system will
+ be promoted to 
+\begin_inset Formula $K_{h},D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+, however all 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ point groups with even values of 
+\begin_inset Formula $n$
+\end_inset
+
+ (including 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+) have an inversion element 
+\begin_inset Formula $i$
+\end_inset
+
+, and the only way for a three atom system to have an inversion element
+ is for it to be linear, which would promote it either to 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+.
+ If we choose the origin 
+\begin_inset Formula $(0,0,0)$
+\end_inset
+
+ to be the center of inversion, and one atom is at the position 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+, then an identical atom would need to be at the positon 
+\begin_inset Formula $(-x,-y,-z)$
+\end_inset
+
+ and the third atom would need to be at the origin.
+ We therefore would have two identical atoms on a 
+\emph on
+line
+\emph default
+ going through the origin, and a third atom in the center of that line.
+ We therefore would need a minimum of four atoms for the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ point group, and indeed four atoms is enough as in the case of Br
+\begin_inset Formula $_{2}$
+\end_inset
+
+Na
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ 
+\series bold
+\lang british
+The minimum number of atoms required is four, and the most general formula
+ for the minimal structure is A2B2.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+The general formula is
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Since a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with identical atoms at each vertex is both necessary and sufficient
+ for the point group of a system of atoms to be 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ for 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, we can concldue the 
+\series bold
+the minimum number of atoms required is 
+\begin_inset Formula $n$
+\end_inset
+
+, and the formula for this minimal structure would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+.
+ 
+\series default
+An even number of additional atoms can be added along the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in pairs on each side of the plane
+ formed by the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ One additional atom can also be added at the center of the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ Therefore 
+\series bold
+the most general formula for a structure with 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+BC
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+Somehow we need to explain that we can add the additional atoms in other
+ ways, for example an n-gon could be added, but if n is even AnBn is a special
+ case of AnB2C2..., and if it's odd, then it's a special case of AnBC2D2...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4216,8 +4565,8 @@ Since the point group of a regular
 \end_inset
 
 .
- It turns out that one additional atom is not only necessary, but also sufficien
-t, since if this atom is placed on a 
+ It turns out that at least one additional atom is not only necessary, but
+ only one atom is sufficient, since if this atom is placed on a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4284,6 +4633,16 @@ by starting with a regular
 
 .
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Cnv with n>=3 figures in Table 1 are minimal structuers
+\end_layout
+
+\end_inset
+
+ 
 \series bold
 \lang british
 The minimum number of atoms required is 
@@ -4313,14 +4672,17 @@ BCD
 
 \size larger
 \bar under
+\color red
 \lang british
-\begin_inset Formula $D_{nh}$
+\begin_inset Formula $C_{nh}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4330,6 +4692,7 @@ BCD
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4337,6 +4700,8 @@ BCD
 \end_layout
 
 \begin_layout Subsection*
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4344,80 +4709,14 @@ BCD
 \end_layout
 
 \begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
- be promoted to 
-\begin_inset Formula $K_{h},D_{\infty h}$
-\end_inset
 
- or 
-\begin_inset Formula $C_{\infty v}$
-\end_inset
-
-, however all 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- point groups with even values of 
-\begin_inset Formula $n$
-\end_inset
-
- (including 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
-) have an inversion element 
-\begin_inset Formula $i$
-\end_inset
-
-, and the only way for a three atom system to have an inversion element
- is for it to be linear, which would promote it either to 
-\begin_inset Formula $D_{\infty h}$
-\end_inset
-
- or 
-\begin_inset Formula $C_{\infty v}$
-\end_inset
-
-.
- If we choose the origin 
-\begin_inset Formula $(0,0,0)$
-\end_inset
-
- to be the center of inversion, and one atom is at the position 
-\begin_inset Formula $(x,y,z)$
-\end_inset
-
-, then an identical atom would need to be at the positon 
-\begin_inset Formula $(-x,-y,-z)$
-\end_inset
-
- and the third atom would need to be at the origin.
- We therefore would have two identical atoms on a 
-\emph on
-line
-\emph default
- going through the origin, and a third atom in the center of that line.
- We therefore would need a minimum of four atoms for the 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
- point group, and indeed four atoms is enough as in the case of Br
-\begin_inset Formula $_{2}$
-\end_inset
-
-Na
-\begin_inset Formula $_{2}$
-\end_inset
-
-.
- 
-\series bold
-\lang british
-The minimum number of atoms required is four, and the most general formula
- for the minimal structure is A2B2.
+\color red
+d
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4427,6 +4726,7 @@ The minimum number of atoms required is four, and the most general formula
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -4434,6 +4734,8 @@ The minimum number of atoms required is four, and the most general formula
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4442,101 +4744,52 @@ The minimum number of atoms required is four, and the most general formula
 
 \begin_layout Standard
 
-\lang british
-Since a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon with identical atoms at each vertex is both necessary and sufficient
- for the point group of a system of atoms to be 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- for 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-, we can concldue the 
-\series bold
-the minimum number of atoms required is 
-\begin_inset Formula $n$
-\end_inset
-
-, and the formula for this minimal structure would be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-.
- 
-\series default
-An even number of additional atoms can be added along the 
+\color red
+We can repeat everything that was written in the section about 
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis in such a way that no new valid symmetry operations are made possible,
- and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in pairs on each side of the plane
- formed by the 
+, except that the structure is now allowed for the two regular 
 \begin_inset Formula $n$
 \end_inset
 
--gon.
- One additional atom can also be added at the center of the 
-\begin_inset Formula $n$
+-gons to be on the same plane (and therefore concentric since they share
+ the same 
+\begin_inset Formula $C_{n}$
 \end_inset
 
--gon.
- Therefore 
-\series bold
-the most general formula for a structure with 
-\begin_inset Formula $n$
+ axis) since having all atoms on the same plane means that the structure
+ lies on a 
+\begin_inset Formula $\sigma_{h}$
 \end_inset
 
- atoms plus an even number of additional atoms would be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
-\end_inset
-
-, and for an odd number of additional atoms the most general formula would
- be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-BC
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
+ plane, which is allowed (and needed) for the point group to be 
+\begin_inset Formula $C_{nh}$
 \end_inset
 
 .
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-\lang british
-Somehow we need to explain that we can add the additional atoms in other
- ways, for example an n-gon could be added, but if n is even AnBn is a special
- case of AnB2C2..., and if it's odd, then it's a special case of AnBC2D2...
-\end_layout
-
+ All other elements of the 
+\begin_inset Formula $C_{nh}$
 \end_inset
 
+ point group can be generated from the 
+\begin_inset Formula $C_{n}$
+\end_inset
 
+ and 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operations, so the point group of the described structure is indeed 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+.
+ Such a structure with 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms is possible, as in the case of...
 \end_layout
 
 \begin_layout Subsection*
@@ -4979,6 +5232,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -5034,8 +5288,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename minimalC3structure.png
+	filename models/C_3.png
+	lyxscale 33
 	width 33.333col%
 
 \end_inset
@@ -5067,8 +5323,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename minimalC4structure.png
+	filename models/C_4.png
+	lyxscale 33
 	width 33.333col%
 
 \end_inset
@@ -5085,6 +5343,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -5100,8 +5359,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename minimalC5structure.png
+	filename models/C_5.png
+	lyxscale 33
 	width 33.333col%
 
 \end_inset
@@ -5164,196 +5425,7 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 
 \size larger
 \bar under
-\lang british
-\begin_inset Formula $C_{nh}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n=2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-d
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-We can repeat everything that was written in the section about 
-\begin_inset Formula $C_{n}$
-\end_inset
-
-, except that the structure is now allowed for the two regular 
-\begin_inset Formula $n$
-\end_inset
-
--gons to be on the same plane (and therefore concentric since they share
- the same 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis) since having all atoms on the same plane means that the structure
- lies on a 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane, which is allowed (and needed) for the point group to be 
-\begin_inset Formula $C_{nh}$
-\end_inset
-
-.
- All other elements of the 
-\begin_inset Formula $C_{nh}$
-\end_inset
-
- point group can be generated from the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- and 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- operations, so the point group of the described structure is indeed 
-\begin_inset Formula $C_{nh}$
-\end_inset
-
-.
- Such a structure with 
-\begin_inset Formula $2n$
-\end_inset
-
- atoms is possible, as in the case of...
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\lang british
-\begin_inset Formula $D_{n}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n=2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Not explained well.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Not explained well.
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
+\color red
 \lang british
 \begin_inset Formula $D_{nd}$
 \end_inset
@@ -5362,6 +5434,8 @@ Not explained well.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5371,6 +5445,7 @@ Not explained well.
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -5378,6 +5453,8 @@ Not explained well.
 \end_layout
 
 \begin_layout Subsection*
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5385,10 +5462,14 @@ Not explained well.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Not explained well.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5398,6 +5479,7 @@ Not explained well.
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -5405,6 +5487,8 @@ Not explained well.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5412,6 +5496,8 @@ Not explained well.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 We can repeat everything that was written in the section about 
 \begin_inset Formula $C_{n}$
 \end_inset
@@ -5437,6 +5523,8 @@ We can repeat everything that was written in the section about
 \end_layout
 
 \begin_layout Subsection*
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5448,6 +5536,97 @@ We can repeat everything that was written in the section about
 
 \size larger
 \bar under
+\color red
+\lang british
+\begin_inset Formula $D_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color red
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Not explained well.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color red
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Not explained well.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\color red
 \lang british
 \begin_inset Formula $S_{2n}$
 \end_inset
@@ -5456,6 +5635,8 @@ We can repeat everything that was written in the section about
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5465,6 +5646,7 @@ We can repeat everything that was written in the section about
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -5472,6 +5654,8 @@ We can repeat everything that was written in the section about
 \end_layout
 
 \begin_layout Subsection*
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5479,10 +5663,14 @@ We can repeat everything that was written in the section about
 \end_layout
 
 \begin_layout Standard
+
+\color red
 If we have any fewer than three atoms, 
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5492,6 +5680,7 @@ If we have any fewer than three atoms,
 \begin_layout Standard
 
 \bar under
+\color red
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -5499,6 +5688,8 @@ If we have any fewer than three atoms,
 \end_layout
 
 \begin_layout Standard
+
+\color red
 \begin_inset VSpace defskip
 \end_inset
 
@@ -5507,6 +5698,7 @@ If we have any fewer than three atoms,
 
 \begin_layout Standard
 
+\color red
 \lang british
 Since 
 \begin_inset Formula $S_{2n}$
@@ -5562,7 +5754,7 @@ name "sec:Summary"
 
 \end_inset
 
-Summary of our results
+Summary of our results and outlook
 \end_layout
 
 \begin_layout Standard
@@ -17537,7 +17729,7 @@ CHBrCl
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 
 \lang british
 \begin_inset CommandInset label
