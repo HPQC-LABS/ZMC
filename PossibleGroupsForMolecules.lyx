@@ -12461,10 +12461,10 @@ status open
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="12mm">
+<column alignment="center" valignment="middle" width="12mm">
 <column alignment="center" valignment="top" width="12mm">
-<column alignment="center" valignment="top" width="12mm">
-<column alignment="left" valignment="middle" width="12mm">
-<column alignment="left" valignment="middle" width="12mm">
+<column alignment="center" valignment="middle" width="12mm">
+<column alignment="center" valignment="middle" width="12mm">
 <row topspace="1mm" bottomspace="1mm">
 <cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
 \begin_inset Text
@@ -12574,7 +12574,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12587,7 +12587,7 @@ BC
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12611,10 +12611,18 @@ ABCD
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename P4.png
+	filename models/T_d_P4.png
 	lyxscale 5
-	width 10text%
+	width 5text%
 
 \end_inset
 
@@ -12641,7 +12649,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12650,7 +12658,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12660,7 +12668,7 @@ ABCD
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row>
 <cell multirow="3" alignment="center" valignment="middle" usebox="none">
 \begin_inset Text
 
@@ -12711,6 +12719,7 @@ ABCD
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -12741,44 +12750,7 @@ ABCD
 
 
 \size giant
-
-\begin_inset Formula $\textrm{✗}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -12817,6 +12789,46 @@ ABCD
 
 
 \size giant
+\color gray
+
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -12827,7 +12839,7 @@ ABCD
 \end_inset
 </cell>
 </row>
-<row topspace="2mm">
+<row>
 <cell multirow="4" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -12883,7 +12895,7 @@ ABCD
 \end_inset
 </cell>
 </row>
-<row topspace="2mm" bottomspace="1mm">
+<row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -12924,7 +12936,7 @@ P
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12933,7 +12945,7 @@ P
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12961,7 +12973,7 @@ P
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2H2.png
+	filename models/D_ooh_C4.png
 	lyxscale 5
 	width 5text%
 
@@ -12997,6 +13009,7 @@ P
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13011,7 +13024,7 @@ P
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2H2.png
+	filename models/D_ooh_C2H2.png
 	lyxscale 5
 	width 5text%
 
@@ -13051,6 +13064,7 @@ P
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13089,6 +13103,7 @@ P
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13185,7 +13200,7 @@ H
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2HAu.png
+	filename models/C_oov_A4.png
 	lyxscale 5
 	width 5text%
 
@@ -13201,7 +13216,7 @@ H
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2HAu.png
+	filename models/C_oov_C3H.png
 	lyxscale 5
 	width 5text%
 
@@ -13217,7 +13232,7 @@ H
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2HAu.png
+	filename models/C_oov_A2B2.png
 	lyxscale 5
 	width 5text%
 
@@ -13228,12 +13243,12 @@ H
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2HAu.png
+	filename models/C_oov_C2HF.png
 	lyxscale 5
 	width 5text%
 
@@ -13244,12 +13259,12 @@ H
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C2HAu.png
+	filename models/C_oov_HCNO.png
 	lyxscale 5
 	width 5text%
 
@@ -13299,12 +13314,12 @@ H
 \begin_inset Text
 
 \begin_layout Plain Layout
-ABAB?
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13317,7 +13332,7 @@ HF
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13341,18 +13356,6 @@ HCNO
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset space ~
 \end_inset
 
@@ -13391,7 +13394,7 @@ HCNO
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13400,7 +13403,7 @@ HCNO
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13457,6 +13460,7 @@ HCNO
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13495,6 +13499,7 @@ HCNO
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13533,6 +13538,7 @@ HCNO
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13571,6 +13577,7 @@ HCNO
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13678,7 +13685,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13687,7 +13694,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13711,8 +13718,16 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename S4_D3h.pdf
+	filename models/D_3h_S4.png
 	lyxscale 5
 	width 5text%
 
@@ -13727,8 +13742,16 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/D_3h.png
+	filename models/D_3h_H3B.png
 	lyxscale 5
 	width 5text%
 
@@ -13748,7 +13771,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13757,7 +13780,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13827,6 +13850,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13865,6 +13889,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -13903,6 +13928,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14014,7 +14040,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14023,7 +14049,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14047,6 +14073,14 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/D_2h_A4.png
 	lyxscale 5
@@ -14072,8 +14106,16 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename Br2Na2.png
+	filename models/D_2h_Br2Na2.png
 	lyxscale 5
 	width 5text%
 
@@ -14084,7 +14126,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14093,7 +14135,7 @@ B
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14154,6 +14196,7 @@ B
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14201,6 +14244,7 @@ B
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14239,6 +14283,7 @@ B
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14350,7 +14395,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14359,7 +14404,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14383,8 +14428,16 @@ Na
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename S4_D2d.pdf
+	filename models/D_2d_S4.png
 	lyxscale 5
 	width 5text%
 
@@ -14413,7 +14466,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14422,7 +14475,7 @@ Na
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14483,6 +14536,7 @@ Na
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14521,6 +14575,7 @@ Na
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14559,6 +14614,7 @@ Na
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14597,6 +14653,7 @@ Na
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14704,7 +14761,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14713,7 +14770,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14733,10 +14790,14 @@ S
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/D_2.png
 	lyxscale 5
@@ -14767,7 +14828,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14776,7 +14837,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14837,6 +14898,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14875,6 +14937,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14913,6 +14976,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -14951,6 +15015,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15054,7 +15119,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15063,7 +15128,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15087,6 +15152,10 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/C_3v_A4.png
 	lyxscale 5
@@ -15103,8 +15172,16 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename NH3_C3v.pdf
+	filename models/C_3v_H3N.png
 	lyxscale 5
 	width 5text%
 
@@ -15124,7 +15201,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15133,7 +15210,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15203,6 +15280,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15241,6 +15319,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15279,6 +15358,7 @@ S
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15386,7 +15466,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15395,7 +15475,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15419,8 +15499,20 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_2v.png
+	filename models/C_2v_IF3.png
 	lyxscale 5
 	width 5text%
 
@@ -15435,8 +15527,20 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_2v.png
+	filename models/C_2v_IF3.png
 	lyxscale 5
 	width 5text%
 
@@ -15451,8 +15555,12 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_2v.png
+	filename models/C_2v_H2Si2.png
 	lyxscale 5
 	width 5text%
 
@@ -15467,8 +15575,12 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename Br2Na2.png
+	filename models/C_2v_CH2O.png
 	lyxscale 5
 	width 5text%
 
@@ -15479,7 +15591,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15567,6 +15679,7 @@ N
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15614,7 +15727,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15695,7 +15808,7 @@ Si
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15708,7 +15821,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15732,6 +15845,14 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/C_2h_A4.png
 	lyxscale 5
@@ -15757,6 +15878,14 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/C_2h.png
 	lyxscale 5
@@ -15769,7 +15898,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15778,7 +15907,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15839,10 +15968,13 @@ O
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
+
+\color inherit
 
 \begin_inset Note Note
 status open
@@ -15898,6 +16030,7 @@ Double check this
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -15936,6 +16069,7 @@ Double check this
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -16056,7 +16190,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16065,7 +16199,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16089,8 +16223,16 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename S4-2_C2.pdf
+	filename models/C_2_S4-2.png
 	lyxscale 5
 	width 5text%
 
@@ -16114,6 +16256,14 @@ N
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/C_2.png
 	lyxscale 5
@@ -16126,7 +16276,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16135,7 +16285,7 @@ N
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16196,6 +16346,7 @@ N
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -16243,6 +16394,7 @@ N
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -16281,6 +16433,7 @@ N
 
 
 \size giant
+\color gray
 
 \begin_inset Formula $\textrm{✗}$
 \end_inset
@@ -16396,7 +16549,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16405,7 +16558,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16445,8 +16598,12 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_s.png
+	filename models/C_s_HO3+.png
 	lyxscale 5
 	width 5text%
 
@@ -16461,8 +16618,12 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_s.png
+	filename models/C_s_HO3+.png
 	lyxscale 5
 	width 5text%
 
@@ -16477,8 +16638,12 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename Cl2OS.png
+	filename models/C_s_Cl2OS.png
 	lyxscale 5
 	width 5text%
 
@@ -16493,8 +16658,12 @@ O
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_s.png
+	filename models/C_s_CHFO.png
 	lyxscale 5
 	width 5text%
 
@@ -16602,7 +16771,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16611,7 +16780,7 @@ O
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16683,7 +16852,7 @@ S
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16696,7 +16865,7 @@ OS
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16736,6 +16905,14 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
 	filename models/C_1_A3B.png
 	lyxscale 5
@@ -16752,8 +16929,16 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_1.png
+	filename models/C_1_H2OS.png
 	lyxscale 5
 	width 5text%
 
@@ -16768,8 +16953,16 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_1.png
+	filename models/C_1_H2OS.png
 	lyxscale 5
 	width 5text%
 
@@ -16784,8 +16977,16 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Graphics
-	filename models/C_1.png
+	filename models/C_1_CHBrCl.png
 	lyxscale 5
 	width 5text%
 
@@ -16893,7 +17094,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16902,7 +17103,7 @@ CHFO
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16980,7 +17181,7 @@ HCl
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16993,7 +17194,7 @@ OS
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
