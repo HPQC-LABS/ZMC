@@ -23,6 +23,9 @@
 %\usepackage[square,numbers]{natbib}
 \usepackage[sort&compress]{natbib}
 \usepackage[english]{babel}
+%\usepackage{booktabs,caption,threeparttable}
+\usepackage[singlelinecheck=false]{caption}
+\captionsetup{skip=0pt,justification=raggedright,singlelinecheck=off}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
 \use_default_options true
@@ -345,6 +348,12 @@ literal "false"
 \begin_layout Section
 
 \lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
 Introduction
 \end_layout
 
@@ -397,7 +406,7 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-Shapes
+shapes
 \begin_inset Quotes erd
 \end_inset
 
@@ -848,8 +857,21 @@ literal "false"
 \begin_inset Formula $n=2$
 \end_inset
 
- cases, and.
- 
+ cases, and
+\end_layout
+
+\begin_layout Itemize
+
+\lang british
+with a more logical order, especially for pedagogical reasons, than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -1398,6 +1420,118 @@ We believe that as machine learning and big data analysis become more popular
 wide true
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+An improved version of the table presented on Page 37 of 
+\lang british
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+
+\lang english
+, depicting example structures for each point group provided in the table.
+ For 
+\begin_inset Formula $n=2$
+\end_inset
+
+ , two families of structures are presented (one with a rectangular 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+ and one with a diatomic 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+).
+ For each point group series and for each value of 
+\begin_inset Formula $n$
+\end_inset
+
+, more families of structures also exist, so the examples that are presented
+ are not exhaustive.
+ All obejcts that are depicted for the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ point groups satisfy the definition of either 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+, so they are labeled as such
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We could mention that we're using the 
+\begin_inset Quotes eld
+\end_inset
+
+highest
+\begin_inset Quotes erd
+\end_inset
+
+ point group convention
+\end_layout
+
+\end_inset
+
+.
+ The colors of the atoms are not intended to have any meaning apart from
+ showing that the grey
+\color red
+/black 
+\color inherit
+atoms have to all be the same element, and the red atoms have to all be
+ the same element (the red atoms in all of these diagrams can also be the
+ same element as the black atoms without affecting the point group, but
+ it is not necessary for them to be the same).
+ No structure is intended to depict a real molecule.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:atkinsImproved"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100text%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -2733,6 +2867,193 @@ name "sec:TableShapes"
 \end_inset
 
 Table of example shapes for all axial point group series
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The 2008 version of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ contains a table of 
+\begin_inset Quotes eld
+\end_inset
+
+shapes
+\begin_inset Quotes erd
+\end_inset
+
+ on Page 37, which appears to be the only table available of its kind (see
+ Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Introduction"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ For the point groups 
+\begin_inset Formula $C_{n},D_{n},C_{nv},C_{nh},D_{nh},D_{nd},$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+, with 
+\begin_inset Formula $n$
+\end_inset
+
+ from 
+\begin_inset Formula $2$
+\end_inset
+
+ to 
+\begin_inset Formula $6$
+\end_inset
+
+, schematic diagrams are presented in attempt to provide an impresson of
+ how a molecule with the point group would look.
+ This table has some minor inconsistencies (e.g.
+ one of the lines in the the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ diagram is black instaed of purple, the 
+\begin_inset Formula $C_{6}$
+\end_inset
+
+ diagram has some extra unintended purple lines, and the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+, 
+\begin_inset Formula $C_{5}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{6}$
+\end_inset
+
+ diagrams have lines with inconsistent lengths compared to other lines in
+ the same diagrams and compared to analogous lines in the 
+\begin_inset Formula $C_{4h},$
+\end_inset
+
+
+\begin_inset Formula $C_{5h}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{6h}$
+\end_inset
+
+ diagrams).
+ Although any inconsistency in such a table can hamper the experience of
+ its readers, and although in these cases some readers are likely to lose
+ a bit of time wondering why some lines aren't the same size and why there's
+ some extra lines, most readers will be comfortable to ignore these ones
+ and to simply attribute them to human error.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Start here
+\end_layout
+
+\end_inset
+
+However, the aforementioned table in 
+\lang british
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ has more major consistencies which we would like to address here.
+ For example, objects to which the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series converge (respectively) 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case is shown 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+the 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ series is shown to converge to an 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case in which the shape of the object is a cone, but the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case for 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ is not shown; instead the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series is shown to converge to what appears to be a single circle, which
+ is the object to which the shown 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ series converges, but for the shown 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series it would be more correct for the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ diagram to depict two equiavlent circles on different parallel planes but
+ with their centers along the same axis.
+ In our Tabel 
 \end_layout
 
 \begin_layout Section
