@@ -297,25 +297,49 @@ status collapsed
 \end_layout
 
 \begin_layout Abstract
-We list all possible point groups for 
-\begin_inset Formula $1,2,3,4$
+For each axial point group, we determine 
+\emph on
+all 
+\emph default
+possible structures in terms of the number of atoms and the chemical formula
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+s
+\end_layout
+
 \end_inset
 
- and 
-\begin_inset Formula $n$
+.
+ We provide examples of molecules of each size and formula if they are known,
+ and hence we determine the yet-to-be discovered molecules with under five
+ atoms for each point group.
+ We present a set of principles that can be used for proofs about the possibilit
+y or impossibility for a molecule of a certain size and/or formula to have
+ a point group symmetry.
+ We also resolve some inconsistencies in a table by P.
+ Atkins, M.
+ Child and C.
+ Phillips
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+found in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
 \end_inset
 
- atoms as well as for 
-\begin_inset Formula $n$
+
+\end_layout
+
 \end_inset
 
--atom molecules with specified formulas.
- For each point group, we give examples of molecules of each size and formula
- if they are known, and hence we determine the yet-to-be discovered molecules
- with under 5 atoms for each point group.
- We establish a small set of principles that can be used for proofs about
- the possibility or impossibility for a molecule of a certain size and/or
- formula to have a point group symmetry.
+, add missing entries to it, and improve it further in a number of ways.
 \end_layout
 
 \begin_layout Section
