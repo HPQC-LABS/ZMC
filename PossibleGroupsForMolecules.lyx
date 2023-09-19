@@ -1506,6 +1506,9 @@ atoms have to all be the same element, and the red atoms have to all be
  same element as the black atoms without affecting the point group, but
  it is not necessary for them to be the same).
  No structure is intended to depict a real molecule.
+\begin_inset VSpace defskip
+\end_inset
+
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -2015,7 +2018,7 @@ height "0.5pt"
 \end_inset
 </cell>
 </row>
-<row>
+<row bottomspace="2mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -4672,7 +4675,7 @@ BCD
 
 \size larger
 \bar under
-\color red
+\color black
 \lang british
 \begin_inset Formula $C_{nh}$
 \end_inset
@@ -4682,7 +4685,7 @@ BCD
 
 \begin_layout Standard
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -4692,7 +4695,7 @@ BCD
 \begin_layout Standard
 
 \bar under
-\color red
+\color black
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4709,9 +4712,55 @@ BCD
 \end_layout
 
 \begin_layout Standard
+We need a minimum of four atoms for the 
+\begin_inset Formula $C_{2h}$
+\end_inset
 
-\color red
-d
+ point group, for the same reason that we gave when we made this statement
+ for the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ point group (because the 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+ point group has an inversion element 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Indeed four atoms is enough for the point group of a molecule to be 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+, as in the case of trans-H
+\begin_inset Formula $_{2}$
+\end_inset
+
+N
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ 
+\series bold
+\lang british
+The minimum number of atoms required is four, and the most general formula
+ for the minimal structure is A2B2.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+The general formula is
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5464,7 +5513,31 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 \begin_layout Standard
 
 \color red
-Not explained well.
+This may need further discussion.
+ We know there needs to be 2 atoms (on the x-axis?) for there to be a C2
+ axis (z-axis), and another Cn axis perpendicular to the first on (i.e.
+ on the xy plane).
+ We will need at least one atom to break the Dooh symmetry, but that makes
+ it planar, meaning that we have a sigma_h plane (which D2d doesn't have,
+ but it does have sigma_d planes).
+ If the third atom is on the z-axis, then it would need to not be at z=0
+ because then we'd still have a linear Dooh molecule.
+ If we have a third atom at z=1, then we also need a fourth atom at z=-1
+ to ensure that the x-axis is a C2' axis.
+ This would be C2h because all 4 atoms are on the same plane? So we move
+ the z-aligned diatomic molecule so that it's center is no longer at the
+ origin.
+ Now we have a 
+\begin_inset Quotes eld
+\end_inset
+
+cross
+\begin_inset Quotes erd
+\end_inset
+
+ but with the two perpendicular diatomics being on different planes.
+ This has a C2(y) axis too, (only?) if the two diaomtics are perpendicular.
+ Where's the sigma_d planes?
 \end_layout
 
 \begin_layout Standard
