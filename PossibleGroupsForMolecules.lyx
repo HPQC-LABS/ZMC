@@ -26,6 +26,8 @@
 %\usepackage{booktabs,caption,threeparttable}
 \usepackage[singlelinecheck=false]{caption}
 \captionsetup{skip=0pt,justification=raggedright,singlelinecheck=off}
+%\raggedbottom %this didn't improve the extra whitespace between paragraphs.
+\setlength{\parskip}{0pt}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
 \use_default_options true
@@ -1117,11 +1119,6 @@ name "sec:Motivation"
 \end_inset
 
 Motivation for this work
-\end_layout
-
-\begin_layout Subsection*
-
-\lang british
 \begin_inset Note Note
 status open
 
@@ -2691,12 +2688,6 @@ N such that the point group of the molecule can be
 \end_inset
 
 ).
- 
-\end_layout
-
-\begin_layout Subsubsection*
-
-\lang british
 \begin_inset Note Note
 status open
 
@@ -2790,16 +2781,6 @@ we realized that we missed the tadpole structure because we know that there's
 
  are possible but not yet found, so this may be an avenue for further experiment
 al research.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-
-\lang british
 \begin_inset Note Note
 status open
 
@@ -2860,6 +2841,11 @@ valence internal coordinates
 
  (3 bonds, 2 angles, 1 dihedral), but Landolt-Bornstein only needs 2 bonds,
  1 angle and 1 dihedral.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7613,10 +7599,11 @@ check this term
 \end_inset
 
 
-\end_layout
+\size default
+\bar default
+\lang english
 
-\begin_layout Subsection*
-\begin_inset VSpace defskip
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -7629,10 +7616,9 @@ check this term
 \end_inset
 
 
-\end_layout
+\bar default
 
-\begin_layout Subsection*
-\begin_inset VSpace defskip
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -9554,6 +9540,18 @@ B
 \begin_inset Formula $_{2n}$
 \end_inset
 
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\begin_inset Formula $\cdots$
+\end_inset
+
 
 \end_layout
 
@@ -9573,6 +9571,18 @@ AB
 \series default
 C
 \begin_inset Formula $_{2n}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}$
+\end_inset
+
+E
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\begin_inset Formula $\cdots$
 \end_inset
 
 
@@ -10646,8 +10656,9 @@ ABCD
 
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset VSpace defskip
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -10666,7 +10677,8 @@ ABCD
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\noindent
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -10682,7 +10694,8 @@ ABCD
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\noindent
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -10778,7 +10791,8 @@ BCD
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\noindent
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -10794,7 +10808,8 @@ BCD
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\noindent
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -11036,7 +11051,7 @@ The general formula is
 \begin_layout Standard
 
 \bar under
-\color red
+\color black
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -11045,7 +11060,7 @@ The general formula is
 
 \begin_layout Standard
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -11053,6 +11068,101 @@ The general formula is
 \end_layout
 
 \begin_layout Standard
+
+\color black
+From Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ we know that the system needs to contain a subset of atoms that form a
+ regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, in order to have a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, but if we only have one regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, the point group would be 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+, so we need to add at least one more atom in order to break the additional
+ symmetries that 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ compared to 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+.
+ Adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis (which we will make our 
+\begin_inset Formula $z$
+\end_inset
+
+-axis) will not break the 
+\begin_inset Formula $\sigma_{v}$
+\end_inset
+
+ planes, so we are forced to add another regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ We can add this second regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon on the same plane as the first one, as long as its vertices do not
+ bisect the exterior angles at t
+\color inherit
+he first 
+\begin_inset Formula $n$
+\end_inset
+
+-gon's vertices, and as long as the second 
+\begin_inset Formula $n$
+\end_inset
+
+-gon's vertices are not on the edges of the first 
+\begin_inset Formula $n$
+\end_inset
+
+-gon (both of these placements of the vertices would result in a failure
+ to break the 
+\begin_inset Formula $\sigma_{v}$
+\end_inset
+
+ planes and would not successfully demote the point group from 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ to 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+).
+\color red
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 
 \color red
 We can repeat everything that was written in the section about 
@@ -11100,6 +11210,11 @@ We can repeat everything that was written in the section about
 \end_inset
 
  atoms is possible, as in the case of...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -11529,9 +11644,9 @@ B
 
  axis without any loss of valid symmetry operations, and if their positions
  are chosen carefully, no new valid symmetry operations would be introduced.
-\end_layout
+\series default
+\lang english
 
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -11688,12 +11803,9 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
 \series bold
 \lang british
+
 \begin_inset Note Note
 status open
 
@@ -11735,7 +11847,7 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 
 \size larger
 \bar under
-\color red
+\color black
 \lang british
 \begin_inset Formula $D_{nd}$
 \end_inset
@@ -11745,7 +11857,7 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 
 \begin_layout Standard
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -11755,7 +11867,7 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 \begin_layout Standard
 
 \bar under
-\color red
+\color black
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -11764,7 +11876,7 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 
 \begin_layout Subsection*
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -11773,37 +11885,65 @@ Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
 
 \begin_layout Standard
 
-\color red
-This may need further discussion.
- We know there needs to be 2 atoms (on the x-axis?) for there to be a C2
- axis (z-axis), and another Cn axis perpendicular to the first on (i.e.
- on the xy plane).
- We will need at least one atom to break the Dooh symmetry, but that makes
- it planar, meaning that we have a sigma_h plane (which D2d doesn't have,
- but it does have sigma_d planes).
- If the third atom is on the z-axis, then it would need to not be at z=0
- because then we'd still have a linear Dooh molecule.
- If we have a third atom at z=1, then we also need a fourth atom at z=-1
- to ensure that the x-axis is a C2' axis.
- This would be C2h because all 4 atoms are on the same plane? So we move
- the z-aligned diatomic molecule so that it's center is no longer at the
- origin.
- Now we have a 
+\color black
+The 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+ group does not include any horizontal mirror planes, and since any three
+ atoms can form a plane which can serve as a horizontal mirror plane, we
+ need more than four atoms for the point group of the system to be 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+.
+ Four atoms is indeed enough for the point group of the system to be 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+ as depicted in the second 
+\begin_inset Formula $n=2$
+\end_inset
+
+ column in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, in which 
+\series bold
+we have two diatomic molecules that are perpendicular to each other, but
+ on different planes
+\series default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+is this still 
 \begin_inset Quotes eld
 \end_inset
 
-cross
+perpendicular
 \begin_inset Quotes erd
 \end_inset
 
- but with the two perpendicular diatomics being on different planes.
- This has a C2(y) axis too, (only?) if the two diaomtics are perpendicular.
- Where's the sigma_d planes?
+? Is there a better way to describe this?
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -11813,7 +11953,7 @@ cross
 \begin_layout Standard
 
 \bar under
-\color red
+\color black
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -11830,292 +11970,146 @@ cross
 \end_layout
 
 \begin_layout Standard
+From Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
 
-\color red
-We can repeat everything that was written in the section about 
+\end_inset
+
+ we know that the system needs to contain a subset of atoms that form a
+ regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, in order to have a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
-, except with the second regular 
+ axis, but if we only have one regular 
 \begin_inset Formula $n$
 \end_inset
 
--gon (the one that is added) being rotated by 
-\begin_inset Formula $\pi/n$
+-gon, the point group would be 
+\begin_inset Formula $D_{nh}$
 \end_inset
 
- radians (and the two regular 
+, so we need to add at least one more atom in order to break the additional
+ symmetries that 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ compared to 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+.
+ Adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis (which we will make our 
+\begin_inset Formula $z$
+\end_inset
+
+-axis) will not break the 
+\begin_inset Formula $\sigma_{v}$
+\end_inset
+
+ planes, and adding any number of atoms on the plane that contains our regular
+ 
 \begin_inset Formula $n$
 \end_inset
 
--gons still being on two different planes).
- Such a structure with 
+-gon, will not break the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane, so we are forced to add another 
+\begin_inset Formula $n$
+\end_inset
+
+-gon on a plane parallel to the first one, and with its center having the
+ same 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates as the center of the first regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ We now have 
 \begin_inset Formula $2n$
 \end_inset
 
- atoms is possible, as in the case of...
-\end_layout
-
-\begin_layout Subsection*
-
-\color red
-\begin_inset VSpace defskip
+ atoms, and this is indeed enough for the point group of the structure to
+ be 
+\begin_inset Formula $D_{nd}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\color red
-\lang british
-\begin_inset Formula $D_{n}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\color red
-\begin_inset Formula $n=2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Not explained well.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\color red
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Not explained well.
-\end_layout
-
-\begin_layout Subsection*
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\color red
-\lang british
-\begin_inset Formula $S_{2n}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\color red
-\begin_inset Formula $n=2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-If we have any fewer than three atoms, 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\color red
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\lang british
-Since 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- is a generator of the 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- point group, 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- is in the point group because 
-\begin_inset Formula $S_{2n}^{2}=C_{n}$
-\end_inset
-
-.
- This means we need a regular 
+, since if the vertices of the two 
 \begin_inset Formula $n$
 \end_inset
 
--gon with the 
-\begin_inset Formula $C_{n}$
+-gons are separated by an angle of 
+\begin_inset Formula $\pi/n$
 \end_inset
 
- axis cutting perpendicularly through its center, but a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon will not satisfy the 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operaton unless all atoms are at the origin.
- You need 2n to have an S2n axis, but then you'd get Dnh, so you need another
- 2n to break the Dnh.
-
-\series bold
- The minimum number of atoms required is 
-\begin_inset Formula $4n$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Section
-
-\lang british
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Summary"
-
-\end_inset
-
-Summary of our results and outlook
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-The results of the previous section are summarized in Tables 
+, as in the examples provided in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:PossibleGroupsForNatoms"
+reference "sec:TableShapes"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:PossibleNumberOfAtomsForEachPointGroup"
-plural "false"
-caps "false"
-noprefix "false"
-
+, all elements of 
+\begin_inset Formula $D_{nd}$
 \end_inset
 
-.
+ are present, without any additional elements.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+and since we can make the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis our 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, adding an atom to a plane that is different from the one that contains
+ our regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon means that the added atom's 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate value will be different from the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate values of the atoms in our regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
  
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -19760,6 +19754,1055 @@ CHBrCl
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\color black
+\lang british
+\begin_inset Formula $D_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color black
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+The 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ group does not include any horizontal mirror planes, and since any three
+ atoms can form a plane which can serve as a horizontal mirror plane, we
+ need more than four atoms for the point group of the system to be 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+.
+ Four atoms is indeed enough for the point group of the system to be 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ as depicted in the second 
+\begin_inset Formula $n=2$
+\end_inset
+
+ column in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, in which 
+\series bold
+we have two diatomic molecules that are 
+\emph on
+\bar under
+not
+\bar default
+ 
+\emph default
+perpendicular to each other, and are also on different planes
+\series default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+is this still 
+\begin_inset Quotes eld
+\end_inset
+
+perpendicular
+\begin_inset Quotes erd
+\end_inset
+
+? Is there a better way to describe this?
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color red
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We start with 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ and remove the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ axis by rotating the n-gons by a bit.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\color black
+\lang british
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+
+\size default
+\bar default
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color black
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Since an 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation is accomplished by first applying the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ operation, followed by a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation, its action on an atom with coordinates 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ can be described by the following matrix multiplication:
+\end_layout
+
+\end_inset
+
+Since the action of an 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation on an atom with coordinates 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ can be described by the following matrix multiplication:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+\begin{bmatrix}\\
+\\
+\\
+\end{bmatrix}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color black
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color black
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\color black
+The 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ group does not include any horizontal mirror planes, and since any three
+ atoms can form a plane which can serve as a horizontal mirror plane, we
+ need more than four atoms for the point group of the system to be 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\color inherit
+From Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ we know that
+\color black
+ a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis can be chosen to be along the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis and a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane can be chosen to be the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane in the same coordinate system.
+ With that convention, a 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ operation will transform the point 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,z)$
+\end_inset
+
+ and the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation will transform the point 
+\begin_inset Formula $(-y,x,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,-z);$
+\end_inset
+
+so the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation which is the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ operation followed by the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation, will transform 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,-z)$
+\end_inset
+
+.
+ If our first atom is at the position 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ then the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation will move it to the position 
+\begin_inset Formula $(-y,x,-z)$
+\end_inset
+
+, and an identical atom must be there for the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation to be valid.
+ Also after the same 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation, the atom at the position 
+\begin_inset Formula $(-y,x,-z)$
+\end_inset
+
+ will move to the position 
+\begin_inset Formula $(-x,-y,z)$
+\end_inset
+
+ and an identical atom must be there too.
+ Since no atom has replaced our first atom which was at the position 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+, we need to keep applying 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformations and keeping track of the atoms that are necessary to include
+ in our system, until we do successfully replace the first atom.
+ We show below that 
+\begin_inset Formula $m=4$
+\end_inset
+
+ identical atoms are required in order for an 
+\begin_inset Formula $m$
+\end_inset
+
+-atom system to undergo an 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation and recover the same system:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{align}
+(x,y,z)\rightarrow & (-y,x,-z)\rightarrow(-x,-y,z)\rightarrow\label{eq:S4coordinatesOld}\\
+(y,-x,-z)\rightarrow & (x,y,z).\nonumber 
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ we know that
+\color black
+ a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis can be chosen to be along the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis and a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane can be chosen to be the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane in the same coordinate system.
+ With that convention, a 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ operation will transform the point 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,z)$
+\end_inset
+
+ and the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation will transform the point 
+\begin_inset Formula $(-y,x,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,-z);$
+\end_inset
+
+so the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation which is the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ operation followed by the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation, will transform 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(-y,x,-z)$
+\end_inset
+
+.
+ If our first atom is at the position 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+ then the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation will move it to the position 
+\begin_inset Formula $(-y_{1},x_{1},-z_{1})$
+\end_inset
+
+, and an identical atom must be there for the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation to be valid.
+ Also after the same 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation, the atom at the position 
+\begin_inset Formula $(-y_{1},x_{1},-z_{1})$
+\end_inset
+
+ will move to the position 
+\begin_inset Formula $(-x_{1},-y_{1},z_{1})$
+\end_inset
+
+ and an identical atom must be there too.
+ Since no atom has replaced our first atom which was at the position 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+, we need to keep applying 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformations and keeping track of the atoms that are necessary to include
+ in our system, until we do successfully replace the first atom.
+ We show below that 
+\begin_inset Formula $m=4$
+\end_inset
+
+ identical atoms are required in order for an 
+\begin_inset Formula $m$
+\end_inset
+
+-atom system to undergo an 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ transformation and recover the same system:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+ & (x_{1},y_{1},z_{1})\rightarrow(-y_{1},x_{1},-z_{1})\rightarrow(-x_{1},-y_{1},z_{1})\rightarrow\label{eq:S4coordinates}\\
+ & (y_{1},-x_{1},-z_{1})\rightarrow(x_{1},y_{1},z_{1}).\nonumber 
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unfortunately the coordinates in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:S4coordinatesOld"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ form the shape that we presented in the second 
+\begin_inset Formula $n=$
+\end_inset
+
+2 column in our 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ examples in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, because 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $(-x_{1},-y_{1},z_{1})$
+\end_inset
+
+ form a line on 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+one plane 
+\end_layout
+
+\end_inset
+
+the 
+\begin_inset Formula $z=z_{1}$
+\end_inset
+
+ plane, whereas 
+\begin_inset Formula $(-y_{1},x_{1},-z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $(y_{1},-z_{1},-z_{1})$
+\end_inset
+
+ form a perpendicular line of the same size but on the 
+\begin_inset Formula $z=-z_{1}$
+\end_inset
+
+ plane
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+on the plane with the opposite 
+\begin_inset Formula $z$
+\end_inset
+
+ value
+\end_layout
+
+\end_inset
+
+.
+ We can add at least one more atom (it does not necessarily need to be homonucle
+ar in comparison to the first set of four atoms) in order to break the 
+\begin_inset Formula $\sigma_{d}$
+\end_inset
+
+ planes that are in 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+, but adding any number of atoms on the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ axis, or on the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane, or on the 
+\begin_inset Formula $z=\pm z_{1}$
+\end_inset
+
+ planes will not break the 
+\begin_inset Formula $\sigma_{d}$
+\end_inset
+
+ planes.
+ Since we have chosen the convention in which the 
+\begin_inset Formula $C_{4}$
+\end_inset
+
+ axis is the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, adding atoms on this axis would mean adding atoms with 
+\begin_inset Formula $(x,y)=0$
+\end_inset
+
+; since we have chosen the convention in which the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane associated with the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation is the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane, adding atoms on this plane would mean adding atoms wtih 
+\begin_inset Formula $z=0$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+the third coordinate being 0
+\end_layout
+
+\end_inset
+
+; and regardless of those conventions, any atom on one of the 
+\begin_inset Formula $\pm z$
+\end_inset
+
+ planes will have a 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate of 
+\begin_inset Formula $z$
+\end_inset
+
+ or 
+\begin_inset Formula $-z$
+\end_inset
+
+.
+ To break the 
+\begin_inset Formula $\sigma_{d}$
+\end_inset
+
+ planes, we therefore need an atom at a different 
+\begin_inset Formula $z$
+\end_inset
+
+-value such as 
+\begin_inset Formula $z_{2}$
+\end_inset
+
+ and with non-zero 
+\begin_inset Formula $x$
+\end_inset
+
+- and 
+\begin_inset Formula $y$
+\end_inset
+
+-values.
+ Regardless of the 
+\begin_inset Formula $x$
+\end_inset
+
+- and 
+\begin_inset Formula $y$
+\end_inset
+
+-values of this new atom (the fifth atom), the pattern in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:S4coordinates"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that we will not recover the new atom's position by applying 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operations unless we have another three atoms that are identical to the
+ fifth atom.
+ 
+\end_layout
+
+\begin_layout Standard
+The example that we have provided in the second 
+\begin_inset Formula $n=2$
+\end_inset
+
+ column for 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is able to satisfy the above relationships among the coordinates of the
+ atoms; since the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ group is generated by the 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation only, and an 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ operation can successfully be applied to this example, and there are no
+ other symmetry operations valid on this structure which are not in the
+ 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ point grouop, so the point group of the 8-atom structure is 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+.
+
+\series bold
+\lang british
+ The minimum number of atoms required is 
+\begin_inset Formula $8$
+\end_inset
+
+ with the formula A
+\begin_inset Formula $_{4}$
+\end_inset
+
+B
+\begin_inset Formula $_{4}$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+,
+\series default
+ 
+\series bold
+and the most general formula would be A
+\begin_inset Formula $_{4}$
+\end_inset
+
+B
+\begin_inset Formula $_{4}$
+\end_inset
+
+CD
+\begin_inset Formula $\cdots$
+\end_inset
+
+ since in addition to the A
+\begin_inset Formula $_{4}$
+\end_inset
+
+B
+\begin_inset Formula $_{4}$
+\end_inset
+
+ structure, extra atoms C,D,
+\begin_inset Formula $\ldots$
+\end_inset
+
+ can be placed on the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis without any loss of valid symmetry operations, and if their positions
+ are chosen carefully, no new valid symmetry operations would be introduced.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\color red
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\lang british
+For any positive integer 
+\begin_inset Formula $n$
+\end_inset
+
+, the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation is a generator of the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ point group, so 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ is in the point group because 
+\begin_inset Formula $S_{2n}^{2}=C_{n}$
+\end_inset
+
+.
+ This means we need a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis perpendicular to it and passing through its center, but a regular
+ 
+\begin_inset Formula $n$
+\end_inset
+
+-gon is planar and therefore has a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane, which is an operation that does not exist in any of the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ point groups, so at least one atom will be needed to break the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ mirror plane.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\lang british
+will not satisfy the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operaton unless all atoms are at the origin.
+ You need 2n to have an S2n axis, but then you'd get Dnh, so you need another
+ 2n to break the Dnh.
+
+\series bold
+ The minimum number of atoms required is 
+\begin_inset Formula $4n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+\lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Summary"
+
+\end_inset
+
+Summary of our results and outlook
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The results of the previous section are summarized in Tables 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossibleGroupsForNatoms"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossibleNumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsection
