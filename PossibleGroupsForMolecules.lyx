@@ -302,9 +302,9 @@ status collapsed
 \end_layout
 
 \begin_layout Abstract
-For each axial point group, we determine 
+For each axial point group, we determine all
 \emph on
-all 
+ 
 \emph default
 possible structures in terms of the number of atoms and the chemical formula
 \begin_inset Note Note
@@ -321,8 +321,8 @@ s
  and hence we determine the yet-to-be discovered molecules with under five
  atoms for each point group.
  We present a set of principles that can be used for proofs about the possibilit
-y or impossibility for a molecule of a certain size and/or formula to have
- a point group symmetry.
+y or impossibility for a certain point group to apply to a molecule of a
+ certain size and/or formula.
  We also resolve some inconsistencies in a table by P.
  Atkins, M.
  Child and C.
@@ -376,7 +376,7 @@ literal "false"
  Indeed we have asked all living authors of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
@@ -388,8 +388,9 @@ literal "false"
 \emph on
 any
 \emph default
- number of atoms, and we have gone a step even further by determining all
- possible point groups for structures with a given chemical formula.
+ number of atoms (not just four), and we have gone a step even further by
+ determining all possible point groups for structures with a given chemical
+ formula.
 \end_layout
 
 \begin_layout Standard
@@ -398,13 +399,13 @@ any
 After searching through all of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
 
  thoroughly, the closest work that we found to the results in this paper,
- is the table of 
+ is presented in the table of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -435,7 +436,7 @@ literal "false"
  Nothing similar was found in any of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
@@ -478,7 +479,7 @@ For investigating the novelty of our work, we believe that our thorough
  examination through all of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
@@ -515,7 +516,7 @@ need better word for this
  point groups, and our list 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
@@ -617,7 +618,7 @@ what about
  For example, in all of the literature that we have seen (including 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
@@ -737,6 +738,133 @@ noprefix "false"
  difficult to find in existing places):
 \end_layout
 
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang british
+Two molecules that have different geometries despite having the same chemical
+ formula (H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+) and the same point group (
+\begin_inset Formula $C_{2v}).$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:H2Si2shapes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pyramidal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Graphics
+	filename models/C_2v_H2Si2.png
+	lyxscale 10
+	width 42text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Planar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Graphics
+	filename models/C_2v_H2Si2.png
+	lyxscale 10
+	width 42text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 
 \lang british
@@ -847,7 +975,7 @@ literal "false"
 
 \lang british
 with an extra column showing additional structures (in some cases these
- are more realistic than in 
+ are more realistic structures than in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -963,8 +1091,17 @@ noprefix "false"
 \begin_layout Itemize
 
 \lang british
-we were able to list in table X all possible point groups allowed for systems
- with 
+we were able to list in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossibleFormulasForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ all possible point groups allowed for systems with 
 \begin_inset Formula $m$
 \end_inset
 
@@ -990,7 +1127,7 @@ noprefix "false"
 
 \end_inset
 
- but would take up too much space); 
+ but would take up too much space to be presented here); 
 \end_layout
 
 \begin_layout Itemize
@@ -1039,7 +1176,7 @@ noprefix "false"
 
 \end_inset
 
- but would take up too much space);
+ but would take up too much space to be presented here);
 \end_layout
 
 \begin_layout Itemize
@@ -1266,6 +1403,16 @@ literal "false"
 \end_inset
 
 ), a 3D shape that is redrawn in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:H2Si2shapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
  of this paper, and 
 \emph on
 only 
@@ -1406,7 +1553,7 @@ We believe that as machine learning and big data analysis become more popular
  over the next century, there will be a rise in interest in being able to
  categorieze molecules (e.g.
  for training neural networks) and the question of which point groups are
- possible for molecules of a certain size of formula, will be asked more
+ possible for molecules of a certain size or formula, will be asked more
  and more.
  Anyone seeking the answers to these questions will be able to find them
  in this paper.
@@ -2582,8 +2729,16 @@ XYZ-coordinates constructor
 \begin_inset Quotes erd
 \end_inset
 
- that uses only bond lengths, bond angles and dihedral angles, would need
- specific code blocks based on their point groups and formulas, in addition
+ that uses only a 
+\begin_inset Quotes eld
+\end_inset
+
+minimal
+\begin_inset Quotes erd
+\end_inset
+
+ set of bond lengths, bond angles and dihedral angles, would need specific
+ code blocks based on their point groups and chemical formulas, in addition
  to other characteristics.
  However, a natural first step towards constructing such a software would
  be to categorize 
@@ -2624,7 +2779,17 @@ B
 \end_inset
 
  molecules as depicted in Fig.
- X).
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:H2Si2shapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -2639,7 +2804,7 @@ For
  group at least once in the software?
 \series default
  That is the essence of the question in the present paper's title, and as
- mentioned in the opening paragraph of this Introduction section, it appears
+ mentioned in the opening paragraph of the Introduction section, it appears
  that this question has not been answered before, or at least the answer
  is not easily available.
  We also go even one step further, by determining all possible 
@@ -2655,11 +2820,7 @@ chemical formulas
 \begin_inset Formula $C_{i}$
 \end_inset
 
- its formula needs to be A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
+ its formula needs to be AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -2667,8 +2828,12 @@ C
 \begin_inset Formula $_{2}$
 \end_inset
 
-D (with any of the variables B, C, or D being allowed to be a duplicate
- of one of the previous letters) but a 7-atom molecule whose chemical formula
+D
+\begin_inset Formula $_{2}$
+\end_inset
+
+ (with any of the variables B, C, or D being allowed to be a duplicate of
+ one of the previous letters) but a 7-atom molecule whose chemical formula
  does not have that structure cannot have the point group 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -3083,7 +3248,7 @@ In this section we will state some general principles that we will use in
 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs"
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
 literal "false"
 
 \end_inset
