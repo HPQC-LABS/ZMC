@@ -3052,8 +3052,8 @@ shapes
 \begin_inset Quotes erd
 \end_inset
 
- on Page 37, which appears to be the only table available of its kind (see
- Section 
+ on Page 37, which appears to be the only table available (in all of the
+ scientific literature) of its kind (see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Introduction"
@@ -3145,16 +3145,7 @@ noprefix "false"
 
 \begin_layout Standard
 
-\color red
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Start here
-\end_layout
-
-\end_inset
-
+\color black
 However, the aforementioned table in 
 \lang british
 
@@ -3165,64 +3156,835 @@ literal "false"
 
 \end_inset
 
- has more major consistencies which we would like to address here.
- For example, objects to which the 
+ has more major consistencies which we would like to address in this section
+ of the paper.
+ For example, the table in 
+\lang english
+in 
+\lang british
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ shows the 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ series converging to a cone in the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case, but does not show the 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ series converging to a circle in the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case (the reader may compare with our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for context).
+ The table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ showed the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series converging to what appears to be a single circle in the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case, but it would be more logical for the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series to converge to two equivalent and co-axial circles on different
+ parallel planes (as shown in our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) and to label the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ object as having the point group 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ since whether we have one circle (as in their table) or two parallel co-axial
+ circles (as in our table), the point group is in fact 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+if we are dealing with physical objects (the distinction between 
+\begin_inset Formula $D_{\infty d}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ arises only when considering vector fields rather than physical objects).
+ The table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ also does not show the objects to which the point group series 
+\begin_inset Formula $D_{n},S_{2n},C_{nh},$
+\end_inset
+
+ and 
 \begin_inset Formula $C_{n}$
+\end_inset
+
+ converge in the 
+\begin_inset Formula $n=\infty$
+\end_inset
+
+ case, so we have shown these objects (and whether the point group series
+ converges to 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+) in our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\lang british
+The next issue with the table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ that we addressed was the readability and interprability of their figures.
+ This problem is perhaps most severe in their figures for 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+, in which the atoms in the first and third planes are of one elemental
+ type (depicted in a beige color in their figure), and the atoms in the
+ second and fourth planes are of another elemental type (depicted in a purple
+ or maroon color in their figure); whereas for reasons that will be expained
+ in Section
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+s
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, it would be more correct to show the atoms in the first and fourth planes
+ being one elemental, and the atoms in the second and third planes being
+ one elemental type (as depicted in our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ This issue is also a problem for the 
+\begin_inset Formula $D_{n}$
 \end_inset
 
  and 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- series converge (respectively) 
-\begin_inset Formula $n=\infty$
+ series in their table: the figures for the 
+\begin_inset Formula $D_{nd}$
 \end_inset
 
- case is shown 
+ series have two different colors, even though all atoms actually need to
+ be the 
+\emph on
+same 
+\emph default
+type, and the figures in the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ series do not make it clear that the two polygons shown for each value
+ of 
+\begin_inset Formula $n$
+\end_inset
+
+, are on different planes.
+ For the 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ series, again the colors appear to be incorrect
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+need to be more precise here
+\end_layout
+
+\end_inset
+
+.
+ The chemical formulas and object shapes are made much more clear in our
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and are explained in detail in subsequent sections of this paper.
 \end_layout
 
 \begin_layout Standard
 
+\color black
+\lang british
+On a more fundamental level, the table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ does not make it clear what precisely is being shown: most readers will
+ likely assume that each polygon vertex represents an atom (although this
+ is not made obvious), but what about the thin lines and small triangles
+ that appear at some vertices? Do the thin lines represent one additional
+ atom each, while the triangles depict more than one additional atom each?
+ In fact, both the straight lines and the small triangles represent just
+ one additional atom in each case, but the triangles depict atoms that are
+ outside of the plane of the shown polygon, and the straight lines depict
+ atoms that are in the same plane as the shown polygon (but many readers,
+ like us, may at first think that the use of straight lines versus small
+ triangles was just a 
+\begin_inset Quotes eld
+\end_inset
+
+typo
+\begin_inset Quotes erd
+\end_inset
+
+ akin to the various 
+\begin_inset Quotes eld
+\end_inset
+
+minor inconsistencies
+\begin_inset Quotes erd
+\end_inset
+
+ that we mentioned earlier).
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\lang british
+We also note that the 
+\begin_inset Quotes qld
+\end_inset
+
+appendages
+\begin_inset Quotes erd
+\end_inset
+
+ in the 
+\begin_inset Formula $C_{3h},C_{4h},C_{5h},C_{6h},C_{4},C_{5},C_{6}$
+\end_inset
+
+ figures in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ are parallel (in fact co-linear) with the edges of the triangle, but for
+ 
+\begin_inset Formula $C_{3}$
+\end_inset
+
+ they are 
+\emph on
+not
+\emph default
+.
+ This is likely another 
+\begin_inset Quotes eld
+\end_inset
+
+typo
+\begin_inset Quotes erd
+\end_inset
+
+ but we will note that the 
+\begin_inset Quotes eld
+\end_inset
+
+appendages
+\begin_inset Quotes erd
+\end_inset
+
+ do not need to be parallel, as long as they do not bisect the exterior
+ angles at the polygons' vertices, and as long as the atoms are not in the
+ center of the polygons' edges, since if either of these situations were
+ to occur, the point group of the system would be promoted to 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+.
+ In our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we kept the angles of the 
+\begin_inset Quotes eld
+\end_inset
+
+appendages
+\begin_inset Quotes erd
+\end_inset
+
+ consistent throughout the table, and chose to make them all non-parallel
+ with the 
+\begin_inset Quotes eld
+\end_inset
+
+bonds
+\begin_inset Quotes erd
+\end_inset
+
+ in the structures.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
 \color red
 \lang british
-the 
-\begin_inset Formula $C_{nv}$
+but this doesn't show that bisecting the exterior, or being on the midpoint
+ of the bond is not allowed, and that parallel is allowed, so you have to
+ read the text.
+\end_layout
+
 \end_inset
 
- series is shown to converge to an 
-\begin_inset Formula $n=\infty$
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+We also attempted to resolve a confusion associated with the 
+\begin_inset Formula $n=2$
 \end_inset
 
- case in which the shape of the object is a cone, but the 
-\begin_inset Formula $n=\infty$
+ column in the table in 
+\lang british
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
 \end_inset
 
- case for 
-\begin_inset Formula $D_{nh}$
+.
+ The example structure shown for 
+\begin_inset Formula $C_{2}$
 \end_inset
 
- is not shown; instead the 
-\begin_inset Formula $D_{nd}$
+, for example is obscure and a far less common example for the 
+\begin_inset Formula $C_{2}$
 \end_inset
 
- series is shown to converge to what appears to be a single circle, which
- is the object to which the shown 
-\begin_inset Formula $D_{nh}$
+ point group than the structure of H
+\begin_inset Formula $_{2}$
 \end_inset
 
- series converges, but for the shown 
-\begin_inset Formula $D_{nd}$
+O
+\begin_inset Formula $_{2}$
 \end_inset
 
- series it would be more correct for the 
-\begin_inset Formula $n=\infty$
+ for example.
+ Likewise, H
+\begin_inset Formula $_{2}$
 \end_inset
 
- diagram to depict two equiavlent circles on different parallel planes but
- with their centers along the same axis.
- In our Table
-\color inherit
+O is the first system that usually comes to mind when we consider the point
+ group 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+, but the structure shown in the table for 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ is very different.
+ Also to add to the confusion, the table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ uses a rectangular 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+ for the example systems for the 
+\begin_inset Formula $D_{2},C_{2h},D_{2h},D_{2d}$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ point groups.
+ but an ambiguous or uninterprable 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+ for 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+.
+ We have resolved this confusion by including two 
+\begin_inset Formula $n=2$
+\end_inset
+
+ columns in our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: one with a diatomic 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+ and one with a rectangular 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+and all other aspects of the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ figures match very consistently with the figures associated with the other
+ 
+\begin_inset Formula $n$
+\end_inset
+
+-values
+\end_layout
+
+\end_inset
+
+ so that readers can see example shapes for both cases.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+what about the 
+\begin_inset Quotes eld
+\end_inset
+
+diamond
+\begin_inset Quotes erd
+\end_inset
+
+ case or whatever they have there?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\lang british
+For the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ series, perhaps the authors of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ had specific molecules in mind, but one of the early questions that arose
+ for us before we began writing this paper, was 
+\begin_inset Quotes eld
+\end_inset
+
+what is the minimum number of atoms required for the point group so a system
+ to be 
+\begin_inset Formula $G$
+\end_inset
+
+ [with 
+\begin_inset Formula $G$
+\end_inset
+
+ being the point group]
+\begin_inset Quotes eld
+\end_inset
+
+, and after answering that question we found that the table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ correctly depicts the minimum number of atoms required for all point groups
+ except for the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ ones (all of them!)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+is that true?
+\end_layout
+
+\end_inset
+
+ and for 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+.
+ In our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we have shown the 
+\begin_inset Quotes eld
+\end_inset
+
+minimal
+\begin_inset Quotes erd
+\end_inset
+
+ structures that we found for 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ as well as for the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ cases for all other point group series.
+ It is important to note that for each point group, multiple structures
+ can be valid, even when the number of atoms and the chemical formula are
+ the same (we already mentioned this in the previous section and illustrated
+ it in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:H2Si2shapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), so the figures that we presented in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and that the authors of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ presented in their original table, are not the only correct examples that
+ can be provided for each point group; but ours were at least chosen based
+ on a non-arbitrary criterium, which was to only include for each point
+ group, the structure that require the minimum number of atoms (except for
+ the first 
+\begin_inset Formula $n=2$
+\end_inset
+
+ column for each point group series, in which we decided that it would be
+ interesting
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+better word?
+\end_layout
+
+\end_inset
+
+ to show a structure requiring the minimum number of atoms that uses a 
+\begin_inset Quotes eld
+\end_inset
+
+rectangular base
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\lang british
+The final difference that we will note between the table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+ and our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the order in which the point group series are presented.
+ The order in which we present them is far better from a pedagogical standpoint,
+ because with the 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ series presented first (these are the simplest shapes in the entire table),
+ all other shapes in the table are built on top of these 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ shapes and contain the 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ shapes as a subsystem of a larger shape
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+also true for n=2?
+\end_layout
+
+\end_inset
+
+.
+ The order that we presented the point group series in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the same as the order in which we present the arguments for the minimum
+ numbers of atoms and the possible chemical formulas for each point group
+ in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -13151,8 +13913,10 @@ ABCD
 
 \end_layout
 
-\begin_layout Subsection*
-\begin_inset VSpace defskip
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace 2mm
 \end_inset
 
 
@@ -13174,7 +13938,7 @@ ABCD
 \begin_layout Standard
 
 \color black
-\begin_inset VSpace defskip
+\begin_inset VSpace 1mm
 \end_inset
 
 
@@ -13188,12 +13952,29 @@ ABCD
 \end_inset
 
 
-\end_layout
+\bar default
 
-\begin_layout Subsection*
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 
 \color black
 \begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace 1mm
 \end_inset
 
 
@@ -13575,7 +14356,22 @@ and since we can make the
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace 1mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 
 \color red
 \begin_inset VSpace defskip
@@ -13584,13 +14380,14 @@ and since we can make the
 
 \end_layout
 
-\begin_layout Standard
-\noindent
+\end_inset
+
 
 \size larger
 \bar under
 \color black
 \lang british
+
 \begin_inset Formula $D_{n}$
 \end_inset
 
@@ -13616,10 +14413,10 @@ and since we can make the
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
 
-\color red
-\begin_inset VSpace defskip
+\color black
+\begin_inset VSpace 1mm
 \end_inset
 
 
@@ -13701,7 +14498,7 @@ perpendicular
 \begin_layout Standard
 
 \bar under
-\color red
+\color black
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -13710,7 +14507,7 @@ perpendicular
 
 \begin_layout Standard
 
-\color red
+\color black
 \begin_inset VSpace defskip
 \end_inset
 
@@ -13718,18 +14515,132 @@ perpendicular
 \end_layout
 
 \begin_layout Standard
-We start with 
+
+\color black
+The 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ point groups can be generated by a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ operation and a perpendicular 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ operation, whereas the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- and remove the 
+ point groups can be generated by an 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ operation and a perpendicular 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ operation (the only difference being the 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- axis by rotating the n-gons by a bit.
- 
-\color red
+ generator for 
+\begin_inset Formula $D_{nd}$
+\end_inset
 
+ instead of the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ generator for 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+).
+ If we start with the structure that we described in the previous subsection
+ for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+, one way that we can demote the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ axis to a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis without changing any of the other valid symmetry operations and without
+ introducing any new ones, would be to rotate one of the two 
+\begin_inset Formula $n$
+\end_inset
+
+-gons in the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ shape so that the two 
+\begin_inset Formula $n$
+\end_inset
+
+-gons are no longer perfectly rotated by an angle of 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ (as required by the logic that was presented in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+This breaks the validity of the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation while maintaining the validity of the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ operation 
+\end_layout
+
+\end_inset
+
+ The resulting structures are depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, and the minimum number of atoms required for each 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ point group are the same as for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+, as are the possible chemical formulas.
+
+\color red
+ 
 \begin_inset VSpace defskip
 \end_inset
 
@@ -13838,10 +14749,10 @@ Since the action of an
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
 
-\color red
-\begin_inset VSpace defskip
+\color black
+\begin_inset VSpace 1mm
 \end_inset
 
 
@@ -14021,10 +14932,6 @@ so the
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 From Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -15115,7 +16022,7 @@ BCD
 \end_layout
 
 \begin_layout Subsection*
-\begin_inset VSpace -2cm
+\begin_inset VSpace -0.5cm
 \end_inset
 
 
@@ -15394,622 +16301,6 @@ We can repeat everything that was written in the section about
 
 \begin_layout Subsection*
 \begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\lang british
-\begin_inset Formula $C_{n}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n=2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
- be promoted to 
-\begin_inset Formula $K_{h},D_{\infty h}$
-\end_inset
-
- or 
-\begin_inset Formula $C_{\infty v}$
-\end_inset
-
-; and if we have only three atoms, they form a plane which will be a mirror
- plane, meaning that the point group of the system which contains a 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- axis will be promoted to 
-\begin_inset Formula $C_{2v}$
-\end_inset
-
- or 
-\begin_inset Formula $D_{3h}$
-\end_inset
-
-.
- Four atoms would be enough for the point group of the system to be 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- though, as in the case of H
-\begin_inset Formula $_{2}$
-\end_inset
-
-O
-\begin_inset Formula $_{2}$
-\end_inset
-
-.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Any number of atoms can be added on the 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- axis without invlidating the 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- operation, and if they are placed carefully, no new valid symmetry operations
- will be introduced, therefore 
-\end_layout
-
-\end_inset
-
-
-\series bold
-\lang british
-The minimum number of atoms required is four.
- 
-\series default
-In terms of the possible formulas, if we have two atoms at positions 
-\begin_inset Formula $A$
-\end_inset
-
- and 
-\begin_inset Formula $B$
-\end_inset
-
-, then after rotation around the 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- axis (which we will make the 
-\begin_inset Formula $z$
-\end_inset
-
--axis, as we described in the previous section
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-this should reference the section number rather than just saying 
-\begin_inset Quotes eld
-\end_inset
-
-previous section
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-), these atoms will be at positions 
-\begin_inset Formula $A^{\prime}=(-x_{1}-y_{1},z_{1})$
-\end_inset
-
- and 
-\begin_inset Formula $B^{\prime}=(-x_{2},-y_{2},z_{2})$
-\end_inset
-
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-we can instead just say A, B, A
-\begin_inset Formula $\ne A'$
-\end_inset
-
-and B
-\begin_inset Formula $\ne$
-\end_inset
-
-B' but then we have to explain that they are not on the axis
-\end_layout
-
-\end_inset
-
-respectively, and for the 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- operation to be valid, the atoms that were originally at positions 
-\begin_inset Formula $A$
-\end_inset
-
- and 
-\begin_inset Formula $A^{\prime}$
-\end_inset
-
- need to be identical, and likewise for the atoms that were originally at
- 
-\begin_inset Formula $B$
-\end_inset
-
- and 
-\begin_inset Formula $B^{\prime}.$
-\end_inset
-
-
-\series bold
- The most general formula is therefore A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-CD
-\begin_inset Formula $\cdots$
-\end_inset
-
- since the extra atoms C,D,
-\begin_inset Formula $\ldots$
-\end_inset
-
- can be placed on the 
-\begin_inset Formula $C_{2}$
-\end_inset
-
- axis without any loss of valid symmetry operations, and if their positions
- are chosen carefully, no new valid symmetry operations would be introduced.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Since the point group of a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon with identical atoms at each vertex is required in order to have a
- 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis, and we have already mentioned in the previous section
-\lang british
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-this should reference the section number rather than just saying 
-\begin_inset Quotes eld
-\end_inset
-
-previous section
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\lang english
- that the point group of such a structure would be 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
-, we would need at least one additional atom to break any symmetries in
- 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- that are not present in 
-\begin_inset Formula $C_{n}$
-\end_inset
-
-.
- In order for the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- operation to remain valid, we can either add any number of atoms (including
- just one) on the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis, or a full set of 
-\begin_inset Formula $n$
-\end_inset
-
- more atoms that form a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon with the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis going through its center and perpendicular to the plane formed by
- the 
-\begin_inset Formula $n$
-\end_inset
-
--gon.
- However, adding any number of atoms to the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis will not break the 
-\begin_inset Formula $\sigma_{v}$
-\end_inset
-
- planes, so by adding one or more atoms to the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis that goes through the center of a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon, would form a structure with a 
-\begin_inset Formula $C_{nv}$
-\end_inset
-
- point group, so instead of adding any number of atoms to the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis, we must add at least one set of 
-\begin_inset Formula $n$
-\end_inset
-
- more atoms forming a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon (and we know that this one set is enough for us to form a structure
- in which 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- is the 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-largest
-\end_layout
-
-\end_inset
-
-point group, as in Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:minimalCnStructures"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- The two parallel 
-\begin_inset Formula $n$
-\end_inset
-
--gons, A
-\begin_inset Formula $_{n}$
-\end_inset
-
- and B
-\begin_inset Formula $_{n}$
-\end_inset
-
-, must lie on different planes so that the molecular is not planar, and
- therefore would not get promoted to 
-\begin_inset Formula $C_{nh}$
-\end_inset
-
-.
- 
-\series bold
-\lang british
-The minimum number of atoms required is 
-\begin_inset Formula $2n$
-\end_inset
-
-, and the most general formula would be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-B
-\begin_inset Formula $_{n}$
-\end_inset
-
-CD
-\begin_inset Formula $\cdots$
-\end_inset
-
- since in addition to the A
-\begin_inset Formula $_{n}$
-\end_inset
-
-B
-\begin_inset Formula $_{n}$
-\end_inset
-
- structure, extra atoms C,D,
-\begin_inset Formula $\ldots$
-\end_inset
-
- can be placed on the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis without any loss of valid symmetry operations, and if their positions
- are chosen carefully, no new valid symmetry operations would be introduced.
-\series default
-\lang english
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Structures with the 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-maximal
-\end_layout
-
-\end_inset
-
-point group 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- and with the minimum number of atoms, 
-\begin_inset Formula $2n$
-\end_inset
-
-.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:minimalCnStructures"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $n=3$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename models/C_3.png
-	lyxscale 33
-	width 33.333col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $n=4$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename models/C_4.png
-	lyxscale 33
-	width 33.333col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $n=5$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename models/C_5.png
-	lyxscale 33
-	width 33.333col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\series bold
-\lang british
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
- to break all mirror planes.
- To preserve the Cn axis we need to either add any number of atoms on the
- Cn axis, or at least n atoms that are not on the Cn axis (forming a regular
- n-gon with the Cn axis in the centre of it).
- However, adding any atoms on the axis will not break the vertical mirror
- planes, so we must add at least n more atoms and form a second concentric
- regular n-gon around the Cn axis, but it cannot be on the same plane as
- the original n-gon because then it would still have the horizontal mirror
- plane and the point group would be promoted at least to 
-\begin_inset Formula $C_{nh}$
-\end_inset
-
-, and the new n-gon would have to be rotated from the original one in order
- to avoid Dnh in the case where the side-lengths are the same (horizontal
- mirror plane is just halfway between the planes of the two n-gons), and
- Cnv where the two regular n-gons have their own distinct side-lengths.
- 
-\end_layout
-
 \end_inset
 
 
@@ -23652,6 +23943,622 @@ CHBrCl
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $C_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset VSpace 1mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, the point group of the system will
+ be promoted to 
+\begin_inset Formula $K_{h},D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+; and if we have only three atoms, they form a plane which will be a mirror
+ plane, meaning that the point group of the system which contains a 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis will be promoted to 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{3h}$
+\end_inset
+
+.
+ Four atoms would be enough for the point group of the system to be 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ though, as in the case of H
+\begin_inset Formula $_{2}$
+\end_inset
+
+O
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Any number of atoms can be added on the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis without invlidating the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ operation, and if they are placed carefully, no new valid symmetry operations
+ will be introduced, therefore 
+\end_layout
+
+\end_inset
+
+
+\series bold
+\lang british
+The minimum number of atoms required is four.
+ 
+\series default
+In terms of the possible formulas, if we have two atoms at positions 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+, then after rotation around the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis (which we will make the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, as we described in the previous section
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+this should reference the section number rather than just saying 
+\begin_inset Quotes eld
+\end_inset
+
+previous section
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+), these atoms will be at positions 
+\begin_inset Formula $A^{\prime}=(-x_{1}-y_{1},z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $B^{\prime}=(-x_{2},-y_{2},z_{2})$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+we can instead just say A, B, A
+\begin_inset Formula $\ne A'$
+\end_inset
+
+and B
+\begin_inset Formula $\ne$
+\end_inset
+
+B' but then we have to explain that they are not on the axis
+\end_layout
+
+\end_inset
+
+respectively, and for the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ operation to be valid, the atoms that were originally at positions 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+ need to be identical, and likewise for the atoms that were originally at
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $B^{\prime}.$
+\end_inset
+
+
+\series bold
+ The most general formula is therefore A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+CD
+\begin_inset Formula $\cdots$
+\end_inset
+
+ since the extra atoms C,D,
+\begin_inset Formula $\ldots$
+\end_inset
+
+ can be placed on the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis without any loss of valid symmetry operations, and if their positions
+ are chosen carefully, no new valid symmetry operations would be introduced.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the point group of a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with identical atoms at each vertex is required in order to have a
+ 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, and we have already mentioned in the previous section
+\lang british
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+this should reference the section number rather than just saying 
+\begin_inset Quotes eld
+\end_inset
+
+previous section
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang english
+ that the point group of such a structure would be 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+, we would need at least one additional atom to break any symmetries in
+ 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ that are not present in 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+.
+ In order for the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ operation to remain valid, we can either add any number of atoms (including
+ just one) on the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, or a full set of 
+\begin_inset Formula $n$
+\end_inset
+
+ more atoms that form a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis going through its center and perpendicular to the plane formed by
+ the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ However, adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis will not break the 
+\begin_inset Formula $\sigma_{v}$
+\end_inset
+
+ planes, so by adding one or more atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis that goes through the center of a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, would form a structure with a 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ point group, so instead of adding any number of atoms to the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, we must add at least one set of 
+\begin_inset Formula $n$
+\end_inset
+
+ more atoms forming a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon (and we know that this one set is enough for us to form a structure
+ in which 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ is the 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+largest
+\end_layout
+
+\end_inset
+
+point group, as in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:minimalCnStructures"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The two parallel 
+\begin_inset Formula $n$
+\end_inset
+
+-gons, A
+\begin_inset Formula $_{n}$
+\end_inset
+
+ and B
+\begin_inset Formula $_{n}$
+\end_inset
+
+, must lie on different planes so that the molecular is not planar, and
+ therefore would not get promoted to 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+.
+ 
+\series bold
+\lang british
+The minimum number of atoms required is 
+\begin_inset Formula $2n$
+\end_inset
+
+, and the most general formula would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{n}$
+\end_inset
+
+CD
+\begin_inset Formula $\cdots$
+\end_inset
+
+ since in addition to the A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{n}$
+\end_inset
+
+ structure, extra atoms C,D,
+\begin_inset Formula $\ldots$
+\end_inset
+
+ can be placed on the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis without any loss of valid symmetry operations, and if their positions
+ are chosen carefully, no new valid symmetry operations would be introduced.
+\series default
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Structures with the 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maximal
+\end_layout
+
+\end_inset
+
+point group 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ and with the minimum number of atoms, 
+\begin_inset Formula $2n$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:minimalCnStructures"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename models/C_3.png
+	lyxscale 33
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename models/C_4.png
+	lyxscale 33
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename models/C_5.png
+	lyxscale 33
+	width 33.333col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\series bold
+\lang british
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
+ to break all mirror planes.
+ To preserve the Cn axis we need to either add any number of atoms on the
+ Cn axis, or at least n atoms that are not on the Cn axis (forming a regular
+ n-gon with the Cn axis in the centre of it).
+ However, adding any atoms on the axis will not break the vertical mirror
+ planes, so we must add at least n more atoms and form a second concentric
+ regular n-gon around the Cn axis, but it cannot be on the same plane as
+ the original n-gon because then it would still have the horizontal mirror
+ plane and the point group would be promoted at least to 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+, and the new n-gon would have to be rotated from the original one in order
+ to avoid Dnh in the case where the side-lengths are the same (horizontal
+ mirror plane is just halfway between the planes of the two n-gons), and
+ Cnv where the two regular n-gons have their own distinct side-lengths.
+ 
 \end_layout
 
 \end_inset
