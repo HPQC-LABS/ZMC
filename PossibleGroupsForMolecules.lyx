@@ -28,9 +28,14 @@
 \captionsetup{skip=0pt,justification=raggedright,singlelinecheck=off}
 %\raggedbottom %this didn't improve the extra whitespace between paragraphs.
 \setlength{\parskip}{0pt}
+\usepackage{enumitem} % https://tex.stackexchange.com/a/170528/14527
+\setlist{leftmargin=2mm}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
 \use_default_options true
+\begin_modules
+enumitem
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -738,136 +743,20 @@ noprefix "false"
  difficult to find in existing places):
 \end_layout
 
-\begin_layout Standard
-
-\lang british
-\begin_inset Float figure
-placement !t
-wide true
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang british
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang british
-Two molecules that have different geometries despite having the same chemical
- formula (H
-\begin_inset Formula $_{2}$
-\end_inset
-
-Si
-\begin_inset Formula $_{2}$
-\end_inset
-
-) and the same point group (
-\begin_inset Formula $C_{2v}).$
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:H2Si2shapes"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-
-\lang british
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Pyramidal
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang british
-\begin_inset Graphics
-	filename models/C_2v_H2Si2.png
-	lyxscale 10
-	width 42text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Planar
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang british
-\begin_inset Graphics
-	filename models/C_2v_H2Si2.png
-	lyxscale 10
-	width 42text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 
 \lang british
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+leftmargin=0.35cm
+\end_layout
+
+\end_inset
+
 In Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1360,6 +1249,176 @@ literal "false"
 
  and also in the original papers in which the geometric data was determined.
  
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang british
+Three molecules that have different geometries despite having the same chemical
+ formula (H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Si
+\begin_inset Formula $_{2}$
+\end_inset
+
+) and the same point group (
+\begin_inset Formula $C_{2v}).$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:H2Si2shapes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pyramidal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Graphics
+	filename models/C_2v_H2Si2.png
+	lyxscale 10
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Planar, with a 
+\begin_inset Formula $P_{4}$
+\end_inset
+
+ graph 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Graphics
+	filename models/C_2v_H2Si2.png
+	lyxscale 10
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Planar, with a 
+\begin_inset Formula $K_{3,1}$
+\end_inset
+
+ graph
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset Graphics
+	filename models/C_2v_H2Si2.png
+	lyxscale 10
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -15077,7 +15136,7 @@ so the
 Unfortunately the coordinates in 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:S4coordinatesOld"
+reference "eq:S4coordinates"
 plural "false"
 caps "false"
 noprefix "false"
@@ -24303,11 +24362,11 @@ largest
 
 \end_inset
 
-point group, as in Fig.
+point group, as in Table.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:minimalCnStructures"
+reference "tab:atkinsImproved"
 plural "false"
 caps "false"
 noprefix "false"
