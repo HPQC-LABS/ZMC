@@ -5464,7 +5464,7 @@ The minimum number of atoms required is four, and any formula is allowed.
 
 \lang british
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -5546,7 +5546,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Possible point groups for systems with 1 to 8 atoms.
+Possible point groups for systems with 
+\begin_inset Formula $m=1$
+\end_inset
+
+ to 
+\begin_inset Formula $m=8$
+\end_inset
+
+ atoms.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossibleGroupsForNatoms"
@@ -5609,7 +5617,7 @@ name "tab:PossibleGroupsForNatoms"
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Formula $N$
+\begin_inset Formula $m$
 \end_inset
 
 
@@ -5911,17 +5919,17 @@ Possible groups (not including subgroups)
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "125mm"
-height "0.5pt"
+width "166mm"
+height "2pt"
 
 \end_inset
 
@@ -5930,7 +5938,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5939,7 +5947,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5948,7 +5956,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5957,7 +5965,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5966,7 +5974,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5975,7 +5983,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5984,7 +5992,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5993,7 +6001,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6002,7 +6010,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6011,7 +6019,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6020,7 +6028,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6029,7 +6037,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6038,7 +6046,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6047,7 +6055,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6056,7 +6064,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6065,7 +6073,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6074,7 +6082,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6083,7 +6091,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6092,7 +6100,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6101,7 +6109,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6110,7 +6118,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6119,7 +6127,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6128,7 +6136,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6137,7 +6145,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6146,7 +6154,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6155,7 +6163,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6164,7 +6172,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6173,7 +6181,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6182,7 +6190,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6218,17 +6226,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "100mm"
-height "0.5pt"
+width "153mm"
+height "2pt"
 
 \end_inset
 
@@ -6237,7 +6245,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6246,7 +6254,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6255,7 +6263,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6264,7 +6272,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6273,7 +6281,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6282,7 +6290,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6291,7 +6299,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6300,7 +6308,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6309,7 +6317,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6318,7 +6326,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6327,7 +6335,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6336,7 +6344,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6345,7 +6353,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6354,7 +6362,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6363,7 +6371,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6372,7 +6380,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6381,7 +6389,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6390,7 +6398,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6399,7 +6407,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6408,7 +6416,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6417,7 +6425,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6426,7 +6434,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6435,7 +6443,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6444,7 +6452,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6453,7 +6461,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6462,7 +6470,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6471,7 +6479,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6513,12 +6521,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -6554,17 +6562,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "25mm"
-height "0.5pt"
+width "39mm"
+height "2pt"
 
 \end_inset
 
@@ -6573,7 +6581,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6582,7 +6590,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6591,7 +6599,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6600,7 +6608,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6609,7 +6617,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6618,7 +6626,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6627,7 +6635,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6655,21 +6663,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "25mm"
-height "0.5pt"
+width "65mm"
+height "2pt"
 
 \end_inset
 
@@ -6678,7 +6677,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6687,7 +6686,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6696,7 +6695,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6705,7 +6704,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6714,7 +6713,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6723,7 +6722,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6732,7 +6731,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6741,7 +6740,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6750,7 +6749,16 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6778,11 +6786,21 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "31mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6791,7 +6809,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6800,7 +6818,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6809,7 +6827,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6818,7 +6836,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6860,12 +6878,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -6906,12 +6924,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -6948,17 +6966,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "7mm"
-height "0.5pt"
+width "8.5mm"
+height "2pt"
 
 \end_inset
 
@@ -6967,7 +6985,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6990,17 +7008,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "10mm"
-height "0.5pt"
+width "8.5mm"
+height "2pt"
 
 \end_inset
 
@@ -7009,7 +7027,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7051,11 +7069,21 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "25mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7064,7 +7092,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7073,7 +7101,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7082,7 +7110,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7110,6 +7138,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7132,6 +7170,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -7184,11 +7232,21 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "16.5mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7197,7 +7255,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7224,6 +7282,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -7262,12 +7330,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -7308,12 +7376,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -7350,17 +7418,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "7mm"
-height "0.5pt"
+width "8.5mm"
+height "2pt"
 
 \end_inset
 
@@ -7369,7 +7437,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7392,17 +7460,17 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
-width "10mm"
-height "0.5pt"
+width "8.5mm"
+height "2pt"
 
 \end_inset
 
@@ -7411,7 +7479,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7462,7 +7530,26 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "20mm"
+height "2pt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7471,7 +7558,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7480,16 +7567,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7517,6 +7595,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7539,6 +7627,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -7605,6 +7703,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7636,6 +7744,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -7674,12 +7792,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -7776,6 +7894,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7812,6 +7940,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -7873,7 +8011,26 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "14mm"
+height "2pt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7882,16 +8039,7 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8026,10 +8174,20 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "9mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -8091,12 +8249,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -8193,6 +8351,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8229,6 +8397,16 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
@@ -8304,16 +8482,26 @@ height "0.5pt"
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "8.5mm"
+height "2pt"
+
+\end_inset
+
 
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8467,6 +8655,16 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "3mm"
+height "2pt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8477,6 +8675,7 @@ height "0.5pt"
 \begin_layout Plain Layout
 
 \size footnotesize
+\color blue
 \begin_inset Formula $O_{h}$
 \end_inset
 
@@ -8518,12 +8717,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -8970,12 +9169,12 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "3mm"
-height "0.5pt"
+height "2pt"
 
 \end_inset
 
@@ -9020,7 +9219,7 @@ height "0.5pt"
 Any five atoms with an inversion center will lie on the same plane (or same
  line) and will therefore have a reflection/mirror plane
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
  going through at atoms
@@ -9077,7 +9276,7 @@ we make the inversion center the origin, the atoms must come in pairs according
 
 -coordinates, none of these four atoms can be on the origin.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -9100,7 +9299,7 @@ status open
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -9459,7 +9658,7 @@ D
 
 .
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -9939,12 +10138,12 @@ Odd # of atoms
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -10199,12 +10398,12 @@ A
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -10512,12 +10711,12 @@ D
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -13141,12 +13340,12 @@ C
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -13428,12 +13627,12 @@ ABCD
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -13721,12 +13920,12 @@ A(BCD
 
 \begin_layout Plain Layout
 
-\color red
+\color blue
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
 width "8mm"
-height "0.5pt"
+height "1.5pt"
 
 \end_inset
 
@@ -14042,7 +14241,7 @@ ABCD
 \bar default
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -14106,7 +14305,7 @@ we have two diatomic molecules that are perpendicular to each other, but
 \series default
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 is this still 
@@ -14155,7 +14354,7 @@ perpendicular
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 It would be cool if we could use a generator-type argument here: S2n - simga_h
@@ -14260,7 +14459,7 @@ D
 
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -14456,7 +14655,7 @@ and since we can make the
 
 \color red
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -14554,7 +14753,7 @@ perpendicular to each other, and are also on different planes
 \series default
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 is this still 
@@ -14688,7 +14887,7 @@ noprefix "false"
 ).
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -14750,7 +14949,7 @@ noprefix "false"
 \lang english
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -14847,7 +15046,7 @@ Since the action of an
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -15573,7 +15772,7 @@ operations to be valid on their own.
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -15656,7 +15855,7 @@ bonds
  structure, but we could also have chosen them differently, for example
  we could have had four polygons rather than two polygons wtih appendages
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -15744,7 +15943,7 @@ E
 \color red
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -15916,7 +16115,7 @@ BCD
 \series default
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -16062,7 +16261,7 @@ Since the point group of a regular
 
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 by starting with a regular 
@@ -16082,7 +16281,7 @@ by starting with a regular
 .
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The Cnv with n>=3 figures in Table 1 are minimal structuers
@@ -16194,7 +16393,7 @@ N
 The minimum number of atoms required is four, and the most general formula
  for the minimal structure is A2B2.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -16329,7 +16528,7 @@ he first
 \color red
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -24111,7 +24310,7 @@ O
 .
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Any number of atoms can be added on the 
@@ -24152,7 +24351,7 @@ In terms of the possible formulas, if we have two atoms at positions
 
 -axis, as we described in the previous section
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -24180,7 +24379,7 @@ previous section
 
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -24282,7 +24481,7 @@ Since the point group of a regular
 \lang british
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -24382,7 +24581,7 @@ previous section
 
  is the 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 largest
@@ -24625,7 +24824,7 @@ status open
 \lang british
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
@@ -24720,7 +24919,7 @@ arbitrary
 \emph default
  number of atoms
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
