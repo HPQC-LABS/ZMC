@@ -4061,9 +4061,9 @@ General principles for possible molecules
 \begin_layout Standard
 In this section we will state some general principles that we will use in
  the following section when formulating proofs for the required numbers
- of atoms and required formulas for each point group.
+ of atoms and required chemical formulas for each point group.
  Some of the statements made in this section may already be familiar or
- intuitive to the reader, but we have not seen them stated in textbooks
+ intuitive to the reader, but we have not seen most of them stated in textbooks
  about group theory for chemistry 
 \lang british
 
@@ -4076,7 +4076,8 @@ literal "false"
 
 
 \lang english
-, although the first statement is mentioned in other places, such as 
+, although parts of the first statement are mentioned in other places, such
+ as 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "bakken_efficient_2002"
@@ -4112,8 +4113,15 @@ I think it was actually the Baker paper or one of the other early papers
 \emph on
 \bar under
 \lang british
-Ability to orient a molecule according to the valid point group operations
- on the molecule:
+Ability to orient the coordinate system according to a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis and 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane:
 \end_layout
 
 \begin_layout Standard
@@ -4128,7 +4136,7 @@ Any molecule with a rotation axis, called a
 \begin_inset Formula $C_{n}$
 \end_inset
 
--axis, can be oriented in an xyz (Caterian) coordinate system such that
+-axis, can be oriented in an xyz (Cartesian) coordinate system such that
  for the largest possible 
 \begin_inset Formula $n$
 \end_inset
@@ -4141,7 +4149,7 @@ Any molecule with a rotation axis, called a
 \begin_inset Formula $z$
 \end_inset
 
--axis is aligned wtih a 
+-axis is aligned with a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4149,7 +4157,7 @@ Any molecule with a rotation axis, called a
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
- plane is a mirror plane coinciding with the 
+ plane (if one exists) is a mirror plane coinciding with the 
 \begin_inset Formula $xy$
 \end_inset
 
@@ -4254,8 +4262,8 @@ The existence of a
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis or if the system contains a subset of atoms that are vertices of an
- 
+ axis or if the system contains a subset of identical atoms that are vertices
+ of an 
 \begin_inset Formula $n$
 \end_inset
 
@@ -4334,11 +4342,7 @@ If a
 \begin_inset Formula $z$
 \end_inset
 
--coordinate does not change, because of the definition of a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- rotation, and the new coordinates 
+-coordinate does not change, and the new coordinates 
 \begin_inset Formula $(x^{\prime},y^{\prime})$
 \end_inset
 
@@ -4362,12 +4366,23 @@ can be or must be?
 \begin_inset Formula $(x,y)$
 \end_inset
 
- coordinates of another identaical atom in the molecule if the axis is indeed
- a 
+ coordinates of another identaical atom in the molecule
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ if the axis is indeed a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis.
+ axis
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4639,6 +4654,14 @@ can be or must be?
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \lang british
 The 
@@ -4661,7 +4684,7 @@ The
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
- operation (which is also valid on such a system, since it is planar), and
+ operation (which is also valid on such a system, since it is planar); and
  any non-linear object in which the 
 \begin_inset Formula $S_{2n}$
 \end_inset
@@ -4970,7 +4993,11 @@ two
 
  elements
 \lang english
-, and the examples that we presented for 
+, and the examples for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ that we presented for 
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -4989,7 +5016,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Basically, the 
+The 
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
@@ -5284,11 +5311,12 @@ name "sec:NumberOfAtomsForEachPointGroup"
 
 \end_inset
 
-Possible number of atoms and molecular formulas for each axial point group
+Possible number of atoms and chemical formulas for each axial point group
 \end_layout
 
 \begin_layout Standard
 
+\color red
 \lang british
 As usual, we only consider the maximum point group.
  All in order of number of atoms (except Ci is before others).
