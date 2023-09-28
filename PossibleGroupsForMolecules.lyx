@@ -350,6 +350,19 @@ literal "false"
 \end_inset
 
 , add missing entries to it, and improve it further in a number of ways.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The paper assumes that you know Schoenflies notation, and the elements in
+ each group, and what they mean? Or we could give the elements in each group
+ and just expect them to know what sigma_h, etc.
+ mean? Or we can explain those too?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -980,10 +993,10 @@ noprefix "false"
 \begin_layout Itemize
 
 \lang british
-we were able to list in table 
+we were able to list in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:PossibleFormulasForEachPointGroup"
+reference "tab:PossibleNumberOfAtomsForEachPointGroup"
 plural "false"
 caps "false"
 noprefix "false"
@@ -5345,7 +5358,8 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 
 \end_inset
 
-; so even though all elements of 
+.
+ For example, even though all elements of 
 \begin_inset Formula $D_{2h}$
 \end_inset
 
@@ -5358,7 +5372,7 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- which contains 
+ that contains 
 \series bold
 \emph on
 all 
@@ -5430,6 +5444,27 @@ check this term
 \end_layout
 
 \begin_layout Standard
+
+\lang british
+The point groups considered in this subsection do not contain any 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axes in which 
+\begin_inset Formula $n>1.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \size larger
@@ -5481,14 +5516,92 @@ atoms form a line, and if all atoms of a molecule are on the same line,
 \end_inset
 
 .
- three atoms is enough for the point group of a molecule to be 
+ Three atoms is enough for the point group of a molecule to be 
 \begin_inset Formula $C_{s}$
 \end_inset
 
- though, as in the example ABC.
+ though, as in the example HNO (azanone, whose structure is depicted in
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTriatomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
  
 \series bold
-The minimum number of atoms required is three, and any formula is allowed.
+\color blue
+The minimum number of atoms required is three, and any chemical formula
+ is allowed.
+
+\color inherit
+ 
+\series default
+We can add as many more atoms as we wish without changing the point group
+ of the system from 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+, as long as these atoms all remain on the same plane as the first three
+ atoms, and as long as they are not from the same element (having atoms
+ with different elements guarantees that no 
+\emph on
+new 
+\emph default
+symmetry operations become valid on the system
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ apart from the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane in the 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ group
+\end_layout
+
+\end_inset
+
+).
+ The point group 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ is also possible for non-planar structures, and structures containing more
+ than one atom from the same element, are also possible (e.g.
+ Cl
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS which is both non-planar and both has two atoms of the element Cl), but
+ we were already able to prove in the previous sentence that the point group
+ 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ is possible for any number of atoms that is larger than or equal to three.
+ 
+\series bold
+\color blue
+The general chemical formula is ABCD
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\series default
+\color inherit
+, in which any letter can be identical to one of the previous ones (e.g.
+ B, C and D can be chosen to equal A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -5521,7 +5634,8 @@ The minimum number of atoms required is three, and any formula is allowed.
 
 \lang british
 Any three atoms form a plane or a line, and if all atoms of a molecule are
- on the same plane, then that plane is a reflection/mirror plane.
+ on the same plane, then that plane is a reflection plane (also known as
+ a mirror plane).
  Therefore if a molecule has three or fewer atoms, it will at least have
  one reflection plane, and would be promoted from 
 \begin_inset Formula $C_{1}$
@@ -5536,10 +5650,51 @@ Any three atoms form a plane or a line, and if all atoms of a molecule are
 \begin_inset Formula $C_{1}$
 \end_inset
 
- though, as in the example ABCD.
+ though, as in the example H
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS (whose structure is depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
  
 \series bold
-The minimum number of atoms required is four, and any formula is allowed.
+\color blue
+The minimum number of atoms required is four, and any chemical formula is
+ allowed.
+
+\series default
+\color inherit
+ We can add as many more atoms as we wish without changing the point group
+ of the system from 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+, as long as none of these additional atoms are from the same element (having
+ atoms with different elements guarantees that no symmetry operations become
+ valid on the molecule).
+ If we run out of elements, we can still add atoms such that no new symmetry
+ operations are valid on the system.
+ 
+\series bold
+\color blue
+The general formula is ABCDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\series default
+\color inherit
+, in which any letter can be identical to one of the previous ones (e.g.
+ B, C, D and E can be chosen to equal A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -9298,8 +9453,13 @@ height "2pt"
 \end_layout
 
 \begin_layout Standard
-Any five atoms with an inversion center will lie on the same plane (or same
- line) and will therefore have a reflection/mirror plane
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We will explain in the next paragraph that any five atoms with an inversion
+ center will lie on the same plane (or same line) and will therefore have
+ a reflection plane
 \begin_inset Note Note
 status collapsed
 
@@ -9310,12 +9470,18 @@ status collapsed
 \end_inset
 
 .
- Since the 
+ 
+\end_layout
+
+\end_inset
+
+Since the 
 \begin_inset Formula $C_{i}$
 \end_inset
 
- point group does not have any reflection elements, for any five atom molecule
- with an invesrion center the maximal point group must be larger than 
+ point group does not have any reflection elements, the point group of any
+ system that contains a reflection plane and an inversion center must be
+ larger than 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -9326,17 +9492,14 @@ status collapsed
 \begin_layout Standard
 If we have three or fewer atoms, then there does not even need to be an
  inversion center for the atoms to be confined to a plane (or line).
-\end_layout
-
-\begin_layout Standard
-If we have four atoms, and 
+ If we have four atoms, and 
 \lang british
 we make the inversion center the origin, the atoms must come in pairs according
  to the inversion operation 
 \begin_inset Formula $i$
 \end_inset
 
- that was described earlier: 
+: 
 \begin_inset Formula $A=(x_{1},y_{1},z_{1})$
 \end_inset
 
@@ -9407,19 +9570,14 @@ Another way to see this, is to notice that
 \begin_inset Formula $-B$
 \end_inset
 
- form another line, and that these two lines both intersect at the origin,
- and two lines that cross are always co-planar.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-If we have five atoms, the fifth one must be at the origin, because atoms
+ form another line, and these two lines both intersect at the origin, but
+ two lines that cross are always co-planar.
+ If we have five atoms, the fifth one must be at the origin, because atoms
  need to either be paired or at the origin in order for the inversion operation
  to be valid on the system of atoms.
- However, the other four atoms form a plane that contains the origin (because
- the plane is formed by two lines that intersect at the origin).
+ However, the other four atoms in the five-atom system will form a plane
+ that contains the origin (because two lines that intersect at the origin
+ form a plane that contains the origin).
  Therefore the fifth atom will also be on the same plane as the other four
  atoms, and the point group will be promoted beyond 
 \begin_inset Formula $C_{i}$
@@ -9432,7 +9590,7 @@ If we have five atoms, the fifth one must be at the origin, because atoms
 \begin_layout Standard
 
 \lang british
-Six atoms is enough for a molecule's maximal point group to be 
+Six atoms is enough for the point group of a system to be 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -9453,10 +9611,18 @@ Cl
 \end_inset
 
  with the two carbons removed.
+ Any number of atoms can be added while maintaining the point group 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, but an even number of atoms would need to be added in pairs of identical
+ elements, and/or one additonal atom of any element can be added to the
+ inversion center.
  
 \series bold
-The minimum number of atoms required is six, and the formula must be of
- the form A
+\color blue
+The minimum number of atoms required is six, and the chemical formula must
+ be of the form A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -9484,7 +9650,11 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- depenending on if the number of atoms is even or odd.
+ depenending on if the number of atoms is even or odd
+\series default
+\color inherit
+, and any letter can be identical to one of the previous ones (e.g.
+ B, C, and D can be chosen to equal A if desired).
 \end_layout
 
 \begin_layout Subsection
@@ -9573,8 +9743,9 @@ If we have any fewer than three atoms, the point group of the system will
 \begin_inset Formula $i$
 \end_inset
 
-, and the only way for a three atom system to have an inversion element
- is for it to be linear, which would promote it either to 
+, and for a reason that is explained in the next sentence, the only way
+ for a three atom system to have an inversion element is for it to be linear,
+ which would promote it either to 
 \begin_inset Formula $D_{\infty h}$
 \end_inset
 
@@ -9588,11 +9759,11 @@ If we have any fewer than three atoms, the point group of the system will
 \end_inset
 
  to be the center of inversion, and one atom is at the position 
-\begin_inset Formula $(x,y,z)$
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
 , then an identical atom would need to be at the positon 
-\begin_inset Formula $(-x,-y,-z)$
+\begin_inset Formula $(-x_{1},-y_{1},-z_{1})$
 \end_inset
 
  and the third atom would need to be at the origin.
@@ -9613,12 +9784,41 @@ Na
 \begin_inset Formula $_{2}$
 \end_inset
 
+ (whose
+\lang british
+ structure is depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\lang english
 .
  
 \series bold
+\color blue
 \lang british
-The minimum number of atoms required is four, and the most general formula
- for the minimal structure is A2B2.
+The minimum number of atoms required is four, and the most general chemical
+ formula for a structure with the minimum number of atoms is A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\series default
+\color inherit
+, and B can be chosen to equal A if desired.
+ 
+\series bold
+
 \begin_inset Note Note
 status open
 
@@ -9627,6 +9827,86 @@ status open
 \series bold
 \lang british
 The general formula is
+\end_layout
+
+\end_inset
+
+ 
+\series default
+Any atom can be added to the inversion center of the system without breaking
+ any of the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ symmetry elements.
+ If an atom is to be added anywhere else, it needs to 
+\emph on
+paired 
+\emph default
+with an atom of the 
+\emph on
+same element 
+\emph default
+in order for the inversion operation 
+\begin_inset Formula $i$
+\end_inset
+
+ to remain valid, and such pairs of atoms can be added to the primary 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis in the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ point group without breaking any of the other symmetry elements of the
+ group.
+ 
+\series bold
+\color blue
+The chemical formula must be of the form A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ or AB
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ depenending on if the number of atoms is even or odd
+\series default
+\color inherit
+, and any letter can be identical to one of the previous ones (e.g.
+ B, C, and D can be chosen to equal A if desired).
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang british
+proof: center of inversion has to be at the intersection of C2, C2', C2''
+ and sigma_h,v,d all have to contain i.
+ C2' and C2'' just switch the two points that were added on the C2 axis,
+ and the planes either do nothing or just switch the points.
 \end_layout
 
 \end_inset
@@ -9664,8 +9944,11 @@ Since a regular
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is both necessary and sufficient
- for the point group of a system of atoms to be 
+-gon with identical atoms at each vertex is a 
+\emph on
+necessary
+\emph default
+ component of any system with a point group of 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -9675,6 +9958,7 @@ Since a regular
 
 , we can concldue the 
 \series bold
+\color blue
 the minimum number of atoms required is 
 \begin_inset Formula $n$
 \end_inset
@@ -9684,6 +9968,8 @@ the minimum number of atoms required is
 \end_inset
 
 .
+
+\color inherit
  
 \series default
 An even number of additional atoms can be added along the 
@@ -9692,8 +9978,11 @@ An even number of additional atoms can be added along the
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in pairs on each side of the plane
- formed by the 
+ provided that these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ on each side of the plane formed by the 
 \begin_inset Formula $n$
 \end_inset
 
@@ -9705,6 +9994,7 @@ An even number of additional atoms can be added along the
 -gon.
  Therefore 
 \series bold
+\color blue
 the most general formula for a structure with 
 \begin_inset Formula $n$
 \end_inset
@@ -9739,6 +10029,8 @@ D
 \end_inset
 
 .
+\color inherit
+
 \begin_inset Note Note
 status collapsed
 
@@ -10732,20 +11024,12 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-A
-\begin_inset Formula $_{2}$
+(ABCD
+\begin_inset Formula $\cdots$
 \end_inset
 
-B
+)
 \begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
 \end_inset
 
 
@@ -10757,16 +11041,12 @@ D
 \begin_inset Text
 
 \begin_layout Plain Layout
-AB
-\begin_inset Formula $_{2}$
+A(BCD
+\begin_inset Formula $\cdots$
 \end_inset
 
-C
+)
 \begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
 \end_inset
 
 
@@ -11041,7 +11321,7 @@ height "1.5pt"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11055,7 +11335,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11343,16 +11623,12 @@ A
 \begin_inset Formula $_{n}$
 \end_inset
 
-B
-\begin_inset Formula $_{2}$
+(BCD
+\begin_inset Formula $\cdots$
 \end_inset
 
-C
+)
 \begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
 \end_inset
 
 
@@ -11368,12 +11644,12 @@ AB
 \begin_inset Formula $_{n}$
 \end_inset
 
-C
-\begin_inset Formula $_{2}$
+(CD
+\begin_inset Formula $\cdots$
 \end_inset
 
-D
-\begin_inset Formula $_{2}\cdots$
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -11638,6 +11914,14 @@ D
 \begin_inset Text
 
 \begin_layout Plain Layout
+(ABCD
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
+\end_inset
+
 
 \end_layout
 
@@ -11647,6 +11931,14 @@ D
 \begin_inset Text
 
 \begin_layout Plain Layout
+A(BCD
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
+\end_inset
+
 
 \end_layout
 
@@ -12485,24 +12777,20 @@ AB
 \begin_inset Text
 
 \begin_layout Plain Layout
-A
-\begin_inset Formula $_{2n}$
+(A
+\begin_inset Formula $_{n}$
 \end_inset
 
 B
-\begin_inset Formula $_{2n}$
+\begin_inset Formula $_{n}$
 \end_inset
 
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}$
-\end_inset
-
-
+CD
 \begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -12514,28 +12802,20 @@ D
 \begin_inset Text
 
 \begin_layout Plain Layout
-AB
-\series bold
-
-\begin_inset Formula $_{2n}$
+A(B
+\begin_inset Formula $_{n}$
 \end_inset
 
-
-\series default
 C
-\begin_inset Formula $_{2n}$
+\begin_inset Formula $_{n}$
 \end_inset
 
-D
-\begin_inset Formula $_{2}$
-\end_inset
-
-E
-\begin_inset Formula $_{2}$
-\end_inset
-
-
+DE
 \begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -13668,7 +13948,7 @@ height "1.5pt"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13681,7 +13961,7 @@ ABCD
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14250,7 +14530,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-ABCD
+ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -14382,9 +14662,11 @@ noprefix "false"
 
 , in which 
 \series bold
+\color blue
 we have two diatomic molecules that are perpendicular to each other, but
  on different planes
 \series default
+\color black
 
 \begin_inset Note Note
 status collapsed
@@ -14514,6 +14796,7 @@ noprefix "false"
 
  operation with fewer atoms, we know that 
 \series bold
+\color blue
 \lang british
 the minimum number of atoms required is 
 \begin_inset Formula $2n$
@@ -14540,6 +14823,8 @@ D
 \end_inset
 
  
+\color inherit
+
 \begin_inset Note Note
 status collapsed
 
@@ -15694,7 +15979,9 @@ noprefix "false"
 
 \series bold
 \lang british
- The minimum number of atoms required is 
+ 
+\color blue
+The minimum number of atoms required is 
 \begin_inset Formula $8$
 \end_inset
 
@@ -15707,6 +15994,8 @@ B
 \end_inset
 
 .
+\color inherit
+
 \begin_inset Note Note
 status collapsed
 
@@ -15951,7 +16240,9 @@ need to verify this too
 ).
 
 \series bold
- The minimum number of atoms required is 
+ 
+\color blue
+The minimum number of atoms required is 
 \begin_inset Formula $4n$
 \end_inset
 
@@ -15964,6 +16255,8 @@ B
 \end_inset
 
 .
+
+\color black
  
 \series default
 An even number of additional atoms can be added along the 
@@ -15984,6 +16277,7 @@ operation.
  One additional atom can also be added at the center of the overall system.
  Therefore 
 \series bold
+\color blue
 the most general formula for a structure with 
 \begin_inset Formula $4n$
 \end_inset
@@ -16173,6 +16467,7 @@ If we have any fewer than three atoms, the point group of the system will
 O.
  
 \series bold
+\color blue
 \lang british
 The minimum number of atoms required is three, and the most general formula
  is A
@@ -16195,6 +16490,7 @@ BCD
  any new valid symmetry operations.
  
 \series default
+\color inherit
 
 \begin_inset Note Note
 status collapsed
@@ -16373,6 +16669,7 @@ The Cnv with n>=3 figures in Table 1 are minimal structuers
 
  
 \series bold
+\color blue
 \lang british
 The minimum number of atoms required is 
 \begin_inset Formula $n$
@@ -16471,9 +16768,12 @@ N
 .
  
 \series bold
+\color blue
 \lang british
 The minimum number of atoms required is four, and the most general formula
  for the minimal structure is A2B2.
+\color inherit
+
 \begin_inset Note Note
 status collapsed
 
@@ -16676,7 +16976,7 @@ We can repeat everything that was written in the section about
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Float table
@@ -16691,13 +16991,6 @@ status open
 
 \begin_layout Plain Layout
 Possible chemical formulas for each point group or point group series.
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:PossibleFormulasForEachPointGroup"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -19533,7 +19826,7 @@ CHBrCl
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -19544,7 +19837,7 @@ Possible point groups and example systems for all possible chemical formulas
  of tetratomic systems.
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:PossiblePointGroupsForTriatomics-2"
+name "tab:PossiblePointGroupsForTetratomics"
 
 \end_inset
 
@@ -24411,8 +24704,11 @@ Any number of atoms can be added on the
 
 
 \series bold
+\color blue
 \lang british
 The minimum number of atoms required is four.
+
+\color inherit
  
 \series default
 In terms of the possible formulas, if we have two atoms at positions 
@@ -24502,7 +24798,9 @@ respectively, and for the
 
 
 \series bold
- The most general formula is therefore A
+ 
+\color blue
+The most general formula is therefore A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -24703,6 +25001,7 @@ noprefix "false"
 .
  
 \series bold
+\color blue
 \lang british
 The minimum number of atoms required is 
 \begin_inset Formula $2n$
@@ -24739,6 +25038,7 @@ B
  axis without any loss of valid symmetry operations, and if their positions
  are chosen carefully, no new valid symmetry operations would be introduced.
 \series default
+\color inherit
 \lang english
 
 \begin_inset Note Note
