@@ -5316,10 +5316,92 @@ Possible number of atoms and chemical formulas for each axial point group
 
 \begin_layout Standard
 
+\lang british
+In all of the literature that we know, 
+\begin_inset Quotes eld
+\end_inset
+
+the point group
+\begin_inset Quotes erd
+\end_inset
+
+ of a molecule is only considered to be the 
+\series bold
+\emph on
+largest
+\series default
+\emph default
+ point group such that all elements (symmetry operations) transform the
+ molecule into an identical one
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+well not identical because H_1 is now H_2, etc., but what's the word for
+ this? not isomer.
+\end_layout
+
+\end_inset
+
+; so even though all elements of 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ transform a homonuclear diatomic molecule into an identical molecule, the
+ point group is considered to be 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ which is a supergroup of 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ which contains 
+\series bold
+\emph on
+all 
+\series default
+\emph default
+of the elements that transform a homonuclear diatomic molecule into an identical
+ molecule
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+from now on we should call these 
+\begin_inset Quotes eld
+\end_inset
+
+valid
+\begin_inset Quotes erd
+\end_inset
+
+ symmetry elements?
+\end_layout
+
+\end_inset
+
+.
+ We will use this convention throughout this paper.
+\color red
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
 \color red
 \lang british
-As usual, we only consider the maximum point group.
- All in order of number of atoms (except Ci is before others).
+All in order of number of atoms (except Ci is before others).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -24947,6 +25029,18 @@ noprefix "false"
 \end_inset
 
  and it can be any of the other point groups that are listed in the table.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+We didn't find anything with D2?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -24967,6 +25061,71 @@ Outlook
 \lang british
 Apart from finding molecules to fill in the tables, z-matrix generator in
  OpenMolcas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang british
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+We thank Hemanth Haridas and Henri Abensour of HPQC Labs for helping us
+ with this project.
+ We thank Hemanth for discussions about point groups from around 15 July
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+7 days after the last youtube video, this was probably the one that wasn't
+ screen grabbed but recorded on phone at least
+\end_layout
+
+\end_inset
+
+ to 13 September
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang british
+although the images sent on 13 September may not be worth acknowledging
+ (none of them were used, and I'd have to investigate to see if they were
+ helpful).
+ He asked an MMSE question on 12 September related to the project.
+ It didn't lead to anything that we used, but it's worth acknowledging if
+ we are to maintain a reputation of being generous with this type of thing
+ :)
+\end_layout
+
+\end_inset
+
+ 2023.
+ We thank Henri for assistance in finding literature references (particularly
+ the ones that were books rather than journal articles) and for assistance
+ with typesetting the horizontal lines in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossibleGroupsForNatoms"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
