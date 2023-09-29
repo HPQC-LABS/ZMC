@@ -11024,7 +11024,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-(ABCD
+(ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11041,7 +11041,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-A(BCD
+A(BCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11326,7 +11326,7 @@ height "1.5pt"
 
 \begin_layout Plain Layout
 \align center
-ABCD
+ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11623,7 +11623,7 @@ A
 \begin_inset Formula $_{n}$
 \end_inset
 
-(BCD
+(BCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11644,7 +11644,7 @@ AB
 \begin_inset Formula $_{n}$
 \end_inset
 
-(CD
+(CDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11914,7 +11914,7 @@ AB
 \begin_inset Text
 
 \begin_layout Plain Layout
-(ABCD
+(ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -11931,7 +11931,7 @@ AB
 \begin_inset Text
 
 \begin_layout Plain Layout
-A(BCD
+A(BCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -12217,8 +12217,16 @@ A(BCD
 \begin_inset Text
 
 \begin_layout Plain Layout
-A
-\begin_inset Formula $_{2n}$
+(A
+\begin_inset Formula $_{n}$
+\end_inset
+
+BCDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -12230,10 +12238,16 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-AB
-\series bold
+A(B
+\begin_inset Formula $_{n}$
+\end_inset
 
-\begin_inset Formula $_{2n}$
+CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -12501,8 +12515,16 @@ AB
 \begin_inset Text
 
 \begin_layout Plain Layout
-A
-\begin_inset Formula $_{2n}$
+(A
+\begin_inset Formula $_{n}$
+\end_inset
+
+BCDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -12514,10 +12536,20 @@ A
 \begin_inset Text
 
 \begin_layout Plain Layout
-AB
+A(B
 \series bold
 
-\begin_inset Formula $_{2n}$
+\begin_inset Formula $_{n}$
+\end_inset
+
+
+\series default
+CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -12785,7 +12817,7 @@ B
 \begin_inset Formula $_{n}$
 \end_inset
 
-CD
+CDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -13081,7 +13113,7 @@ DE
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13089,12 +13121,16 @@ AB
 \begin_inset Formula $_{n}$
 \end_inset
 
+CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13371,6 +13407,14 @@ B
 \begin_inset Formula $_{n}$
 \end_inset
 
+(CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
+\end_inset
+
 
 \end_layout
 
@@ -13386,6 +13430,14 @@ AB
 
 C
 \begin_inset Formula $_{n}$
+\end_inset
+
+(CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
+)
+\begin_inset Formula $_{2}$
 \end_inset
 
 
@@ -13661,6 +13713,10 @@ B
 \begin_inset Formula $_{n}$
 \end_inset
 
+CDE
+\begin_inset Formula $\cdots$
+\end_inset
+
 
 \end_layout
 
@@ -13676,6 +13732,10 @@ AB
 
 C
 \begin_inset Formula $_{n}$
+\end_inset
+
+DE
+\begin_inset Formula $\cdots$
 \end_inset
 
 
@@ -13952,7 +14012,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-ABCD
+ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -14233,7 +14293,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-(ABCD
+(ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -14250,7 +14310,7 @@ height "1.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-A(BCD
+A(BCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -14646,7 +14706,24 @@ The
 \begin_inset Formula $D_{2d}$
 \end_inset
 
- as depicted in the second 
+ as depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color black
+the second 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -14660,16 +14737,19 @@ noprefix "false"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
 , in which 
-\series bold
-\color blue
+\shape italic
 we have two diatomic molecules that are perpendicular to each other, but
  on different planes
-\series default
-\color black
+\shape default
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 is this still 
@@ -14680,9 +14760,98 @@ perpendicular
 \begin_inset Quotes erd
 \end_inset
 
-? Is there a better way to describe this?
+? Is there a better way to describe this? Also, is this even right now that
+ we switched from Table 1 to Table 5?
 \end_layout
 
+\end_inset
+
+.
+
+\color inherit
+\lang british
+ 
+\series bold
+\color blue
+The minimum number of atoms required is 4, and the formula for this minimal
+ structure would be A
+\begin_inset Formula $_{4}$
+\end_inset
+
+.
+
+\series default
+\color black
+\lang english
+ 
+\color inherit
+\lang british
+An even number of additional atoms can be added along the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ around the 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ axis (since we can choose the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis to be the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, the 
+\begin_inset Formula $x$
+\end_inset
+
+-axis can be chosen to be the 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ axis).
+ One additional atom can also be added at the center of the entire structure.
+ Therefore 
+\series bold
+\color blue
+the most general formula for a structure with 
+\begin_inset Formula $4$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{4}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be AB
+\begin_inset Formula $_{4}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
 \end_inset
 
 .
@@ -14753,16 +14922,24 @@ noprefix "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- but no 
+ operation (with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+) but no 
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
  operation on its own, must at least have a subset of atoms that form the
- shape shown for each 
-\begin_inset Formula $D_{nd},n\ge3$
+ shape (dependingo on the value of 
+\begin_inset Formula $n$
 \end_inset
 
- case in Table 
+) shown for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:TableShapes"
@@ -14772,29 +14949,37 @@ noprefix "false"
 
 \end_inset
 
-, so we need at least this shape.
+.
  Since all other elements in 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid symmetry operations on this structure, and no other symmetry
- operations that are not in 
+ are valid symmetry operations of these shapes, and no other symmetry operations
+ that are not in 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid ont his structure, the point group of the structure is 
-\begin_inset Formula $D_{nd},$
+ are valid on theese shapes, the point group of these structures are 
+\begin_inset Formula $D_{nd}.$
 \end_inset
 
- and since it is not possible to have the 
+ Since these structures constitute 
+\begin_inset Quotes eld
+\end_inset
+
+minimal
+\begin_inset Quotes erd
+\end_inset
+
+ structures with a valid 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- operation without the 
+ operation and no valid 
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
- operation with fewer atoms, we know that 
+ operations, we know that 
 \series bold
 \color blue
 \lang british
@@ -14802,11 +14987,75 @@ the minimum number of atoms required is
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general formula would be A
+, and the most general formula for the minimal structure would be A
 \begin_inset Formula $_{2n}$
 \end_inset
 
 B
+\begin_inset Formula $_{2n}$
+\end_inset
+
+ .
+ 
+\series default
+\color inherit
+An even number of additional atoms can be added along the primary 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ around the 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ axis (since we can choose the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis to be the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, the 
+\begin_inset Formula $x$
+\end_inset
+
+-axis can be chosen to be the 
+\begin_inset Formula $C_{2}^{\prime}$
+\end_inset
+
+ axis).
+ One additional atom can also be added at the center of the entire structure.
+ Therefore 
+\series bold
+\color blue
+the most general formula for a structure with 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{2n}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be AB
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -14815,18 +15064,15 @@ C
 \end_inset
 
 D
-\begin_inset Formula $_{2}$
+\begin_inset Formula $_{2}\cdots$
 \end_inset
 
-
-\begin_inset Formula $\cdots$
-\end_inset
-
+.
  
 \color inherit
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -14972,7 +15218,7 @@ noprefix "false"
 
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 and since we can make the 
