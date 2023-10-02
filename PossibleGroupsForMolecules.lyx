@@ -17217,7 +17217,7 @@ We need a minimum of four atoms for the
 \begin_inset Formula $i$
 \end_inset
 
-.
+, which is not possible for non-linear molecules with fewer than four atoms).
  Indeed four atoms is enough for the point group of a molecule to be 
 \begin_inset Formula $C_{2h}$
 \end_inset
@@ -17230,13 +17230,87 @@ N
 \begin_inset Formula $_{2}$
 \end_inset
 
-.
+ whose structure is depicted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
  
 \series bold
 \color blue
 \lang british
-The minimum number of atoms required is four, and the most general formula
- for the minimal structure is A2B2
+The minimum number of atoms required is four, and the most general chemical
+ formula for a minimal structure is A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\series default
+\color inherit
+
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ An even number of additional atoms can be added along the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ around the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane.
+ One additional atom can also be added at the center of the entire structure.
+ Therefore 
+\series bold
+\color blue
+the most general formula for a structure with 
+\begin_inset Formula $4$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be AB
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
