@@ -13701,7 +13701,7 @@ C
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13722,22 +13722,10 @@ CDE
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-AB
-\begin_inset Formula $_{n}$
-\end_inset
-
-C
-\begin_inset Formula $_{n}$
-\end_inset
-
-DE
-\begin_inset Formula $\cdots$
-\end_inset
-
 
 \end_layout
 
@@ -14792,31 +14780,36 @@ An even number of additional atoms can be added along the
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
-\emph on
-homonuclear pairs
-\emph default
- around the 
-\begin_inset Formula $C_{2}^{\prime}$
+ provided that (since we can label the 
+\begin_inset Formula $C_{2}$
 \end_inset
 
- axis (since we can choose the 
+ axis as the 
 \begin_inset Formula $z$
 \end_inset
 
--axis to be the 
-\begin_inset Formula $C_{n}$
+-axis) these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ around the plane containing the two 
+\begin_inset Formula $C_{2}(x)$
 \end_inset
 
- axis, the 
-\begin_inset Formula $x$
+ and 
+\begin_inset Formula $C_{2}(y)$
 \end_inset
 
--axis can be chosen to be the 
-\begin_inset Formula $C_{2}^{\prime}$
+ axes (
+\emph on
+i.e.
+ 
+\emph default
+the 
+\begin_inset Formula $xy$
 \end_inset
 
- axis).
+-plane).
  One additional atom can also be added at the center of the entire structure.
  Therefore 
 \series bold
@@ -15009,11 +15002,15 @@ An even number of additional atoms can be added along the primary
 \emph on
 homonuclear pairs
 \emph default
- around the 
+ around the plane that contains all 
+\begin_inset Formula $n$
+\end_inset
+
+ of the 
 \begin_inset Formula $C_{2}^{\prime}$
 \end_inset
 
- axis (since we can choose the 
+ axes (since we can choose the 
 \begin_inset Formula $z$
 \end_inset
 
@@ -15021,15 +15018,11 @@ homonuclear pairs
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis, the 
-\begin_inset Formula $x$
+ axis, this plane would be the 
+\begin_inset Formula $xy$
 \end_inset
 
--axis can be chosen to be the 
-\begin_inset Formula $C_{2}^{\prime}$
-\end_inset
-
- axis).
+-plane).
  One additional atom can also be added at the center of the entire structure.
  Therefore 
 \series bold
@@ -15353,9 +15346,8 @@ noprefix "false"
 
 \end_inset
 
-, in which 
-\series bold
-we have two diatomic molecules that are 
+, in which we have two identical homonuclear diatomic molecules that are
+ 
 \emph on
 \bar under
 not
@@ -15363,8 +15355,6 @@ not
  
 \emph default
 perpendicular to each other, and are also on different planes
-\series default
-
 \begin_inset Note Note
 status collapsed
 
@@ -15380,6 +15370,96 @@ perpendicular
 ? Is there a better way to describe this?
 \end_layout
 
+\end_inset
+
+.
+ 
+\series bold
+\color blue
+\lang british
+The minimum number of atoms required is 
+\begin_inset Formula $4$
+\end_inset
+
+, and the most general formula for the minimal structure would be A
+\begin_inset Formula $_{4}$
+\end_inset
+
+.
+ 
+\series default
+\color inherit
+An even number of additional atoms can be added along the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that (since we can label the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis as the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis) these atoms are added in 
+\emph on
+homonuclear pairs
+\emph default
+ around the plane containing the two 
+\begin_inset Formula $C_{2}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{2}(y)$
+\end_inset
+
+ axes (
+\emph on
+i.e.
+ 
+\emph default
+the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane).
+ One additional atom can also be added at the center of the entire structure.
+ Therefore 
+\series bold
+\color blue
+the most general formula for a structure with 
+\begin_inset Formula $4$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{4}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be AB
+\begin_inset Formula $_{4}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
 \end_inset
 
 .
@@ -15487,7 +15567,11 @@ The
 \begin_inset Formula $\pi/n$
 \end_inset
 
- (as required by the logic that was presented in Section 
+ (as would be required for an 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ axis by the logic that was presented in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:GeneralPrinciples"
@@ -15498,14 +15582,7 @@ noprefix "false"
 \end_inset
 
 ).
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\color red
-This breaks the validity of the 
+ This minor rotation will break the validity of the 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
@@ -15513,11 +15590,7 @@ This breaks the validity of the
 \begin_inset Formula $C_{n}$
 \end_inset
 
- operation 
-\end_layout
-
-\end_inset
-
+ operation.
  The resulting structures are depicted in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -15528,7 +15601,10 @@ noprefix "false"
 
 \end_inset
 
-, and the minimum number of atoms required for each 
+, and the 
+\series bold
+\color blue
+minimum number of atoms required for each 
 \begin_inset Formula $D_{n}$
 \end_inset
 
@@ -15536,8 +15612,18 @@ noprefix "false"
 \begin_inset Formula $D_{nd}$
 \end_inset
 
-, as are the possible chemical formulas.
+, as are the chemical formulas for the minimal structures.
+ Likewise, the possible numbers of atoms for structures with 
+\begin_inset Formula $D_{n}$
+\end_inset
 
+ point groups are the same as for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ point groups, as are the possible chemical formulas.
+
+\series default
 \color red
  
 \begin_inset VSpace defskip
