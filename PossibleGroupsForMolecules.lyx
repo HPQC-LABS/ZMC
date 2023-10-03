@@ -30,6 +30,7 @@
 \setlength{\parskip}{0pt}
 \usepackage{enumitem} % https://tex.stackexchange.com/a/170528/14527
 \setlist{leftmargin=2mm}
+\setlist[enumerate]{label*=\arabic*.} %subitem labels by default are like (a),(b),etc. but (e) is bigger than (f) so it looks weird. This uses numbers insetad.
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
 \use_default_options true
@@ -756,7 +757,7 @@ noprefix "false"
  difficult to find in existing places):
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 \begin_inset Argument 1
@@ -805,9 +806,20 @@ Actually reference it
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+leftmargin=0.6cm
+\end_layout
+
+\end_inset
+
 in a more clear way than in 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -819,7 +831,7 @@ literal "false"
 , 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 with inconsistencies in 
@@ -833,7 +845,7 @@ literal "false"
  resolved, 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 with more of the 
@@ -851,7 +863,7 @@ literal "false"
 , 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 with structures requiring fewer atoms than in 
@@ -873,7 +885,7 @@ literal "false"
  series, 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 with an extra column showing additional structures (in some cases these
@@ -892,7 +904,7 @@ literal "false"
  cases, and
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 with a more logical order, especially for pedagogical reasons, than in 
@@ -907,7 +919,7 @@ literal "false"
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 In Section 
@@ -924,7 +936,7 @@ noprefix "false"
  explaining new results, and for pedagogical purposes.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 In Section 
@@ -941,20 +953,31 @@ noprefix "false"
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+leftmargin=0.6cm
+\end_layout
+
+\end_inset
+
 the minimum number of atoms (cardinality) required; 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 all possible cardinalities allowed (the minimum cardinality is a special
  case of this); and 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 all possible chemical formulas allowed (the list of all possibile cardinalities
@@ -963,7 +986,7 @@ all possible chemical formulas allowed (the list of all possibile cardinalities
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 In Section 
@@ -990,9 +1013,20 @@ noprefix "false"
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+leftmargin=0.6cm
+\end_layout
+
+\end_inset
+
 we were able to list in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1032,7 +1066,7 @@ noprefix "false"
  but would take up too much space to be presented here); 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 we also explicitly listed the specific point groups (and diagrams of example
@@ -1081,7 +1115,7 @@ noprefix "false"
  but would take up too much space to be presented here);
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 
 \lang british
 we attempted to provide examples of known molecules with each possible point
