@@ -401,8 +401,8 @@ literal "false"
 \end_inset
 
  if they have ever come across a list of all possible point groups for a
- 4-atom (tetraatomic) system, and in all cases we were explicitly told that
- they were unaware of such a list, or we received no response at all.
+ 4-atom (tetra-atomic) system, and in all cases we were explicitly told
+ that they were unaware of such a list, or we received no response at all.
  We have determined all possible point groups for systems with 
 \emph on
 any
@@ -512,7 +512,7 @@ literal "false"
 
 \end_inset
 
- reported a thourough survey of known published
+ reported a thorough survey of known published
 \begin_inset Note Note
 status open
 
@@ -742,7 +742,11 @@ noprefix "false"
 
 \end_inset
 
- and summarized in Section 
+ and 
+\lang american
+summarized
+\lang british
+ in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Summary"
@@ -980,7 +984,7 @@ all possible cardinalities allowed (the minimum cardinality is a special
 \begin_layout Enumerate
 
 \lang british
-all possible chemical formulas allowed (the list of all possibile cardinalities
+all possible chemical formulas allowed (the list of all possible cardinalities
  is a special case of this).
  
 \end_layout
@@ -1098,11 +1102,11 @@ B
 \begin_inset Formula $_{2}$
 \end_inset
 
-BC, and ABCD for tetraatomic systems (analogous lists for 
+BC, and ABCD for tetra-atomic systems (analogous lists for 
 \emph on
-arbirary
+arbitrary
 \emph default
- chemical formulas acn also be generated with the results from 
+ chemical formulas can also be generated with the results from 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:NumberOfAtomsForEachPointGroup"
@@ -1148,10 +1152,13 @@ B
 \end_inset
 
 BC, and ABCD, and this led us to the discovery of shapes for which no molecule/c
-omplex has yet been synethesized or found, despite the existence of such
- molecules/complexes being proven to be possible (this was not a surprise
- for larger structures, but we determined that the minimum number of atoms
- required for the point group 
+omplex has yet been 
+\lang american
+synthesized
+\lang british
+ or found, despite the existence of such molecules/complexes being proven
+ to be possible (this was not a surprise for larger structures, but we determine
+d that the minimum number of atoms required for the point group 
 \begin_inset Formula $D_{2}$
 \end_inset
 
@@ -1279,11 +1286,14 @@ literal "false"
 
 \lang british
 However, for many of the molecules in the GW100 dataset, calculations are
- done at geometries that were optimized using density functional theory,
- which means that the results are dependent on the basis set and density
- functional used; and it also had an effect on the comparisons that have
- been made between calculations that were done for the GW100 dataset and
- experimental data on the same dataset.
+ done at geometries that were 
+\lang american
+optimized
+\lang british
+ using density functional theory, which means that the results are dependent
+ on the basis set and density functional used; and it also had an effect
+ on the comparisons that have been made between calculations that were done
+ for the GW100 dataset and experimental data on the same dataset.
  For many of those molecules, very accurate bond lengths and angles that
  were determined from high-resolution spectroscopic experiments, are available
  in places such as the Landolt–Börnstein volumes and related books 
@@ -1581,7 +1591,7 @@ literal "false"
 
 , also provided no additional bond lengths or angles).
  But to do electronic structure calculations we need either the XYZ coordinates
- of all atoms, or a z-matrix for the molecule, and there is no softawre
+ of all atoms, or a z-matrix for the molecule, and there is no software
  
 \begin_inset Note Note
 status open
@@ -1643,10 +1653,10 @@ dihedral cosine law
  most researchers; however with the pace of research today, the derivation
  of such a formula 
 \emph on
-would ideally be done by softawre rather than by hand
+would ideally be done by software rather than by hand
 \emph default
 .
- Unfortunately, not even the most advanced symbolic computation or comptuer
+ Unfortunately, not even the most advanced symbolic computation or computer
  algebra software can provide a user with Eq.
  
 \begin_inset CommandInset ref
@@ -1689,7 +1699,11 @@ literal "true"
 \lang british
 We believe that as machine learning and big data analysis become more popular
  over the next century, there will be a rise in interest in being able to
- categorieze molecules (e.g.
+ 
+\lang american
+categorieze
+\lang british
+ molecules (e.g.
  for training neural networks) and the question of which point groups are
  possible for molecules of a certain size or formula, will be asked more
  and more.
@@ -1747,7 +1761,7 @@ base
 
 , more families of structures also exist, so the examples that are presented
  are not exhaustive.
- All obejcts that are depicted for the 
+ All objects that are depicted for the 
 \begin_inset Formula $n=\infty$
 \end_inset
 
@@ -1779,7 +1793,7 @@ highest
 
 .
  The colors of the atoms are not intended to have any meaning apart from
- showing that the grey
+ showing that the gray
 \color red
 /black 
 \color inherit
@@ -1803,7 +1817,10 @@ name "tab:atkinsImproved"
 status open
 
 \begin_layout Plain Layout
-Dnd and such are on different planes
+\begin_inset Formula $Dnd$
+\end_inset
+
+and such are on different planes
 \end_layout
 
 \end_inset
@@ -3085,7 +3102,11 @@ minimal
  code blocks based on their point groups and chemical formulas, in addition
  to other characteristics.
  However, a natural first step towards constructing such a software would
- be to categorize 
+ be to 
+\lang american
+categorize
+\lang british
+ 
 \begin_inset Formula $n$
 \end_inset
 
@@ -3110,7 +3131,7 @@ literal "false"
  point groups are already used to help describe molecules), and then to
  write the relevant z-matrix-construction or XYZ-construction code for each
  case, adding sub-cases when necessary (e.g.
- to distingush between the two types of 
+ to distinguish between the two types of 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
@@ -3202,8 +3223,10 @@ status open
 
 \begin_layout Subsubsection*
 
+\lang american
+Categorization
 \lang british
-Categorization and finding gaps in our knowledge
+ and finding gaps in our knowledge
 \end_layout
 
 \begin_layout Plain Layout
@@ -3237,8 +3260,11 @@ cases
 \end_inset
 
  that the z-matrix construction program would need to consider.
- For systems with four atoms, we began by categorizing all 4-atom systems
- listed in 
+ For systems with four atoms, we began by 
+\lang american
+categorizing
+\lang british
+ all 4-atom systems listed in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
@@ -3267,15 +3293,23 @@ Si and other alike
 
 B would be calculated with the same program logic, except with a different
  bond length and different bond angle being used as input).
- In additon to categorizing molecules based on their point group and chemical
- formula, we also did it in terms of graph theory
+ In addition to 
+\lang american
+categorizing
+\lang british
+ molecules based on their point group and chemical formula, we also did
+ it in terms of graph theory
 \end_layout
 
 \begin_layout Plain Layout
 
 \lang british
-we realized that we missed the tadpole structure because we know that there's
- 6 connected 4-vertex graphs.
+we 
+\lang american
+realized
+\lang british
+ that we missed the tadpole structure because we know that there's 6 connected
+ 4-vertex graphs.
  Likewise we tried to see if we had representation from all possible point
  groups, and this required us to first determine the possible point groups
  for 4-atom molecules (which surprisingly we couldn't find, and we found
@@ -3307,9 +3341,13 @@ In addition to determining the number of point group cases required for
 \begin_layout Plain Layout
 
 \lang british
-Another motivation was geometry optimization.
+Another motivation was geometry 
+\lang american
+optimization
+\lang british
+.
  Roland Lindh and others have discovered that you can get fewer cycles,
- but if point group symemtry is included, then we can have a smaller Wilson-B
+ but if point group symmetry is included, then we can have a smaller Wilson-B
  matrix.
  
 \begin_inset Note Note
@@ -3442,14 +3480,14 @@ noprefix "false"
 \begin_inset Formula $6$
 \end_inset
 
-, schematic diagrams are presented in attempt to provide an impresson of
+, schematic diagrams are presented in attempt to provide an impression of
  how a molecule with the point group would look.
  This table has some minor inconsistencies (e.g.
  one of the lines in the the 
 \begin_inset Formula $C_{4}$
 \end_inset
 
- diagram is black instaed of purple, the 
+ diagram is black instead of purple, the 
 \begin_inset Formula $C_{6}$
 \end_inset
 
@@ -3648,16 +3686,22 @@ literal "false"
 
 \end_inset
 
- that we addressed was the readability and interprability of their figures.
+ that we addressed was the readability and interpret-ability of their figures.
  This problem is perhaps most severe in their figures for 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
 , in which the atoms in the first and third planes are of one elemental
- type (depicted in a beige color in their figure), and the atoms in the
- second and fourth planes are of another elemental type (depicted in a purple
- or maroon color in their figure); whereas for reasons that will be expained
- in Section
+ type (depicted in a beige 
+\lang american
+color
+\lang british
+ in their figure), and the atoms in the second and fourth planes are of
+ another elemental type (depicted in a purple or maroon 
+\lang american
+color
+\lang british
+ in their figure); whereas for reasons that will be explained in Section
 \begin_inset Note Note
 status open
 
@@ -3728,8 +3772,11 @@ noprefix "false"
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- series have two different colors, even though all atoms actually need to
- be the 
+ series have two different 
+\lang american
+colors
+\lang british
+, even though all atoms actually need to be the 
 \emph on
 same 
 \emph default
@@ -3747,7 +3794,11 @@ type, and the figures in the
 \begin_inset Formula $D_{n}$
 \end_inset
 
- series, again the colors appear to be incorrect
+ series, again the 
+\lang american
+colors
+\lang british
+ appear to be incorrect
 \begin_inset Note Note
 status open
 
@@ -3868,8 +3919,12 @@ appendages
 
  do not need to be parallel, as long as they do not bisect the exterior
  angles at the polygons' vertices, and as long as the atoms are not in the
- center of the polygons' edges, since if either of these situations were
- to occur, the point group of the system would be promoted to 
+ 
+\lang american
+center
+\lang british
+ of the polygons' edges, since if either of these situations were to occur,
+ the point group of the system would be promoted to 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -3993,7 +4048,7 @@ base
 \end_inset
 
  point groups.
- but an ambiguous or uninterprable 
+ but an ambiguous or un-interpretable 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4224,7 +4279,7 @@ literal "false"
 
  presented in their original table, are not the only correct examples that
  can be provided for each point group; but ours were at least chosen based
- on a non-arbitrary criterium, which was to only include for each point
+ on a non-arbitrary criterion, which was to only include for each point
  group, the structure that require the minimum number of atoms (except for
  the first 
 \begin_inset Formula $n=2$
@@ -4458,7 +4513,7 @@ Any molecule with a rotation axis, or
 \begin_inset Formula $C_{n}$
 \end_inset
 
--axis, can be oriented in an xyz (Caterian) coordinate system such that
+-axis, can be oriented in an xyz (Cartesian) coordinate system such that
  for the largest possible 
 \begin_inset Formula $n$
 \end_inset
@@ -4471,7 +4526,7 @@ Any molecule with a rotation axis, or
 \begin_inset Formula $z$
 \end_inset
 
--axis is aligned wtih a 
+-axis is aligned with a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4500,7 +4555,7 @@ Any molecule with a rotation axis, or
 \begin_inset Formula $xy$
 \end_inset
 
--plane in the coordinaet sysem.
+-plane in the coordinate system.
 \end_layout
 
 \end_inset
@@ -4569,7 +4624,11 @@ The existence of a
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis would go through the center of this polygon (or in the case of 
+ axis would go through the 
+\lang american
+center
+\lang british
+ of this polygon (or in the case of 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4651,7 +4710,7 @@ can be or must be?
 \begin_inset Formula $(x,y)$
 \end_inset
 
- coordinates of another identaical atom in the molecule
+ coordinates of another identical atom in the molecule
 \begin_inset Note Note
 status open
 
@@ -4875,7 +4934,7 @@ and
 
 \end_inset
 
-, and coordiantes 
+, and coordinates 
 \begin_inset Formula $(x^{\prime},y^{\prime},-z)$
 \end_inset
 
@@ -4925,8 +4984,8 @@ can be or must be?
 \begin_inset Formula $xy$
 \end_inset
 
--coordinates of another identaical atom in the molecule if the molecule
- indeed has a 
+-coordinates of another identical atom in the molecule if the molecule indeed
+ has a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -5024,7 +5083,11 @@ status open
 \begin_layout Plain Layout
 
 \lang british
-maybe also Ih
+maybe also 
+\begin_inset Formula $Ih$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5066,7 +5129,11 @@ We would need at least one additional atom outside of the plane formed by
 \begin_inset Formula $z$
 \end_inset
 
--axis and the center of the original 
+-axis and the 
+\lang american
+center
+\lang british
+ of the original 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -5246,7 +5313,11 @@ two
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis going through the center of each of the 
+ axis going through the 
+\lang american
+center
+\lang british
+ of each of the 
 \begin_inset Formula $n$
 \end_inset
 
@@ -5505,7 +5576,7 @@ The
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
- operation on its own, but it is a necessary subunit of any system whose
+ operation on its own, but it is a necessary sub-unit of any system whose
  point group has an 
 \begin_inset Formula $S_{2n}$
 \end_inset
@@ -5572,7 +5643,11 @@ Action of the inversion operation,
 \begin_layout Standard
 
 \lang british
-We can always choose center of inversion to be at the origin 
+We can always choose 
+\lang american
+center
+\lang british
+ of inversion to be at the origin 
 \begin_inset Formula $(0,0,0),$
 \end_inset
 
@@ -5635,12 +5710,12 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- transform a homonuclear diatomic molecule into an identical molecule, the
- point group is considered to be 
+ transform a homo-nuclear diatomic molecule into an identical molecule,
+ the point group is considered to be 
 \begin_inset Formula $D_{\infty h}$
 \end_inset
 
- which is a supergroup of 
+ which is a super-group of 
 \begin_inset Formula $D_{2h}$
 \end_inset
 
@@ -5650,8 +5725,8 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 all 
 \series default
 \emph default
-of the elements that transform a homonuclear diatomic molecule into an identical
- molecule
+of the elements that transform a homo-nuclear diatomic molecule into an
+ identical molecule
 \begin_inset Note Note
 status open
 
@@ -9766,8 +9841,12 @@ If we have three or fewer atoms, then there does not even need to be an
  inversion center for the atoms to be confined to a plane (or line).
  If we have four atoms, and 
 \lang british
-we make the inversion center the origin, the atoms must come in pairs according
- to the inversion operation 
+we make the inversion 
+\lang american
+center
+\lang british
+ the origin, the atoms must come in pairs according to the inversion operation
+ 
 \begin_inset Formula $i$
 \end_inset
 
@@ -9888,8 +9967,12 @@ Cl
 \end_inset
 
 , but an even number of atoms would need to be added in pairs of identical
- elements, and/or one additonal atom of any element can be added to the
- inversion center.
+ elements, and/or one additional atom of any element can be added to the
+ inversion 
+\lang american
+center
+\lang british
+.
  
 \series bold
 \color blue
@@ -9922,7 +10005,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- depenending on if the number of atoms is even or odd
+ depending on if the number of atoms is even or odd
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
@@ -10034,7 +10117,7 @@ If we have any fewer than three atoms, the point group of the system will
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
-, then an identical atom would need to be at the positon 
+, then an identical atom would need to be at the position 
 \begin_inset Formula $(-x_{1},-y_{1},-z_{1})$
 \end_inset
 
@@ -10105,8 +10188,11 @@ The general formula is
 
  
 \series default
-Any atom can be added to the inversion center of the system without breaking
- any of the 
+Any atom can be added to the inversion 
+\lang american
+center
+\lang british
+ of the system without breaking any of the 
 \begin_inset Formula $D_{2h}$
 \end_inset
 
@@ -10164,7 +10250,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- depenending on if the number of atoms is even or odd
+ depending on if the number of atoms is even or odd
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
@@ -10175,8 +10261,12 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang british
-proof: center of inversion has to be at the intersection of C2, C2', C2''
- and sigma_h,v,d all have to contain i.
+proof: 
+\lang american
+center
+\lang british
+ of inversion has to be at the intersection of C2, C2', C2'' and sigma_h,v,d
+ all have to contain i.
  C2' and C2'' just switch the two points that were added on the C2 axis,
  and the planes either do nothing or just switch the points.
 \end_layout
@@ -10228,7 +10318,7 @@ necessary
 \begin_inset Formula $n\ge3$
 \end_inset
 
-, we can concldue the 
+, we can conclude the 
 \series bold
 \color blue
 the minimum number of atoms required is 
@@ -10252,14 +10342,18 @@ An even number of additional atoms can be added along the
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  on each side of the plane formed by the 
 \begin_inset Formula $n$
 \end_inset
 
 -gon.
- One additional atom can also be added at the center of the 
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the 
 \begin_inset Formula $n$
 \end_inset
 
@@ -10315,8 +10409,19 @@ status collapsed
 \series bold
 \lang british
 Somehow we need to explain that we can add the additional atoms in other
- ways, for example an n-gon could be added, but if n is even AnBn is a special
- case of AnB2C2..., and if it's odd, then it's a special case of AnBC2D2...
+ ways, for example an n-gon could be added, but if n is even 
+\begin_inset Formula $AnBn$
+\end_inset
+
+ is a special case of 
+\begin_inset Formula $AnB2C2$
+\end_inset
+
+..., and if it's odd, then it's a special case of 
+\begin_inset Formula $AnBC2D2...$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -15065,7 +15170,7 @@ An even number of additional atoms can be added along the
 
 -axis) these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the plane containing the two 
 \begin_inset Formula $C_{2}(x)$
@@ -15085,7 +15190,11 @@ the
 \end_inset
 
 -plane).
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -15162,8 +15271,15 @@ D
 status collapsed
 
 \begin_layout Plain Layout
-It would be cool if we could use a generator-type argument here: S2n - simga_h
- = Dnd, rather than something like S2n + sigmav = Dnh
+It would be cool if we could use a generator-type argument here: 
+\begin_inset Formula $S2n-simga_{h}=Dnd$
+\end_inset
+
+, rather than something like 
+\begin_inset Formula $S2n+sigmav=Dnh$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -15203,7 +15319,7 @@ noprefix "false"
 \end_inset
 
  operation on its own, must at least have a subset of atoms that form the
- shape (dependingo on the value of 
+ shape (depending on the value of 
 \begin_inset Formula $n$
 \end_inset
 
@@ -15231,7 +15347,7 @@ noprefix "false"
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid on theese shapes, the point group of these structures are 
+ are valid on these shapes, the point group of these structures are 
 \begin_inset Formula $D_{nd}.$
 \end_inset
 
@@ -15279,7 +15395,7 @@ An even number of additional atoms can be added along the primary
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the plane that contains all 
 \begin_inset Formula $n$
@@ -15302,7 +15418,11 @@ homonuclear pairs
 \end_inset
 
 -plane).
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -15632,7 +15752,7 @@ noprefix "false"
 
 \end_inset
 
-, in which we have two identical homonuclear diatomic molecules that are
+, in which we have two identical homo-nuclear diatomic molecules that are
  
 \emph on
 \bar under
@@ -15691,7 +15811,7 @@ An even number of additional atoms can be added along the
 
 -axis) these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the plane containing the two 
 \begin_inset Formula $C_{2}(x)$
@@ -15711,7 +15831,11 @@ the
 \end_inset
 
 -plane).
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -16430,8 +16554,9 @@ on the plane with the opposite
 \end_inset
 
 .
- We can add at least one more atom (it does not necessarily need to be homonucle
-ar in comparison to the first set of four atoms) in order to break the 
+ We can add at least one more atom (it does not necessarily need to be homo-nucl
+ear in comparison to the first set of four atoms) in order to break the
+ 
 \begin_inset Formula $\sigma_{d}$
 \end_inset
 
@@ -16488,7 +16613,7 @@ ar in comparison to the first set of four atoms) in order to break the
 \begin_inset Formula $xy$
 \end_inset
 
--plane, adding atoms on this plane would mean adding atoms wtih 
+-plane, adding atoms on this plane would mean adding atoms with 
 \begin_inset Formula $z=0$
 \end_inset
 
@@ -16605,7 +16730,7 @@ noprefix "false"
 \begin_inset Formula $S_{4}$
 \end_inset
 
- point grouop, the point group of this 8-atom structure is 
+ point group, the point group of this 8-atom structure is 
 \begin_inset Formula $S_{4}$
 \end_inset
 
@@ -16642,7 +16767,7 @@ An even number of additional atoms can be added along the
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the 
 \begin_inset Formula $\sigma_{h}$
@@ -16653,7 +16778,11 @@ homonuclear pairs
 \end_inset
 
  operation.
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -16763,7 +16892,7 @@ noprefix "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
-, we can start wtih the 
+, we can start with the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -16823,7 +16952,7 @@ is this true? I'm just guessing
 \end_inset
 
  plane associated with it.
- This atom does not need to be homonuclear with the existing atoms in the
+ This atom does not need to be homo-nuclear with the existing atoms in the
  structure, but as we described in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -16926,7 +17055,7 @@ An even number of additional atoms can be added along the
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  symmetrically on each side of the 
 \begin_inset Formula $\sigma_{h}$
@@ -16937,7 +17066,11 @@ homonuclear pairs
 \end_inset
 
 operation.
- One additional atom can also be added at the center of the overall system.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the overall system.
  Therefore 
 \series bold
 \color blue
@@ -16987,7 +17120,7 @@ E
 \color red
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -17022,8 +17155,13 @@ For any positive integer
 \begin_inset Formula $C_{n}$
 \end_inset
 
- axis perpendicular to it and passing through its center, but a regular
- 
+ axis perpendicular to it and passing through its 
+\color inherit
+\lang american
+center
+\color red
+\lang british
+, but a regular 
 \begin_inset Formula $n$
 \end_inset
 
@@ -17051,9 +17189,28 @@ will not satisfy the
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- operaton unless all atoms are at the origin.
- You need 2n to have an S2n axis, but then you'd get Dnh, so you need another
- 2n to break the Dnh.
+ operation unless all atoms are at the origin.
+ You need 
+\begin_inset Formula $2n$
+\end_inset
+
+ to have an 
+\begin_inset Formula $S2n$
+\end_inset
+
+ axis, but then you'd get 
+\begin_inset Formula $Dnh$
+\end_inset
+
+, so you need another 
+\begin_inset Formula $2n$
+\end_inset
+
+ to break the 
+\begin_inset Formula $Dnh$
+\end_inset
+
+.
 
 \series bold
  The minimum number of atoms required is 
@@ -17331,7 +17488,7 @@ noprefix "false"
 \end_inset
 
  point group.
- The only point group wtih a 
+ The only point group with a 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -17376,7 +17533,15 @@ by starting with a regular
 status collapsed
 
 \begin_layout Plain Layout
-The Cnv with n>=3 figures in Table 1 are minimal structuers
+The 
+\begin_inset Formula $Cnv$
+\end_inset
+
+ with 
+\begin_inset Formula $n>=3$
+\end_inset
+
+ figures in Table 1 are minimal structures
 \end_layout
 
 \end_inset
@@ -17538,14 +17703,18 @@ B
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the 
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
  plane.
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -17824,14 +17993,18 @@ B
  and such that none of the existing valid symmetry operations are invalidated,
  provided that these atoms are added in 
 \emph on
-homonuclear pairs
+homo-nuclear pairs
 \emph default
  around the 
 \begin_inset Formula $\sigma_{h}$
 \end_inset
 
  plane.
- One additional atom can also be added at the center of the entire structure.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the entire structure.
  Therefore 
 \series bold
 \color blue
@@ -20742,7 +20915,7 @@ status open
 
 \begin_layout Plain Layout
 Possible point groups and example systems for all possible chemical formulas
- of tetratomic systems.
+ of tetra-atomic systems.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossiblePointGroupsForTetratomics"
@@ -21024,7 +21197,7 @@ ABCD
 \size giant
 \color gray
 
-\begin_inset Formula $\textrm{✗}$
+\begin_inset Formula $\textrm{\transparent{0.6}✗}$
 \end_inset
 
 
@@ -25618,7 +25791,7 @@ Any number of atoms can be added on the
 \begin_inset Formula $C_{2}$
 \end_inset
 
- axis without invlidating the 
+ axis without invalidating the 
 \begin_inset Formula $C_{2}$
 \end_inset
 
@@ -25683,7 +25856,7 @@ previous section
 
  
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -25696,7 +25869,11 @@ and B
 \begin_inset Formula $\ne$
 \end_inset
 
-B' but then we have to explain that they are not on the axis
+
+\begin_inset Formula $B'$
+\end_inset
+
+ but then we have to explain that they are not on the axis
 \end_layout
 
 \end_inset
@@ -26332,26 +26509,65 @@ status open
 \lang british
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Pyramid formed from regualr n-gon is Dnh, we need to add at least one atom
- to break all mirror planes.
- To preserve the Cn axis we need to either add any number of atoms on the
- Cn axis, or at least n atoms that are not on the Cn axis (forming a regular
- n-gon with the Cn axis in the centre of it).
+Pyramid formed from regular n-gon is 
+\begin_inset Formula $Dnh$
+\end_inset
+
+, we need to add at least one atom to break all mirror planes.
+ To preserve the 
+\begin_inset Formula $Cn$
+\end_inset
+
+ axis we need to either add any number of atoms on the 
+\begin_inset Formula $Cn$
+\end_inset
+
+ axis, or at least 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms that are not on the 
+\begin_inset Formula $Cn$
+\end_inset
+
+ axis (forming a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with the 
+\begin_inset Formula $Cn$
+\end_inset
+
+ axis in the center of it).
  However, adding any atoms on the axis will not break the vertical mirror
  planes, so we must add at least n more atoms and form a second concentric
- regular n-gon around the Cn axis, but it cannot be on the same plane as
- the original n-gon because then it would still have the horizontal mirror
- plane and the point group would be promoted at least to 
+ regular n-gon around the 
+\begin_inset Formula $Cn$
+\end_inset
+
+ axis, but it cannot be on the same plane as the original 
+\begin_inset Formula $n$
+\end_inset
+
+-gon because then it would still have the horizontal mirror plane and the
+ point group would be promoted at least to 
 \begin_inset Formula $C_{nh}$
 \end_inset
 
 , and the new n-gon would have to be rotated from the original one in order
- to avoid Dnh in the case where the side-lengths are the same (horizontal
- mirror plane is just halfway between the planes of the two n-gons), and
- Cnv where the two regular n-gons have their own distinct side-lengths.
+ to avoid 
+\begin_inset Formula $Dnh$
+\end_inset
+
+ in the case where the side-lengths are the same (horizontal mirror plane
+ is just halfway between the planes of the two n-gons), and 
+\begin_inset Formula $Cnv$
+\end_inset
+
+ where the two regular n-gons have their own distinct side-lengths.
  
 \end_layout
 
@@ -26380,7 +26596,11 @@ Summary of our results and outlook
 \begin_layout Standard
 
 \lang british
-The results of the previous section are summarized in Tables 
+The results of the previous section are 
+\lang american
+summarized
+\lang british
+ in Tables 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:PossibleGroupsForNatoms"
@@ -26415,8 +26635,11 @@ noprefix "false"
  a smaller font or a change in other aspects of the formatting would be
  needed to extend the table to include systems with 9 atoms, and such an
  extension would not be particularly enriching, especially since the general
- chemical formulas presented in the previous section and summarized in Table
- 
+ chemical formulas presented in the previous section and 
+\lang american
+summarized
+\lang british
+ in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:PossibleNumberOfAtomsForEachPointGroup"
@@ -26491,7 +26714,11 @@ Outlook
 \color red
 \lang british
 Apart from finding molecules to fill in the tables, z-matrix generator in
- OpenMolcas.
+ 
+\lang american
+OpenMolcas
+\lang british
+.
 \end_layout
 
 \begin_layout Standard
@@ -26503,7 +26730,7 @@ Apart from finding molecules to fill in the tables, z-matrix generator in
 
 \begin_layout Section
 
-\lang british
+\lang american
 Acknowledgments
 \end_layout
 
@@ -26519,7 +26746,7 @@ status open
 \begin_layout Plain Layout
 
 \lang british
-7 days after the last youtube video, this was probably the one that wasn't
+7 days after the last YouTube video, this was probably the one that wasn't
  screen grabbed but recorded on phone at least
 \end_layout
 
