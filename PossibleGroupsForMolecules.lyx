@@ -1370,7 +1370,7 @@ Pyramidal
 
 \lang british
 \begin_inset Graphics
-	filename models/C_2v_H2Si2.png
+	filename models/C_2v_H2Si2(2).png
 	lyxscale 10
 	width 30text%
 
@@ -1405,11 +1405,16 @@ Planar, with a
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \lang british
 \begin_inset Graphics
-	filename models/C_2v_H2Si2.png
+	filename models/C_2v_H2Si2(3).png
 	lyxscale 10
 	width 30text%
 
@@ -1418,9 +1423,10 @@ Planar, with a
 
 \end_layout
 
-\end_inset
+\begin_layout Plain Layout
+\align center
 
-
+\lang british
 \begin_inset Float figure
 wide false
 sideways false
@@ -1920,6 +1926,13 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/D_2h(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -1994,7 +2007,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/D_6h.png
 	lyxscale 5
 	width 10text%
 
@@ -2120,7 +2133,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/D_6d.png
 	lyxscale 5
 	width 10text%
 
@@ -2246,7 +2259,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/D_6.png
 	lyxscale 5
 	width 10text%
 
@@ -2372,7 +2385,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/S_12.png
 	lyxscale 5
 	width 10text%
 
@@ -2498,7 +2511,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/C_6v.png
 	lyxscale 5
 	width 10text%
 
@@ -2543,6 +2556,13 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename models/C_2h(1).png
+	lyxscale 5
+	width 10text%
+
+\end_inset
+
 
 \end_layout
 
@@ -2617,7 +2637,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/C_6h.png
 	lyxscale 5
 	width 10text%
 
@@ -2743,7 +2763,7 @@ height "0.5pt"
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename models/D_2h.png
+	filename models/C_6.png
 	lyxscale 5
 	width 10text%
 
