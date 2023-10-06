@@ -308,27 +308,15 @@ status collapsed
 \end_layout
 
 \begin_layout Abstract
-For each axial point group, we determine all
-\emph on
- 
-\emph default
-possible structures in terms of the number of atoms and the chemical formula
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-s
-\end_layout
-
-\end_inset
-
-.
- We provide examples of molecules of each size and formula if they are known,
- and hence we determine the yet-to-be discovered molecules with under five
- atoms for each point group.
- We present a set of principles that can be used for proofs about the possibilit
-y or impossibility for a certain point group to apply to a molecule of a
- certain size and/or formula.
+For each axial point group, we determined all possible numbers of atoms
+ and chemical formulas.
+ We also present a set of principles that can be used for proofs about the
+ possibility or impossibility for a certain point group to apply to a molecule
+ of a certain size and/or chemical formula.
+ For triatomic and tetra-atomic molecules, we provide examples of molecules
+ of each size and formula if they are known, and hence we determine the
+ types of molecules with under five atoms that are still yet-to-be discovered
+ (in terms of point groups).
  We also resolve some inconsistencies in a table by P.
  Atkins, M.
  Child and C.
