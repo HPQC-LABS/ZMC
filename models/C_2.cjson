@@ -101,6 +101,7 @@
       ]
     },
     "locked": [
+      false,
       false
     ],
     "settings": {
@@ -112,8 +113,13 @@
       ]
     },
     "visible": [
+      true,
       true
     ]
   },
-  "name": "784"
+  "name": "784",
+  "properties": {
+    "totalCharge": 0,
+    "totalSpinMultiplicity": 1
+  }
 }
