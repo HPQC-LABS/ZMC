@@ -308,8 +308,8 @@ status collapsed
 \end_layout
 
 \begin_layout Abstract
-For each axial point group, we determined all possible numbers of atoms
- and chemical formulas.
+For each axial point group, we determine all possible numbers of atoms and
+ chemical formulas.
  We also present a set of principles that can be used for proofs about the
  possibility or impossibility for a certain point group to apply to a molecule
  of a certain size and/or chemical formula.
@@ -391,7 +391,7 @@ literal "false"
  if they have ever come across a list of all possible point groups for a
  4-atom (tetra-atomic) system, and in all cases we were explicitly told
  that they were unaware of such a list, or we received no response at all.
- We have determined all possible point groups for systems with 
+ We have now determined all possible point groups for systems with 
 \emph on
 any
 \emph default
@@ -544,6 +544,13 @@ literal "false"
 
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
 , and also thoroughly selected work on the topic that did not provide 
 \begin_inset Formula $S_{8}$
 \end_inset
@@ -552,7 +559,12 @@ literal "false"
 \begin_inset Formula $D_{8h}$
 \end_inset
 
- character tables.
+ character tables
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -571,7 +583,11 @@ in what order shall we present these?
 \end_inset
 
 
-\begin_inset Formula $C_{n},C_{nv},C_{nh},S_{2n}D_{n},D_{nh},D_{nd}$
+\begin_inset Formula $C_{n},C_{nv},C_{nh},S_{2n},D_{n},D_{nh}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{nd}$
 \end_inset
 
  (including 
@@ -602,7 +618,11 @@ polyhedral
 point groups 
 \lang british
 
-\begin_inset Formula $T,T_{d},T_{h},O,O_{h},I,I_{h}$
+\begin_inset Formula $T,T_{d},T_{h},O,O_{h},I,$
+\end_inset
+
+ and 
+\begin_inset Formula $I_{h}$
 \end_inset
 
 ,
@@ -686,7 +706,7 @@ us
  feel compelled to answer the questions that this paper addresses; for any
  readers that wish to skip the motivation section, the rest of the paper
  is self-contained and does not require knowledge of any of the material
- presented there.
+ presented in the next section.
  The second paragraph of this introduction already described the contents
  of Section 
 \begin_inset CommandInset ref
@@ -745,8 +765,8 @@ noprefix "false"
 \end_inset
 
 .
- Overall our results are as follows (all results appear to be novel or unusually
- difficult to find in existing places):
+ Overall our results are summarized below (all results appear to be novel
+ or unusually difficult to find in existing places).
 \end_layout
 
 \begin_layout Enumerate
@@ -773,7 +793,7 @@ noprefix "false"
 
 \end_inset
 
-: A table
+, we provide a table
 \begin_inset Note Note
 status open
 
@@ -787,7 +807,7 @@ Actually reference it
 
  that presents visual examples of structures for all aforementioned axial
  point groups for 
-\begin_inset Formula $2\ge n\ge6$
+\begin_inset Formula $2\le n\le6$
 \end_inset
 
  and 
@@ -880,8 +900,11 @@ literal "false"
 \begin_layout Enumerate
 
 \lang british
-with an extra column showing additional structures (in some cases these
- are more realistic structures than in 
+with an extra column showing additional structures for the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ cases (in some cases these are more realistic structures than in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -889,17 +912,14 @@ literal "false"
 
 \end_inset
 
-) for the 
-\begin_inset Formula $n=2$
-\end_inset
-
- cases, and
+), and
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-with a more logical order, especially for pedagogical reasons, than in 
+with a more logical order, especially in terms of pedagogical considerations,
+ than in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -924,8 +944,9 @@ noprefix "false"
 
 \end_inset
 
-: Properties of some point groups that are very helpful for obtaining or
- explaining new results, and for pedagogical purposes.
+, we describe some properties of various point groups and point group elements.
+ We have found listing these properties to be very helpful for obtaining
+ or explaining new results, and very helpful for pedagogical purposes.
 \end_layout
 
 \begin_layout Enumerate
@@ -941,7 +962,7 @@ noprefix "false"
 
 \end_inset
 
-: For each axial point group, we determine 
+, for each axial point group, we determine: 
 \end_layout
 
 \begin_deeper
@@ -959,14 +980,14 @@ leftmargin=0.6cm
 
 \end_inset
 
-the minimum number of atoms (cardinality) required; 
+the minimum number of atoms (the minimum cardinality) required; 
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-all possible cardinalities allowed (the minimum cardinality is a special
- case of this); and 
+all possible cardinalities allowed (the minimum cardinality results are
+ a special case of this); and 
 \end_layout
 
 \begin_layout Enumerate
@@ -991,7 +1012,7 @@ noprefix "false"
 
 \end_inset
 
-: As a consequence of the results in Section 
+, as a consequence of the results in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:NumberOfAtomsForEachPointGroup"
@@ -1045,7 +1066,7 @@ values of
 \begin_inset Formula $m$
 \end_inset
 
- can be generated with the results from 
+ can also be generated with the results from Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:NumberOfAtomsForEachPointGroup"
@@ -1055,7 +1076,13 @@ noprefix "false"
 
 \end_inset
 
- but would take up too much space to be presented here); 
+ but 
+\begin_inset Formula $m=8$
+\end_inset
+
+ was the largest number of atoms that we could include for the table to
+ stay within the paper margins without making significant changes to the
+ font, column spacings, or orientation of the table); 
 \end_layout
 
 \begin_layout Enumerate
@@ -1094,7 +1121,7 @@ BC, and ABCD for tetra-atomic systems (analogous lists for
 \emph on
 arbitrary
 \emph default
- chemical formulas can also be generated with the results from 
+ chemical formulas can also be generated with the results from Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:NumberOfAtomsForEachPointGroup"
@@ -1104,14 +1131,27 @@ noprefix "false"
 
 \end_inset
 
- but would take up too much space to be presented here);
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+but we chose to only go up to m=4 because m=5 would need a different tetrahedron
+-calculator-type-thing?
+\end_layout
+
+\end_inset
+
+);
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
 we attempted to provide examples of known molecules with each possible point
- group for each formula A
+ group and for each triatomic or tetra-atomic chemical formula (A
 \begin_inset Formula $_{3}$
 \end_inset
 
@@ -1139,18 +1179,20 @@ B
 \begin_inset Formula $_{2}$
 \end_inset
 
-BC, and ABCD, and this led us to the discovery of shapes for which no molecule/c
-omplex has yet been 
+BC, and ABCD), and this led us to the discovery of shapes for which no molecule/
+complex has yet been 
 \lang american
 synthesized
 \lang british
  or found, despite the existence of such molecules/complexes being proven
- to be possible (this was not a surprise for larger structures, but we determine
-d that the minimum number of atoms required for the point group 
+ to be possible (for structures with more atoms it would not be a surprise
+ if certain shapes of molecules have not yet been discovered, but we determined
+ that the minimum number of atoms required for the point group 
 \begin_inset Formula $D_{2}$
 \end_inset
 
- is 4 but we could not find any example of a 4-atom molecule with the 
+ is 4 and yet we could not find any example of a 4-atom molecule with the
+ 
 \begin_inset Formula $D_{2}$
 \end_inset
 
@@ -1204,8 +1246,8 @@ Our principal motivation
 \begin_layout Standard
 
 \lang british
-Our need for answers to the question in the present paper's title, arose
- during other work.
+Our need for answers to the question in the title of the present paper,
+ arose during other work.
  GW100 is a dataset of 100 systems (95 molecules and 5 atoms)
 \begin_inset Note Note
 status open
@@ -1273,15 +1315,16 @@ literal "false"
 \begin_layout Standard
 
 \lang british
-However, for many of the molecules in the GW100 dataset, calculations are
- done at geometries that were 
+However, for many of the molecules in the GW100 dataset, the GW100 community
+ has been doing calculations using geometries that were 
 \lang american
 optimized
 \lang british
  using density functional theory, which means that the results are dependent
- on the basis set and density functional used; and it also had an effect
- on the comparisons that have been made between calculations that were done
- for the GW100 dataset and experimental data on the same dataset.
+ on the basis set and density functional used for the geometry optimization.
+ This has an effect on (among other things) the comparisons that have been
+ made between calculations that were done for the GW100 dataset and experimental
+ data on the same dataset.
  For many of those molecules, very accurate bond lengths and angles that
  were determined from high-resolution spectroscopic experiments, are available
  in places such as the Landolt–Börnstein volumes and related books 
@@ -1297,7 +1340,6 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \lang british
 \begin_inset Float figure
@@ -1315,8 +1357,8 @@ status open
 \begin_layout Plain Layout
 
 \lang british
-Three molecules that have different geometries despite having the same chemical
- formula (H
+Three molecules that form very different shapes despite having the same
+ chemical formula (H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -1360,6 +1402,15 @@ status open
 
 \begin_layout Plain Layout
 Pyramidal
+\lang british
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:H2Si2pyramidal"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1396,11 +1447,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Planar, with a 
+Planar, with the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis not passing through any nuclei.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+with a 
 \begin_inset Formula $P_{4}$
 \end_inset
 
  graph 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1444,11 +1509,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Planar, with a 
+Planar, , with the 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis passing through two nuclei.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+with a 
 \begin_inset Formula $K_{3,1}$
 \end_inset
 
  graph
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1498,7 +1577,6 @@ Planar, with a
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \lang british
 The books 
@@ -1542,7 +1620,7 @@ literal "false"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:H2Si2shapes"
+reference "fig:H2Si2pyramidal"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3047,9 +3125,19 @@ Si
  would require specific code blocks for each molecular shape.
  
 \series default
-It is possible for two molecules with the same point group and formula to
- have very different shapes (for example see Fig.
- X, in which two isomers of H
+It is possible for multiple molecules with the same point group and formula
+ to have very different shapes (for example see Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:H2Si2shapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, in which three isomers of H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -3057,12 +3145,21 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
- are shown, both with the 
+ are shown, all with the 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
- point group, but one of them being pyramidal and the other one being planar),
- so a general-purpose 
+ point group, but one of them being pyramidal, one of them being planar
+ with its 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis not going through any nuclei, and one of them being planar wtih its
+ 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ axis going through two nuclei), so a general-purpose 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3098,8 +3195,8 @@ categorize
 \begin_inset Formula $n$
 \end_inset
 
--atom molecules based on their molecular formulas and point groups (the
- Landolt–Börnstein volumes and related books 
+-atom molecules based on their chemical formulas and point groups (the Landolt–B
+örnstein volumes and related books 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
@@ -9247,7 +9344,6 @@ height "2pt"
 \begin_layout Plain Layout
 
 \size footnotesize
-\color blue
 \begin_inset Formula $O_{h}$
 \end_inset
 
@@ -26707,6 +26803,8 @@ Apart from finding molecules to fill in the tables, z-matrix generator in
 OpenMolcas
 \lang british
 .
+ Also, better flowcharts for students, and non-axial point groups, and bigger
+ version of Table 1 that contains other possible shapes.
 \end_layout
 
 \begin_layout Standard
