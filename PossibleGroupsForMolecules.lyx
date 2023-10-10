@@ -30,7 +30,9 @@
 \setlength{\parskip}{0pt}
 \usepackage{enumitem} % https://tex.stackexchange.com/a/170528/14527
 \setlist{leftmargin=2mm}
-\setlist[enumerate]{label*=\arabic*.} %subitem labels by default are like (a),(b),etc. but (e) is bigger than (f) so it looks weird. This uses numbers insetad.
+%\setlist[enumerate]{label*=\arabic*)} %subitem labels by default are like (a),(b),etc. but (e) is bigger than (f) so it looks weird. This uses numbers insetad.
+\setlist[enumerate]{label=(\arabic{enumi}.\arabic*)}
+%\setlist[enumerate]
 \usepackage{transparent}
 \end_preamble
 \options nofootinbib,showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,superscriptaddress,Hyperref,twocolumn
@@ -3531,7 +3533,7 @@ noprefix "false"
 \end_inset
 
 ).
- For the point groups 
+ For each of the axial point group series (
 \begin_inset Formula $C_{n},D_{n},C_{nv},C_{nh},D_{nh},D_{nd},$
 \end_inset
 
@@ -3553,7 +3555,7 @@ noprefix "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
-, with 
+), schematic diagrams are presented for 
 \begin_inset Formula $n$
 \end_inset
 
@@ -3565,8 +3567,8 @@ noprefix "false"
 \begin_inset Formula $6$
 \end_inset
 
-, schematic diagrams are presented in attempt to provide an impression of
- how a molecule with the point group would look.
+ in attempt to provide an impression of how a molecule with the specified
+ point group would look.
  This table has some minor inconsistencies (e.g.
  one of the lines in the the 
 \begin_inset Formula $C_{4}$
@@ -3602,11 +3604,11 @@ noprefix "false"
 \end_inset
 
  diagrams).
- Although any inconsistency in such a table can hamper the experience of
- its readers, and although in these cases some readers are likely to lose
- a bit of time wondering why some lines aren't the same size and why there's
- some extra lines, most readers will be comfortable to ignore these ones
- and to simply attribute them to human error.
+ Although every inconsistency in such a table can hamper the experience
+ of its readers, and although in these cases some readers are likely to
+ lose a bit of time wondering why some lines are not the same size as others,
+ and why some extra purple lines exist, most readers will be comfortable
+ to ignore these inconsistencies and to simply attribute them to human error.
  
 \end_layout
 
@@ -3623,8 +3625,8 @@ literal "false"
 
 \end_inset
 
- has more major consistencies which we would like to address in this section
- of the paper.
+ has some other consistencies which are much more major, and which we would
+ like to address in this section of the paper.
  For example, the table in 
 \lang english
 in 
@@ -3708,7 +3710,7 @@ noprefix "false"
 \begin_inset Formula $D_{\infty h}$
 \end_inset
 
-if we are dealing with physical objects (the distinction between 
+ if we are dealing with physical objects (the distinction between 
 \begin_inset Formula $D_{\infty d}$
 \end_inset
 
@@ -3833,8 +3835,8 @@ noprefix "false"
 \end_inset
 
 , it would be more correct to show the atoms in the first and fourth planes
- being one elemental, and the atoms in the second and third planes being
- one elemental type (as depicted in our Table 
+ being one elemental type, and the atoms in the second and third planes
+ being one elemental type (as depicted in our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:TableShapes"
@@ -3932,8 +3934,8 @@ literal "false"
  one additional atom in each case, but the triangles depict atoms that are
  outside of the plane of the shown polygon, and the straight lines depict
  atoms that are in the same plane as the shown polygon (but many readers,
- like us, may at first think that the use of straight lines versus small
- triangles was just a 
+ like us and other researchers that we asked, may at first think that the
+ use of straight lines versus small triangles was just a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3950,6 +3952,38 @@ minor inconsistencies
 \end_inset
 
  that we mentioned earlier).
+ Since our diagrams in the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ to 
+\begin_inset Formula $n=6$
+\end_inset
+
+ columns of Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ included spheres to depict each atom, and thick lines to depict 
+\begin_inset Quotes eld
+\end_inset
+
+bonding
+\begin_inset Quotes erd
+\end_inset
+
+ between the atoms, it is 
+\emph on
+much
+\emph default
+ easier for our readers to associate our diagrams with the shapes of actual
+ molecules.
 \end_layout
 
 \begin_layout Standard
@@ -3957,7 +3991,7 @@ minor inconsistencies
 \color black
 \lang british
 We also note that the 
-\begin_inset Quotes qld
+\begin_inset Quotes eld
 \end_inset
 
 appendages
@@ -3965,7 +3999,11 @@ appendages
 \end_inset
 
  in the 
-\begin_inset Formula $C_{3h},C_{4h},C_{5h},C_{6h},C_{4},C_{5},C_{6}$
+\begin_inset Formula $C_{3h},C_{4h},C_{5h},C_{6h},C_{4},C_{5}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{6}$
 \end_inset
 
  figures in 
@@ -3976,8 +4014,8 @@ literal "false"
 
 \end_inset
 
- are parallel (in fact co-linear) with the edges of the triangle, but for
- 
+ are parallel (in fact co-linear) with the edges of their respective polygons,
+ but for 
 \begin_inset Formula $C_{3}$
 \end_inset
 
@@ -4003,13 +4041,20 @@ appendages
 \end_inset
 
  do not need to be parallel, as long as they do not bisect the exterior
- angles at the polygons' vertices, and as long as the atoms are not in the
- 
+ angles at the vertices of the polygons, and as long as 
+\begin_inset Quotes eld
+\end_inset
+
+appendage
+\begin_inset Quotes erd
+\end_inset
+
+ atoms are not in the 
 \lang american
 center
 \lang british
- of the polygons' edges, since if either of these situations were to occur,
- the point group of the system would be promoted to 
+ of the edges of the polygons, since if either of these situations were
+ to occur, the point group of the system would be promoted to 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -4032,8 +4077,15 @@ appendages
 \begin_inset Quotes erd
 \end_inset
 
- consistent throughout the table, and chose to make them all non-parallel
- with the 
+ consistent throughout the table
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color black
+\lang british
+, and chose to make them all non-parallel with the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4041,7 +4093,12 @@ bonds
 \begin_inset Quotes erd
 \end_inset
 
- in the structures.
+ in the structures
+\end_layout
+
+\end_inset
+
+.
 \begin_inset Note Note
 status open
 
@@ -4085,7 +4142,7 @@ literal "false"
 \begin_inset Formula $C_{2}$
 \end_inset
 
- point group than the structure of H
+ point group than the structure of, for example, H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -4093,13 +4150,13 @@ O
 \begin_inset Formula $_{2}$
 \end_inset
 
- for example.
+ (hydrogen peroxide).
  Likewise, H
 \begin_inset Formula $_{2}$
 \end_inset
 
-O is the first system that usually comes to mind when we consider the point
- group 
+O (water) is the first system that usually comes to mind when we consider
+ the point group 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
@@ -4132,8 +4189,7 @@ base
 \begin_inset Formula $S_{4}$
 \end_inset
 
- point groups.
- but an ambiguous or un-interpretable 
+ point groups, but an ambiguous or un-interpretable 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4180,8 +4236,7 @@ base
 \begin_inset Quotes erd
 \end_inset
 
-.
- 
+, 
 \begin_inset Note Note
 status open
 
@@ -4252,17 +4307,17 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-what is the minimum number of atoms required for the point group so a system
+what is the minimum number of atoms required for the point group of a system
  to be 
 \begin_inset Formula $G$
 \end_inset
 
- [with 
+ (for any chosen point group 
 \begin_inset Formula $G$
 \end_inset
 
- being the point group]
-\begin_inset Quotes eld
+)?
+\begin_inset Quotes erd
 \end_inset
 
 , and after answering that question we found that the table in 
@@ -4278,7 +4333,7 @@ literal "false"
 \begin_inset Formula $n=2$
 \end_inset
 
- ones (all of them!)
+ ones (of every point group series!)
 \begin_inset Note Note
 status open
 
@@ -4291,7 +4346,7 @@ is that true?
 
 \end_inset
 
- and for 
+ and for the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4299,7 +4354,11 @@ is that true?
 \begin_inset Formula $D_{n}$
 \end_inset
 
-.
+ series (for all values of 
+\begin_inset Formula $n$
+\end_inset
+
+).
  In our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4310,7 +4369,7 @@ noprefix "false"
 
 \end_inset
 
-, we have shown the 
+, we have shown 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4318,7 +4377,13 @@ minimal
 \begin_inset Quotes erd
 \end_inset
 
- structures that we found for 
+ structures (
+\emph on
+i.e.
+
+\emph default
+ structures that have the smallest possible number of atoms for a specific
+ point group) that we found for all 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4326,7 +4391,7 @@ minimal
 \begin_inset Formula $D_{n}$
 \end_inset
 
- as well as for the 
+ point groups shown, as well as for the 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4344,7 +4409,7 @@ noprefix "false"
 
 \end_inset
 
-), so the figures that we presented in 
+), so the figures that are presented in our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:atkinsImproved"
@@ -4365,8 +4430,8 @@ literal "false"
  presented in their original table, are not the only correct examples that
  can be provided for each point group; but ours were at least chosen based
  on a non-arbitrary criterion, which was to only include for each point
- group, the structure that require the minimum number of atoms (except for
- the first 
+ group, the structure that requires the minimum number of atoms (except
+ for the first 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4485,7 +4550,7 @@ General principles for possible molecules
 
 \begin_layout Standard
 In this section we will state some general principles that we will use in
- the following section when formulating proofs for the required numbers
+ the following section when formulating our arguments for the required numbers
  of atoms and required chemical formulas for each point group.
  Some of the statements made in this section may already be familiar or
  intuitive to the reader, but we have not seen most of them stated in textbooks
@@ -4539,11 +4604,11 @@ I think it was actually the Baker paper or one of the other early papers
 \bar under
 \lang british
 Ability to orient the coordinate system according to a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis and 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane:
@@ -4558,7 +4623,7 @@ Ability to orient the coordinate system according to a
 
 \begin_layout Standard
 Any molecule with a rotation axis, called a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
 -axis, can be oriented in an xyz (Cartesian) coordinate system such that
@@ -4567,7 +4632,7 @@ Any molecule with a rotation axis, called a
 \end_inset
 
  value in 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
 , the 
@@ -4575,11 +4640,11 @@ Any molecule with a rotation axis, called a
 \end_inset
 
 -axis is aligned with a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis, and a 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane (if one exists) is a mirror plane coinciding with the 
@@ -4663,7 +4728,7 @@ Any molecule with a rotation axis, or
 \bar under
 \lang british
 Existence of a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis:
@@ -4680,11 +4745,11 @@ Existence of a
 
 \lang british
 The existence of a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis is only possible if all atoms are on the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis or if the system contains a subset of identical atoms that are vertices
@@ -4706,7 +4771,7 @@ The existence of a
 
  identical atoms in the molecule.
  A 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis would go through the 
@@ -4737,7 +4802,7 @@ center
 \end_inset
 
  atoms is needed in order to have a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis.
@@ -4748,7 +4813,7 @@ center
 
 \lang british
 If a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis is the 
@@ -4756,7 +4821,7 @@ If a
 \end_inset
 
 -axis, then after a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  rotation, an atom that originally had coordinates 
@@ -4911,7 +4976,7 @@ Subset of vertices is needed? Or literally all atoms have to?
 \bar under
 \lang british
 Necessary and sufficient conditions for the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation to be valid when 
@@ -5094,7 +5159,7 @@ can be or must be?
 
 \lang british
 The 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation is valid on a regular 
@@ -5102,20 +5167,20 @@ The
 \end_inset
 
 -gon with uniform vertices, because the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation is the combination of a 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  operation (which is valid on such a system) followed by a 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation (which is also valid on such a system, since it is planar); and
  any non-linear object in which the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation is valid, must contain a subset of identical vertices that form
@@ -5142,11 +5207,11 @@ However
  
 \series default
 for the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation to be valid in a system in which the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation is not valid (as in the 
@@ -5186,7 +5251,7 @@ maybe also
 \end_inset
 
 -gon itself forms a plane that can act as a 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane.
@@ -5395,7 +5460,7 @@ two
 
  from the other one, and both of them being on different parallel planes
  with a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis going through the 
@@ -5408,11 +5473,11 @@ center
 
 -gons, is a sufficient property and a necessary part of any system for there
  to be a valid 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation and no valid 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operations (when 
@@ -5425,11 +5490,11 @@ center
 \end_inset
 
  point group contains 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  elements and no 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  elements
@@ -5458,83 +5523,83 @@ noprefix "false"
 
 \begin_layout Standard
 The 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane that is part of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation, cannot contain all atoms of the system, because then this plane
  would not only be the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  part of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation, but it would also be a valid 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation for the entire system.
  At least one atom needs to not be on the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation, and if it is on the 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  axis, then since a 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  operation does nothing to atoms that are on the 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  axis, a valid 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation would require the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation to be a valid 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane for the atom too; so at least one atom needs to be neither on the
  
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation's 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  axis nor on its 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane.
  Since we can make the 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  axis of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation the 
@@ -5542,11 +5607,11 @@ The
 \end_inset
 
 -axis, and the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation the 
@@ -5567,7 +5632,7 @@ The
 \end_inset
 
  One 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation will rotate the 
@@ -5592,7 +5657,7 @@ The
 
 .
  The 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation on the atom at 
@@ -5637,15 +5702,15 @@ The
 \end_inset
 
 -gon, and the 
-\begin_inset Formula $C_{2n}$
+\begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
  axis of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation (also called the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis) going through the centers of each 
@@ -5654,16 +5719,16 @@ The
 
 -gon.
  So not only is this shape sufficient for the existence of a valid 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation in a system that does not have a valid 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation on its own, but it is a necessary sub-unit of any system whose
  point group has an 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  element and no
@@ -5671,7 +5736,7 @@ The
 \end_inset
 
 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  elements.
@@ -5879,7 +5944,7 @@ check this term
 
 \lang british
 The point groups considered in this subsection do not contain any 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axes in which 
@@ -10290,7 +10355,7 @@ with an atom of the
 same element 
 \emph default
 in order for the inversion operation 
-\begin_inset Formula $i$
+\begin_inset Formula $\hat{i}$
 \end_inset
 
  to remain valid, and such pairs of atoms can be added to the primary 
@@ -15239,13 +15304,13 @@ The minimum number of atoms required is 4, and the formula for this minimal
 \color inherit
 \lang british
 An even number of additional atoms can be added along the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
  provided that (since we can label the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis as the 
@@ -15257,11 +15322,11 @@ An even number of additional atoms can be added along the
 homo-nuclear pairs
 \emph default
  around the plane containing the two 
-\begin_inset Formula $C_{2}(x)$
+\begin_inset Formula $\hat{C}_{2}(x)$
 \end_inset
 
  and 
-\begin_inset Formula $C_{2}(y)$
+\begin_inset Formula $\hat{C}_{2}(y)$
 \end_inset
 
  axes (
@@ -15373,11 +15438,11 @@ Each
 \end_inset
 
  point group contains an 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation and no 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation on its own, and in Section 
@@ -15391,7 +15456,7 @@ noprefix "false"
 \end_inset
 
  we explained that any system with a valid 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation (with 
@@ -15399,7 +15464,7 @@ noprefix "false"
 \end_inset
 
 ) but no 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation on its own, must at least have a subset of atoms that form the
@@ -15444,11 +15509,11 @@ minimal
 \end_inset
 
  structures with a valid 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation and no valid 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operations, we know that 
@@ -15472,7 +15537,7 @@ B
 \series default
 \color inherit
 An even number of additional atoms can be added along the primary 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -15486,7 +15551,7 @@ homo-nuclear pairs
 \end_inset
 
  of the 
-\begin_inset Formula $C_{2}^{\prime}$
+\begin_inset Formula $\hat{C}_{2}^{\prime}$
 \end_inset
 
  axes (since we can choose the 
@@ -15494,7 +15559,7 @@ homo-nuclear pairs
 \end_inset
 
 -axis to be the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis, this plane would be the 
@@ -15880,13 +15945,13 @@ The minimum number of atoms required is
 \series default
 \color inherit
 An even number of additional atoms can be added along the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
  provided that (since we can label the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis as the 
@@ -15898,11 +15963,11 @@ An even number of additional atoms can be added along the
 homo-nuclear pairs
 \emph default
  around the plane containing the two 
-\begin_inset Formula $C_{2}(x)$
+\begin_inset Formula $\hat{C}_{2}(x)$
 \end_inset
 
  and 
-\begin_inset Formula $C_{2}(y)$
+\begin_inset Formula $\hat{C}_{2}(y)$
 \end_inset
 
  axes (
@@ -15999,11 +16064,11 @@ The
 \end_inset
 
  point groups can be generated by a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  operation and a perpendicular 
-\begin_inset Formula $C_{2}^{\prime}$
+\begin_inset Formula $\hat{C}_{2}^{\prime}$
 \end_inset
 
  operation, whereas the 
@@ -16011,15 +16076,15 @@ The
 \end_inset
 
  point groups can be generated by an 
-\begin_inset Formula $S_{n}$
+\begin_inset Formula $\hat{S}_{n}$
 \end_inset
 
  operation and a perpendicular 
-\begin_inset Formula $C_{2}^{\prime}$
+\begin_inset Formula $\hat{C}_{2}^{\prime}$
 \end_inset
 
  operation (the only difference being the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  generator for 
@@ -16027,7 +16092,7 @@ The
 \end_inset
 
  instead of the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  generator for 
@@ -16040,8 +16105,16 @@ The
 \begin_inset Formula $D_{nd}$
 \end_inset
 
-, one way that we can demote the 
-\begin_inset Formula $S_{2n}$
+, one way that we can 
+\begin_inset Quotes eld
+\end_inset
+
+demote
+\begin_inset Quotes erd
+\end_inset
+
+ the 
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis to a 
@@ -16066,7 +16139,7 @@ The
 \end_inset
 
  (as would be required for an 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis by the logic that was presented in Section 
@@ -16081,11 +16154,11 @@ noprefix "false"
 
 ).
  This minor rotation will break the validity of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation while maintaining the validity of the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  operation.
@@ -16432,7 +16505,7 @@ noprefix "false"
  we know that
 \color black
  a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis can simultaneously be chosen to be along the 
@@ -16440,7 +16513,7 @@ noprefix "false"
 \end_inset
 
 -axis and a 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane can be chosen to be the 
@@ -16449,7 +16522,7 @@ noprefix "false"
 
 -plane in the same coordinate system.
  With that convention, a 
-\begin_inset Formula $C_{4}$
+\begin_inset Formula $\hat{C}_{4}$
 \end_inset
 
  operation will transform the point 
@@ -16461,7 +16534,7 @@ noprefix "false"
 \end_inset
 
  and the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation will transform the point 
@@ -16473,15 +16546,15 @@ noprefix "false"
 \end_inset
 
  so the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation which is the 
-\begin_inset Formula $C_{4}$
+\begin_inset Formula $\hat{C}_{4}$
 \end_inset
 
  operation followed by the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation, will transform 
@@ -16498,7 +16571,7 @@ noprefix "false"
 \end_inset
 
  then the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  transformation will move it to the position 
@@ -16506,12 +16579,12 @@ noprefix "false"
 \end_inset
 
 , and an identical atom must be there for the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation to be valid.
  Also after the same 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  transformation, the atom at the position 
@@ -16528,7 +16601,7 @@ noprefix "false"
 \end_inset
 
 , we need to keep applying 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  transformations and keeping track of the atoms that are necessary to include
@@ -16542,7 +16615,7 @@ noprefix "false"
 \end_inset
 
 -atom system to undergo an 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  transformation and recover the same system:
@@ -16641,7 +16714,7 @@ on the plane with the opposite
  We can add at least one more atom (it does not necessarily need to be homo-nucl
 ear in comparison to the first set of four atoms) in order to break the
  
-\begin_inset Formula $\sigma_{d}$
+\begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
  planes that are in 
@@ -16649,19 +16722,19 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
 , but adding any number of atoms on the 
-\begin_inset Formula $C_{4}$
+\begin_inset Formula $\hat{C}_{4}$
 \end_inset
 
  axis of the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation, or on the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane of the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation, or on either one of the 
@@ -16669,12 +16742,12 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
  planes will not break the 
-\begin_inset Formula $\sigma_{d}$
+\begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
  planes.
  Since we have chosen the convention in which the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  axis is the 
@@ -16686,11 +16759,11 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
 ; since we have chosen the convention in which the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane associated with the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation is the 
@@ -16729,7 +16802,7 @@ the third coordinate being 0
 
 .
  To break the 
-\begin_inset Formula $\sigma_{d}$
+\begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
  planes, we therefore need an atom at a different 
@@ -16768,7 +16841,7 @@ noprefix "false"
 \end_inset
 
 ) shows that we will not recover the new atom's position by applying 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operations unless we have another three atoms that are identical to the
@@ -16801,11 +16874,11 @@ noprefix "false"
 \end_inset
 
  group is generated by the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation only, and an 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation can successfully be applied to this example, and there are no
@@ -16844,7 +16917,7 @@ B
  
 \lang british
 An even number of additional atoms can be added along the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -16854,11 +16927,11 @@ An even number of additional atoms can be added along the
 homo-nuclear pairs
 \emph default
  around the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane of the 
-\begin_inset Formula $S_{4}$
+\begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  operation.
@@ -16956,7 +17029,7 @@ noprefix "false"
 
  we described structures that have the minimum number of atoms required
  for an 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation to be valid with 
@@ -16964,7 +17037,7 @@ noprefix "false"
 \end_inset
 
  and for no 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operations to be valid on their own.
@@ -16994,19 +17067,19 @@ noprefix "false"
 \end_inset
 
  If we add any number of atoms to the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis or the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane that forms part of the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  operation, it will not break the 
-\begin_inset Formula $\sigma_{d}$
+\begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
  planes that are elements of 
@@ -17028,11 +17101,11 @@ is this true? I'm just guessing
 
 , so we need to add at least one atom to a location that is neither on the
  
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis nor on the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane associated with it.
@@ -17058,7 +17131,7 @@ noprefix "false"
 \end_inset
 
 -gons in the structure, and the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis must pass through the centre of all four 
@@ -17132,7 +17205,7 @@ B
  
 \series default
 An even number of additional atoms can be added along the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -17142,11 +17215,11 @@ An even number of additional atoms can be added along the
 homo-nuclear pairs
 \emph default
  symmetrically on each side of the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane associated with the 
-\begin_inset Formula $S_{2n}$
+\begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
 operation.
@@ -17388,12 +17461,12 @@ B
 \color inherit
 \lang english
 since at least two atoms need to be the same in order for the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  operation to be valid.
  Since extra atoms can be added on the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis without losing any valid symmetry operations and without introducing
@@ -17507,7 +17580,7 @@ noprefix "false"
 
 -gon with identical atoms at each vertex is required in order to have the
  
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis that forms part of the point group 
@@ -17540,7 +17613,7 @@ noprefix "false"
 .
  It turns out that only one atom is sufficient, since if this atom is placed
  on a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis that goes through the center of the 
@@ -17552,11 +17625,11 @@ noprefix "false"
 \end_inset
 
 -gon, it will break the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane and any 
-\begin_inset Formula $S_{n}$
+\begin_inset Formula $\hat{S}_{n}$
 \end_inset
 
  axes of the 
@@ -17573,7 +17646,7 @@ noprefix "false"
 
  point group.
  The only point group with a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis and 
@@ -17582,7 +17655,7 @@ noprefix "false"
 
  vertical mirror planes, without having any horizontal mirror planes or
  
-\begin_inset Formula $S_{n}$
+\begin_inset Formula $\hat{S}_{n}$
 \end_inset
 
  axes, is 
@@ -17649,7 +17722,7 @@ B.
 \color inherit
 \lang english
 Since extra atoms can be added on the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis without losing any valid symmetry operations and without introducing
@@ -17780,7 +17853,7 @@ B
 
 .
  An even number of additional atoms can be added along the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -17790,7 +17863,7 @@ B
 homo-nuclear pairs
 \emph default
  around the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane.
@@ -17926,7 +17999,7 @@ noprefix "false"
 
 .
  Adding any number of atoms to the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis (which we will label as our 
@@ -17934,7 +18007,7 @@ noprefix "false"
 \end_inset
 
 -axis) will not break the 
-\begin_inset Formula $\sigma_{v}$
+\begin_inset Formula $\hat{\sigma}_{v}$
 \end_inset
 
  planes, so we are forced to add another regular 
@@ -17976,7 +18049,7 @@ he first
 
 -gon (both of these placements of the vertices would result in a failure
  to break the 
-\begin_inset Formula $\sigma_{v}$
+\begin_inset Formula $\hat{\sigma}_{v}$
 \end_inset
 
  planes and would not successfully demote the point group from 
@@ -18080,7 +18153,7 @@ B
 homo-nuclear pairs
 \emph default
  around the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  plane.
@@ -25963,7 +26036,7 @@ and B
 \end_inset
 
 respectively, and for the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  operation to be valid, the atoms that were originally at positions 
@@ -26000,13 +26073,13 @@ B
 \series default
 \color inherit
 Any number of additional atoms can be added along the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations (only the
  
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  element and the identity element in the case of the 
@@ -26106,7 +26179,7 @@ Since the point group of a regular
 
 -gon with identical atoms at each vertex is required in order to have a
  
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis, and we have already mentioned in Section 
@@ -26134,12 +26207,12 @@ noprefix "false"
 
 .
  In order for the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  operation to remain valid, we can either add any number of atoms (including
  just one) on the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis, or a full set of 
@@ -26159,7 +26232,7 @@ noprefix "false"
 \end_inset
 
 -gon with the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis going through its center and perpendicular to the plane formed by
@@ -26174,7 +26247,7 @@ noprefix "false"
 
 -gon is not on the same plane as the the first one, then we will not have
  the 
-\begin_inset Formula $\sigma_{h}$
+\begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  element that the 
@@ -26194,7 +26267,7 @@ noprefix "false"
 \end_inset
 
 -gon, then we will not have the 
-\begin_inset Formula $S_{n}$
+\begin_inset Formula $\hat{S}_{n}$
 \end_inset
 
  operation that is present in the 
@@ -26211,7 +26284,7 @@ noprefix "false"
 \end_inset
 
  point groups are the extra 
-\begin_inset Formula $C_{2}^{\prime}$
+\begin_inset Formula $\hat{C}_{2}^{\prime}$
 \end_inset
 
  elements that the 
@@ -26259,13 +26332,13 @@ B
  
 \lang british
 Any number of additional atoms can be added along the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations (only the
  
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  element and the identity element in the case of the 
