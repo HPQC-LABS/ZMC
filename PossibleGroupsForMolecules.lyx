@@ -2094,10 +2094,25 @@ height "0.5pt"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename models/D_2h.png
-	lyxscale 5
-	width 10text%
+
+\size giant
+\color black
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size giant
+\color black
+\begin_inset VSpace 6mm
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -4643,7 +4658,7 @@ Any molecule with a rotation axis, called a
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis, and a 
+ axis; and a 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -4752,8 +4767,8 @@ The existence of a
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis or if the system contains a subset of identical atoms that are vertices
- of an 
+ axis or if the system contains a subsystem of identical atoms that are
+ vertices of an 
 \begin_inset Formula $n$
 \end_inset
 
@@ -4770,7 +4785,22 @@ The existence of a
 \end_inset
 
  identical atoms in the molecule.
- A 
+ Therefore, a minimum of 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms is needed in order to have a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+A 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -4797,22 +4827,7 @@ center
 \end_inset
 
 -coordinates.
- Therefore, a minimum of 
-\begin_inset Formula $n$
-\end_inset
-
- atoms is needed in order to have a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-If a 
+ If a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -4825,11 +4840,11 @@ If a
 \end_inset
 
  rotation, an atom that originally had coordinates 
-\begin_inset Formula $(x,y,z)$
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
 , will have coordinates 
-\begin_inset Formula $(x^{\prime},y^{\prime},z)$
+\begin_inset Formula $(x_{2},y_{2},z_{1})$
 \end_inset
 
  in which the 
@@ -4837,7 +4852,7 @@ If a
 \end_inset
 
 -coordinate does not change, and the new coordinates 
-\begin_inset Formula $(x^{\prime},y^{\prime})$
+\begin_inset Formula $(x_{2},y_{2})$
 \end_inset
 
  can be
@@ -4853,14 +4868,14 @@ can be or must be?
 \end_inset
 
  different from the old ones 
-\begin_inset Formula $(x,y)$
+\begin_inset Formula $(x_{1},y_{1})$
 \end_inset
 
  but will coincide with the original 
 \begin_inset Formula $(x,y)$
 \end_inset
 
- coordinates of another identical atom in the molecule
+ coordinates of another identical atom in the system
 \begin_inset Note Note
 status open
 
@@ -4933,7 +4948,7 @@ noprefix "false"
 
 \end_inset
 
-), and any non-linear object with the 
+), and any non-linear object with a 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -5192,6 +5207,18 @@ The
 \begin_inset Formula $n\ge3$
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+Need to provide the reason
+\end_layout
+
+\end_inset
+
 .
  
 \end_layout
@@ -5442,7 +5469,8 @@ center
 
 \end_inset
 
- It turns out that instead of one regular 
+ It turns out that for reasons that will be explained in the next paragraph,
+ instead of one regular 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -5471,8 +5499,8 @@ center
 \begin_inset Formula $n$
 \end_inset
 
--gons, is a sufficient property and a necessary part of any system for there
- to be a valid 
+-gons, is a sufficient property and a necessary part of any system in which
+ there is a valid 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
@@ -5503,7 +5531,7 @@ center
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- that we presented for 
+ systems that we presented for 
 \begin_inset Formula $n\ge3$
 \end_inset
 
@@ -5793,11 +5821,8 @@ Action of the inversion operation,
 \begin_layout Standard
 
 \lang british
-We can always choose 
-\lang american
-center
-\lang british
- of inversion to be at the origin 
+If there is a center of inversion, we can choose for it to be at the origin
+ 
 \begin_inset Formula $(0,0,0),$
 \end_inset
 
