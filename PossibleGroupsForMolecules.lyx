@@ -5269,7 +5269,7 @@ maybe also
 
 \end_inset
 
- point groups), we can not just have a 
+ point groups), we cannot just have a 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -5943,7 +5943,7 @@ All in order of number of atoms (except Ci is before others).
 \begin_layout Subsection
 
 \lang british
-Point groups without axial rotational symmetry
+Axial point groups without axial rotational symmetry
 \begin_inset Note Note
 status open
 
@@ -6018,8 +6018,8 @@ non-concentric
 
 \end_inset
 
-atoms form a line, and if all atoms of a molecule are on the same line,
- then the point group will be promoted to either 
+atoms form a line, and if all atoms of a system are on the same line, then
+ the point group will be either 
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
@@ -6032,13 +6032,13 @@ atoms form a line, and if all atoms of a molecule are on the same line,
 \begin_inset Formula $K_{h}$
 \end_inset
 
-, so it is not possible for a molecule with fewer than three atoms to have
- the point group 
+, so it is not possible for the point group of a system with fewer than
+ three atoms to be 
 \begin_inset Formula $C_{s}$
 \end_inset
 
 .
- Three atoms is enough for the point group of a molecule to be 
+ Three atoms is enough for the point group of a system to be 
 \begin_inset Formula $C_{s}$
 \end_inset
 
@@ -6057,8 +6057,8 @@ noprefix "false"
  
 \series bold
 \color blue
-The minimum number of atoms required is three, and any chemical formula
- is allowed.
+The minimum number of atoms required is three, and any triatomic chemical
+ formula is allowed.
 
 \color inherit
  
@@ -6105,8 +6105,8 @@ status open
 \begin_inset Formula $_{2}$
 \end_inset
 
-OS which is both non-planar and both has two atoms of the element Cl), but
- we were already able to prove in the previous sentence that the point group
+OS which is both non-planar and has two atoms of the element Cl), but we
+ were already able to prove in the previous sentence that the point group
  
 \begin_inset Formula $C_{s}$
 \end_inset
@@ -6115,7 +6115,8 @@ OS which is both non-planar and both has two atoms of the element Cl), but
  
 \series bold
 \color blue
-The general chemical formula is ABCD
+Any number of atoms larger than or equal to three is allowed, and the general
+ chemical formula allowed is ABCD
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -6156,8 +6157,19 @@ The general chemical formula is ABCD
 
 \lang british
 Any three atoms form a plane or a line, and if all atoms of a molecule are
- on the same plane, then that plane is a reflection plane (also known as
- a mirror plane).
+ on the same plane, then that plane is a reflection plane
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ (also known as a mirror plane)
+\end_layout
+
+\end_inset
+
+.
  Therefore if a molecule has three or fewer atoms, it will at least have
  one reflection plane, and would be promoted from 
 \begin_inset Formula $C_{1}$
@@ -6190,8 +6202,8 @@ noprefix "false"
  
 \series bold
 \color blue
-The minimum number of atoms required is four, and any chemical formula is
- allowed.
+The minimum number of atoms required is four, and any tetra-atomic chemical
+ formula is allowed.
 
 \series default
 \color inherit
@@ -6208,7 +6220,8 @@ The minimum number of atoms required is four, and any chemical formula is
  
 \series bold
 \color blue
-The general formula is ABCDE
+Any number of atoms larger than or equal to four is allowed, and the general
+ formula is ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -10021,7 +10034,7 @@ center
 \lang british
  the origin, the atoms must come in pairs according to the inversion operation
  
-\begin_inset Formula $i$
+\begin_inset Formula $\hat{i}$
 \end_inset
 
 : 
@@ -10045,6 +10058,7 @@ center
 \end_inset
 
 -coordinates, none of these four atoms can be on the origin.
+ 
 \begin_inset Note Note
 status collapsed
 
@@ -10104,7 +10118,8 @@ Another way to see this, is to notice that
  that contains the origin (because two lines that intersect at the origin
  form a plane that contains the origin).
  Therefore the fifth atom will also be on the same plane as the other four
- atoms, and the point group will be promoted beyond 
+ atoms, and the point group will be promoted to a group that is larger than
+ 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -10189,7 +10204,7 @@ D
 \begin_layout Subsection
 
 \lang british
-Point groups with axial rotational symmetry
+Axial point groups with axial rotational symmetry
 \begin_inset Note Note
 status open
 
@@ -10269,7 +10284,7 @@ If we have any fewer than three atoms, the point group of the system will
 \end_inset
 
 ) have an inversion element 
-\begin_inset Formula $i$
+\begin_inset Formula $\hat{i}$
 \end_inset
 
 , and for a reason that is explained in the next sentence, the only way
@@ -10371,7 +10386,7 @@ center
 \end_inset
 
  symmetry elements.
- If an atom is to be added anywhere else, it needs to 
+ If an atom is to be added anywhere else, it needs to be 
 \emph on
 paired 
 \emph default
@@ -10384,7 +10399,7 @@ in order for the inversion operation
 \end_inset
 
  to remain valid, and such pairs of atoms can be added to the primary 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in the 
@@ -10492,7 +10507,7 @@ necessary
 \begin_inset Formula $n\ge3$
 \end_inset
 
-, we can conclude the 
+, we can conclude that the 
 \series bold
 \color blue
 the minimum number of atoms required is 
@@ -10509,7 +10524,7 @@ the minimum number of atoms required is
  
 \series default
 An even number of additional atoms can be added along the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -15239,7 +15254,7 @@ The
 
  group does not include any horizontal mirror planes, and since any three
  atoms can form a plane which can serve as a horizontal mirror plane, we
- need more than four atoms for the point group of the system to be 
+ need at least four atoms for the point group of the system to be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
@@ -15521,7 +15536,7 @@ noprefix "false"
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid on these shapes, the point group of these structures are 
+ are valid on these shapes, the points group of these structures are 
 \begin_inset Formula $D_{nd}.$
 \end_inset
 
@@ -15550,10 +15565,6 @@ the minimum number of atoms required is
 \end_inset
 
 , and the most general formula for the minimal structure would be A
-\begin_inset Formula $_{2n}$
-\end_inset
-
-B
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -15587,7 +15598,7 @@ homo-nuclear pairs
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis, this plane would be the 
+ axis, this plane can be chosen to be the 
 \begin_inset Formula $xy$
 \end_inset
 
@@ -16143,7 +16154,7 @@ demote
 \end_inset
 
  axis to a 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis without changing any of the other valid symmetry operations and without
@@ -16221,8 +16232,7 @@ minimum number of atoms required for each
 \series default
 \color inherit
 \lang british
-, and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+.
 \color red
 \lang english
 
@@ -16670,10 +16680,10 @@ noprefix "false"
 \end_inset
 
 ) form the shape that we presented in the second 
-\begin_inset Formula $n=$
+\begin_inset Formula $n=2$
 \end_inset
 
-2 column in our 
+ column in our 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -16747,14 +16757,10 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
 , but adding any number of atoms on the 
-\begin_inset Formula $\hat{C}_{4}$
-\end_inset
-
- axis of the 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- operation, or on the 
+ axis, or on the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -17189,20 +17195,22 @@ bonds
 \begin_inset Quotes erd
 \end_inset
 
- shown in these examples, was made to resemble some known real 
+ shown in these examples, was made to resemble some known 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
  structures, but we could also have chosen them differently, for example
  we could have had four polygons rather than two polygons with appendages
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \color red
 \lang british
-need to verify this too
+need to verify this too...
+ it's also a weird way to speak, because we just said that we need to have
+ 4 n-gons, except two of them aren't actually n-gons.
 \end_layout
 
 \end_inset
@@ -17477,7 +17485,7 @@ O.
 \color blue
 \lang british
 The minimum number of atoms required is three, and the most general chemical
- formula for structure with the minimum number of atoms, is A
+ formula for a structure with the minimum number of atoms, is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -17507,7 +17515,7 @@ BCD
 \begin_inset Formula $\cdots$
 \end_inset
 
- 
+
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
@@ -17636,8 +17644,8 @@ noprefix "false"
 \end_inset
 
 .
- It turns out that only one atom is sufficient, since if this atom is placed
- on a 
+ It turns out that only one such atom is sufficient, since if this atom
+ is placed on a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -26778,7 +26786,17 @@ Summary of our results and outlook
 \begin_layout Standard
 
 \lang british
-The results of the previous section are 
+The results of the previous section (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) are 
 \lang american
 summarized
 \lang british
@@ -26813,11 +26831,21 @@ noprefix "false"
 
 \end_inset
 
- only shows the possible point groups for system with up to 8 atoms because
+ only shows the possible point groups for systems with up to 8 atoms because
  a smaller font or a change in other aspects of the formatting would be
  needed to extend the table to include systems with 9 atoms, and such an
  extension would not be particularly enriching, especially since the general
- chemical formulas presented in the previous section and 
+ chemical formulas presented in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:NumberOfAtomsForEachPointGroup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
 \lang american
 summarized
 \lang british
@@ -26859,8 +26887,8 @@ noprefix "false"
 \end_inset
 
  having columns up to 16 atoms is similar, but such a table can be constructed
- with up to an arbitrary number of atoms, with each column after 8 atoms
- containing indicating that the point group of such a system cannot be 
+ to include an arbitrary number of atoms, with each column after 16 atoms
+ indicating that the point group of such a system cannot be 
 \begin_inset Formula $K_{h}$
 \end_inset
 
