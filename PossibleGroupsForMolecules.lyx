@@ -4551,1762 +4551,6 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Section
-
-\lang british
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:GeneralPrinciples"
-
-\end_inset
-
-General principles for possible molecules 
-\end_layout
-
-\begin_layout Standard
-In this section we will state some general principles that we will use in
- the following section when formulating our arguments for the required numbers
- of atoms and required chemical formulas for each point group.
- Some of the statements made in this section may already be familiar or
- intuitive to the reader, but we have not seen most of them stated in textbooks
- about group theory for chemistry 
-\lang british
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
-literal "false"
-
-\end_inset
-
-
-\lang english
-, although parts of the first statement are mentioned in other places, such
- as 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "bakken_efficient_2002"
-literal "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-I think it was actually the Baker paper or one of the other early papers
- on redundant/internal coordinates, not this one
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Ability to orient the coordinate system according to a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis and 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Any molecule with a rotation axis, called a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
--axis, can be oriented in an xyz (Cartesian) coordinate system such that
- for the largest possible 
-\begin_inset Formula $n$
-\end_inset
-
- value in 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
-, the 
-\begin_inset Formula $z$
-\end_inset
-
--axis is aligned with a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis; and a 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane (if one exists) is a mirror plane coinciding with the 
-\begin_inset Formula $xy$
-\end_inset
-
--plane in the coordinate system.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Any molecule with a rotation axis, or 
-\begin_inset Formula $C_{n}$
-\end_inset
-
--axis, can be oriented in an xyz (Cartesian) coordinate system such that
- for the largest possible 
-\begin_inset Formula $n$
-\end_inset
-
- value in 
-\begin_inset Formula $C_{n}$
-\end_inset
-
-, the 
-\begin_inset Formula $z$
-\end_inset
-
--axis is aligned with a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis.
- Likewise, since 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- is by definition a mirror-plane that is perpendicular to that 
-\begin_inset Formula $C_{n}$
-\end_inset
-
--axis (which is now the 
-\begin_inset Formula $z$
-\end_inset
-
--axis) then the molecule can be translated up or down along the 
-\begin_inset Formula $z$
-\end_inset
-
--axis until the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane is the 
-\begin_inset Formula $xy$
-\end_inset
-
--plane in the coordinate system.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Existence of a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-The existence of a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis is only possible if all atoms are on the 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis or if the system contains a subsystem of identical atoms that are
- vertices of an 
-\begin_inset Formula $n$
-\end_inset
-
--sided polygon with equal side-lengths (a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon), or if 
-\begin_inset Formula $n<3$
-\end_inset
-
- we simply need to have 
-\begin_inset Formula $n$
-\end_inset
-
- identical atoms in the molecule.
- Therefore, a minimum of 
-\begin_inset Formula $n$
-\end_inset
-
- atoms is needed in order to have a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-A 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis would go through the 
-\lang american
-center
-\lang british
- of this polygon (or in the case of 
-\begin_inset Formula $n=2$
-\end_inset
-
-, it would go through the centre of the line joining the two identical atoms),
- and since we can call this axis the 
-\begin_inset Formula $z$
-\end_inset
-
--axis, all atoms that form vertices of the polygon (or the two identical
- atoms in the case of 
-\begin_inset Formula $n=2$
-\end_inset
-
-), would have to have the same 
-\begin_inset Formula $z$
-\end_inset
-
--coordinates.
- If a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis is the 
-\begin_inset Formula $z$
-\end_inset
-
--axis, then after a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- rotation, an atom that originally had coordinates 
-\begin_inset Formula $(x_{1},y_{1},z_{1})$
-\end_inset
-
-, will have coordinates 
-\begin_inset Formula $(x_{2},y_{2},z_{1})$
-\end_inset
-
- in which the 
-\begin_inset Formula $z$
-\end_inset
-
--coordinate does not change, and the new coordinates 
-\begin_inset Formula $(x_{2},y_{2})$
-\end_inset
-
- can be
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-can be or must be?
-\end_layout
-
-\end_inset
-
- different from the old ones 
-\begin_inset Formula $(x_{1},y_{1})$
-\end_inset
-
- but will coincide with the original 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- coordinates of another identical atom in the system
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
- if the axis is indeed a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Necessary and sufficient conditions for the 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- point group when 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-A regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon with uniform vertices (in a molecule, this would mean the presence
- of identical atoms at the vertices) has a point group of 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- (this was already depicted visually in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:atkinsImproved"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), and any non-linear object with a 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- point group must contain a subset of identical vertices that form a regular
- 
-\begin_inset Formula $n$
-\end_inset
-
--gon if 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-Subset of vertices is needed? Or literally all atoms have to?
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Necessary and sufficient conditions for the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation to be valid when 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-:
-\series default
-\emph default
-\bar default
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Action of the 
-\begin_inset Formula $S_{n}$
-\end_inset
-
- operation:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang british
-An 
-\begin_inset Formula $S_{n}$
-\end_inset
-
- operation is by definition a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- operation followed by a 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- reflection operation.
- If we define the associated 
-\begin_inset Formula $C_{n}$
-\end_inset
-
--axis to be the 
-\begin_inset Formula $z$
-\end_inset
-
--axis, and the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane to be the 
-\begin_inset Formula $xy$
-\end_inset
-
--plane, then if an atom originally had coordinates 
-\begin_inset Formula $(x,y,z)$
-\end_inset
-
-, it will have coordinates 
-\begin_inset Formula $(x^{\prime},y^{\prime},z)$
-\end_inset
-
- after the 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- rotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
- (with 
-\begin_inset Formula $x^{\prime}$
-\end_inset
-
-and 
-\begin_inset Formula $y^{\prime}$
-\end_inset
-
- not necessarily equal to 
-\begin_inset Formula $x$
-\end_inset
-
- and 
-\begin_inset Formula $y$
-\end_inset
-
- respectively)?
-\end_layout
-
-\end_inset
-
-, and coordinates 
-\begin_inset Formula $(x^{\prime},y^{\prime},-z)$
-\end_inset
-
- after the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- reflection.
- So 
-\begin_inset Formula $S_{n}$
-\end_inset
-
- operation moves atoms from 
-\begin_inset Formula $(x,y,z)$
-\end_inset
-
- to 
-\begin_inset Formula $(x^{\prime},y^{\prime},-z)$
-\end_inset
-
-.
- As described in the section about the existence of a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis, the the new coordinates 
-\begin_inset Formula $(x^{\prime},y^{\prime})$
-\end_inset
-
- can be
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-can be or must be?
-\end_layout
-
-\end_inset
-
- different from the old ones 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- but will coincide with the original 
-\begin_inset Formula $xy$
-\end_inset
-
--coordinates of another identical atom in the molecule if the molecule indeed
- has a 
-\begin_inset Formula $C_{n}$
-\end_inset
-
- axis.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-The 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation is valid on a regular 
-\begin_inset Formula $2n$
-\end_inset
-
--gon with uniform vertices, because the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation is the combination of a 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- operation (which is valid on such a system) followed by a 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- operation (which is also valid on such a system, since it is planar); and
- any non-linear object in which the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation is valid, must contain a subset of identical vertices that form
- a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon if 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-Need to provide the reason
-\end_layout
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\lang british
-However
-\series default
-,
-\series bold
- 
-\series default
-for the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation to be valid in a system in which the 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- operation is not valid (as in the 
-\begin_inset Formula $D_{nd}$
-\end_inset
-
-, 
-\begin_inset Formula $S_{2n},$
-\end_inset
-
- and 
-\begin_inset Formula $T_{d}$
-\end_inset
-
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-maybe also 
-\begin_inset Formula $Ih$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- point groups), we cannot just have a 
-\begin_inset Formula $2n$
-\end_inset
-
--gon since the 
-\begin_inset Formula $2n$
-\end_inset
-
--gon itself forms a plane that can act as a 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-We would need at least one additional atom outside of the plane formed by
- the 
-\begin_inset Formula $2n$
-\end_inset
-
--gon in order to break the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane: If we make the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis the 
-\begin_inset Formula $z$
-\end_inset
-
--axis and the 
-\lang american
-center
-\lang british
- of the original 
-\begin_inset Formula $2n$
-\end_inset
-
--gon has 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- coordinates of 
-\begin_inset Formula $(0,0)$
-\end_inset
-
-, and we place the additional atom at 
-\begin_inset Formula $(0,0,z_{0})$
-\end_inset
-
-, we would need another atom at 
-\begin_inset Formula $(0,0,-z_{0})$
-\end_inset
-
- for the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- portion of the 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operation to be valid, but then the overall system (the 
-\begin_inset Formula $2n$
-\end_inset
-
--gon plus the two atoms on the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis) would again have a 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane that coincides with the 
-\begin_inset Formula $2n$
-\end_inset
-
--gon.
- This means that we would need at least one additional atom to be added
- in a location that is not on the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis and not on the plane of the original 
-\begin_inset Formula $2n$
-\end_inset
-
--gon; and based on the necessary condition for a 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis, the only way for there to be a 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis when an atom is not on the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis is when the atom is part of a regular 
-\begin_inset Formula $2n$
-\end_inset
-
--gon that is perpendicular to the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis and with identical vertices.
- We therefore need at least two parallel (perpendicular to the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- axis) regular 
-\begin_inset Formula $2n$
-\end_inset
-
--gons with identical vertices, in order for an 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operation to be valid.
- If an atom is at the position 
-\begin_inset Formula $(x_{1},y_{1},z_{1}),$
-\end_inset
-
- an 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operation will first perform the 
-\begin_inset Formula $C_{2n}$
-\end_inset
-
- rotation around the 
-\begin_inset Formula $z$
-\end_inset
-
--axis to move the 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- coordinates by and angle of 
-\begin_inset Formula $\pi/n$
-\end_inset
-
- without changing the 
-\begin_inset Formula $z$
-\end_inset
-
--coordinate, then will perform the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- operation which will transform the 
-\begin_inset Formula $z$
-\end_inset
-
--coordinate from 
-\begin_inset Formula $+z_{1}$
-\end_inset
-
- to 
-\begin_inset Formula $-z_{1}$
-\end_inset
-
- without changing the rotated 
-\begin_inset Formula $(x,y$
-\end_inset
-
-) coordinates (an identical atom would need to have been at this new location
- of 
-\begin_inset Formula $(x_{2},y_{2},-z_{1})$
-\end_inset
-
- for the 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operation to be valid).
- When the 
-\begin_inset Formula $S_{2n}$
-\end_inset
-
- operation is performed on the atom at the position 
-\begin_inset Formula $(x_{2},y_{2},-z_{1})$
-\end_inset
-
-, it will be 
-\end_layout
-
-\end_inset
-
- It turns out that for reasons that will be explained in the next paragraph,
- instead of one regular 
-\begin_inset Formula $2n$
-\end_inset
-
--gon, 
-\emph on
-two
-\emph default
- regular 
-\begin_inset Formula $n$
-\end_inset
-
--gons with one of them rotated by an angle of 
-\begin_inset Formula $\pi/n$
-\end_inset
-
- from the other one, and both of them being on different parallel planes
- with a 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis going through the 
-\lang american
-center
-\lang british
- of each of the 
-\begin_inset Formula $n$
-\end_inset
-
--gons, is a sufficient property and a necessary part of any system in which
- there is a valid 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation and no valid 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- operations (when 
-\begin_inset Formula $n\ge3$
-\end_inset
-
-).
- Each 
-\begin_inset Formula $D_{nd}$
-\end_inset
-
- point group contains 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- elements and no 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- elements
-\lang english
-, and the examples for 
-\begin_inset Formula $D_{nd}$
-\end_inset
-
- systems that we presented for 
-\begin_inset Formula $n\ge3$
-\end_inset
-
- in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:atkinsImproved"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- have exactly the form described in the previous sentence.
- 
-\end_layout
-
-\begin_layout Standard
-The 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane that is part of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation, cannot contain all atoms of the system, because then this plane
- would not only be the 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- part of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation, but it would also be a valid 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- operation for the entire system.
- At least one atom needs to not be on the 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation, and if it is on the 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- axis, then since a 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- operation does nothing to atoms that are on the 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- axis, a valid 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation would require the 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation to be a valid 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane for the atom too; so at least one atom needs to be neither on the
- 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation's 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- axis nor on its 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane.
- Since we can make the 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- axis of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation the 
-\begin_inset Formula $z$
-\end_inset
-
--axis, and the 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- plane of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation the 
-\begin_inset Formula $xy$
-\end_inset
-
--plane, we can summarize the previous sentence by saying that one point
- exists at a point 
-\begin_inset Formula $(x_{1},y_{1},z_{1})$
-\end_inset
-
- in which 
-\begin_inset Formula $(x_{1},y_{1})\ne(0,0)$
-\end_inset
-
- and 
-\begin_inset Formula $z_{1}\ne0.$
-\end_inset
-
- One 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation will rotate the 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- coordinates of the point by an angle of 
-\begin_inset Formula $\frac{2\pi}{2n}=\pi/n$
-\end_inset
-
- and the 
-\begin_inset Formula $z$
-\end_inset
-
--coordinate of that point to 
-\begin_inset Formula $-z_{1}$
-\end_inset
-
-, and an identical atom needs to be at this new point: 
-\begin_inset Formula $(x_{2},y_{2},-z_{1})$
-\end_inset
-
-.
- The 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation on the atom at 
-\begin_inset Formula $(x_{2},y_{2},-z_{1})$
-\end_inset
-
- will rotate the 
-\begin_inset Formula $(x,y)$
-\end_inset
-
- coordinates of the point by an angle of 
-\begin_inset Formula $\pi/n$
-\end_inset
-
- and the 
-\begin_inset Formula $z$
-\end_inset
-
--coordinate of that point to 
-\begin_inset Formula $+z_{1}$
-\end_inset
-
-, and an identical atom needs to be at this new point.
- By repeating this procedure, we will be forced to have a regular 
-\begin_inset Formula $n$
-\end_inset
-
--gon with uniform vertices on the plane 
-\begin_inset Formula $z=+z_{1}$
-\end_inset
-
- and another one on the plane 
-\begin_inset Formula $z=-z_{1}$
-\end_inset
-
- but with all vertices rotated by 
-\begin_inset Formula $\pi/n$
-\end_inset
-
- with respect to corresponding vertices on the other 
-\begin_inset Formula $n$
-\end_inset
-
--gon, and the 
-\begin_inset Formula $\hat{C}_{2n}$
-\end_inset
-
- axis of the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation (also called the 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- axis) going through the centers of each 
-\begin_inset Formula $n$
-\end_inset
-
--gon.
- So not only is this shape sufficient for the existence of a valid 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- operation in a system that does not have a valid 
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- operation on its own, but it is a necessary sub-unit of any system whose
- point group has an 
-\begin_inset Formula $\hat{S}_{2n}$
-\end_inset
-
- element and no
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Formula $\hat{\sigma}_{h}$
-\end_inset
-
- elements.
-\end_layout
-
-\begin_layout Standard
-When 
-\begin_inset Formula $z_{1}=0$
-\end_inset
-
- in the shape described in the previous paragraph, both 
-\begin_inset Formula $n$
-\end_inset
-
--gons will be on the same plane, and rotated by an angle of 
-\begin_inset Formula $\pi/n$
-\end_inset
-
- from each other, so we will again have a 
-\begin_inset Formula $2n$
-\end_inset
-
--gon, as described earlier.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\emph on
-\bar under
-\lang british
-Action of the inversion operation, 
-\begin_inset Formula $i$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-If there is a center of inversion, we can choose for it to be at the origin
- 
-\begin_inset Formula $(0,0,0),$
-\end_inset
-
- so if an atom is located at 
-\begin_inset Formula $(x,y,z)$
-\end_inset
-
-, the inversion operator will move it to 
-\begin_inset Formula $(-x,-y,-z).$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-
-\lang british
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:NumberOfAtomsForEachPointGroup"
-
-\end_inset
-
-Possible number of atoms and chemical formulas for each axial point group
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-In all of the literature that we know, 
-\begin_inset Quotes eld
-\end_inset
-
-the point group
-\begin_inset Quotes erd
-\end_inset
-
- of a molecule is only considered to be the 
-\series bold
-\emph on
-largest
-\series default
-\emph default
- point group such that all elements (symmetry operations) transform the
- molecule into an identical one
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-well not identical because H_1 is now H_2, etc., but what's the word for
- this? not isomer.
-\end_layout
-
-\end_inset
-
-.
- For example, even though all elements of 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
- transform a homo-nuclear diatomic molecule into an identical molecule,
- the point group is considered to be 
-\begin_inset Formula $D_{\infty h}$
-\end_inset
-
- which is a super-group of 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
- that contains 
-\series bold
-\emph on
-all 
-\series default
-\emph default
-of the elements that transform a homo-nuclear diatomic molecule into an
- identical molecule
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-from now on we should call these 
-\begin_inset Quotes eld
-\end_inset
-
-valid
-\begin_inset Quotes erd
-\end_inset
-
- symmetry elements?
-\end_layout
-
-\end_inset
-
-.
- We will use this convention throughout this paper.
-\color red
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color red
-\lang british
-All in order of number of atoms (except Ci is before others).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\lang british
-Axial point groups without axial rotational symmetry
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-check this term
-\end_layout
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-The point groups considered in this subsection do not contain any 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axes in which 
-\begin_inset Formula $n>1.$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\lang british
-\begin_inset Formula $C_{s}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-Any two 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-non-concentric
-\end_layout
-
-\end_inset
-
-atoms form a line, and if all atoms of a system are on the same line, then
- the point group will be either 
-\begin_inset Formula $C_{\infty v}$
-\end_inset
-
- or 
-\begin_inset Formula $D_{\infty h}$
-\end_inset
-
-.
- Likewise, a single atom has the point group 
-\begin_inset Formula $K_{h}$
-\end_inset
-
-, so it is not possible for the point group of a system with fewer than
- three atoms to be 
-\begin_inset Formula $C_{s}$
-\end_inset
-
-.
- Three atoms is enough for the point group of a system to be 
-\begin_inset Formula $C_{s}$
-\end_inset
-
- though, as in the example HNO (azanone, whose structure is depicted in
- Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:PossiblePointGroupsForTriatomics"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- 
-\series bold
-\color blue
-The minimum number of atoms required is three, and any triatomic chemical
- formula is allowed.
-
-\color inherit
- 
-\series default
-We can add as many more atoms as we wish without changing the point group
- of the system from 
-\begin_inset Formula $C_{s}$
-\end_inset
-
-, as long as these atoms all remain on the same plane as the first three
- atoms, and as long as they are not from the same element (having atoms
- with different elements guarantees that no 
-\emph on
-new 
-\emph default
-symmetry operations become valid on the system
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
- apart from the 
-\begin_inset Formula $\sigma_{h}$
-\end_inset
-
- plane in the 
-\begin_inset Formula $C_{s}$
-\end_inset
-
- group
-\end_layout
-
-\end_inset
-
-).
- The point group 
-\begin_inset Formula $C_{s}$
-\end_inset
-
- is also possible for non-planar structures, and structures containing more
- than one atom from the same element, are also possible (e.g.
- Cl
-\begin_inset Formula $_{2}$
-\end_inset
-
-OS which is both non-planar and has two atoms of the element Cl), but we
- were already able to prove in the previous sentence that the point group
- 
-\begin_inset Formula $C_{s}$
-\end_inset
-
- is possible for any number of atoms that is larger than or equal to three.
- 
-\series bold
-\color blue
-Any number of atoms larger than or equal to three is allowed, and the general
- chemical formula allowed is ABCD
-\begin_inset Formula $\cdots$
-\end_inset
-
-
-\series default
-\color inherit
-, in which any letter can be identical to one of the previous ones (e.g.
- B, C and D can be chosen to equal A if desired).
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\size larger
-\bar under
-\lang british
-\begin_inset Formula $C_{1}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-Any three atoms form a plane or a line, and if all atoms of a molecule are
- on the same plane, then that plane is a reflection plane
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
- (also known as a mirror plane)
-\end_layout
-
-\end_inset
-
-.
- Therefore if a molecule has three or fewer atoms, it will at least have
- one reflection plane, and would be promoted from 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- to at least 
-\begin_inset Formula $C_{s}$
-\end_inset
-
-.
- Four atoms is enough for the point group of a molecule to be 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- though, as in the example H
-\begin_inset Formula $_{2}$
-\end_inset
-
-OS (whose structure is depicted in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:PossiblePointGroupsForTetratomics"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- 
-\series bold
-\color blue
-The minimum number of atoms required is four, and any tetra-atomic chemical
- formula is allowed.
-
-\series default
-\color inherit
- We can add as many more atoms as we wish without changing the point group
- of the system from 
-\begin_inset Formula $C_{1}$
-\end_inset
-
-, as long as none of these additional atoms are from the same element (having
- atoms with different elements guarantees that no symmetry operations become
- valid on the molecule).
- If we run out of elements, we can still add atoms such that no new symmetry
- operations are valid on the system.
- 
-\series bold
-\color blue
-Any number of atoms larger than or equal to four is allowed, and the general
- formula is ABCDE
-\begin_inset Formula $\cdots$
-\end_inset
-
-
-\series default
-\color inherit
-, in which any letter can be identical to one of the previous ones (e.g.
- B, C, D and E can be chosen to equal A if desired).
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang british
-An 
-\begin_inset Formula $n$
-\end_inset
-
--atom molecule with all 
-\begin_inset Formula $n$
-\end_inset
-
- atoms being from different elements of the periodic table, would have a
- formula of the following form: ABCD....
- The 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- point group would be possible for any molecule with that form, and also
- for formulas in which any of the letters after the first one were replaced
- with a previous letter (e.g.
- H
-\begin_inset Formula $_{2}$
-\end_inset
-
-OS has the point group 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- and the formula A
-\begin_inset Formula $_{2}$
-\end_inset
-
-BC).
- As more letters in the formula become the same, it becomes less likely
- for 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- to be the molecule's largest point group, for example a molecule of the
- form A
-\begin_inset Formula $_{4}$
-\end_inset
-
- is likely to have all of its bond lengths (and angles?) equal since identical
- atoms are expected to interact identically with each other, but mathematically
- it is still possible to construct an object with 4 identical points (or
- 
-\begin_inset Formula $n$
-\end_inset
-
- identical points) that are located in such a way so that 
-\begin_inset Formula $C_{1}$
-\end_inset
-
- is the largest point group describing them.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float table
 placement !t
@@ -9967,13 +8211,178 @@ height "2pt"
 
 \end_layout
 
+\begin_layout Section
+
+\lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:GeneralPrinciples"
+
+\end_inset
+
+General principles for possible molecules 
+\end_layout
+
+\begin_layout Standard
+In this section we will state some general principles that we will use in
+ the following section when formulating our arguments for the required numbers
+ of atoms and required chemical formulas for each point group.
+ Some of the statements made in this section may already be familiar or
+ intuitive to the reader, but we have not seen most of them stated in textbooks
+ about group theory for chemistry 
+\lang british
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1955Wilson,1963Cotton,1966Hochstrasser,hall1969group,1969Ferraro,1970Atkins,1970Urch,1972Hollas,1973Bishop,1977Vincent,1977Drago,1978Lowe,harris1978symmetry,1991Davidson,1993Diem,1993Lowe,1998Carter,2000Ohrn,2005Jacobs,2007Shirts"
+literal "false"
+
+\end_inset
+
+
+\lang english
+, although parts of the first statement are mentioned in other places, such
+ as 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bakken_efficient_2002"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I think it was actually the Baker paper or one of the other early papers
+ on redundant/internal coordinates, not this one
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \noindent
 
-\size larger
+\series bold
+\emph on
 \bar under
 \lang british
-\begin_inset Formula $C_{i}$
+Ability to orient the coordinate system according to a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis and 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Any molecule with a rotation axis, called a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+-axis, can be oriented in an xyz (Cartesian) coordinate system such that
+ for the largest possible 
+\begin_inset Formula $n$
+\end_inset
+
+ value in 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+, the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis is aligned with a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis; and a 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane (if one exists) is a mirror plane coinciding with the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane in the coordinate system.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Any molecule with a rotation axis, or 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+-axis, can be oriented in an xyz (Cartesian) coordinate system such that
+ for the largest possible 
+\begin_inset Formula $n$
+\end_inset
+
+ value in 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+, the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis is aligned with a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis.
+ Likewise, since 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ is by definition a mirror-plane that is perpendicular to that 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+-axis (which is now the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis) then the molecule can be translated up or down along the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis until the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane is the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane in the coordinate system.
+\end_layout
+
 \end_inset
 
 
@@ -9987,224 +8396,1214 @@ height "2pt"
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\series bold
+\emph on
+\bar under
+\lang british
+Existence of a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The existence of a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis is only possible if all atoms are on the 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis or if the system contains a subsystem of identical atoms that are
+ vertices of an 
+\begin_inset Formula $n$
+\end_inset
+
+-sided polygon with equal side-lengths (a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon), or if 
+\begin_inset Formula $n<3$
+\end_inset
+
+ we simply need to have 
+\begin_inset Formula $n$
+\end_inset
+
+ identical atoms in the molecule.
+ Therefore, a minimum of 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms is needed in order to have a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+A 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis would go through the 
+\lang american
+center
+\lang british
+ of this polygon (or in the case of 
+\begin_inset Formula $n=2$
+\end_inset
+
+, it would go through the centre of the line joining the two identical atoms),
+ and since we can call this axis the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, all atoms that form vertices of the polygon (or the two identical
+ atoms in the case of 
+\begin_inset Formula $n=2$
+\end_inset
+
+), would have to have the same 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinates.
+ If a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis is the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, then after a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ rotation, an atom that originally had coordinates 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+, will have coordinates 
+\begin_inset Formula $(x_{2},y_{2},z_{1})$
+\end_inset
+
+ in which the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate does not change, and the new coordinates 
+\begin_inset Formula $(x_{2},y_{2})$
+\end_inset
+
+ can be
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-We will explain in the next paragraph that any five atoms with an inversion
- center will lie on the same plane (or same line) and will therefore have
- a reflection plane
+
+\lang british
+can be or must be?
+\end_layout
+
+\end_inset
+
+ different from the old ones 
+\begin_inset Formula $(x_{1},y_{1})$
+\end_inset
+
+ but will coincide with the original 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates of another identical atom in the system
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
- going through at atoms
+
+\lang british
+ if the axis is indeed a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis
 \end_layout
 
 \end_inset
 
 .
- 
-\end_layout
-
-\end_inset
-
-Since the 
-\begin_inset Formula $C_{i}$
-\end_inset
-
- point group does not have any reflection elements, the point group of any
- system that contains a reflection plane and an inversion center must be
- larger than 
-\begin_inset Formula $C_{i}$
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Standard
-If we have three or fewer atoms, then there does not even need to be an
- inversion center for the atoms to be confined to a plane (or line).
- If we have four atoms, and 
-\lang british
-we make the inversion 
-\lang american
-center
-\lang british
- the origin, the atoms must come in pairs according to the inversion operation
- 
-\begin_inset Formula $\hat{i}$
-\end_inset
-
-: 
-\begin_inset Formula $A=(x_{1},y_{1},z_{1})$
-\end_inset
-
- will be paired with 
-\begin_inset Formula $-A=(-x_{1},-y_{1},-z_{1})$
-\end_inset
-
- and 
-\begin_inset Formula $B=(x_{2},y_{2},z_{2})$
-\end_inset
-
- will be paired with 
-\begin_inset Formula $-B=(-x_{2},-y_{2},-z_{2}).$
-\end_inset
-
- Assuming that no two atoms will have the same 
-\begin_inset Formula $xyz$
-\end_inset
-
--coordinates, none of these four atoms can be on the origin.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang british
- The four atoms 
-\begin_inset Formula $A,-A,B,-B$
-\end_inset
-
- will lie on the same plane if the triple scalar product 
-\begin_inset Formula $\ensuremath{-\overrightarrow{AB}\cdot\left(-\overrightarrow{AA}\times\overrightarrow{AB}\right)=0.}$
-\end_inset
-
- If any two vectors in a triple scalar product are equal, then the entire
- product is 0, so the equality at the end of the previous sentence holds,
- and the four atoms are on the same plane.
- 
-\end_layout
-
+\begin_inset VSpace defskip
 \end_inset
 
 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang british
-Another way to see this, is to notice that 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $A$
-\end_inset
-
- and 
-\begin_inset Formula $-A$
-\end_inset
-
- form a line, and 
-\begin_inset Formula $B$
-\end_inset
-
- and 
-\begin_inset Formula $-B$
-\end_inset
-
- form another line, and these two lines both intersect at the origin, but
- two lines that cross are always co-planar.
- If we have five atoms, the fifth one must be at the origin, because atoms
- need to either be paired or at the origin in order for the inversion operation
- to be valid on the system of atoms.
- However, the other four atoms in the five-atom system will form a plane
- that contains the origin (because two lines that intersect at the origin
- form a plane that contains the origin).
- Therefore the fifth atom will also be on the same plane as the other four
- atoms, and the point group will be promoted to a group that is larger than
- 
-\begin_inset Formula $C_{i}$
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Standard
+\noindent
 
-\lang british
-Six atoms is enough for the point group of a system to be 
-\begin_inset Formula $C_{i}$
-\end_inset
-
-, for example C
-\begin_inset Formula $_{2}$
-\end_inset
-
-H
-\begin_inset Formula $_{2}$
-\end_inset
-
-Br
-\begin_inset Formula $_{2}$
-\end_inset
-
-Cl
-\begin_inset Formula $_{2}$
-\end_inset
-
- with the two carbons removed.
- Any number of atoms can be added while maintaining the point group 
-\begin_inset Formula $C_{i}$
-\end_inset
-
-, but an even number of atoms would need to be added in pairs of identical
- elements, and/or one additional atom of any element can be added to the
- inversion 
-\lang american
-center
-\lang british
-.
- 
 \series bold
-\color blue
-The minimum number of atoms required is six, and the chemical formula must
- be of the form A
-\begin_inset Formula $_{2}$
+\emph on
+\bar under
+\lang british
+Necessary and sufficient conditions for the 
+\begin_inset Formula $D_{nh}$
 \end_inset
 
-B
-\begin_inset Formula $_{2}$
+ point group when 
+\begin_inset Formula $n\ge3$
 \end_inset
 
-C
-\begin_inset Formula $_{2}$
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
-D
-\begin_inset Formula $_{2}\cdots$
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+A regular 
+\begin_inset Formula $n$
 \end_inset
 
- or AB
-\begin_inset Formula $_{2}$
+-gon with uniform vertices (in a molecule, this would mean the presence
+ of identical atoms at the vertices) has a point group of 
+\begin_inset Formula $D_{nh}$
 \end_inset
 
-C
-\begin_inset Formula $_{2}$
+ (this was already depicted visually in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
-D
-\begin_inset Formula $_{2}\cdots$
+), and any non-linear object with a 
+\begin_inset Formula $D_{nh}$
 \end_inset
 
- depending on if the number of atoms is even or odd
+ point group must contain a subset of identical vertices that form a regular
+ 
+\begin_inset Formula $n$
+\end_inset
+
+-gon if 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+Subset of vertices is needed? Or literally all atoms have to?
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\emph on
+\bar under
+\lang british
+Necessary and sufficient conditions for the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation to be valid when 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+:
 \series default
-\color inherit
-, and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+\emph default
+\bar default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+\emph on
+\bar under
+\lang british
+Action of the 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ operation:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+An 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ operation is by definition a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ operation followed by a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ reflection operation.
+ If we define the associated 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+-axis to be the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, and the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane to be the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane, then if an atom originally had coordinates 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+, it will have coordinates 
+\begin_inset Formula $(x^{\prime},y^{\prime},z)$
+\end_inset
+
+ after the 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ rotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ (with 
+\begin_inset Formula $x^{\prime}$
+\end_inset
+
+and 
+\begin_inset Formula $y^{\prime}$
+\end_inset
+
+ not necessarily equal to 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ respectively)?
+\end_layout
+
+\end_inset
+
+, and coordinates 
+\begin_inset Formula $(x^{\prime},y^{\prime},-z)$
+\end_inset
+
+ after the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ reflection.
+ So 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+ operation moves atoms from 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ to 
+\begin_inset Formula $(x^{\prime},y^{\prime},-z)$
+\end_inset
+
+.
+ As described in the section about the existence of a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis, the the new coordinates 
+\begin_inset Formula $(x^{\prime},y^{\prime})$
+\end_inset
+
+ can be
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+can be or must be?
+\end_layout
+
+\end_inset
+
+ different from the old ones 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ but will coincide with the original 
+\begin_inset Formula $xy$
+\end_inset
+
+-coordinates of another identical atom in the molecule if the molecule indeed
+ has a 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ axis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+The 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation is valid on a regular 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon with uniform vertices, because the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation is the combination of a 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ operation (which is valid on such a system) followed by a 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operation (which is also valid on such a system, since it is planar); and
+ any non-linear object in which the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation is valid, must contain a subset of identical vertices that form
+ a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon if 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+Need to provide the reason
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang british
+However
+\series default
+,
+\series bold
+ 
+\series default
+for the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation to be valid in a system in which the 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operation is not valid (as in the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+, 
+\begin_inset Formula $S_{2n},$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{d}$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+maybe also 
+\begin_inset Formula $Ih$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ point groups), we cannot just have a 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon since the 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon itself forms a plane that can act as a 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+We would need at least one additional atom outside of the plane formed by
+ the 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon in order to break the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane: If we make the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis and the 
+\lang american
+center
+\lang british
+ of the original 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon has 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates of 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, and we place the additional atom at 
+\begin_inset Formula $(0,0,z_{0})$
+\end_inset
+
+, we would need another atom at 
+\begin_inset Formula $(0,0,-z_{0})$
+\end_inset
+
+ for the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ portion of the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation to be valid, but then the overall system (the 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon plus the two atoms on the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis) would again have a 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane that coincides with the 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon.
+ This means that we would need at least one additional atom to be added
+ in a location that is not on the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis and not on the plane of the original 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon; and based on the necessary condition for a 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis, the only way for there to be a 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis when an atom is not on the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis is when the atom is part of a regular 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon that is perpendicular to the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis and with identical vertices.
+ We therefore need at least two parallel (perpendicular to the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ axis) regular 
+\begin_inset Formula $2n$
+\end_inset
+
+-gons with identical vertices, in order for an 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation to be valid.
+ If an atom is at the position 
+\begin_inset Formula $(x_{1},y_{1},z_{1}),$
+\end_inset
+
+ an 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation will first perform the 
+\begin_inset Formula $C_{2n}$
+\end_inset
+
+ rotation around the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis to move the 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates by and angle of 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ without changing the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate, then will perform the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ operation which will transform the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate from 
+\begin_inset Formula $+z_{1}$
+\end_inset
+
+ to 
+\begin_inset Formula $-z_{1}$
+\end_inset
+
+ without changing the rotated 
+\begin_inset Formula $(x,y$
+\end_inset
+
+) coordinates (an identical atom would need to have been at this new location
+ of 
+\begin_inset Formula $(x_{2},y_{2},-z_{1})$
+\end_inset
+
+ for the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation to be valid).
+ When the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ operation is performed on the atom at the position 
+\begin_inset Formula $(x_{2},y_{2},-z_{1})$
+\end_inset
+
+, it will be 
+\end_layout
+
+\end_inset
+
+ It turns out that for reasons that will be explained in the next paragraph,
+ instead of one regular 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon, 
+\emph on
+two
+\emph default
+ regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gons with one of them rotated by an angle of 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ from the other one, and both of them being on different parallel planes
+ with a 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis going through the 
+\lang american
+center
+\lang british
+ of each of the 
+\begin_inset Formula $n$
+\end_inset
+
+-gons, is a sufficient property and a necessary part of any system in which
+ there is a valid 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation and no valid 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operations (when 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+).
+ Each 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ point group contains 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ elements and no 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ elements
+\lang english
+, and the examples for 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ systems that we presented for 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+ in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:atkinsImproved"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ have exactly the form described in the previous sentence.
+ 
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane that is part of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation, cannot contain all atoms of the system, because then this plane
+ would not only be the 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ part of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation, but it would also be a valid 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operation for the entire system.
+ At least one atom needs to not be on the 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation, and if it is on the 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ axis, then since a 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ operation does nothing to atoms that are on the 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ axis, a valid 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation would require the 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation to be a valid 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane for the atom too; so at least one atom needs to be neither on the
+ 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation's 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ axis nor on its 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane.
+ Since we can make the 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ axis of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis, and the 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane, we can summarize the previous sentence by saying that one point
+ exists at a point 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+ in which 
+\begin_inset Formula $(x_{1},y_{1})\ne(0,0)$
+\end_inset
+
+ and 
+\begin_inset Formula $z_{1}\ne0.$
+\end_inset
+
+ One 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation will rotate the 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates of the point by an angle of 
+\begin_inset Formula $\frac{2\pi}{2n}=\pi/n$
+\end_inset
+
+ and the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate of that point to 
+\begin_inset Formula $-z_{1}$
+\end_inset
+
+, and an identical atom needs to be at this new point: 
+\begin_inset Formula $(x_{2},y_{2},-z_{1})$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation on the atom at 
+\begin_inset Formula $(x_{2},y_{2},-z_{1})$
+\end_inset
+
+ will rotate the 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ coordinates of the point by an angle of 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ and the 
+\begin_inset Formula $z$
+\end_inset
+
+-coordinate of that point to 
+\begin_inset Formula $+z_{1}$
+\end_inset
+
+, and an identical atom needs to be at this new point.
+ By repeating this procedure, we will be forced to have a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with uniform vertices on the plane 
+\begin_inset Formula $z=+z_{1}$
+\end_inset
+
+ and another one on the plane 
+\begin_inset Formula $z=-z_{1}$
+\end_inset
+
+ but with all vertices rotated by 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ with respect to corresponding vertices on the other 
+\begin_inset Formula $n$
+\end_inset
+
+-gon, and the 
+\begin_inset Formula $\hat{C}_{2n}$
+\end_inset
+
+ axis of the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation (also called the 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ axis) going through the centers of each 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ So not only is this shape sufficient for the existence of a valid 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ operation in a system that does not have a valid 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operation on its own, but it is a necessary sub-unit of any system whose
+ point group has an 
+\begin_inset Formula $\hat{S}_{2n}$
+\end_inset
+
+ element and no
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ elements.
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $z_{1}=0$
+\end_inset
+
+ in the shape described in the previous paragraph, both 
+\begin_inset Formula $n$
+\end_inset
+
+-gons will be on the same plane, and rotated by an angle of 
+\begin_inset Formula $\pi/n$
+\end_inset
+
+ from each other, so we will again have a 
+\begin_inset Formula $2n$
+\end_inset
+
+-gon, as described earlier.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\emph on
+\bar under
+\lang british
+Action of the inversion operation, 
+\begin_inset Formula $i$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+If there is a center of inversion, we can choose for it to be at the origin
+ 
+\begin_inset Formula $(0,0,0),$
+\end_inset
+
+ so if an atom is located at 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+, the inversion operator will move it to 
+\begin_inset Formula $(-x,-y,-z).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang british
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:NumberOfAtomsForEachPointGroup"
+
+\end_inset
+
+Possible number of atoms and chemical formulas for each axial point group
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+In all of the literature that we know, 
+\begin_inset Quotes eld
+\end_inset
+
+the point group
+\begin_inset Quotes erd
+\end_inset
+
+ of a molecule is only considered to be the 
+\series bold
+\emph on
+largest
+\series default
+\emph default
+ point group such that all elements (symmetry operations) transform the
+ molecule into an identical one
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+well not identical because H_1 is now H_2, etc., but what's the word for
+ this? not isomer.
+\end_layout
+
+\end_inset
+
+.
+ For example, even though all elements of 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ transform a homo-nuclear diatomic molecule into an identical molecule,
+ the point group is considered to be 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ which is a super-group of 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ that contains 
+\series bold
+\emph on
+all 
+\series default
+\emph default
+of the elements that transform a homo-nuclear diatomic molecule into an
+ identical molecule
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+from now on we should call these 
+\begin_inset Quotes eld
+\end_inset
+
+valid
+\begin_inset Quotes erd
+\end_inset
+
+ symmetry elements?
+\end_layout
+
+\end_inset
+
+.
+ We will use this convention throughout this paper.
+\color red
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\lang british
+All in order of number of atoms (except Ci is before others).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 
 \lang british
-Axial point groups with axial rotational symmetry
+Axial point groups without axial rotational symmetry
 \begin_inset Note Note
 status open
 
@@ -10227,20 +9626,40 @@ check this term
 \end_layout
 
 \begin_layout Standard
+
+\lang british
+The point groups considered in this subsection do not contain any 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axes in which 
+\begin_inset Formula $n>1.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 
 \size larger
 \bar under
 \lang british
-\begin_inset Formula $D_{nh}$
+\begin_inset Formula $C_{s}$
 \end_inset
 
 
-\size default
-\bar default
-\lang english
+\end_layout
 
-\begin_inset VSpace 2mm
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -10248,89 +9667,188 @@ check this term
 
 \begin_layout Standard
 
-\bar under
-\begin_inset Formula $n=2$
-\end_inset
+\lang british
+Any two 
+\begin_inset Note Note
+status open
 
-
-\bar default
-
-\begin_inset VSpace 2mm
-\end_inset
-
-
+\begin_layout Plain Layout
+non-concentric
 \end_layout
 
-\begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
- be promoted to 
-\begin_inset Formula $K_{h},D_{\infty h}$
 \end_inset
 
- or 
+atoms form a line, and if all atoms of a system are on the same line, then
+ the point group will be either 
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
-, however all 
-\begin_inset Formula $D_{nh}$
-\end_inset
-
- point groups with even values of 
-\begin_inset Formula $n$
-\end_inset
-
- (including 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
-) have an inversion element 
-\begin_inset Formula $\hat{i}$
-\end_inset
-
-, and for a reason that is explained in the next sentence, the only way
- for a three atom system to have an inversion element is for it to be linear,
- which would promote it either to 
+ or 
 \begin_inset Formula $D_{\infty h}$
 \end_inset
 
- or 
-\begin_inset Formula $C_{\infty v}$
+.
+ Likewise, a single atom has the point group 
+\begin_inset Formula $K_{h}$
+\end_inset
+
+, so it is not possible for the point group of a system with fewer than
+ three atoms to be 
+\begin_inset Formula $C_{s}$
 \end_inset
 
 .
- If we choose the origin 
-\begin_inset Formula $(0,0,0)$
+ Three atoms is enough for the point group of a system to be 
+\begin_inset Formula $C_{s}$
 \end_inset
 
- to be the center of inversion, and one atom is at the position 
-\begin_inset Formula $(x_{1},y_{1},z_{1})$
+ though, as in the example HNO (azanone, whose structure is depicted in
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTriatomics"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
-, then an identical atom would need to be at the position 
-\begin_inset Formula $(-x_{1},-y_{1},-z_{1})$
+).
+ 
+\series bold
+\color blue
+The minimum number of atoms required is three, and any triatomic chemical
+ formula is allowed.
+
+\color inherit
+ 
+\series default
+We can add as many more atoms as we wish without changing the point group
+ of the system from 
+\begin_inset Formula $C_{s}$
 \end_inset
 
- and the third atom would need to be at the origin.
- We therefore would have two identical atoms on a 
+, as long as these atoms all remain on the same plane as the first three
+ atoms, and as long as they are not from the same element (having atoms
+ with different elements guarantees that no 
 \emph on
-line
+new 
 \emph default
- going through the origin, and a third atom in the center of that line.
- We therefore would need a minimum of four atoms for the 
-\begin_inset Formula $D_{2h}$
-\end_inset
+symmetry operations become valid on the system
+\begin_inset Note Note
+status open
 
- point group, and indeed four atoms is enough as in the case of Br
-\begin_inset Formula $_{2}$
-\end_inset
+\begin_layout Plain Layout
 
-Na
-\begin_inset Formula $_{2}$
-\end_inset
-
- (whose
 \lang british
- structure is depicted in Table 
+ apart from the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane in the 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ group
+\end_layout
+
+\end_inset
+
+).
+ The point group 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ is also possible for non-planar structures, and structures containing more
+ than one atom from the same element, are also possible (e.g.
+ Cl
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS which is both non-planar and has two atoms of the element Cl), but we
+ were already able to prove in the previous sentence that the point group
+ 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ is possible for any number of atoms that is larger than or equal to three.
+ 
+\series bold
+\color blue
+Any number of atoms larger than or equal to three is allowed, and the general
+ chemical formula allowed is ABCD
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\series default
+\color inherit
+, in which any letter can be identical to one of the previous ones (e.g.
+ B, C and D can be chosen to equal A if desired).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $C_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Any three atoms form a plane or a line, and if all atoms of a molecule are
+ on the same plane, then that plane is a reflection plane
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ (also known as a mirror plane)
+\end_layout
+
+\end_inset
+
+.
+ Therefore if a molecule has three or fewer atoms, it will at least have
+ one reflection plane, and would be promoted from 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ to at least 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+.
+ Four atoms is enough for the point group of a molecule to be 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ though, as in the example H
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS (whose structure is depicted in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:PossiblePointGroupsForTetratomics"
@@ -10340,279 +9858,110 @@ noprefix "false"
 
 \end_inset
 
-)
-\lang english
-.
+).
  
 \series bold
 \color blue
-\lang british
-The minimum number of atoms required is four, and the most general chemical
- formula for a structure with the minimum number of atoms is A
-\begin_inset Formula $_{2}$
+The minimum number of atoms required is four, and any tetra-atomic chemical
+ formula is allowed.
+
+\series default
+\color inherit
+ We can add as many more atoms as we wish without changing the point group
+ of the system from 
+\begin_inset Formula $C_{1}$
 \end_inset
 
-B
-\begin_inset Formula $_{2}$
+, as long as none of these additional atoms are from the same element (having
+ atoms with different elements guarantees that no symmetry operations become
+ valid on the molecule).
+ If we run out of elements, we can still add atoms such that no new symmetry
+ operations are valid on the system.
+ 
+\series bold
+\color blue
+Any number of atoms larger than or equal to four is allowed, and the general
+ formula is ABCDE
+\begin_inset Formula $\cdots$
 \end_inset
 
 
 \series default
 \color inherit
-, and B can be chosen to equal A if desired.
- 
-\series bold
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-\lang british
-The general formula is
+, in which any letter can be identical to one of the previous ones (e.g.
+ B, C, D and E can be chosen to equal A if desired).
 \end_layout
 
-\end_inset
+\begin_layout Standard
 
- 
-\series default
-Any atom can be added to the inversion 
-\lang american
-center
 \lang british
- of the system without breaking any of the 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
- symmetry elements.
- If an atom is to be added anywhere else, it needs to be 
-\emph on
-paired 
-\emph default
-with an atom of the 
-\emph on
-same element 
-\emph default
-in order for the inversion operation 
-\begin_inset Formula $\hat{i}$
-\end_inset
-
- to remain valid, and such pairs of atoms can be added to the primary 
-\begin_inset Formula $\hat{C}_{2}$
-\end_inset
-
- axis in the 
-\begin_inset Formula $D_{2h}$
-\end_inset
-
- point group without breaking any of the other symmetry elements of the
- group.
- 
-\series bold
-\color blue
-The chemical formula must be of the form A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
-\end_inset
-
- or AB
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
-\end_inset
-
- depending on if the number of atoms is even or odd
-\series default
-\color inherit
-, and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
 
 \lang british
-proof: 
-\lang american
-center
-\lang british
- of inversion has to be at the intersection of C2, C2', C2'' and sigma_h,v,d
- all have to contain i.
- C2' and C2'' just switch the two points that were added on the C2 axis,
- and the planes either do nothing or just switch the points.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-\begin_inset Formula $n\ge3$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang british
-Since a regular 
+An 
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is a 
-\emph on
-necessary
-\emph default
- component of any system with a point group of 
-\begin_inset Formula $D_{nh}$
+-atom molecule with all 
+\begin_inset Formula $n$
 \end_inset
 
+ atoms being from different elements of the periodic table, would have a
+ formula of the following form: ABCD....
+ The 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ point group would be possible for any molecule with that form, and also
+ for formulas in which any of the letters after the first one were replaced
+ with a previous letter (e.g.
+ H
+\begin_inset Formula $_{2}$
+\end_inset
+
+OS has the point group 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ and the formula A
+\begin_inset Formula $_{2}$
+\end_inset
+
+BC).
+ As more letters in the formula become the same, it becomes less likely
  for 
-\begin_inset Formula $n\ge3$
+\begin_inset Formula $C_{1}$
 \end_inset
 
-, we can conclude that the 
-\series bold
-\color blue
-the minimum number of atoms required is 
-\begin_inset Formula $n$
+ to be the molecule's largest point group, for example a molecule of the
+ form A
+\begin_inset Formula $_{4}$
 \end_inset
 
-, and the formula for this minimal structure would be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-.
-
-\color inherit
+ is likely to have all of its bond lengths (and angles?) equal since identical
+ atoms are expected to interact identically with each other, but mathematically
+ it is still possible to construct an object with 4 identical points (or
  
-\series default
-An even number of additional atoms can be added along the 
-\begin_inset Formula $\hat{C}_{n}$
-\end_inset
-
- axis in such a way that no new valid symmetry operations are made possible,
- and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
-\emph on
-homo-nuclear pairs
-\emph default
- on each side of the plane formed by the 
 \begin_inset Formula $n$
 \end_inset
 
--gon.
- One additional atom can also be added at the 
-\lang american
-center
-\lang british
- of the 
-\begin_inset Formula $n$
+ identical points) that are located in such a way so that 
+\begin_inset Formula $C_{1}$
 \end_inset
 
--gon.
- Therefore 
-\series bold
-\color blue
-the most general formula for a structure with 
-\begin_inset Formula $n$
-\end_inset
+ is the largest point group describing them.
+\end_layout
 
- atoms plus an even number of additional atoms would be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-B
-\begin_inset Formula $_{2}$
-\end_inset
-
-C
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
-\end_inset
-
-, and for an odd number of additional atoms the most general formula would
- be A
-\begin_inset Formula $_{n}$
-\end_inset
-
-BC
-\begin_inset Formula $_{2}$
-\end_inset
-
-D
-\begin_inset Formula $_{2}\cdots$
-\end_inset
-
-
-\series default
-\color inherit
-, and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
-\series bold
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\series bold
-\lang british
-Somehow we need to explain that we can add the additional atoms in other
- ways, for example an n-gon could be added, but if n is even 
-\begin_inset Formula $AnBn$
-\end_inset
-
- is a special case of 
-\begin_inset Formula $AnB2C2$
-\end_inset
-
-..., and if it's odd, then it's a special case of 
-\begin_inset Formula $AnBC2D2...$
 \end_inset
 
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -15179,6 +14528,657 @@ ABCDE
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $C_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We will explain in the next paragraph that any five atoms with an inversion
+ center will lie on the same plane (or same line) and will therefore have
+ a reflection plane
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+ going through at atoms
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+Since the 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ point group does not have any reflection elements, the point group of any
+ system that contains a reflection plane and an inversion center must be
+ larger than 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+If we have three or fewer atoms, then there does not even need to be an
+ inversion center for the atoms to be confined to a plane (or line).
+ If we have four atoms, and 
+\lang british
+we make the inversion 
+\lang american
+center
+\lang british
+ the origin, the atoms must come in pairs according to the inversion operation
+ 
+\begin_inset Formula $\hat{i}$
+\end_inset
+
+: 
+\begin_inset Formula $A=(x_{1},y_{1},z_{1})$
+\end_inset
+
+ will be paired with 
+\begin_inset Formula $-A=(-x_{1},-y_{1},-z_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $B=(x_{2},y_{2},z_{2})$
+\end_inset
+
+ will be paired with 
+\begin_inset Formula $-B=(-x_{2},-y_{2},-z_{2}).$
+\end_inset
+
+ Assuming that no two atoms will have the same 
+\begin_inset Formula $xyz$
+\end_inset
+
+-coordinates, none of these four atoms can be on the origin.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang british
+ The four atoms 
+\begin_inset Formula $A,-A,B,-B$
+\end_inset
+
+ will lie on the same plane if the triple scalar product 
+\begin_inset Formula $\ensuremath{-\overrightarrow{AB}\cdot\left(-\overrightarrow{AA}\times\overrightarrow{AB}\right)=0.}$
+\end_inset
+
+ If any two vectors in a triple scalar product are equal, then the entire
+ product is 0, so the equality at the end of the previous sentence holds,
+ and the four atoms are on the same plane.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang british
+Another way to see this, is to notice that 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $-A$
+\end_inset
+
+ form a line, and 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $-B$
+\end_inset
+
+ form another line, and these two lines both intersect at the origin, but
+ two lines that cross are always co-planar.
+ If we have five atoms, the fifth one must be at the origin, because atoms
+ need to either be paired or at the origin in order for the inversion operation
+ to be valid on the system of atoms.
+ However, the other four atoms in the five-atom system will form a plane
+ that contains the origin (because two lines that intersect at the origin
+ form a plane that contains the origin).
+ Therefore the fifth atom will also be on the same plane as the other four
+ atoms, and the point group will be promoted to a group that is larger than
+ 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Six atoms is enough for the point group of a system to be 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, for example C
+\begin_inset Formula $_{2}$
+\end_inset
+
+H
+\begin_inset Formula $_{2}$
+\end_inset
+
+Br
+\begin_inset Formula $_{2}$
+\end_inset
+
+Cl
+\begin_inset Formula $_{2}$
+\end_inset
+
+ with the two carbons removed.
+ Any number of atoms can be added while maintaining the point group 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, but an even number of atoms would need to be added in pairs of identical
+ elements, and/or one additional atom of any element can be added to the
+ inversion 
+\lang american
+center
+\lang british
+.
+ 
+\series bold
+\color blue
+The minimum number of atoms required is six, and the chemical formula must
+ be of the form A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ or AB
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ depending on if the number of atoms is even or odd
+\series default
+\color inherit
+, and any letter can be identical to one of the previous ones (e.g.
+ B, C, and D can be chosen to equal A if desired).
+\end_layout
+
+\begin_layout Subsection
+
+\lang british
+Axial point groups with axial rotational symmetry
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+check this term
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+\bar under
+\lang british
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+
+\size default
+\bar default
+\lang english
+
+\begin_inset VSpace 2mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n=2$
+\end_inset
+
+
+\bar default
+
+\begin_inset VSpace 2mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we have any fewer than three atoms, the point group of the system will
+ be promoted to 
+\begin_inset Formula $K_{h},D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+, however all 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ point groups with even values of 
+\begin_inset Formula $n$
+\end_inset
+
+ (including 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+) have an inversion element 
+\begin_inset Formula $\hat{i}$
+\end_inset
+
+, and for a reason that is explained in the next sentence, the only way
+ for a three atom system to have an inversion element is for it to be linear,
+ which would promote it either to 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ or 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+.
+ If we choose the origin 
+\begin_inset Formula $(0,0,0)$
+\end_inset
+
+ to be the center of inversion, and one atom is at the position 
+\begin_inset Formula $(x_{1},y_{1},z_{1})$
+\end_inset
+
+, then an identical atom would need to be at the position 
+\begin_inset Formula $(-x_{1},-y_{1},-z_{1})$
+\end_inset
+
+ and the third atom would need to be at the origin.
+ We therefore would have two identical atoms on a 
+\emph on
+line
+\emph default
+ going through the origin, and a third atom in the center of that line.
+ We therefore would need a minimum of four atoms for the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ point group, and indeed four atoms is enough as in the case of Br
+\begin_inset Formula $_{2}$
+\end_inset
+
+Na
+\begin_inset Formula $_{2}$
+\end_inset
+
+ (whose
+\lang british
+ structure is depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\lang english
+.
+ 
+\series bold
+\color blue
+\lang british
+The minimum number of atoms required is four, and the most general chemical
+ formula for a structure with the minimum number of atoms is A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\series default
+\color inherit
+, and B can be chosen to equal A if desired.
+ 
+\series bold
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+The general formula is
+\end_layout
+
+\end_inset
+
+ 
+\series default
+Any atom can be added to the inversion 
+\lang american
+center
+\lang british
+ of the system without breaking any of the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ symmetry elements.
+ If an atom is to be added anywhere else, it needs to be 
+\emph on
+paired 
+\emph default
+with an atom of the 
+\emph on
+same element 
+\emph default
+in order for the inversion operation 
+\begin_inset Formula $\hat{i}$
+\end_inset
+
+ to remain valid, and such pairs of atoms can be added to the primary 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+ axis in the 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ point group without breaking any of the other symmetry elements of the
+ group.
+ 
+\series bold
+\color blue
+The chemical formula must be of the form A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ or AB
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+ depending on if the number of atoms is even or odd
+\series default
+\color inherit
+, and any letter can be identical to one of the previous ones (e.g.
+ B, C, and D can be chosen to equal A if desired).
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang british
+proof: 
+\lang american
+center
+\lang british
+ of inversion has to be at the intersection of C2, C2', C2'' and sigma_h,v,d
+ all have to contain i.
+ C2' and C2'' just switch the two points that were added on the C2 axis,
+ and the planes either do nothing or just switch the points.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n\ge3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Since a regular 
+\begin_inset Formula $n$
+\end_inset
+
+-gon with identical atoms at each vertex is a 
+\emph on
+necessary
+\emph default
+ component of any system with a point group of 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ for 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, we can conclude that the 
+\series bold
+\color blue
+the minimum number of atoms required is 
+\begin_inset Formula $n$
+\end_inset
+
+, and the formula for this minimal structure would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+.
+
+\color inherit
+ 
+\series default
+An even number of additional atoms can be added along the 
+\begin_inset Formula $\hat{C}_{n}$
+\end_inset
+
+ axis in such a way that no new valid symmetry operations are made possible,
+ and such that none of the existing valid symmetry operations are invalidated,
+ provided that these atoms are added in 
+\emph on
+homo-nuclear pairs
+\emph default
+ on each side of the plane formed by the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ One additional atom can also be added at the 
+\lang american
+center
+\lang british
+ of the 
+\begin_inset Formula $n$
+\end_inset
+
+-gon.
+ Therefore 
+\series bold
+\color blue
+the most general formula for a structure with 
+\begin_inset Formula $n$
+\end_inset
+
+ atoms plus an even number of additional atoms would be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+, and for an odd number of additional atoms the most general formula would
+ be A
+\begin_inset Formula $_{n}$
+\end_inset
+
+BC
+\begin_inset Formula $_{2}$
+\end_inset
+
+D
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+
+\series default
+\color inherit
+, and any letter can be identical to one of the previous ones (e.g.
+ B, C, and D can be chosen to equal A if desired).
+\series bold
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\lang british
+Somehow we need to explain that we can add the additional atoms in other
+ ways, for example an n-gon could be added, but if n is even 
+\begin_inset Formula $AnBn$
+\end_inset
+
+ is a special case of 
+\begin_inset Formula $AnB2C2$
+\end_inset
+
+..., and if it's odd, then it's a special case of 
+\begin_inset Formula $AnBC2D2...$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \color black
 \begin_inset VSpace 2mm
@@ -16237,6 +16237,409 @@ minimum number of atoms required for each
 \lang english
 
 \begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Possible point groups and example systems for all possible chemical formula
+ types for triatomic systems.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:PossiblePointGroupsForTriatomics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="2mm" bottomspace="2mm">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Point group
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chemical formula type
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="2mm" bottomspace="2mm">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset Formula $_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ABC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="2mm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset Formula $_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset Formula $\cdots$
+\end_inset
+
+H
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\color blue
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color blue
+Unlikely
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N
+\begin_inset Formula $_{2}$
+\end_inset
+
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HOS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D_{3h}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ce{\text{H}_{3}^{+}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O
+\begin_inset Formula $_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset Formula $_{2}$
+\end_inset
+
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\textrm{✗}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="2mm">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Li
+\begin_inset Formula $\cdots$
+\end_inset
+
+Li
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HO
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HNO
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -17841,7 +18244,7 @@ We need a minimum of four atoms for the
 \end_inset
 
  point group has an inversion element 
-\begin_inset Formula $i$
+\begin_inset Formula $\hat{i}$
 \end_inset
 
 , which is not possible for non-linear molecules with fewer than four atoms).
@@ -17857,7 +18260,7 @@ N
 \begin_inset Formula $_{2}$
 \end_inset
 
- whose structure is depicted in Figure 
+, whose structure is depicted in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:PossiblePointGroupsForTetratomics"
@@ -17878,12 +18281,12 @@ The minimum number of atoms required is four, and the most general chemical
 \end_inset
 
 B
-\series default
-\color inherit
-
 \begin_inset Formula $_{2}$
 \end_inset
 
+
+\series default
+\color inherit
 .
  An even number of additional atoms can be added along the 
 \begin_inset Formula $\hat{C}_{2}$
@@ -17908,11 +18311,9 @@ center
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
-\begin_inset Formula $4$
-\end_inset
-
- atoms plus an even number of additional atoms would be A
+any number of atoms greater than or equal to four is possible, and the most
+ general chemical formula for a structure with four atoms plus an even number
+ of additional atoms would be A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -17928,8 +18329,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ would be AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -18047,16 +18448,16 @@ noprefix "false"
 \begin_inset Formula $n$
 \end_inset
 
--gon with comprised of 
+-gon comprised of 
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms at its vertices, but these atoms do not needs to be the
+ identical atoms at its vertices, but these atoms do not need to be the
  same as the 
 \begin_inset Formula $n$
 \end_inset
 
- identical atom that comprised our first 
+ identical atoms that comprised our first 
 \begin_inset Formula $n$
 \end_inset
 
@@ -18080,8 +18481,11 @@ he first
 \begin_inset Formula $n$
 \end_inset
 
--gon (both of these placements of the vertices would result in a failure
- to break the 
+-gon (both of these placements of the second 
+\begin_inset Formula $n$
+\end_inset
+
+-gon's vertices would result in a failure to break the 
 \begin_inset Formula $\hat{\sigma}_{v}$
 \end_inset
 
@@ -18094,8 +18498,9 @@ he first
 \end_inset
 
 ).
-\color red
 
+\color red
+ 
 \begin_inset Note Note
 status collapsed
 
@@ -18168,15 +18573,15 @@ the minimum number of atoms required is
 \end_inset
 
 B
-\series default
-\color inherit
-
 \begin_inset Formula $_{n}$
 \end_inset
 
+
+\series default
+\color inherit
 .
  An even number of additional atoms can be added along the 
-\begin_inset Formula $C_{n}$
+\begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
@@ -18198,7 +18603,7 @@ center
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
+the most general chemical formula for a structure with 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -18218,8 +18623,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ would be AB
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -19393,400 +19798,6 @@ height "0.5pt"
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Possible point groups and example systems for all possible chemical formulas
- of triatomic systems.
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:PossiblePointGroupsForTriatomics"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<row topspace="2mm" bottomspace="2mm">
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Point group
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Chemical formula type
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="2mm" bottomspace="2mm">
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-A
-\begin_inset Formula $_{3}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-A
-\begin_inset Formula $_{2}$
-\end_inset
-
-B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-ABC
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="2mm">
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $D_{\infty h}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-C
-\begin_inset Formula $_{3}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CO
-\begin_inset Formula $_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\textrm{✗}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C_{\infty v}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color blue
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color blue
-Unlikely
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-N
-\begin_inset Formula $_{2}$
-\end_inset
-
-O
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-HOS
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $D_{3h}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\ce{\text{H}_{3}^{+}}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\textrm{✗}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\textrm{✗}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C_{2v}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-O
-\begin_inset Formula $_{3}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H
-\begin_inset Formula $_{2}$
-\end_inset
-
-O
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\textrm{✗}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row bottomspace="2mm">
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C_{s}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-H
-\begin_inset Formula $\cdots$
-\end_inset
-
-H
-\begin_inset Formula $_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-HO
-\begin_inset Formula $_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-HNO
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
 
 \end_inset
 
@@ -21104,8 +21115,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Possible point groups and example systems for all possible chemical formulas
- of tetra-atomic systems.
+Possible point groups and example systems for all possible chemical formula
+ types for tetra-atomic systems.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossiblePointGroupsForTetratomics"
@@ -26000,7 +26011,8 @@ The minimum number of atoms required is four.
 \color inherit
  
 \series default
-In terms of the possible formulas, if we have two atoms at positions 
+In terms of the possible chemical formulas, if we have two atoms at positions
+ 
 \begin_inset Formula $A$
 \end_inset
 
@@ -26120,15 +26132,15 @@ Any number of additional atoms can be added along the
 \end_inset
 
  point group) are invalidated.
- Therefore any number of atoms equal to four or more can form a structure
- with the point group 
+ Therefore 
+\series bold
+\color blue
+any number of atoms equal to four or more can form a structure with the
+ point group 
 \begin_inset Formula $C_{2}$
 \end_inset
 
- and 
-\series bold
-\color blue
-the most general formula for such a structure is A
+ and the most general formula for such a structure is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -26230,11 +26242,11 @@ noprefix "false"
 \end_inset
 
 , we would need at least one additional atom to break any symmetry elements
- in 
+ in the point group 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
- that are not present in 
+ that are not present in the point group 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -26303,7 +26315,7 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{n}$
 \end_inset
 
- operation that is present in the 
+ operation that the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -26341,15 +26353,15 @@ noprefix "false"
 \end_inset
 
 .
- 
+ Therefore, 
 \series bold
 \color blue
 \lang british
-The minimum number of atoms required is 
+the minimum number of atoms required is 
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general formula for this minimal structure is A
+, and the most general chemical formula for this minimal structure is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -26379,7 +26391,10 @@ Any number of additional atoms can be added along the
 \end_inset
 
  point groups) are invalidated.
- Therefore any number of atoms equal to 
+ Therefore 
+\series bold
+\color blue
+any number of atoms equal to 
 \begin_inset Formula $n$
 \end_inset
 
@@ -26387,10 +26402,7 @@ Any number of additional atoms can be added along the
 \begin_inset Formula $n$
 \end_inset
 
- and 
-\series bold
-\color blue
-the most general formula for such a structure is A
+ and the most general chemical formula for such a structure is A
 \begin_inset Formula $_{n}$
 \end_inset
 
