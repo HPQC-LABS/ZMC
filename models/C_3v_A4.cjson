@@ -13,7 +13,7 @@
         0.0,
         0.0,
         0.0,
-        4.0
+        1.8
       ]
     },
     "elements": {
@@ -106,6 +106,7 @@
       false,
       false,
       false,
+      false,
       false
     ],
     "settings": {
@@ -117,6 +118,7 @@
       ]
     },
     "visible": [
+      true,
       true,
       true,
       true,
