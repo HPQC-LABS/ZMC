@@ -24955,7 +24955,7 @@ N
 \begin_inset Graphics
 	filename models/C_2_H2O2.png
 	lyxscale 5
-	width 5.5text%
+	width 7text%
 
 \end_inset
 
@@ -25174,9 +25174,10 @@ O
 
 
 \begin_inset Graphics
-	filename models/C_s_HO3+.png
+	filename models/C_s_Cl2S2.png
 	lyxscale 5
-	width 7text%
+	width 6text%
+	rotateAngle 90
 
 \end_inset
 
