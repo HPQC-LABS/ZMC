@@ -1,0 +1,9 @@
+  1669 Niels Stensen observes "The existence of characteristic angles between crystal faces" [got this fact from Historical introduction Mois I. Aroyo, Ulrich Müller and Hans Wondratschek. International Tables for Crystallography (2006). Vol. A1, ch. 1.1, pp. 2-5] 
+c.1800 Rene Just Hauy "law of symmetry" and  "law of rational indices" were formulated [got this fact Historical introduction Mois I. Aroyo, Ulrich Müller and Hans Wondratschek. International Tables for Crystallography (2006). Vol. A1, ch. 1.1, pp. 2-5]
+  1817 Christian Weiss uses "Weiss parameters" which is almost equivalent to Miller indices: "Ueber eine verbesserte Methode für die Bezeichnung der verschiedenen Flächen eines Krystallisationssystems, nebst Bemerkungen über den Zustand der Polarisierung der Seiten in den Linien der krystallinischen Structur". Abhandlungen der physikalischen Klasse der Königlich-Preussischen Akademie der Wissenschaften: 286–336 [got this fact from Wikipedia article for Miller indices]
+  1839 William Hallowes Miller introduced "Miller indices", probably in Treatise on Crystallography [got this fact from Wikipedia article for Miller indices]
+  - 1852 "An Elementary Introduction to Mineralogy" would be interesting to see what was around at that time.
+  - 1863 "A Tract on Crystallography" would be interesting to see what was around at that time.
+  1848 Auguste Bravais communicates (and later in 1950 it gets published) "Mémoire sur les systèmes formés par les points distribués régulièrement sur un plan ou dans l'espace" [Memoir on the systems formed by points regularly distributed on a plane or in space]. J. École Polytech. (in French). 19: 1–128. (English: Memoir 1, Crystallographic Society of America, 1949). [got this fact from Wikipedia article for Bravais lattice] 
+  
+  
