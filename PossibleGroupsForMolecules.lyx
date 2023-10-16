@@ -21135,7 +21135,7 @@ name "tab:PossiblePointGroupsForTetratomics"
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="51" columns="6">
+<lyxtabular version="3" rows="46" columns="6">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="12mm">
@@ -21300,7 +21300,7 @@ ABCD
 \begin_inset Graphics
 	filename models/T_d_P4.png
 	lyxscale 5
-	width 5text%
+	width 6text%
 
 \end_inset
 
@@ -21653,7 +21653,7 @@ P
 \begin_inset Graphics
 	filename models/D_ooh_C4.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21704,7 +21704,7 @@ P
 \begin_inset Graphics
 	filename models/D_ooh_C2H2.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21880,7 +21880,7 @@ H
 \begin_inset Graphics
 	filename models/C_oov_A4.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21896,7 +21896,7 @@ H
 \begin_inset Graphics
 	filename models/C_oov_C3H.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21912,7 +21912,7 @@ H
 \begin_inset Graphics
 	filename models/C_oov_A2B2.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21928,7 +21928,7 @@ H
 \begin_inset Graphics
 	filename models/C_oov_C2HF.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21944,7 +21944,7 @@ H
 \begin_inset Graphics
 	filename models/C_oov_HCNO.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -21968,9 +21968,11 @@ H
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{3}\cdots$
+\end_inset
 
-\color blue
-Unlikely
+C
 \end_layout
 
 \end_inset
@@ -22045,7 +22047,7 @@ HCNO
 \begin_inset Graphics
 	filename models/D_4h.png
 	lyxscale 5
-	width 5text%
+	width 6.7text%
 
 \end_inset
 
@@ -22407,7 +22409,7 @@ S
 \begin_inset Graphics
 	filename models/D_3h_S4.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -22431,7 +22433,7 @@ S
 \begin_inset Graphics
 	filename models/D_3h_H3B.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -22751,18 +22753,10 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Graphics
 	filename models/D_2h_S4.png
 	lyxscale 5
-	width 5text%
+	width 8.5text%
 	rotateAngle 90
 
 \end_inset
@@ -22785,18 +22779,10 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Graphics
 	filename models/D_2h_Br2Na2.png
 	lyxscale 5
-	width 5text%
+	width 7text%
 
 \end_inset
 
@@ -22973,62 +22959,6 @@ B
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -23126,7 +23056,7 @@ Na
 \begin_inset Graphics
 	filename models/D_2d_S4.png
 	lyxscale 5
-	width 5text%
+	width 8.7text%
 
 \end_inset
 
@@ -23351,62 +23281,6 @@ Na
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -23488,7 +23362,7 @@ S
 \begin_inset Graphics
 	filename models/D_2.png
 	lyxscale 5
-	width 5text%
+	width 7.25text%
 
 \end_inset
 
@@ -23713,62 +23587,6 @@ S
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -23783,6 +23601,14 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{2}\cdots$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
 
 \end_layout
 
@@ -23850,7 +23676,7 @@ S
 \begin_inset Graphics
 	filename models/C_3v_A4.png
 	lyxscale 5
-	width 4.25text%
+	width 6text%
 
 \end_inset
 
@@ -23874,7 +23700,7 @@ S
 \begin_inset Graphics
 	filename models/C_3v_H3N.png
 	lyxscale 5
-	width 8text%
+	width 8.5text%
 
 \end_inset
 
@@ -24130,7 +23956,11 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{3}\cdots$
+\end_inset
 
+C
 \end_layout
 
 \end_inset
@@ -24203,9 +24033,9 @@ N
 
 
 \begin_inset Graphics
-	filename models/C_2v_IF3.png
+	filename models/C_2v_S4.png
 	lyxscale 5
-	width 5text%
+	width 7.5text%
 
 \end_inset
 
@@ -24233,7 +24063,7 @@ N
 \begin_inset Graphics
 	filename models/C_2v_IF3.png
 	lyxscale 5
-	width 5text%
+	width 7.5text%
 
 \end_inset
 
@@ -24253,7 +24083,7 @@ N
 \begin_inset Graphics
 	filename models/C_2v_H2Si2.png
 	lyxscale 5
-	width 5text%
+	width 7.5text%
 
 \end_inset
 
@@ -24273,7 +24103,7 @@ N
 \begin_inset Graphics
 	filename models/C_2v_CH2O.png
 	lyxscale 5
-	width 5text%
+	width 7.5text%
 
 \end_inset
 
@@ -24375,62 +24205,6 @@ N
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -24547,7 +24321,7 @@ O
 \begin_inset Graphics
 	filename models/C_2h_A4.png
 	lyxscale 5
-	width 5text%
+	width 8.5text%
 
 \end_inset
 
@@ -24580,7 +24354,7 @@ O
 \begin_inset Graphics
 	filename models/C_2h_H2N2.png
 	lyxscale 5
-	width 5text%
+	width 8.5text%
 
 \end_inset
 
@@ -24771,62 +24545,6 @@ Double check this
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row bottomspace="1mm">
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -24841,6 +24559,10 @@ Double check this
 \begin_inset Text
 
 \begin_layout Plain Layout
+C
+\begin_inset Formula $_{4}$
+\end_inset
+
 
 \end_layout
 
@@ -25136,7 +24858,7 @@ O
 \begin_inset Graphics
 	filename models/C_s_A4.png
 	lyxscale 5
-	width 7.5text%
+	width 7text%
 
 \end_inset
 
@@ -25176,7 +24898,7 @@ O
 \begin_inset Graphics
 	filename models/C_s_Cl2S2.png
 	lyxscale 5
-	width 6text%
+	width 6.7text%
 	rotateAngle 90
 
 \end_inset
@@ -25197,7 +24919,7 @@ O
 \begin_inset Graphics
 	filename models/C_s_Cl2OS.png
 	lyxscale 5
-	width 6text%
+	width 6.7text%
 
 \end_inset
 
@@ -25217,7 +24939,7 @@ O
 \begin_inset Graphics
 	filename models/C_s_CHFO.png
 	lyxscale 5
-	width 4.8text%
+	width 6.7text%
 
 \end_inset
 
@@ -25565,18 +25287,10 @@ CHFO
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Graphics
 	filename models/C_1_(HCl)2.png
 	lyxscale 5
-	width 6text%
+	width 6.7text%
 	rotateAngle 90
 
 \end_inset
@@ -25601,7 +25315,7 @@ CHFO
 \begin_inset Graphics
 	filename models/C_1_H2OS.png
 	lyxscale 5
-	width 6text%
+	width 6.7text%
 
 \end_inset
 
@@ -25617,7 +25331,7 @@ CHFO
 \begin_inset Graphics
 	filename models/C_1_CHBrCl.png
 	lyxscale 5
-	width 5text%
+	width 6.7text%
 
 \end_inset
 
