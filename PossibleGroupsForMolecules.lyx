@@ -1214,6 +1214,49 @@ noprefix "false"
  projects.
 \end_layout
 
+\begin_layout Standard
+
+\lang british
+Throughout the paper, we use 
+\begin_inset Quotes eld
+\end_inset
+
+Schönflies notation
+\begin_inset Quotes erd
+\end_inset
+
+ for the point groups and group elements, and to distinguish 
+\emph on
+point groups
+\emph default
+ such as 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ from 
+\emph on
+group elements
+\emph default
+ such as 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+, we will place a circumflex symbol on top of group elements.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+We assume that the reader knows the group elements of each group? That they
+ know generators? That they know what each group element does?
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Section
 
 \lang british
@@ -1318,8 +1361,8 @@ optimized
  using density functional theory, which means that the results are dependent
  on the basis set and density functional used for the geometry optimization.
  This has an effect on (among other things) the comparisons that have been
- made between calculations that were done for the GW100 dataset and experimental
- data on the same dataset.
+ made between calculations that were done for the GW100 dataset and data
+ from laboratory experiments.
  For many of those molecules, very accurate bond lengths and angles that
  were determined from high-resolution spectroscopic experiments, are available
  in places such as the Landolt–Börnstein volumes and related books 
@@ -1330,7 +1373,8 @@ literal "false"
 
 \end_inset
 
- and also in the original papers in which the geometric data was determined.
+ and also in the original papers in which the geometric data in those compilatio
+ns were determined.
  
 \end_layout
 
@@ -1588,8 +1632,48 @@ literal "false"
 point group
 \series default
 \emph default
-, a 3D diagram, and usually the minimum number of bond lengths, bond angles
- and dihedrals necessary to generate all XYZ coordinates or a z-matrix.
+, a 3D diagram, and usually a 
+\begin_inset Quotes eld
+\end_inset
+
+minimal
+\begin_inset Quotes erd
+\end_inset
+
+ set of geometric data (bond lengths, bond angles and dihedrals)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ necessary to generate all XYZ coordinates or a z-matrix
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+well no, we explain that you need at least one bond angle, in the next paragraph.
+ What does 
+\begin_inset Quotes eld
+\end_inset
+
+minimal
+\begin_inset Quotes erd
+\end_inset
+
+ mean then?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  An example is the entry for H
 \begin_inset Formula $_{2}$
 \end_inset
@@ -1652,8 +1736,8 @@ literal "false"
 
 , also provided no additional bond lengths or angles).
  But to do electronic structure calculations we need either the XYZ coordinates
- of all atoms, or a z-matrix for the molecule, and there is no software
- 
+ of all atoms, or a z-matrix for the entire system of atoms, and there is
+ no software 
 \begin_inset Note Note
 status open
 
@@ -3120,7 +3204,8 @@ status open
 \series bold
 \lang british
 A software to generate z-matrices (or even XYZ coordinates) for molecules
- with the data presented in experimental papers, such as for 
+ with the data presented in experimental papers (such as the data that we
+ had available for 
 \series default
 H
 \begin_inset Formula $_{2}$
@@ -3130,13 +3215,13 @@ Si
 \begin_inset Formula $_{2}$
 \end_inset
 
-,
+
 \series bold
- would require specific code blocks for each molecular shape.
+), would require specific code blocks for each molecular shape.
  
 \series default
 It is possible for multiple molecules with the same point group and formula
- to have very different shapes (for example see Fig.
+ to have very different shapes (for example, see Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3226,7 +3311,7 @@ literal "false"
  point groups are already used to help describe molecules), and then to
  write the relevant z-matrix-construction or XYZ-construction code for each
  case, adding sub-cases when necessary (e.g.
- to distinguish between the two types of 
+ to distinguish between the three types of 
 \begin_inset Formula $C_{2v}$
 \end_inset
 
@@ -3263,10 +3348,10 @@ For
  atoms, how many cases do we need to consider in order to cover each point
  group at least once in the software?
 \series default
- That is the essence of the question in the present paper's title, and as
- mentioned in the opening paragraph of the Introduction section, it appears
- that this question has not been answered before, or at least the answer
- is not easily available.
+ That is the essence of the question in the title of the present paper,
+ and as mentioned in the opening paragraph of the Introduction section,
+ it appears that this question has not been answered before, or at least
+ the answer is not easily available.
  We also go even one step further, by determining all possible 
 \emph on
 chemical formulas
