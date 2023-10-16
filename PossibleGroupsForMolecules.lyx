@@ -1225,23 +1225,24 @@ Schönflies notation
 \begin_inset Quotes erd
 \end_inset
 
- for the point groups and group elements, and to distinguish 
+ for the point groups and point group elements, and to distinguish point
+ 
 \emph on
-point groups
+groups
 \emph default
  such as 
 \begin_inset Formula $C_{2}$
 \end_inset
 
- from 
+ from point group
 \emph on
-group elements
+ elements
 \emph default
  such as 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
-, we will place a circumflex symbol on top of group elements.
+, we will place a circumflex symbol on top of point group elements.
 \begin_inset Note Note
 status open
 
