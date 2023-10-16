@@ -317,9 +317,9 @@ For each axial point group, we determine all possible numbers of atoms and
  possibility or impossibility for a certain point group to apply to a molecule
  of a certain size and/or chemical formula.
  For triatomic and tetra-atomic molecules, we provide examples of molecules
- of each size and formula if they are known, and hence we determine the
- types of molecules with under five atoms that are still yet-to-be discovered
- (in terms of point groups).
+ of each possible chemical formula if such molecules are known, and hence
+ we determine the types of molecules with under five atoms that are still
+ yet-to-be discovered (in terms of point groups).
  We also resolve some inconsistencies in a table by P.
  Atkins, M.
  Child and C.
@@ -394,13 +394,13 @@ literal "false"
  if they have ever come across a list of all possible point groups for a
  4-atom (tetra-atomic) system, and in all cases we were explicitly told
  that they were unaware of such a list, or we received no response at all.
- We have now determined all possible point groups for systems with 
+ We have now determined all possible point groups for systems with four
+ atoms and also for systems with 
 \emph on
 any
 \emph default
- number of atoms (not just four), and we have gone a step even further by
- determining all possible point groups for structures with a given chemical
- formula.
+ number of atoms, and we have gone a step even further by determining all
+ possible point groups for structures with a given chemical formula.
 \end_layout
 
 \begin_layout Standard
@@ -547,27 +547,7 @@ literal "false"
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang british
-, and also thoroughly selected work on the topic that did not provide 
-\begin_inset Formula $S_{8}$
-\end_inset
-
- and 
-\begin_inset Formula $D_{8h}$
-\end_inset
-
- character tables
-\end_layout
-
-\end_inset
-
-.
+, and also thoroughly selected additional works.
 \end_layout
 
 \begin_layout Standard
@@ -768,8 +748,8 @@ noprefix "false"
 \end_inset
 
 .
- Overall our results are summarized below (all results appear to be novel
- or unusually difficult to find in existing places).
+ Overall our results are summarized below, and all results appear to be
+ novel or unusually difficult to find in existing places.
 \end_layout
 
 \begin_layout Enumerate
@@ -809,7 +789,7 @@ Actually reference it
 \end_inset
 
  that presents visual examples of structures for all aforementioned axial
- point groups for 
+ point groups with 
 \begin_inset Formula $2\le n\le6$
 \end_inset
 
@@ -948,8 +928,20 @@ noprefix "false"
 \end_inset
 
 , we describe some properties of various point groups and point group elements.
- We have found listing these properties to be very helpful for obtaining
- or explaining new results, and very helpful for pedagogical purposes.
+ We have found that formulating
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+better word?
+\end_layout
+
+\end_inset
+
+ these properties was very helpful for obtaining or explaining new results,
+ and very helpful for pedagogical purposes.
 \end_layout
 
 \begin_layout Enumerate
