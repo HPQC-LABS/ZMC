@@ -2,18 +2,18 @@
   "atoms": {
     "coords": {
       "3d": [
-        -1.9098,
-        -1.7322,
-        -0.9586,
-        -1.7322,
-        1.9098,
-        0.9586,
-        1.7322,
-        -1.9098,
-        0.9586,
-        1.9098,
-        1.7322,
-        -0.9586
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.0,
+        2.0,
+        -2.0,
+        0.0,
+        0.0
       ]
     },
     "elements": {
@@ -46,24 +46,13 @@
   "bonds": {
     "connections": {
       "index": [
-        1,
-<<<<<<< HEAD
-        3,
-=======
-        2,
->>>>>>> f0f8e57e85fbaf5b2d94702e7e4cfcdca1b175ee
         0,
-        2,
-        0,
-        1,
-        2,
-<<<<<<< HEAD
-=======
-        3,
-        1,
         3,
         0,
->>>>>>> f0f8e57e85fbaf5b2d94702e7e4cfcdca1b175ee
+        1,
+        1,
+        2,
+        2,
         3
       ]
     },
@@ -71,11 +60,6 @@
       1,
       1,
       1,
-<<<<<<< HEAD
-=======
-      1,
-      1,
->>>>>>> f0f8e57e85fbaf5b2d94702e7e4cfcdca1b175ee
       1
     ]
   },
@@ -112,33 +96,37 @@
       "Van der Waals": [
         false
       ],
-      "Wireframe": [
+      "Van der Waals (AO)": [
         false
       ],
-      "undef": [
+      "Wireframe": [
         false
       ]
     },
     "locked": [
-<<<<<<< HEAD
       false,
-=======
->>>>>>> f0f8e57e85fbaf5b2d94702e7e4cfcdca1b175ee
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "settings": {
       "Ball and Stick": [
-        "true true 0.300000 0.100000"
+        "true true 0.400000 0.100000"
       ],
       "Cartoons": [
-        "false false false false false true false"
+        "true false false false true true false"
       ]
     },
     "visible": [
-<<<<<<< HEAD
       true,
-=======
->>>>>>> f0f8e57e85fbaf5b2d94702e7e4cfcdca1b175ee
+      true,
+      true,
+      true,
+      true,
+      true,
       true
     ]
   },

@@ -2,26 +2,26 @@
   "atoms": {
     "coords": {
       "3d": [
-        1.7215627431869507,
-        0.9952614307403564,
-        -0.6325893998146057,
-        -1.66054368019104,
-        1.2332926988601685,
-        -0.1910650134086609,
-        0.0001,
-        -0.2174,
-        0.6265,
-        0.409904420375824,
-        -2.36704421043396,
-        -1.0560322999954224
+        0.0,
+        2.0,
+        -0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        -2.0,
+        0.0,
+        -0.0
       ]
     },
     "elements": {
       "number": [
-        17,
-        17,
         16,
-        8
+        16,
+        16,
+        16
       ]
     },
     "formalCharges": [
@@ -47,17 +47,20 @@
     "connections": {
       "index": [
         0,
+        3,
         2,
+        3,
         1,
         2,
-        2,
-        3
+        0,
+        1
       ]
     },
     "order": [
       1,
       1,
-      2
+      1,
+      1
     ]
   },
   "chemicalJson": 1,
@@ -93,14 +96,18 @@
       "Van der Waals": [
         false
       ],
-      "Wireframe": [
+      "Van der Waals (AO)": [
         false
       ],
-      "undef": [
+      "Wireframe": [
         false
       ]
     },
     "locked": [
+      false,
+      false,
+      false,
+      false,
       false,
       false
     ],
@@ -109,10 +116,14 @@
         "true true 0.300000 0.100000"
       ],
       "Cartoons": [
-        "false false false false false true false"
+        "true false false false true true false"
       ]
     },
     "visible": [
+      true,
+      true,
+      true,
+      true,
       true,
       true
     ]

@@ -110,44 +110,24 @@
       ]
     },
     "locked": [
+      false,
       false
     ],
     "settings": {
       "Ball and Stick": [
-        "true true 0.300000 0.100000"
+        "true true 0.400000 0.100000"
       ],
       "Cartoons": [
         "false false false false false true false"
       ]
     },
     "visible": [
+      true,
       true
     ]
   },
   "name": "123286",
   "properties": {
-    "PUBCHEM_ATOM_DEF_STEREO_COUNT": "0",
-    "PUBCHEM_ATOM_UDEF_STEREO_COUNT": "0",
-    "PUBCHEM_BOND_DEF_STEREO_COUNT": "0",
-    "PUBCHEM_BOND_UDEF_STEREO_COUNT": "0",
-    "PUBCHEM_CACTVS_TAUTO_COUNT": "1",
-    "PUBCHEM_COMPONENT_COUNT": "1",
-    "PUBCHEM_COMPOUND_CID": "123286",
-    "PUBCHEM_CONFORMER_DIVERSEORDER": "1",
-    "PUBCHEM_CONFORMER_ID": "0001E19600000001",
-    "PUBCHEM_CONFORMER_RMSD": "0.4",
-    "PUBCHEM_COORDINATE_TYPE": "2\n5\n10",
-    "PUBCHEM_EFFECTIVE_ROTOR_COUNT": "0",
-    "PUBCHEM_FEATURE_SELFOVERLAP": "5.074",
-    "PUBCHEM_HEAVY_ATOM_COUNT": "4",
-    "PUBCHEM_ISOTOPIC_ATOM_COUNT": "0",
-    "PUBCHEM_MMFF94_ENERGY": "0.5333",
-    "PUBCHEM_MMFF94_PARTIAL_CHARGES": "0",
-    "PUBCHEM_PHARMACOPHORE_FEATURES": "1\n4 1 2 3 4 rings",
-    "PUBCHEM_SHAPE_FINGERPRINT": "139733 1 11809478030363793290\n21015797 1 12964647821390118917\n5943 1 15025370303922438147",
-    "PUBCHEM_SHAPE_MULTIPOLES": "97.72\n1.34\n1.34\n1.34\n0.4\n0.6\n0.08\n-0.31\n-0.1\n0.03\n0.02\n-0.42\n-0.29\n0.01",
-    "PUBCHEM_SHAPE_SELFOVERLAP": "136.051",
-    "PUBCHEM_SHAPE_VOLUME": "79.6",
     "totalCharge": 0,
     "totalSpinMultiplicity": 1
   }
