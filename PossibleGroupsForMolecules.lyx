@@ -1243,6 +1243,16 @@ groups
 \end_inset
 
 , we will place a circumflex symbol on top of point group elements.
+ Also, all of the diagrams that we present for systems of atoms, were made
+ with the latest version of Avogadro2 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hanwell2012"
+literal "false"
+
+\end_inset
+
+.
 \begin_inset Note Note
 status open
 
@@ -1250,7 +1260,12 @@ status open
 
 \lang british
 We assume that the reader knows the group elements of each group? That they
- know generators? That they know what each group element does?
+ know generators? That they know what each group element does? Also we don't
+ mention 
+\begin_inset Formula $C\infty v,D_{\infty h}.$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9990,8 +10005,8 @@ non-concentric
 
 \end_inset
 
-atoms form a line, and if all atoms of a system are on the same line, then
- the point group will be either 
+atoms that are at different positions form a line, and if all atoms of a
+ system are on the same line, then the point group will be either 
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
@@ -10030,7 +10045,17 @@ noprefix "false"
 \series bold
 \color blue
 The minimum number of atoms required is three, and any triatomic chemical
- formula is allowed.
+ formula is allowed
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+proof of why any formula is allowed?
+\end_layout
+
+\end_inset
+
+.
 
 \color inherit
  
@@ -10040,9 +10065,10 @@ We can add as many more atoms as we wish without changing the point group
 \begin_inset Formula $C_{s}$
 \end_inset
 
-, as long as these atoms all remain on the same plane as the first three
- atoms, and as long as they are not from the same element (having atoms
- with different elements guarantees that no 
+: for example, the point group will not change if all of these additional
+ atoms remain on the same plane as the first three atoms and they are not
+ of the same periodic table element (having atoms with different elements
+ guarantees that no 
 \emph on
 new 
 \emph default
@@ -10066,20 +10092,30 @@ status open
 
 \end_inset
 
-).
+, and if we run out of periodic table elements, we just need to ensure that
+ additional atoms are not matched symmetrically with other atoms of the
+ same element).
  The point group 
 \begin_inset Formula $C_{s}$
 \end_inset
 
- is also possible for non-planar structures, and structures containing more
- than one atom from the same element, are also possible (e.g.
+ is also possible for non-planar structures (e.g.
  Cl
 \begin_inset Formula $_{2}$
 \end_inset
 
-OS which is both non-planar and has two atoms of the element Cl), but we
- were already able to prove in the previous sentence that the point group
- 
+OS which is depicted in our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:PossiblePointGroupsForTetratomics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), but we were already able to prove in the previous sentence that even
+ if we restrict ourselves to planar systems, the point group 
 \begin_inset Formula $C_{s}$
 \end_inset
 
@@ -10088,7 +10124,21 @@ OS which is both non-planar and has two atoms of the element Cl), but we
 \series bold
 \color blue
 Any number of atoms larger than or equal to three is allowed, and the general
- chemical formula allowed is ABCD
+ chemical formula allowed is 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\color blue
+\lang british
+I could also just say that any formula is allowed
+\end_layout
+
+\end_inset
+
+ABCD
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -10128,8 +10178,9 @@ Any number of atoms larger than or equal to three is allowed, and the general
 \begin_layout Standard
 
 \lang british
-Any three atoms form a plane or a line, and if all atoms of a molecule are
- on the same plane, then that plane is a reflection plane
+Any three atoms that are at different positions form a plane or a line,
+ and if all atoms of a molecule are on the same plane, then that plane is
+ a reflection plane
 \begin_inset Note Note
 status open
 
@@ -10175,7 +10226,17 @@ noprefix "false"
 \series bold
 \color blue
 The minimum number of atoms required is four, and any tetra-atomic chemical
- formula is allowed.
+ formula is allowed
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+proof of why any formula is allowed?
+\end_layout
+
+\end_inset
+
+.
 
 \series default
 \color inherit
@@ -10184,16 +10245,53 @@ The minimum number of atoms required is four, and any tetra-atomic chemical
 \begin_inset Formula $C_{1}$
 \end_inset
 
-, as long as none of these additional atoms are from the same element (having
- atoms with different elements guarantees that no symmetry operations become
- valid on the molecule).
+: for example, the point group will not change if all of these additional
+ atoms are not of the same periodic table element (having atoms with different
+ elements guarantees that no 
+\emph on
+new 
+\emph default
+symmetry operations become valid on the system
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+ apart from the 
+\begin_inset Formula $\sigma_{h}$
+\end_inset
+
+ plane in the 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ group
+\end_layout
+
+\end_inset
+
+, and if we run out of periodic table elements, we just need to ensure that
+ additional atoms are not matched symmetrically with other atoms of the
+ same element).
+\series bold
+\color blue
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
  If we run out of elements, we can still add atoms such that no new symmetry
  operations are valid on the system.
  
-\series bold
-\color blue
+\end_layout
+
+\end_inset
+
 Any number of atoms larger than or equal to four is allowed, and the general
- formula is ABCDE
+ chemical formula allowed is ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
@@ -14886,8 +14984,56 @@ Since the
 \end_inset
 
  point group does not have any reflection elements, the point group of any
- system that contains a reflection plane and an inversion center must be
- larger than 
+ system that contains 
+\emph on
+both
+\emph default
+ an inversion center 
+\emph on
+and
+\emph default
+ a reflection plane, must be larger than 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+.
+ If we have three
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ or fewer
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+if we include 
+\begin_inset Quotes eld
+\end_inset
+
+fewer
+\begin_inset Quotes erd
+\end_inset
+
+ then we have to not only include plane and line, but also point.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ atoms, then they are confined to a plane (or line), and if all atoms are
+ on the same plane, then that plane is a reflection plane, which is an element
+ that the 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ group does not contain.
+ Therefore we need more than three atoms for the point group of the system
+ to be 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -14896,9 +15042,7 @@ Since the
 \end_layout
 
 \begin_layout Standard
-If we have three or fewer atoms, then there does not even need to be an
- inversion center for the atoms to be confined to a plane (or line).
- If we have four atoms, and 
+If we have four atoms, and 
 \lang british
 we make the inversion 
 \lang american
@@ -14909,19 +15053,19 @@ center
 \begin_inset Formula $\hat{i}$
 \end_inset
 
-: 
+: an atom at the point 
 \begin_inset Formula $A=(x_{1},y_{1},z_{1})$
 \end_inset
 
- will be paired with 
+ will be paired with an atom at the point 
 \begin_inset Formula $-A=(-x_{1},-y_{1},-z_{1})$
 \end_inset
 
- and 
+ and an atom at the point 
 \begin_inset Formula $B=(x_{2},y_{2},z_{2})$
 \end_inset
 
- will be paired with 
+ will be paired with an atom at the point 
 \begin_inset Formula $-B=(-x_{2},-y_{2},-z_{2}).$
 \end_inset
 
@@ -14965,7 +15109,7 @@ Another way to see this, is to notice that
 
 \end_inset
 
-
+Therefore the points 
 \begin_inset Formula $A$
 \end_inset
 
@@ -14973,7 +15117,7 @@ Another way to see this, is to notice that
 \begin_inset Formula $-A$
 \end_inset
 
- form a line, and 
+ form a line, and the points 
 \begin_inset Formula $B$
 \end_inset
 
@@ -14982,16 +15126,43 @@ Another way to see this, is to notice that
 \end_inset
 
  form another line, and these two lines both intersect at the origin, but
- two lines that cross are always co-planar.
- If we have five atoms, the fifth one must be at the origin, because atoms
+ two lines that intersect are always co-planar, so the inversion center
+ guarantees that our four atoms lie on a reflection plane, which is an element
+ that the 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ group does not contain.
+ 
+\lang english
+Therefore we need more than four atoms for the point group of the system
+ to be 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+If we have five atoms, the fifth one must be at the origin, because atoms
  need to either be paired or at the origin in order for the inversion operation
  to be valid on the system of atoms.
  However, the other four atoms in the five-atom system will form a plane
  that contains the origin (because two lines that intersect at the origin
  form a plane that contains the origin).
  Therefore the fifth atom will also be on the same plane as the other four
- atoms, and the point group will be promoted to a group that is larger than
+ atoms, and again we will have a reflection plane that the 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ group does not contain.
  
+\lang english
+Therefore we need more than five atoms for the point group of the system
+ to be 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -15023,22 +15194,47 @@ Cl
 \end_inset
 
  with the two carbons removed.
- Any number of atoms can be added while maintaining the point group 
-\begin_inset Formula $C_{i}$
-\end_inset
-
-, but an even number of atoms would need to be added in pairs of identical
- elements, and/or one additional atom of any element can be added to the
- inversion 
-\lang american
-center
-\lang british
-.
  
 \series bold
 \color blue
-The minimum number of atoms required is six, and the chemical formula must
- be of the form A
+The minimum number of atoms required is six, and the most general chemical
+ formula allowed for a structure with the minimum number of atoms is A
+\begin_inset Formula $_{2}$
+\end_inset
+
+B
+\begin_inset Formula $_{2}$
+\end_inset
+
+C
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\series default
+\color inherit
+, and B and C can be chosen to equal A if desired.
+ Any even number of atoms can be added to the minimal 6-atom structure while
+ maintaining the point group 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, as long as they are added in pairs of identical periodic table elements
+ symmetrically around the inversion center.
+ One additional atom of any periodic table element can be added to the inversion
+ 
+\lang american
+center
+\lang british
+ without introducing any new point group elements and without breaking any
+ of the existing ones (the existing ones being only the identity element
+ and the inversion element).
+ Therefore
+\series bold
+\color blue
+ any number of atoms greater than or equal to six is possible, and the most
+ general chemical formula for a structure with an even number of atoms is
+ A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15054,7 +15250,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- or AB
+, and for an odd number of atoms the most general chemical formula is AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15063,10 +15259,14 @@ C
 \end_inset
 
 D
-\begin_inset Formula $_{2}\cdots$
+\begin_inset Formula $_{2}$
 \end_inset
 
- depending on if the number of atoms is even or odd
+
+\begin_inset Formula $\cdots$
+\end_inset
+
+ 
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
@@ -15266,7 +15466,8 @@ with an atom of the
 \emph on
 same element 
 \emph default
-in order for the inversion operation 
+symmetrically around the inversion center in order for the inversion operation
+ 
 \begin_inset Formula $\hat{i}$
 \end_inset
 
@@ -15279,11 +15480,13 @@ in order for the inversion operation
 \end_inset
 
  point group without breaking any of the other symmetry elements of the
- group.
- 
+ point group.
+ Therefore 
 \series bold
 \color blue
-The chemical formula must be of the form A
+any number of atoms greater than or equal to four is possible, and the most
+ general chemical formula for a structure with an even number of atoms is
+ A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15299,7 +15502,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- or AB
+, and for an odd number of atoms the most general chemical formula is AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15311,7 +15514,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
- depending on if the number of atoms is even or odd
+ 
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
@@ -15379,14 +15582,29 @@ necessary
 \begin_inset Formula $n\ge3$
 \end_inset
 
-, we can conclude that the 
+, and the point group of such a system is 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ (see Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:GeneralPrinciples"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), we can conclude that the 
 \series bold
 \color blue
 the minimum number of atoms required is 
 \begin_inset Formula $n$
 \end_inset
 
-, and the formula for this minimal structure would be A
+, and the most general chemical formula for a structure with the minimum
+ number of atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -15405,7 +15623,19 @@ An even number of additional atoms can be added along the
 \emph on
 homo-nuclear pairs
 \emph default
- on each side of the plane formed by the 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+symmetrically?
+\end_layout
+
+\end_inset
+
+on each side of the plane formed by the 
 \begin_inset Formula $n$
 \end_inset
 
@@ -15426,7 +15656,7 @@ the most general formula for a structure with
 \begin_inset Formula $n$
 \end_inset
 
- atoms plus an even number of additional atoms would be A
+ atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -15442,8 +15672,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be A
+, and for an odd number of additional atoms the most general formula is
+ A
 \begin_inset Formula $_{n}$
 \end_inset
 
