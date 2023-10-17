@@ -102,17 +102,19 @@
     },
     "locked": [
       false,
+      false,
       false
     ],
     "settings": {
       "Ball and Stick": [
-        "true true 0.300000 0.100000"
+        "true true 0.400000 0.100000"
       ],
       "Cartoons": [
         "false false false false false true false"
       ]
     },
     "visible": [
+      true,
       true,
       true
     ]
