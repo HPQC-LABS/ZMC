@@ -10029,14 +10029,25 @@ atoms that are at different positions form a line, and if all atoms of a
 \begin_inset Formula $C_{s}$
 \end_inset
 
- though, as in the example HNO (azanone, whose structure is depicted in
- Table 
+ though, as in the example HNO (azanone
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+whose structure is depicted in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:PossiblePointGroupsForTriatomics"
 plural "false"
 caps "false"
 noprefix "false"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -10146,7 +10157,7 @@ ABCD
 \series default
 \color inherit
 , in which any letter can be identical to one of the previous ones (e.g.
- B, C and D can be chosen to equal A if desired).
+ B, C and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -10299,7 +10310,7 @@ Any number of atoms larger than or equal to four is allowed, and the general
 \series default
 \color inherit
 , in which any letter can be identical to one of the previous ones (e.g.
- B, C, D and E can be chosen to equal A if desired).
+ B, C, D and E can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -15213,7 +15224,7 @@ C
 
 \series default
 \color inherit
-, and B and C can be chosen to equal A if desired.
+, and B and C can be chosen to equal to A if desired.
  Any even number of atoms can be added to the minimal 6-atom structure while
  maintaining the point group 
 \begin_inset Formula $C_{i}$
@@ -15270,7 +15281,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Subsection
@@ -15431,7 +15442,7 @@ B
 
 \series default
 \color inherit
-, and B can be chosen to equal A if desired.
+, and B can be chosen to equal to A if desired.
  
 \series bold
 
@@ -15518,7 +15529,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \begin_inset Note Note
 status collapsed
 
@@ -15652,7 +15663,11 @@ center
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
+any number of atoms greater than or equal to 
+\begin_inset Formula $n$
+\end_inset
+
+ is possible, and the most general formula for a structure with 
 \begin_inset Formula $n$
 \end_inset
 
@@ -15689,7 +15704,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \series bold
 
 \begin_inset Note Note
@@ -15794,9 +15809,9 @@ The
 \begin_inset Formula $D_{2d}$
 \end_inset
 
- group does not include any horizontal mirror planes, and since any three
- atoms can form a plane which can serve as a horizontal mirror plane, we
- need at least four atoms for the point group of the system to be 
+ point group does not include any horizontal mirror planes, and since any
+ three atoms can form a plane which can serve as a horizontal mirror plane,
+ we need at least four atoms for the point group of the system to be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
@@ -15805,24 +15820,7 @@ The
 \begin_inset Formula $D_{2d}$
 \end_inset
 
- as depicted in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:PossiblePointGroupsForTetratomics"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\color black
-the second 
+ as depicted in the second 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -15836,15 +15834,10 @@ noprefix "false"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
 , in which 
 \shape italic
-we have two diatomic molecules that are perpendicular to each other, but
- on different planes
+we have two identical homo-nuclear diatomic molecules that are perpendicular
+ to each other, but on different planes
 \shape default
 
 \begin_inset Note Note
@@ -15872,8 +15865,8 @@ perpendicular
  
 \series bold
 \color blue
-The minimum number of atoms required is 4, and the formula for this minimal
- structure would be A
+The minimum number of atoms required is 4, and the most general chemical
+ formula for a structure with the minimum number of atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -15891,7 +15884,15 @@ An even number of additional atoms can be added along the
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that (since we can label the 
+ provided that these atoms are added in 
+\emph on
+homo-nuclear pairs
+\emph default
+ around the plane containing the two 
+\begin_inset Formula $\hat{C^{\prime}}_{2}$
+\end_inset
+
+ axes (since we can label the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -15899,24 +15900,7 @@ An even number of additional atoms can be added along the
 \begin_inset Formula $z$
 \end_inset
 
--axis) these atoms are added in 
-\emph on
-homo-nuclear pairs
-\emph default
- around the plane containing the two 
-\begin_inset Formula $\hat{C}_{2}(x)$
-\end_inset
-
- and 
-\begin_inset Formula $\hat{C}_{2}(y)$
-\end_inset
-
- axes (
-\emph on
-i.e.
- 
-\emph default
-the 
+-axis, we can make this plane the 
 \begin_inset Formula $xy$
 \end_inset
 
@@ -15925,15 +15909,14 @@ the
 \lang american
 center
 \lang british
- of the entire structure.
+ of the entire structure without introducing any new symmetry operations
+ and without invalidating any existing ones.
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
-\begin_inset Formula $4$
-\end_inset
-
- atoms plus an even number of additional atoms would be A
+any number of atoms greater than or equal to four is possible, and the most
+ general formula for a structure with four atoms plus an even number of
+ additional atoms would be A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -15966,7 +15949,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -16015,7 +15998,11 @@ It would be cool if we could use a generator-type argument here:
 
 \end_inset
 
-Each 
+For any specific integer 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -16041,24 +16028,24 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation (with 
+ operation with 
 \begin_inset Formula $n\ge3$
 \end_inset
 
-) but no 
+, but no 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
  operation on its own, must at least have a subset of atoms that form the
- shape (depending on the value of 
+ shape shown for the appropriate 
 \begin_inset Formula $n$
 \end_inset
 
-) shown for 
+ value in the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- in Table 
+ row of Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:TableShapes"
@@ -16068,21 +16055,57 @@ noprefix "false"
 
 \end_inset
 
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The bonds don't have to be like that though!
+\end_layout
+
+\end_inset
+
 .
- Since all other elements in 
+ Since for each integer 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, the corresponding 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid symmetry operations of these shapes, and no other symmetry operations
- that are not in 
+ structure that is depicted in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ allows all elements of 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- are valid on these shapes, the points group of these structures are 
+ and no elements that are not in 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+, the points group of these structures are 
 \begin_inset Formula $D_{nd}.$
 \end_inset
 
- Since these structures constitute 
+ Therefore 
+\series bold
+\color blue
+\lang british
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Since these structures constitute 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16099,14 +16122,16 @@ minimal
 \end_inset
 
  operations, we know that 
-\series bold
-\color blue
-\lang british
+\end_layout
+
+\end_inset
+
 the minimum number of atoms required is 
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general formula for the minimal structure would be A
+, and the most general chemical formula for a structure with the minimum
+ number of atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -16124,7 +16149,19 @@ An even number of additional atoms can be added along the primary
 \emph on
 homo-nuclear pairs
 \emph default
- around the plane that contains all 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+symmetrically?
+\end_layout
+
+\end_inset
+
+around the plane that contains all 
 \begin_inset Formula $n$
 \end_inset
 
@@ -16149,15 +16186,21 @@ homo-nuclear pairs
 \lang american
 center
 \lang british
- of the entire structure.
+ of the entire structure without introducing any new symmetry operations
+ and without invalidating any existing ones.
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
+any number of atoms equal to or greater than 
 \begin_inset Formula $2n$
 \end_inset
 
- atoms plus an even number of additional atoms would be A
+ is possible, and the most general chemical formula for a structure with
+ 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -16173,8 +16216,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ is AB
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -16190,7 +16233,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 
 \series bold
 \color blue
@@ -16454,9 +16497,9 @@ The
 \begin_inset Formula $D_{2}$
 \end_inset
 
- group does not include any horizontal mirror planes, and since any three
- atoms can form a plane which can serve as a horizontal mirror plane, we
- need more than four atoms for the point group of the system to be 
+ point group does not contain any horizontal mirror planes, and since any
+ three atoms can form a plane which can serve as a horizontal mirror plane,
+ we need more than four atoms for the point group of the system to be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
@@ -16479,15 +16522,21 @@ noprefix "false"
 
 \end_inset
 
-, in which we have two identical homo-nuclear diatomic molecules that are
+, in which 
+\emph on
+we have two
+\emph default
  
 \emph on
+identical homo-nuclear diatomic molecules that are 
+\series bold
 \bar under
 not
+\series default
 \bar default
- 
+ perpendicular to each other, and are on different planes
 \emph default
-perpendicular to each other, and are also on different planes
+
 \begin_inset Note Note
 status collapsed
 
@@ -16506,29 +16555,65 @@ perpendicular
 \end_inset
 
 .
- 
+ Therefore, 
 \series bold
 \color blue
 \lang british
-The minimum number of atoms required is 
-\begin_inset Formula $4$
+the minimum number of atoms required is four, and the most general chemical
+ formula for a structure with the minium number of atoms is A
+\begin_inset Formula $_{4}$
 \end_inset
 
-, and the most general formula for the minimal structure would be A
-\begin_inset Formula $_{4}$
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\color blue
+\lang british
+But our example is 
+\begin_inset Formula $A_{2}\cdots A_{2}$
+\end_inset
+
+ so at some point we have to say that we're only use the van der Waal's
+ complex notation later
+\end_layout
+
 \end_inset
 
 .
  
 \series default
 \color inherit
-An even number of additional atoms can be added along the 
+An even number of additional atoms can be added along a 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that (since we can label the 
+ provided that these atoms are added in 
+\emph on
+homo-nuclear pairs
+\emph default
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+symmetrically?
+\end_layout
+
+\end_inset
+
+around the plane containing the two other 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+ axes (since we can label the first 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -16536,11 +16621,11 @@ An even number of additional atoms can be added along the
 \begin_inset Formula $z$
 \end_inset
 
--axis) these atoms are added in 
-\emph on
-homo-nuclear pairs
-\emph default
- around the plane containing the two 
+-axis, the other two 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+ axes can be labeled as 
 \begin_inset Formula $\hat{C}_{2}(x)$
 \end_inset
 
@@ -16548,12 +16633,7 @@ homo-nuclear pairs
 \begin_inset Formula $\hat{C}_{2}(y)$
 \end_inset
 
- axes (
-\emph on
-i.e.
- 
-\emph default
-the 
+ axes, and therefore the plane containing them would be the 
 \begin_inset Formula $xy$
 \end_inset
 
@@ -16562,15 +16642,21 @@ the
 \lang american
 center
 \lang british
- of the entire structure.
+ of the entire structure without introducing any new symmetry operations
+ and without invalidating any existing ones.
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
-\begin_inset Formula $4$
+any number of atoms equal to or greater than 
+\begin_inset Formula $2n$
 \end_inset
 
- atoms plus an even number of additional atoms would be A
+ is possible, and the most general chemical formula for a structure with
+ 
+\begin_inset Formula $2n$
+\end_inset
+
+ atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16586,8 +16672,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ is AB
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16603,7 +16689,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Standard
@@ -17960,7 +18046,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \color red
 \lang english
 
@@ -18250,7 +18336,7 @@ E
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \series bold
 \color red
 
@@ -18464,7 +18550,7 @@ BCD
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 
 \series bold
 \color blue
@@ -18720,7 +18806,7 @@ BCD
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Subsection*
@@ -18888,7 +18974,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \series bold
 
 \begin_inset Note Note
@@ -19182,7 +19268,7 @@ D
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \end_layout
 
 \begin_layout Subsection*
@@ -26589,7 +26675,7 @@ CD
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \begin_inset Note Note
 status open
 
@@ -26851,7 +26937,7 @@ CD
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \series bold
 
 \begin_inset Note Note
@@ -26976,7 +27062,7 @@ B
 \series default
 \color inherit
 , and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to equal A if desired).
+ B, C, and D can be chosen to equal to A if desired).
 \lang english
 
 \begin_inset Note Note
