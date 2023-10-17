@@ -1869,7 +1869,7 @@ status open
 \begin_layout Plain Layout
 An improved version of the table presented on Page 37 of 
 \lang british
-
+the 2008 version of 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -1880,7 +1880,39 @@ literal "false"
 
 \lang english
 , depicting example structures for each point group provided in the table.
- For 
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+For 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -1938,15 +1970,118 @@ highest
 \end_inset
 
 .
- The colors of the atoms are not intended to have any meaning apart from
+ The 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+ series are the only series in which all systems are planar (although the
+ molecule depicted in the second column of the 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ row is also planar).
+ In the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ and 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ series, bonded atoms are always on the same plane as each other, and non-bonded
+ atoms are always on different planes from each other.
+ In the 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ series, the red atoms form planes based on the plane of gray atoms to which
+ the red atoms are bonded: if a group of red atoms are bonded to gray atoms
+ that are on the same plane, then those red atoms will form a plane of their
+ own, and will not include any atoms that are not bonded to gray atoms of
+ the respective gray-atom plane
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ (so the atoms in the atoms in 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ can be considerd to lie on 4 different planes, 2 gray and 2 red, and the
+ atoms of 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ can be considerd to lie on 2 different planes [but really we can choose
+ other planes too since any three atoms forms a plane, so this is hard to
+ explain])
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset VSpace 2mm
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+The colors of the atoms are not intended to have any meaning apart from
  showing that the gray
 \color red
  
 \color inherit
-atoms have to all be the same element, and the red atoms have to all be
- the same element (the red atoms in all of these diagrams can also be the
- same element as the black atoms without affecting the point group, but
- it is not necessary for them to be the same).
+atoms have to all be of the same periodic table element, and the red atoms
+ have to all be of the same periodic table element (the red atoms in all
+ of these diagrams can also be the same periodic table element as the black
+ atoms without affecting the point group, but it is not necessary for them
+ to be the same).
  No structure is intended to depict a real molecule.
 \begin_inset VSpace defskip
 \end_inset
@@ -3615,8 +3750,8 @@ shapes
 \begin_inset Quotes erd
 \end_inset
 
- on Page 37, which appears to be the only table available (in all of the
- scientific literature) of its kind (see Section 
+ on Page 37, which appears to be the only table available of its kind (in
+ all of the literature, see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Introduction"
@@ -3627,7 +3762,19 @@ noprefix "false"
 \end_inset
 
 ).
- For each of the axial point group series (
+ For each of the axial point group series 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+In the aforementioned table they presented in the following order: 
+\end_layout
+
+\end_inset
+
+(
 \begin_inset Formula $C_{n},D_{n},C_{nv},C_{nh},D_{nh},D_{nd},$
 \end_inset
 
@@ -3689,7 +3836,7 @@ noprefix "false"
 \begin_inset Formula $C_{4h},$
 \end_inset
 
-
+ 
 \begin_inset Formula $C_{5h}$
 \end_inset
 
@@ -3721,7 +3868,7 @@ literal "false"
 
  has some other consistencies which are much more major, and which we would
  like to address in this section of the paper.
- For example, the table in 
+ For example, the table 
 \lang english
 in 
 \lang british
@@ -3867,22 +4014,22 @@ literal "false"
 
 \end_inset
 
- that we addressed was the readability and interpret-ability of their figures.
- This problem is perhaps most severe in their figures for 
+ that we addressed was the readability and interpret-ability of their diagrams.
+ This problem is perhaps most severe in their diagrams for 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
-, in which the atoms in the first and third planes are of one elemental
- type (depicted in a beige 
+, in which the atoms in the first and third planes appear to be of one element
+ of the periodic table (depicted in a beige 
 \lang american
 color
 \lang british
- in their figure), and the atoms in the second and fourth planes are of
- another elemental type (depicted in a purple or maroon 
+ in their diagram), and the atoms in the second and fourth planes are of
+ another periodic table element (depicted in a purple or maroon 
 \lang american
 color
 \lang british
- in their figure); whereas for reasons that will be explained in Section
+ in their diagram); whereas for reasons that will be explained in Section
 \begin_inset Note Note
 status open
 
@@ -3929,8 +4076,8 @@ noprefix "false"
 \end_inset
 
 , it would be more correct to show the atoms in the first and fourth planes
- being one elemental type, and the atoms in the second and third planes
- being one elemental type (as depicted in our Table 
+ being of one periodic table element, and the atoms in the second and third
+ planes being of one periodic table element (as depicted in our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:TableShapes"
@@ -3949,7 +4096,7 @@ noprefix "false"
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- series in their table: the figures for the 
+ series in their table: the diagrams for the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -3961,7 +4108,7 @@ colors
 \emph on
 same 
 \emph default
-type, and the figures in the 
+type (element-wise), and the diagrams in the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -3970,7 +4117,27 @@ type, and the figures in the
 \begin_inset Formula $n$
 \end_inset
 
-, are on different planes.
+, are on different planes (this can be difficult to show graphically, but
+ we have explained it in the caption to our Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:TableShapes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, whereas no caption or further explanations were given for the analogous
+ table in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+).
  For the 
 \begin_inset Formula $D_{n}$
 \end_inset
@@ -4021,15 +4188,16 @@ literal "false"
 
  does not make it clear what precisely is being shown: most readers will
  likely assume that each polygon vertex represents an atom (although this
- is not made obvious), but what about the thin lines and small triangles
- that appear at some vertices? Do the thin lines represent one additional
- atom each, while the triangles depict more than one additional atom each?
- In fact, both the straight lines and the small triangles represent just
- one additional atom in each case, but the triangles depict atoms that are
- outside of the plane of the shown polygon, and the straight lines depict
- atoms that are in the same plane as the shown polygon (but many readers,
- like us and other researchers that we asked, may at first think that the
- use of straight lines versus small triangles was just a 
+ is not made obvious, nor explained anywhere), but what about the thin lines
+ and small triangles that appear at some vertices? Do the thin lines represent
+ one additional atom each, while the triangles depict more than one additional
+ atom each? In fact, both the straight lines and the small triangles probably
+ represent just one additional atom in each case, but the triangles depict
+ atoms that are outside of the plane of the shown polygon, and the straight
+ lines depict atoms that are in the same plane as the shown polygon (but
+ many readers, like us and other researchers that we asked, may at first
+ think that the use of straight lines versus small triangles was just a
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4077,7 +4245,7 @@ bonding
 much
 \emph default
  easier for our readers to associate our diagrams with the shapes of actual
- molecules.
+ molecules or systems of atoms with some bonds between them.
 \end_layout
 
 \begin_layout Standard
@@ -4100,7 +4268,7 @@ appendages
 \begin_inset Formula $C_{6}$
 \end_inset
 
- figures in 
+ diagrams in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -4135,7 +4303,7 @@ appendages
 \end_inset
 
  do not need to be parallel, as long as they do not bisect the exterior
- angles at the vertices of the polygons, and as long as 
+ angles at the vertices of the polygons, and as long as the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4145,7 +4313,7 @@ appendage
 
  atoms are not in the 
 \lang american
-center
+centers
 \lang british
  of the edges of the polygons, since if either of these situations were
  to occur, the point group of the system would be promoted to 
@@ -4187,7 +4355,8 @@ bonds
 \begin_inset Quotes erd
 \end_inset
 
- in the structures
+ in the structures..
+ but I couldn't figure out how to explain the reason for this
 \end_layout
 
 \end_inset
@@ -4228,11 +4397,11 @@ literal "false"
 \end_inset
 
 .
- The example structure shown for 
+ For instance, the example structure shown for 
 \begin_inset Formula $C_{2}$
 \end_inset
 
-, for example is obscure and a far less common example for the 
+, is obscure and a far less common example for the 
 \begin_inset Formula $C_{2}$
 \end_inset
 
@@ -4342,8 +4511,8 @@ and all other aspects of the
 \begin_inset Formula $n=2$
 \end_inset
 
- figures match very consistently with the figures associated with the other
- 
+ diagrams match very consistently with the diagrams associated with the
+ other 
 \begin_inset Formula $n$
 \end_inset
 
@@ -4440,7 +4609,7 @@ is that true?
 
 \end_inset
 
- and for the 
+ and except for the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -4464,6 +4633,9 @@ noprefix "false"
 \end_inset
 
 , we have shown 
+\series bold
+\emph on
+
 \begin_inset Quotes eld
 \end_inset
 
@@ -4471,7 +4643,10 @@ minimal
 \begin_inset Quotes erd
 \end_inset
 
- structures (
+ structures
+\series default
+\emph default
+ (
 \emph on
 i.e.
 
@@ -4503,7 +4678,7 @@ noprefix "false"
 
 \end_inset
 
-), so the figures that are presented in our Table 
+), so the diagrams that are presented in our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:atkinsImproved"
@@ -4513,7 +4688,7 @@ noprefix "false"
 
 \end_inset
 
- and that the authors of 
+ and the diagrams that the authors of 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -4521,11 +4696,11 @@ literal "false"
 
 \end_inset
 
- presented in their original table, are not the only correct examples that
- can be provided for each point group; but ours were at least chosen based
- on a non-arbitrary criterion, which was to only include for each point
- group, the structure that requires the minimum number of atoms (except
- for the first 
+ presented in their original table (when correct), are not the only correct
+ examples that can be provided for each point group; but ours were at least
+ chosen based on a non-arbitrary criterion, which was to only include for
+ each point group, the structure that requires the minimum number of atoms
+ (except for the first 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -4543,7 +4718,8 @@ better word?
 
 \end_inset
 
- to show a structure requiring the minimum number of atoms that uses a 
+ to show a structure requiring the minimum number of atoms when using a
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4605,7 +4781,35 @@ also true for n=2?
 \end_inset
 
 .
- The order that we presented the point group series in Table 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\color black
+\lang british
+We then included the remaining point group series in an order that lends
+ itself well to pedagogical explanation..
+ but also Dnd is before 
+\begin_inset Formula $Dn$
+\end_inset
+
+ because it has more symmetry? Does everything go in terms of the amount
+ of symmetry? We also grouped 
+\begin_inset Formula $D\infty h$
+\end_inset
+
+ and 
+\begin_inset Formula $C\infty v$
+\end_inset
+
+ things separately.
+\end_layout
+
+\end_inset
+
+The order that we presented the point group series in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:atkinsImproved"
@@ -4616,8 +4820,8 @@ noprefix "false"
 \end_inset
 
  is the same as the order in which we present the arguments for the minimum
- numbers of atoms and the possible chemical formulas for each point group
- in Section 
+ numbers of atoms, all possible numbers of atoms, and the possible chemical
+ formulas for each point group in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:NumberOfAtomsForEachPointGroup"
@@ -18202,7 +18406,7 @@ by starting with a regular
 
  
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 The 
@@ -18213,7 +18417,7 @@ The
 \begin_inset Formula $n>=3$
 \end_inset
 
- figures in Table 1 are minimal structures
+ diagrams in Table 1 are minimal structures
 \end_layout
 
 \end_inset
