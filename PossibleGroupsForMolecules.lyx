@@ -9877,7 +9877,24 @@ valid
 \end_inset
 
 .
- We will use this convention throughout this paper.
+ We will use this convention throughout this paper, so for example, we will
+ say that the point group of H
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is 
+\begin_inset Formula $D_{\infty h}$
+\end_inset
+
+ and not any other point group such as 
+\begin_inset Formula $C_{\infty v}$
+\end_inset
+
+ or 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+.
 \color red
 
 \begin_inset Note Note
