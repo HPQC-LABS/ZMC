@@ -1265,7 +1265,11 @@ We assume that the reader knows the group elements of each group? That they
 \begin_inset Formula $C\infty v,D_{\infty h}.$
 \end_inset
 
+ 
+\begin_inset Formula $C_{n}^{\prime}$
+\end_inset
 
+ needs to be explained.
 \end_layout
 
 \end_inset
@@ -10419,8 +10423,10 @@ name "tab:PossibleNumberOfAtomsForEachPointGroup"
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="16" columns="21">
+<lyxtabular version="3" rows="16" columns="23">
 <features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
@@ -10470,7 +10476,7 @@ Number of atoms
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10606,6 +10612,24 @@ Number of atoms
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10811,6 +10835,24 @@ Minimum
 
 \begin_layout Plain Layout
 16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -11067,6 +11109,24 @@ height "1.5pt"
 \begin_inset Formula $\textrm{✗}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -11355,6 +11415,24 @@ height "1.5pt"
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -11661,6 +11739,24 @@ height "1.5pt"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -11958,6 +12054,24 @@ ABCDE
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -12244,6 +12358,24 @@ AB
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -12556,6 +12688,24 @@ A(BCDE
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 (A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -12854,6 +13004,24 @@ CDE
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 (A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -13139,6 +13307,24 @@ CDE
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -13452,6 +13638,24 @@ DE
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -13729,6 +13933,24 @@ CDE
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -14040,6 +14262,24 @@ C
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -14335,6 +14575,24 @@ height "1.5pt"
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -14611,6 +14869,24 @@ height "1.5pt"
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -14908,6 +15184,24 @@ height "1.5pt"
 \begin_inset Formula $\textrm{✔}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -16769,6 +17063,10 @@ The
 \begin_inset Formula $D_{nd}$
 \end_inset
 
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
 , one way that we can 
 \begin_inset Quotes eld
 \end_inset
@@ -16785,8 +17083,9 @@ demote
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis without changing any of the other valid symmetry operations and without
- introducing any new ones, would be to rotate one of the two 
+ axis without changing any of the structure's other valid symmetry operations
+ and without introducing any new ones, would be to rotate one of the two
+ 
 \begin_inset Formula $n$
 \end_inset
 
@@ -16843,16 +17142,17 @@ minimum number of atoms required for each
 \begin_inset Formula $D_{n}$
 \end_inset
 
- point group are the same as for 
+ point group are the same as for the corresponding 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
-, as are the chemical formulas for the minimal structures.
+ point groups, as are the chemical formulas for structures with the minimum
+ number of atoms.
  Likewise, the possible numbers of atoms for structures with 
 \begin_inset Formula $D_{n}$
 \end_inset
 
- point groups are the same as for 
+ point groups are the same as for the corresponding 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -16898,7 +17198,7 @@ name "tab:PossiblePointGroupsForTriatomics"
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="4">
-<features tabularvalignment="middle">
+<features tabularvalignment="middle" tabularwidth="100col%">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
