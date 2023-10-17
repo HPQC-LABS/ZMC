@@ -1243,8 +1243,43 @@ groups
 \end_inset
 
 , we will place a circumflex symbol on top of point group elements.
+ An axis associated with a point group element will be named after that
+ point group element, for example the axis associated with a 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+ operation will be named a 
+\begin_inset Formula $\hat{C}_{2}$
+\end_inset
+
+ axis; likewise a plane associated with a point group element will be named
+ after that point group element, for example the plane associated with a
+ 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ operation will be named a 
+\begin_inset Formula $\hat{\sigma}_{h}$
+\end_inset
+
+ plane.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+inversion center is never called by its operator is it? Also 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ axis probably doesn't need to be explained.
+\end_layout
+
+\end_inset
+
  Also, all of the diagrams that we present for systems of atoms, were made
- with the latest version of Avogadro2 
+ with the most recent version of Avogadro2 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hanwell2012"
@@ -17870,11 +17905,11 @@ noprefix "false"
 
  we know that
 \color black
- a 
+ within one coordinate system, we can simultaneously choose a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis can simultaneously be chosen to be along the 
+ axis to be the 
 \begin_inset Formula $z$
 \end_inset
 
@@ -17882,12 +17917,16 @@ noprefix "false"
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
- plane can be chosen to be the 
+ plane to be the 
 \begin_inset Formula $xy$
 \end_inset
 
--plane in the same coordinate system.
- With that convention, a 
+-plane.
+ With that convention, we can use the well-known 
+\begin_inset Formula $R_{z}(\pi)$
+\end_inset
+
+ rotation matrix to see that a 
 \begin_inset Formula $\hat{C}_{4}$
 \end_inset
 
@@ -17899,7 +17938,23 @@ noprefix "false"
 \begin_inset Formula $(-y,x,z)$
 \end_inset
 
- and the 
+, Then since a reflection across the 
+\begin_inset Formula $xy$
+\end_inset
+
+-plane will not change the 
+\begin_inset Formula $x$
+\end_inset
+
+ or 
+\begin_inset Formula $y$
+\end_inset
+
+ coordinates and will just reflect the 
+\begin_inset Formula $z$
+\end_inset
+
+ coordinate, the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -17962,7 +18017,8 @@ noprefix "false"
 \end_inset
 
  and an identical atom must be there too.
- Since no atom has replaced our first atom which was at the position 
+ Since no atom has yet replaced our first atom which was at the position
+ 
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
@@ -17970,7 +18026,7 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- transformations and keeping track of the atoms that are necessary to include
+ transformations and to keep track of the atoms that are necessary to include
  in our system, until we do successfully replace the first atom.
  We show below that 
 \begin_inset Formula $m=4$
@@ -18055,7 +18111,7 @@ the
 \end_inset
 
  and 
-\begin_inset Formula $(y_{1},-z_{1},-z_{1})$
+\begin_inset Formula $(y_{1},-x_{1},-z_{1})$
 \end_inset
 
  form a perpendicular line of the same size but on the 
@@ -18117,10 +18173,11 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
 -axis, adding atoms on this axis would mean adding atoms with 
-\begin_inset Formula $(x,y)=0$
+\begin_inset Formula $(x,y)=(0,0)$
 \end_inset
 
-; since we have chosen the convention in which the 
+.
+ Also, since we have chosen the convention in which the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -18133,10 +18190,6 @@ ear in comparison to the first set of four atoms) in order to break the
 \end_inset
 
 -plane, adding atoms on this plane would mean adding atoms with 
-\begin_inset Formula $z=0$
-\end_inset
-
-
 \begin_inset Note Note
 status collapsed
 
@@ -18146,7 +18199,13 @@ the third coordinate being 0
 
 \end_inset
 
-; and regardless of those conventions, any atom on one of the 
+
+\begin_inset Formula $z=0$
+\end_inset
+
+.
+ Furthermore, regardless of the conventions that were mentioned in the previous
+ two sentences, any atom on one of the 
 \begin_inset Formula $\pm z$
 \end_inset
 
@@ -18192,7 +18251,8 @@ the third coordinate being 0
 \begin_inset Formula $y$
 \end_inset
 
--values of this new atom (the fifth atom), the pattern in (
+-values of this new atom (which would be the fifth atom), the pattern in
+ (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:S4coordinates"
@@ -18202,12 +18262,22 @@ noprefix "false"
 
 \end_inset
 
-) shows that we will not recover the new atom's position by applying 
+) shows that we will not recover the position of the new atom by applying
+ 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- operations unless we have another three atoms that are identical to the
- fifth atom.
+ operations unless we have another three atoms that are identical
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+better word than identical?
+\end_layout
+
+\end_inset
+
+ to the fifth atom.
  
 \end_layout
 
@@ -18230,12 +18300,13 @@ noprefix "false"
 
 \end_inset
 
- is able to satisfy the above relationships among the coordinates of the
- atoms; since the 
+ is able to satisfy the relationships that were described in the previous
+ paragraph, among the coordinates of the atoms.
+ Since the 
 \begin_inset Formula $S_{4}$
 \end_inset
 
- group is generated by the 
+ point group is generated by the 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
@@ -18254,16 +18325,13 @@ noprefix "false"
 \end_inset
 
 .
-
+ Therefore
 \series bold
 \lang british
  
 \color blue
-The minimum number of atoms required is 
-\begin_inset Formula $8$
-\end_inset
-
- with the chemical formula A
+the minimum number of atoms required is eight, and the most general chemical
+ formula for a structure with the minimum number of atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -18288,7 +18356,19 @@ An even number of additional atoms can be added along the
 \emph on
 homo-nuclear pairs
 \emph default
- around the 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+symmetrically
+\end_layout
+
+\end_inset
+
+around the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -18301,15 +18381,14 @@ homo-nuclear pairs
 \lang american
 center
 \lang british
- of the entire structure.
+ of the entire structure without introducing any new symmetry operations
+ and without invalidating any existing ones.
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
-\begin_inset Formula $8$
-\end_inset
-
- atoms plus an even number of additional atoms would be A
+any number of atoms greater than four is possible, and the most general
+ chemical formula for a structure with eight atoms plus an even number of
+ additional atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -18325,8 +18404,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ is AB
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -18379,7 +18458,11 @@ D
 
 \color black
 \lang british
-In section 
+For any specific integer 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, in section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:GeneralPrinciples"
@@ -18403,20 +18486,37 @@ noprefix "false"
 \end_inset
 
  operations to be valid on their own.
- We also described earlier that the point group of such structures is 
+ We also described earlier that for the specified value of 
+\begin_inset Formula $n$
+\end_inset
+
+, the point group of such a structure is 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
-: in order to make a minimal structure in which the point group is 
+.
+ In order to make a structure in which the point group is 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
-, we can start with the 
+ with as few atoms as possible, we can start with the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
- structure and add atoms to break the extra symmetry elements that are present
- in 
+ structure for the same value of 
+\begin_inset Formula $n$
+\end_inset
+
+ (since the 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ structure is a required subsystem of any 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ structure) and we can add atoms to break the extra symmetry elements that
+ are present in 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -18487,8 +18587,12 @@ noprefix "false"
 \begin_inset Formula $n$
 \end_inset
 
--gons which are identical to each other and parallel to each other but not
- on the same planes as the two previously existing 
+-gons with uniform vertices, such that these two 
+\begin_inset Formula $n$
+\end_inset
+
+-gons are identical to each other and parallel to each other, but not co-planar
+ and not on the same planes as the two previously existing 
 \begin_inset Formula $n$
 \end_inset
 
@@ -18496,7 +18600,7 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- axis must pass through the centre of all four 
+ axis must pass perpendicularly through the centre of all four 
 \begin_inset Formula $n$
 \end_inset
 
@@ -18547,15 +18651,16 @@ need to verify this too...
 \end_inset
 
 ).
-
+ Therefore,
 \series bold
  
 \color blue
-The minimum number of atoms required is 
+the minimum number of atoms required is 
 \begin_inset Formula $4n$
 \end_inset
 
-, and the formula for this minimal structure would be A
+, and the most general chemical formula for a structure with the minimum
+ number of atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -18563,12 +18668,11 @@ B
 \begin_inset Formula $_{2n}$
 \end_inset
 
-.
 
-\color black
- 
 \series default
-An even number of additional atoms can be added along the 
+\color black
+, and B can be chosen to be equal to A if desired.
+ An even number of additional atoms can be added along the 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
@@ -18586,7 +18690,7 @@ homo-nuclear pairs
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
-operation.
+ operation.
  One additional atom can also be added at the 
 \lang american
 center
@@ -18595,11 +18699,16 @@ center
  Therefore 
 \series bold
 \color blue
-the most general formula for a structure with 
+any number of atoms greater than 
 \begin_inset Formula $4n$
 \end_inset
 
- atoms plus an even number of additional atoms would be A
+ is possible and the most general chemical formula for a structure with
+ 
+\begin_inset Formula $4n$
+\end_inset
+
+ atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -18615,8 +18724,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ is AB
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -18628,8 +18737,8 @@ D
 \begin_inset Formula $_{2}$
 \end_inset
 
-E
-\begin_inset Formula $_{2}\cdots$
+
+\begin_inset Formula $\cdots$
 \end_inset
 
 
@@ -18810,7 +18919,7 @@ If we have any fewer than three atoms, the point group of the system will
 \begin_inset Formula $_{2}$
 \end_inset
 
-O.
+O (water).
  
 \series bold
 \color blue
@@ -18828,17 +18937,18 @@ since at least two atoms need to be the same in order for the
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
- operation to be valid.
+ operation to be valid (B can be chosen to equal A if desired though).
  Since extra atoms can be added on the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis without losing any valid symmetry operations and without introducing
- any new ones, the 
+ any new ones, 
 \series bold
 \color blue
 \lang british
-the most general chemical formula is A
+any number of atoms equal to or greater than three is possible, and the
+ most general chemical formula is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -19072,11 +19182,11 @@ The
 \color blue
 \lang british
 The minimum number of atoms required is 
-\begin_inset Formula $n$
+\begin_inset Formula $n+1$
 \end_inset
 
-+1, and the most general formula for a structure with the minimum number
- of atoms is A
+, and the most general formula for a structure with the minimum number of
+ atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
 
