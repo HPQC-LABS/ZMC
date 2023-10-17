@@ -2077,11 +2077,11 @@ The colors of the atoms are not intended to have any meaning apart from
 \color red
  
 \color inherit
-atoms have to all be of the same periodic table element, and the red atoms
- have to all be of the same periodic table element (the red atoms in all
- of these diagrams can also be the same periodic table element as the black
- atoms without affecting the point group, but it is not necessary for them
- to be the same).
+atoms have to all be of the same periodic table element as each other, and
+ the red atoms have to all be of the same periodic table element as each
+ other (the red atoms in all of these diagrams can also be of the same periodic
+ table element as the black atoms without affecting the point group, but
+ it is not necessary for them to be the same).
  No structure is intended to depict a real molecule.
 \begin_inset VSpace defskip
 \end_inset
@@ -8715,11 +8715,17 @@ The existence of a
 \begin_inset Formula $n$
 \end_inset
 
--sided polygon with equal side-lengths (a regular 
+-sided polygon with equal side-lengths (a 
+\series bold
+\emph on
+regular 
 \begin_inset Formula $n$
 \end_inset
 
--gon), or if 
+-gon
+\series default
+\emph default
+), or if 
 \begin_inset Formula $n<3$
 \end_inset
 
@@ -8727,7 +8733,7 @@ The existence of a
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms in the molecule.
+ identical atoms somewhere in the molecule.
  Therefore, a minimum of 
 \begin_inset Formula $n$
 \end_inset
@@ -8747,11 +8753,11 @@ A
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis would go through the 
+ axis would be perpendicular to this polygon and would go through the 
 \lang american
 center
 \lang british
- of this polygon (or in the case of 
+ of it (or in the case of 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -8876,8 +8882,14 @@ A regular
 \begin_inset Formula $n$
 \end_inset
 
--gon with uniform vertices (in a molecule, this would mean the presence
- of identical atoms at the vertices) has a point group of 
+-gon with 
+\series bold
+\emph on
+uniform vertices 
+\series default
+\emph default
+(in a molecule, this would mean the presence of identical atoms at the vertices)
+ has a point group of 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
