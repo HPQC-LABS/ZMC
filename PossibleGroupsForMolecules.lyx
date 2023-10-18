@@ -748,8 +748,12 @@ noprefix "false"
 \end_inset
 
 .
- Overall our results are summarized below, and all results appear to be
- novel or unusually difficult to find in existing places.
+ Overall our results are 
+\lang american
+summarized
+\lang british
+ below, and all results appear to be novel or unusually difficult to find
+ in existing places.
 \end_layout
 
 \begin_layout Enumerate
@@ -1077,7 +1081,7 @@ noprefix "false"
 
  was the largest number of atoms that we could include for the table to
  stay within the paper margins without making significant changes to the
- font, column spacings, or orientation of the table); 
+ font, column spacing, or orientation of the table); 
 \end_layout
 
 \begin_layout Enumerate
@@ -1269,7 +1273,11 @@ status open
 \begin_layout Plain Layout
 
 \lang british
-inversion center is never called by its operator is it? Also 
+inversion 
+\lang american
+center
+\lang british
+ is never called by its operator is it? Also 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
@@ -1279,7 +1287,7 @@ inversion center is never called by its operator is it? Also
 \end_inset
 
  Also, all of the diagrams that we present for systems of atoms, were made
- with the most recent version of Avogadro2 
+ with the most recent version of Avogadro 2 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hanwell2012"
@@ -1414,7 +1422,11 @@ However, for many of the molecules in the GW100 dataset, the GW100 community
 optimized
 \lang british
  using density functional theory, which means that the results are dependent
- on the basis set and density functional used for the geometry optimization.
+ on the basis set and density functional used for the geometry 
+\lang american
+optimization
+\lang british
+.
  This has an effect on (among other things) the comparisons that have been
  made between calculations that were done for the GW100 dataset and data
  from laboratory experiments.
@@ -2065,11 +2077,11 @@ highest
 status open
 
 \begin_layout Plain Layout
- (so the atoms in the atoms in 
+(so the atoms in the atoms in 
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- can be considerd to lie on 4 different planes, 2 gray and 2 red, and the
+ can be considered to lie on 4 different planes, 2 gray and 2 red, and the
  atoms of 
 \begin_inset Formula $C_{n}$
 \end_inset
@@ -3439,7 +3451,7 @@ Si
 \begin_inset Formula $C_{2}$
 \end_inset
 
- axis not going through any nuclei, and one of them being planar wtih its
+ axis not going through any nuclei, and one of them being planar with its
  
 \begin_inset Formula $C_{2}$
 \end_inset
@@ -4845,7 +4857,11 @@ status open
 \lang british
 We then included the remaining point group series in an order that lends
  itself well to pedagogical explanation..
- but also Dnd is before 
+ but also 
+\begin_inset Formula $Dnd$
+\end_inset
+
+ is before 
 \begin_inset Formula $Dn$
 \end_inset
 
@@ -10091,11 +10107,18 @@ noprefix "false"
 \end_inset
 
 ).
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
-The minimum number of atoms required is three, and any triatomic chemical
- formula is allowed
+three
+\emph default
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+, and such a structure can be formed with any triatomic chemical formula
 \begin_inset Note Note
 status open
 
@@ -10174,11 +10197,22 @@ noprefix "false"
 \end_inset
 
  is possible for any number of atoms that is larger than or equal to three.
- 
+ Therefore 
 \series bold
 \color blue
-Any number of atoms larger than or equal to three is allowed, and the general
- chemical formula allowed is 
+any number of atoms that is greater than or equal to 
+\emph on
+three
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{s}$
+\end_inset
+
+ structure is 
 \begin_inset Note Note
 status open
 
@@ -10199,7 +10233,7 @@ ABCD
 
 \series default
 \color inherit
-, in which any letter can be identical to one of the previous ones (e.g.
+, but any letter can be identical to one of the previous ones (e.g.
  B, C and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -10276,11 +10310,18 @@ noprefix "false"
 \end_inset
 
 ).
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
-The minimum number of atoms required is four, and any tetra-atomic chemical
- formula is allowed
+four 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+, and such a structure can be formed with any tetra-atomic chemical formula
 \begin_inset Note Note
 status open
 
@@ -10333,7 +10374,7 @@ status open
 
 , and if we run out of periodic table elements, we just need to ensure that
  additional atoms are not matched symmetrically with other atoms of the
- same element).
+ same element)
 \series bold
 \color blue
 
@@ -10350,15 +10391,33 @@ status open
 
 \end_inset
 
-Any number of atoms larger than or equal to four is allowed, and the general
- chemical formula allowed is ABCDE
+
+\series default
+\color inherit
+.
+ Therefore
+\series bold
+\color blue
+ any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ structure is ABCDE
 \begin_inset Formula $\cdots$
 \end_inset
 
 
 \series default
 \color inherit
-, in which any letter can be identical to one of the previous ones (e.g.
+, but any letter can be identical to one of the previous ones (e.g.
  B, C, D and E can be chosen to be equal to A if desired).
 \end_layout
 
@@ -15544,11 +15603,19 @@ Cl
 \end_inset
 
  with the two carbons removed.
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
-The minimum number of atoms required is six, and the most general chemical
- formula allowed for a structure with the minimum number of atoms is A
+six
+\emph default
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, and the most general chemical formula allowed for a structure with the
+ minimum number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15563,7 +15630,12 @@ C
 
 \series default
 \color inherit
-, and B and C can be chosen to be equal to A if desired.
+, and 
+\lang english
+if desired, B and C can be chosen to be equal to A without changing the
+ point group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -15588,9 +15660,19 @@ center
  Therefore
 \series bold
 \color blue
- any number of atoms greater than or equal to six is possible, and the most
- general chemical formula for a structure with an even number of atoms is
- A
+ any number of atoms that is greater than or equal to 
+\emph on
+six
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ structure with an even number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15625,7 +15707,8 @@ D
  
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -15771,12 +15854,23 @@ noprefix "false"
 )
 \lang english
 .
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
 \lang british
-The minimum number of atoms required is four, and the most general chemical
- formula for a structure with the minimum number of atoms is A
+four
+\emph default
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15787,7 +15881,12 @@ B
 
 \series default
 \color inherit
-, and B can be chosen to be equal to A if desired.
+, and 
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -15829,9 +15928,19 @@ symmetrically around the inversion center in order for the inversion operation
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than or equal to four is possible, and the most
- general chemical formula for a structure with an even number of atoms is
- A
+any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2h}$
+\end_inset
+
+ structure with an even number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -15862,7 +15971,8 @@ D
  
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \begin_inset Note Note
 status collapsed
@@ -15941,14 +16051,24 @@ noprefix "false"
 
 \end_inset
 
-), we can conclude that the 
+), we can conclude that 
 \series bold
-\color blue
-the minimum number of atoms required is 
+
 \begin_inset Formula $n$
 \end_inset
 
-, and the most general chemical formula for a structure with the minimum
+
+\color blue
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
  number of atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -16001,11 +16121,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than or equal to 
+any number of atoms that is greater than or equal to 
 \begin_inset Formula $n$
 \end_inset
 
- is possible, and the most general formula for a structure with 
+ can form a structure whose point group is 
+\begin_inset Formula $D_{nh}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with 
 \begin_inset Formula $n$
 \end_inset
 
@@ -16025,8 +16153,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula is
- A
+, and for an odd number of additional atoms the most general chemical formula
+ is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -16041,7 +16169,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \series bold
 
@@ -16197,14 +16326,25 @@ perpendicular
 \end_inset
 
 .
-
+ Therefore
 \color inherit
 \lang british
  
 \series bold
+\emph on
 \color blue
-The minimum number of atoms required is 4, and the most general chemical
- formula for a structure with the minimum number of atoms is A
+four 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16255,9 +16395,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than or equal to four is possible, and the most
- general formula for a structure with four atoms plus an even number of
- additional atoms would be A
+any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2d}$
+\end_inset
+
+ structure with four atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16273,8 +16423,8 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general formula would
- be AB
+, and for an odd number of additional atoms the most general chemical formula
+ is AB
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16289,7 +16439,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -16467,16 +16618,25 @@ minimal
 
 \end_inset
 
-the minimum number of atoms required is 
+
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general chemical formula for a structure with the minimum
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
  number of atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
- .
+.
  
 \end_layout
 
@@ -16535,12 +16695,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms equal to or greater than 
+any number of atoms that is greater than or equal to  
 \begin_inset Formula $2n$
 \end_inset
 
- is possible, and the most general chemical formula for a structure with
- 
+ can form a structure whose point group is 
+\begin_inset Formula $D_{nd}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -16576,7 +16743,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 
 \series bold
@@ -16899,12 +17067,23 @@ perpendicular
 \end_inset
 
 .
- Therefore, 
+ Therefore 
 \series bold
+\emph on
 \color blue
 \lang british
-the minimum number of atoms required is four, and the most general chemical
- formula for a structure with the minium number of atoms is A
+four 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ structure with the minium number of atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -16994,16 +17173,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms equal to or greater than 
-\begin_inset Formula $2n$
+any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $D_{2}$
 \end_inset
 
- is possible, and the most general chemical formula for a structure with
- 
-\begin_inset Formula $2n$
+, and the most general chemical formula for a 
+\begin_inset Formula $D_{2}$
 \end_inset
 
- atoms plus an even number of additional atoms is A
+ structure with four atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -17035,7 +17217,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -18347,9 +18530,24 @@ noprefix "false"
 \series bold
 \lang british
  
+\emph on
 \color blue
-the minimum number of atoms required is eight, and the most general chemical
- formula for a structure with the minimum number of atoms is A
+eight 
+\emph default
+is
+\emph on
+ 
+\emph default
+the minimum number of atoms required to form a structure whose point group
+ is 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+, and the most general chemical formula for an 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -18357,11 +18555,15 @@ B
 \begin_inset Formula $_{4}$
 \end_inset
 
-.
 
 \series default
 \color inherit
+, and 
 \lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -18408,9 +18610,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than four is possible, and the most general
- chemical formula for a structure with eight atoms plus an even number of
- additional atoms is A
+any number of atoms that is greater than or equal to 
+\emph on
+eight
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+, and the most general chemical formula for an 
+\begin_inset Formula $S_{4}$
+\end_inset
+
+ structure with eight atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -18446,7 +18658,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \color red
 \lang english
@@ -18673,15 +18886,24 @@ need to verify this too...
 \end_inset
 
 ).
- Therefore,
+ Therefore
 \series bold
  
 \color blue
-the minimum number of atoms required is 
+
 \begin_inset Formula $4n$
 \end_inset
 
-, and the most general chemical formula for a structure with the minimum
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
  number of atoms is A
 \begin_inset Formula $_{2n}$
 \end_inset
@@ -18693,7 +18915,15 @@ B
 
 \series default
 \color black
-, and B can be chosen to be equal to A if desired.
+, and 
+\color inherit
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure
+\color black
+.
  
 \end_layout
 
@@ -18733,12 +18963,19 @@ without introducing any new symmetry operations and without invalidating
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than 
+any number of atoms that is greater than or equal to 
 \begin_inset Formula $4n$
 \end_inset
 
- is possible and the most general chemical formula for a structure with
- 
+ can form a structure whose point group is 
+\begin_inset Formula $S_{2n}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with 
 \begin_inset Formula $4n$
 \end_inset
 
@@ -18778,7 +19015,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \series bold
 \color red
@@ -18954,24 +19192,36 @@ If we have any fewer than three atoms, the point group of the system will
 \end_inset
 
 O (water).
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
 \lang british
-The minimum number of atoms required is three, and the most general chemical
- formula for a structure with the minimum number of atoms, is A
+three 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
-B 
+B
 \series default
 \color inherit
 \lang english
-since at least two atoms need to be the same in order for the 
+, since at least two atoms need to be the same in order for the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
- operation to be valid (B can be chosen to be equal to A if desired though).
+ operation to be valid (but if desired, B can be chosen to be equal to A
+ without changing the point group of the structure).
  
 \end_layout
 
@@ -18985,8 +19235,19 @@ Since extra atoms can be added on the
 \series bold
 \color blue
 \lang british
-any number of atoms equal to or greater than three is possible, and the
- most general chemical formula is A
+any number of atoms that is greater than or equal to 
+\emph on
+three
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{2v}$
+\end_inset
+
+ structure is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -18997,7 +19258,8 @@ BCD
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 
 \series bold
@@ -19216,20 +19478,37 @@ The
 
 \end_inset
 
- 
+Therefore 
 \series bold
 \color blue
 \lang british
-The minimum number of atoms required is 
+
 \begin_inset Formula $n+1$
 \end_inset
 
-, and the most general chemical formula for a structure with the minimum
+ is the minimum number of atoms required to form a structure whose point
+ grouop is 
+\begin_inset Formula $C_{nv}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
  number of atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
 
-B.
+B
+\series default
+\color inherit
+, and 
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -19239,23 +19518,23 @@ Since any number of additional atoms can be added on the
 \end_inset
 
  axis without losing any valid symmetry operations and without introducing
- any new ones, the 
+ any new ones, therefore 
 \series bold
 \color blue
 \lang british
-any number of atoms equal to or greater than 
+any number of atoms that is greater than or equal to 
 \begin_inset Formula $n+1$
 \end_inset
 
- is possible, and the most general chemical formula is A
-\begin_inset Formula $_{2}$
+ can form a structure whose point group is 
+\begin_inset Formula $C_{nv}$
 \end_inset
 
-BCD
-\begin_inset Formula $\cdots$
+ with 
+\begin_inset Formula $n\ge3$
 \end_inset
 
-most general chemical formula allowed is A
+, and the most general chemical formula for such a structure is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -19266,7 +19545,8 @@ BCD
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -19361,12 +19641,23 @@ noprefix "false"
 \end_inset
 
 ).
- 
+ Therefore 
 \series bold
+\emph on
 \color blue
 \lang british
-The minimum number of atoms required is four, and the most general chemical
- formula for a structure with the minimum number of atoms is A
+four 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -19377,7 +19668,12 @@ B
 
 \series default
 \color inherit
-, and B can be chosen to be equal to A if desired.
+, and 
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -19408,9 +19704,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms greater than or equal to four is possible, and the most
- general chemical formula for a structure with four atoms plus an even number
- of additional atoms is A
+any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{2h}$
+\end_inset
+
+ structure with four atoms plus an even number of additional atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -19442,7 +19748,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \series bold
 
@@ -19655,17 +19962,27 @@ We can repeat everything that was written in the section about
 
 
 \color inherit
-Therefore,
+Therefore
 \color red
  
 \series bold
 \color blue
 \lang british
-the minimum number of atoms required is 
+
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general chemical formula for a minimal structure is A
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
+ number of atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -19676,7 +19993,12 @@ B
 
 \series default
 \color inherit
-, and B can be chosen to be equal to A if desired.
+, and 
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -19707,12 +20029,19 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms equal to or greater than 
+any number of atoms that is greater than or equal to 
 \begin_inset Formula $2n$
 \end_inset
 
- is possible, and the most general chemical formula for a structure with
- 
+ can form a structure whose point group is 
+\begin_inset Formula $C_{nh}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -19748,7 +20077,8 @@ D
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \end_layout
 
@@ -26983,7 +27313,7 @@ noprefix "false"
 \end_inset
 
 ).
- Therefore, 
+ Therefore 
 \begin_inset Note Note
 status collapsed
 
@@ -27004,9 +27334,17 @@ Any number of atoms can be added on the
 
 
 \series bold
+\emph on
 \color blue
 \lang british
-the minimum number of atoms required is four.
+four 
+\emph default
+is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+.
 
 \color inherit
  
@@ -27105,12 +27443,15 @@ respectively, and for the
 \begin_inset Formula $B^{\prime}.$
 \end_inset
 
- Therefore,
+ Therefore
 \series bold
  
 \color blue
-the most general chemical formula for a structure with the minimum number
- of atoms is A
+the most general chemical formula for a 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ structure with the minimum number of atoms is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -27121,7 +27462,12 @@ B
 
 \series default
 \color inherit
-, and B can be chosen to be equal to A if desired.
+, and 
+\lang english
+if desired, B can be chosen to be equal to A without changing the point
+ group
+\lang british
+ of the structure.
  
 \end_layout
 
@@ -27146,12 +27492,19 @@ Any number of additional atoms can be added on the
  Therefore 
 \series bold
 \color blue
-any number of atoms equal to or greater than four can form a structure with
- the point group 
+any number of atoms that is greater than or equal to 
+\emph on
+four
+\emph default
+ can form a structure whose point group is 
 \begin_inset Formula $C_{2}$
 \end_inset
 
- and the most general chemical formula for such a structure is A
+, and the most general chemical formula for a 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ structure is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -27166,7 +27519,8 @@ CD
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, but in either chemical formula, any letter can be identical to one of
+ the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \begin_inset Note Note
 status open
@@ -27364,15 +27718,24 @@ noprefix "false"
 \end_inset
 
 .
- Therefore, 
+ Therefore 
 \series bold
 \color blue
 \lang british
-the minimum number of atoms required is 
+
 \begin_inset Formula $2n$
 \end_inset
 
-, and the most general chemical formula for a structure with the minimum
+ is the minimum number of atoms required to form a structure whose point
+ group is 
+\begin_inset Formula $C_{n}$
+\end_inset
+
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure with the minimum
  number of atoms is A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -27386,7 +27749,7 @@ B
 \color inherit
 \lang english
 , and if desired, B can be chosen to be equal to A without changing the
- point group.
+ point group of the structure.
 \end_layout
 
 \begin_layout Standard
@@ -27401,15 +27764,19 @@ Any number of additional atoms can be added on the
  Therefore 
 \series bold
 \color blue
-any number of atoms equal to or greater than 
+any number of atoms that is greater than or equal to 
 \begin_inset Formula $2n$
 \end_inset
 
- can form a structure with the point group 
+ can form a structure whose point group is 
 \begin_inset Formula $C_{n}$
 \end_inset
 
- and the most general chemical formula for such a structure is A
+ with 
+\begin_inset Formula $n\ge3$
+\end_inset
+
+, and the most general chemical formula for such a structure is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -27424,8 +27791,14 @@ CD
 
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
- B, C, and D can be chosen to be equal to A if desired).
+, and if desired, any letter can be made identical to one of the previous
+ ones without changing the point group of the structure (e.g.
+ 
+\lang english
+if desired 
+\lang british
+B, C, and/or D can be chosen to be equal to A without changing the point
+ group of the structure).
 \series bold
 
 \begin_inset Note Note
@@ -27549,7 +27922,7 @@ B
  are chosen carefully, no new valid symmetry operations would be introduced
 \series default
 \color inherit
-, and any letter can be identical to one of the previous ones (e.g.
+, in which any letter can be identical to one of the previous ones (e.g.
  B, C, and D can be chosen to be equal to A if desired).
 \lang english
 
