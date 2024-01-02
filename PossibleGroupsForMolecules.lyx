@@ -172,8 +172,19 @@ restoregeometry
 \begin_layout Title
 
 \size huge
-What are the possible axial point groups for a molecule of a certain size
- or formula?
+What are the possible axial point groups for a 
+\begin_inset Note Note
+status open
+
+\begin_layout Title
+
+\size huge
+collection
+\end_layout
+
+\end_inset
+
+system of atoms with a certain size or formula?
 \end_layout
 
 \begin_layout Author
@@ -317,7 +328,7 @@ For each axial point group, we determine all possible numbers of atoms and
  possibility or impossibility for a certain point group to apply to a molecule
  of a certain size and/or chemical formula.
  For triatomic and tetra-atomic molecules, we provide examples of molecules
- of each possible chemical formula if such molecules are known, and hence
+ with each possible chemical formula if such molecules are known, and hence
  we determine the types of molecules with under five atoms that are still
  yet-to-be discovered (in terms of point groups).
  We also resolve some inconsistencies in a table by P.
@@ -680,7 +691,17 @@ literal "false"
 \begin_layout Standard
 
 \lang british
-The next section of this paper will explain the context which made 
+The next section of this paper (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Motivation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) will explain the context which made 
 \series bold
 \emph on
 us
@@ -750,7 +771,7 @@ noprefix "false"
 .
  Overall our results are 
 \lang american
-summarized
+outlined
 \lang british
  below, and all results appear to be novel or unusually difficult to find
  in existing places.
@@ -865,6 +886,24 @@ literal "false"
 \begin_layout Enumerate
 
 \lang british
+with an extra column showing additional structures for the 
+\begin_inset Formula $n=2$
+\end_inset
+
+ cases (in some cases these are more realistic structures than in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "1970Atkins"
+literal "false"
+
+\end_inset
+
+), 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang british
 with structures requiring fewer atoms than in 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -881,25 +920,7 @@ literal "false"
 \begin_inset Formula $D_{n}$
 \end_inset
 
- series, 
-\end_layout
-
-\begin_layout Enumerate
-
-\lang british
-with an extra column showing additional structures for the 
-\begin_inset Formula $n=2$
-\end_inset
-
- cases (in some cases these are more realistic structures than in 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "1970Atkins"
-literal "false"
-
-\end_inset
-
-), and
+ series, and
 \end_layout
 
 \begin_layout Enumerate
@@ -979,21 +1000,37 @@ leftmargin=0.6cm
 
 \end_inset
 
-the minimum number of atoms (the minimum cardinality) required; 
+the minimum atom cardinality required (we will use the term 
+\begin_inset Quotes eld
+\end_inset
+
+atom cardinality
+\begin_inset Quotes erd
+\end_inset
+
+ to denote the 
+\begin_inset Quotes eld
+\end_inset
+
+number of atoms
+\begin_inset Quotes erd
+\end_inset
+
+ in a molecule or any other system of atoms); 
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-all possible cardinalities allowed (the minimum cardinality results are
- a special case of this); and 
+all possible atom cardinalities allowed (the minimum atom cardinality results
+ are a special case of this); and 
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-all possible chemical formulas allowed (the list of all possible cardinalities
- is a special case of this).
+all possible chemical formulas allowed (the list of all possible atom cardinalit
+ies is a special case of this).
  
 \end_layout
 
@@ -1079,8 +1116,8 @@ noprefix "false"
 \begin_inset Formula $m=8$
 \end_inset
 
- was the largest number of atoms that we could include for the table to
- stay within the paper margins without making significant changes to the
+ was the largest number of atoms that we could include while keeping the
+ table within the paper margins without making significant changes to the
  font, column spacing, or orientation of the table); 
 \end_layout
 
@@ -1088,7 +1125,8 @@ noprefix "false"
 
 \lang british
 we also explicitly listed the specific point groups (and diagrams of example
- structures) that are possible for systems with the specific formulas A
+ structures) that are possible for systems with chemical formulas of the
+ form A
 \begin_inset Formula $_{3}$
 \end_inset
 
@@ -1149,8 +1187,8 @@ but we chose to only go up to m=4 because m=5 would need a different tetrahedron
 \begin_layout Enumerate
 
 \lang british
-we attempted to provide examples of known molecules with each possible point
- group and for each triatomic or tetra-atomic chemical formula (A
+we attempted to provide examples of known triatomic and tetra-atomic molecules
+ with each possible point group and for each type of chemical formula (A
 \begin_inset Formula $_{3}$
 \end_inset
 
@@ -1178,20 +1216,20 @@ B
 \begin_inset Formula $_{2}$
 \end_inset
 
-BC, and ABCD), and this led us to the discovery of shapes for which no molecule/
-complex has yet been 
+BC, and ABCD), and this led us to the discovery of shapes for which no molecule
+ has yet been 
 \lang american
 synthesized
 \lang british
- or found, despite the existence of such molecules/complexes being proven
- to be possible (for structures with more atoms it would not be a surprise
- if certain shapes of molecules have not yet been discovered, but we determined
- that the minimum number of atoms required for the point group 
+ or found, despite the existence of such molecules being proven to be possible
+ (for structures with more atoms it would not be a surprise if certain shapes
+ of molecules have not yet been discovered, but we determined that the minimum
+ number of atoms required for the point group 
 \begin_inset Formula $D_{2}$
 \end_inset
 
- is 4 and yet we could not find any example of a 4-atom molecule with the
- 
+ is four and yet we could not find any example of a 4-atom molecule with
+ the 
 \begin_inset Formula $D_{2}$
 \end_inset
 
@@ -1246,7 +1284,11 @@ groups
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
-, we will place a circumflex symbol on top of point group elements.
+, we will place a circumflex symbol, 
+\begin_inset Formula $^{\hat{}},$
+\end_inset
+
+ on top of point group elements.
  An axis associated with a point group element will be named after that
  point group element, for example the axis associated with a 
 \begin_inset Formula $\hat{C}_{2}$
@@ -1295,7 +1337,19 @@ literal "false"
 
 \end_inset
 
-.
+ and CPK
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+-like
+\end_layout
+
+\end_inset
+
+ coloring.
 \begin_inset Note Note
 status open
 
@@ -1349,7 +1403,8 @@ Our principal motivation
 \lang british
 Our need for answers to the question in the title of the present paper,
  arose during other work.
- GW100 is a dataset of 100 systems (95 molecules and 5 atoms)
+ GW100 is a dataset of 100 systems (95 of them are molecules, and 5 of them
+ are individual atoms)
 \begin_inset Note Note
 status open
 
@@ -1400,15 +1455,8 @@ CCSD(T)/def-TZVPP
 
 \end_inset
 
-most accurate calculations that had been done on the system until then 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "2015Krause"
-literal "false"
-
-\end_inset
-
-, and therefore to create one of the best known sets of benchmark data in
+most accurate benchmark calculations that have ever been done on the system,
+ and therefore to create one of the best known sets of benchmark data in
  existence for electronic structure calculations.
  
 \end_layout
@@ -1417,7 +1465,23 @@ literal "false"
 
 \lang british
 However, for many of the molecules in the GW100 dataset, the GW100 community
- has been doing calculations using geometries that were 
+ (including the authors of the 2021 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2021Bruneval"
+literal "false"
+
+\end_inset
+
+ and 2023 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "2023Monzel"
+literal "false"
+
+\end_inset
+
+ papers) has been doing calculations using geometries that were 
 \lang american
 optimized
 \lang british
@@ -1440,8 +1504,15 @@ literal "false"
 
 \end_inset
 
- and also in the original papers in which the geometric data in those compilatio
-ns were determined.
+ and also in the original papers in which the geometric data in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
+literal "false"
+
+\end_inset
+
+ were determined.
  
 \end_layout
 
