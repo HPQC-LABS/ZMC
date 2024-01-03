@@ -1580,7 +1580,7 @@ status open
 \begin_layout Plain Layout
 Pyramidal
 \lang british
-
+.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:H2Si2pyramidal"
@@ -1625,7 +1625,7 @@ status open
 
 \begin_layout Plain Layout
 Planar, with the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis not passing through any nuclei.
@@ -1687,7 +1687,7 @@ status open
 
 \begin_layout Plain Layout
 Planar, , with the 
-\begin_inset Formula $C_{2}$
+\begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis passing through two nuclei.
@@ -1874,8 +1874,8 @@ literal "false"
 
 , also provided no additional bond lengths or angles).
  But to do electronic structure calculations we need either the XYZ coordinates
- of all atoms, or a z-matrix for the entire system of atoms, and there is
- no software 
+ of all nuclear centers, or a z-matrix for the entire system, and there
+ is no software 
 \begin_inset Note Note
 status open
 
@@ -1889,9 +1889,9 @@ for obtaining either of these from just the limited information given (point
  group, 3D diagram, two bond lengths and a dihedral angle).
  A software for generating a z-matrix from this data would be significantly
  simpler to write than a software for generating XYZ coordinates of all
- atoms, but the z-matrix for this system would need at least one bond angle,
- and the reader might find it surprising that the simplest formula for the
- H-Si-H angle in H
+ nuclear centers, but the z-matrix for this system would need at least one
+ bond angle, and the reader might find it surprising that the simplest formula
+ for the H-Si-H angle in H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -2129,8 +2129,9 @@ highest
 \begin_inset Formula $D_{n}$
 \end_inset
 
- series, bonded atoms are always on the same plane as each other, and non-bonded
- atoms are always on different planes from each other.
+ series, bonded nuclear centers are always on the same plane as each other,
+ and non-bonded nuclear centers are always on different planes from each
+ other.
  In the 
 \begin_inset Formula $S_{2n}$
 \end_inset
@@ -2139,11 +2140,12 @@ highest
 \begin_inset Formula $C_{n}$
 \end_inset
 
- series, the red atoms form planes based on the plane of gray atoms to which
- the red atoms are bonded: if a group of red atoms are bonded to gray atoms
- that are on the same plane, then those red atoms will form a plane of their
- own, and will not include any atoms that are not bonded to gray atoms of
- the respective gray-atom plane
+ series, the red nuclear centers form planes based on the plane of gray
+ nuclear centers to which the red nuclear centers are bonded: if a group
+ of red nuclear centers are bonded to gray nuclear centers that are on the
+ same plane, then those red nuclear centers will form a plane of their own,
+ and will not include any nuclear centers that are not bonded to gray nuclear
+ centers of the respective gray-nucleus plane
 \begin_inset Note Note
 status open
 
@@ -2209,16 +2211,17 @@ status open
 \begin_inset space ~
 \end_inset
 
-The colors of the atoms are not intended to have any meaning apart from
- showing that the gray
+The colors of the nuclear centers are not intended to have any meaning apart
+ from showing that the gray
 \color red
  
 \color inherit
-atoms have to all be of the same periodic table element as each other, and
- the red atoms have to all be of the same periodic table element as each
- other (the red atoms in all of these diagrams can also be of the same periodic
- table element as the black atoms without affecting the point group, but
- it is not necessary for them to be the same).
+nuclear centers have to all be of the same periodic table element as each
+ other, and the red nuclear centers have to all be of the same periodic
+ table element as each other (the red nuclear centers in all of these diagrams
+ can also be of the same periodic table element as the black nuclear centers
+ without affecting the point group, but it is not necessary for them to
+ be the same).
  No structure is intended to depict a real molecule.
 \begin_inset VSpace defskip
 \end_inset
@@ -3618,7 +3621,7 @@ For
 \begin_inset Formula $n$
 \end_inset
 
- atoms, how many cases do we need to consider in order to cover each point
+ nuclei, how many cases do we need to consider in order to cover each point
  group at least once in the software?
 \series default
  That is the essence of the question in the title of the present paper,
@@ -3658,7 +3661,7 @@ D
 
  (e.g.
  for reasons that will be explained in this work, there is no arrangement
- of the atoms of C
+ of the nuclei of C
 \begin_inset Formula $_{3}$
 \end_inset
 
@@ -4156,12 +4159,12 @@ literal "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
-, in which the atoms in the first and third planes appear to be of one element
- of the periodic table (depicted in a beige 
+, in which the nuclei in the first and third planes appear to be of one
+ element of the periodic table (depicted in a beige 
 \lang american
 color
 \lang british
- in their diagram), and the atoms in the second and fourth planes are of
+ in their diagram), and the nuclei in the second and fourth planes are of
  another periodic table element (depicted in a purple or maroon 
 \lang american
 color
@@ -4212,8 +4215,8 @@ noprefix "false"
 
 \end_inset
 
-, it would be more correct to show the atoms in the first and fourth planes
- being of one periodic table element, and the atoms in the second and third
+, it would be more correct to show the nuclei in the first and fourth planes
+ being of one periodic table element, and the nuclei in the second and third
  planes being of one periodic table element (as depicted in our Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4241,7 +4244,7 @@ noprefix "false"
 \lang american
 colors
 \lang british
-, even though all atoms actually need to be the 
+, even though all nuclei actually need to be the 
 \emph on
 same 
 \emph default
@@ -4330,8 +4333,8 @@ literal "false"
  one additional atom each, while the triangles depict more than one additional
  atom each? In fact, both the straight lines and the small triangles probably
  represent just one additional atom in each case, but the triangles depict
- atoms that are outside of the plane of the shown polygon, and the straight
- lines depict atoms that are in the same plane as the shown polygon (but
+ nuclei that are outside of the plane of the shown polygon, and the straight
+ lines depict nuclei that are in the same plane as the shown polygon (but
  many readers, like us and other researchers that we asked, may at first
  think that the use of straight lines versus small triangles was just a
  
@@ -4377,12 +4380,12 @@ bonding
 \begin_inset Quotes erd
 \end_inset
 
- between the atoms, it is 
+ between the nuclei, it is 
 \emph on
 much
 \emph default
  easier for our readers to associate our diagrams with the shapes of actual
- molecules or systems of atoms with some bonds between them.
+ molecules or systems of atoms.
 \end_layout
 
 \begin_layout Standard
@@ -4448,7 +4451,7 @@ appendage
 \begin_inset Quotes erd
 \end_inset
 
- atoms are not in the 
+ nuclei are not in the 
 \lang american
 centers
 \lang british
@@ -4707,7 +4710,7 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-what is the minimum number of atoms required for the point group of a system
+what is the minimum number of nuclei required for the point group of a system
  to be 
 \begin_inset Formula $G$
 \end_inset
@@ -4728,7 +4731,7 @@ literal "false"
 
 \end_inset
 
- correctly depicts the minimum number of atoms required for all point groups
+ correctly depicts the minimum number of nuclei required for all point groups
  except for the 
 \begin_inset Formula $n=2$
 \end_inset
@@ -4788,7 +4791,7 @@ minimal
 i.e.
 
 \emph default
- structures that have the smallest possible number of atoms for a specific
+ structures that have the smallest possible number of nuclei for a specific
  point group) that we found for all 
 \begin_inset Formula $C_{n}$
 \end_inset
@@ -4803,7 +4806,7 @@ i.e.
 
  cases for all other point group series.
  It is important to note that for each point group, multiple structures
- can be valid, even when the number of atoms and the chemical formula are
+ can be valid, even when the number of nuclei and the chemical formula are
  the same (we already mentioned this in the previous section and illustrated
  it in Figure 
 \begin_inset CommandInset ref
@@ -4836,7 +4839,7 @@ literal "false"
  presented in their original table (when correct), are not the only correct
  examples that can be provided for each point group; but ours were at least
  chosen based on a non-arbitrary criterion, which was to only include for
- each point group, the structure that requires the minimum number of atoms
+ each point group, the structure that requires the minimum number of nuclei
  (except for the first 
 \begin_inset Formula $n=2$
 \end_inset
@@ -4855,7 +4858,7 @@ better word?
 
 \end_inset
 
- to show a structure requiring the minimum number of atoms when using a
+ to show a structure requiring the minimum number of nuclei when using a
  
 \begin_inset Quotes eld
 \end_inset
@@ -4961,7 +4964,7 @@ noprefix "false"
 \end_inset
 
  is the same as the order in which we present the arguments for the minimum
- numbers of atoms, all possible numbers of atoms, and the possible chemical
+ numbers of nuclei, all possible numbers of nuclei, and the possible chemical
  formulas for each point group in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4994,7 +4997,7 @@ Possible point groups for systems with
 \begin_inset Formula $m=8$
 \end_inset
 
- atoms.
+ nuclei.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossibleGroupsForNatoms"
@@ -8650,7 +8653,7 @@ General principles for possible molecules
 \begin_layout Standard
 In this section we will state some general principles that we will use in
  the following section when formulating our arguments for the required numbers
- of atoms and required chemical formulas for each point group.
+ of nuclei and required chemical formulas for each point group.
  Some of the statements made in this section may already be familiar or
  intuitive to the reader, but we have not seen most of them stated in textbooks
  about group theory for chemistry 
@@ -8847,11 +8850,11 @@ The existence of a
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis is only possible if all atoms are on the 
+ axis is only possible if all nuclei are on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- axis or if the system contains a subsystem of identical atoms that are
+ axis or if the system contains a subsystem of identical nuclei that are
  vertices of an 
 \begin_inset Formula $n$
 \end_inset
@@ -8874,12 +8877,12 @@ regular
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms somewhere in the molecule.
+ identical nuclei somewhere in the molecule.
  Therefore, a minimum of 
 \begin_inset Formula $n$
 \end_inset
 
- atoms is needed in order to have a 
+ nuclei is needed in order to have a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -8902,13 +8905,13 @@ center
 \begin_inset Formula $n=2$
 \end_inset
 
-, it would go through the centre of the line joining the two identical atoms),
+, it would go through the centre of the line joining the two identical nuclei),
  and since we can call this axis the 
 \begin_inset Formula $z$
 \end_inset
 
--axis, all atoms that form vertices of the polygon (or the two identical
- atoms in the case of 
+-axis, all nuclei that form vertices of the polygon (or the two identical
+ nuclei in the case of 
 \begin_inset Formula $n=2$
 \end_inset
 
@@ -9029,8 +9032,8 @@ A regular
 uniform vertices 
 \series default
 \emph default
-(in a molecule, this would mean the presence of identical atoms at the vertices)
- has a point group of 
+(in a molecule, this would mean the presence of identical nuclei at the
+ vertices) has a point group of 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -9654,7 +9657,7 @@ The
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation, cannot contain all atoms of the system, because then this plane
+ operation, cannot contain all nuclei of the system, because then this plane
  would not only be the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
@@ -9684,7 +9687,7 @@ The
 \begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
- operation does nothing to atoms that are on the 
+ operation does nothing to nuclei that are on the 
 \begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
@@ -9942,7 +9945,7 @@ name "sec:NumberOfAtomsForEachPointGroup"
 
 \end_inset
 
-Possible number of atoms and chemical formulas for each axial point group
+Possible number of nuclei and chemical formulas for each axial point group
 \end_layout
 
 \begin_layout Standard
@@ -10131,8 +10134,8 @@ non-concentric
 
 \end_inset
 
-atoms that are at different positions form a line, and if all atoms of a
- system are on the same line, then the point group will be either 
+nuclei that are at different positions form a line, and if all nuclei of
+ a system are on the same line, then the point group will be either 
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
@@ -10146,12 +10149,12 @@ atoms that are at different positions form a line, and if all atoms of a
 \end_inset
 
 , so it is not possible for the point group of a system with fewer than
- three atoms to be 
+ three nuclei to be 
 \begin_inset Formula $C_{s}$
 \end_inset
 
 .
- Three atoms is enough for the point group of a system to be 
+ Three nuclei is enough for the point group of a system to be 
 \begin_inset Formula $C_{s}$
 \end_inset
 
@@ -10184,7 +10187,7 @@ noprefix "false"
 \color blue
 three
 \emph default
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{s}$
 \end_inset
@@ -10208,14 +10211,14 @@ proof of why any formula is allowed?
 \begin_layout Standard
 
 \lang british
-We can add as many more atoms as we wish without changing the point group
+We can add as many more nuclei as we wish without changing the point group
  of the system from 
 \begin_inset Formula $C_{s}$
 \end_inset
 
 : for example, the point group will not change if all of these additional
- atoms remain on the same plane as the first three atoms and they are not
- of the same periodic table element (having atoms with different elements
+ nuclei remain on the same plane as the first three nuclei and they are
+ not of the same periodic table element (having atoms with different elements
  guarantees that no 
 \emph on
 new 
@@ -10241,7 +10244,7 @@ status open
 \end_inset
 
 , and if we run out of periodic table elements, we just need to ensure that
- additional atoms are not matched symmetrically with other atoms of the
+ additional nuclei are not matched symmetrically with other nuclei of the
  same element).
  The point group 
 \begin_inset Formula $C_{s}$
@@ -10267,11 +10270,11 @@ noprefix "false"
 \begin_inset Formula $C_{s}$
 \end_inset
 
- is possible for any number of atoms that is larger than or equal to three.
+ is possible for any number of nuclei that is larger than or equal to three.
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 three
 \emph default
@@ -10337,9 +10340,9 @@ ABCD
 \begin_layout Standard
 
 \lang british
-Any three atoms that are at different positions form a plane or a line,
- and if all atoms of a molecule are on the same plane, then that plane is
- a mirror plane
+Any three nuclei that are at different positions form a plane or a line,
+ and if all nuclei of a molecule are on the same plane, then that plane
+ is a mirror plane
 \begin_inset Note Note
 status open
 
@@ -10352,7 +10355,7 @@ status open
 \end_inset
 
 .
- Therefore if a molecule has three or fewer atoms, it will at least have
+ Therefore if a molecule has three or fewer nuclei, it will at least have
  one mirror plane, and would be promoted from 
 \begin_inset Formula $C_{1}$
 \end_inset
@@ -10362,7 +10365,7 @@ status open
 \end_inset
 
 .
- Four atoms is enough for the point group of a molecule to be 
+ Four nuclei is enough for the point group of a molecule to be 
 \begin_inset Formula $C_{1}$
 \end_inset
 
@@ -10387,7 +10390,7 @@ noprefix "false"
 \color blue
 four 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{1}$
 \end_inset
@@ -10412,13 +10415,13 @@ proof of why any formula is allowed?
 \begin_layout Standard
 
 \lang british
-We can add as many more atoms as we wish without changing the point group
+We can add as many more nuclei as we wish without changing the point group
  of the system from 
 \begin_inset Formula $C_{1}$
 \end_inset
 
 : for example, the point group will not change if all of these additional
- atoms are not of the same periodic table element (having atoms with different
+ nuclei are not of the same periodic table element (having atoms with different
  elements guarantees that no 
 \emph on
 new 
@@ -10444,7 +10447,7 @@ status open
 \end_inset
 
 , and if we run out of periodic table elements, we just need to ensure that
- additional atoms are not matched symmetrically with other atoms of the
+ additional nuclei are not matched symmetrically with other nuclei of the
  same element)
 \series bold
 \color blue
@@ -10469,7 +10472,7 @@ status open
  Therefore
 \series bold
 \color blue
- any number of atoms that is greater than or equal to 
+ any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -10579,8 +10582,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Possible number of atoms and possible chemical formulas for each point group
- or point group series.
+Possible number of nuclei and possible chemical formulas for each point
+ group or point group series.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossibleNumberOfAtomsForEachPointGroup"
@@ -10668,7 +10671,7 @@ Point groups
 \begin_inset Text
 
 \begin_layout Plain Layout
-Number of atoms
+Number of nuclei
 \end_layout
 
 \end_inset
@@ -11112,7 +11115,7 @@ Minimum
 \begin_inset Text
 
 \begin_layout Plain Layout
-Even # of atoms
+Even # of nuclei
 \end_layout
 
 \end_inset
@@ -11121,7 +11124,7 @@ Even # of atoms
 \begin_inset Text
 
 \begin_layout Plain Layout
-Odd # of atoms
+Odd # of nuclei
 \end_layout
 
 \end_inset
@@ -16085,14 +16088,14 @@ fewer
 
 \end_inset
 
- atoms, then they are confined to a plane (or line), and if all atoms are
- on the same plane, then that plane is a mirror plane, which is an element
+ nuclei, then they are confined to a plane (or line), and if all nuclei
+ are on the same plane, then that plane is a mirror plane, which is an element
  that the 
 \begin_inset Formula $C_{i}$
 \end_inset
 
  group does not contain.
- Therefore we need more than three atoms for the point group of the system
+ Therefore we need more than three nuclei for the point group of the system
  to be 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -16102,13 +16105,13 @@ fewer
 \end_layout
 
 \begin_layout Standard
-If we have four atoms, and 
+If we have four nuclei, and 
 \lang british
 we make the inversion 
 \lang american
 center
 \lang british
- the origin, the atoms must come in pairs according to the inversion operation
+ the origin, the nuclei must come in pairs according to the inversion operation
  
 \begin_inset Formula $\hat{i}$
 \end_inset
@@ -16129,11 +16132,11 @@ center
 \begin_inset Formula $-B=(-x_{2},-y_{2},-z_{2}).$
 \end_inset
 
- Assuming that no two atoms will have the same 
+ Assuming that no two nuclei will have the same 
 \begin_inset Formula $xyz$
 \end_inset
 
--coordinates, none of these four atoms can be on the origin.
+-coordinates, none of these four nuclei can be on the origin.
  
 \begin_inset Note Note
 status collapsed
@@ -16187,7 +16190,7 @@ Therefore the points
 
  form another line, and these two lines both intersect at the origin, but
  two lines that intersect are always co-planar, so the inversion center
- guarantees that our four atoms lie on a mirror plane, which is an element
+ guarantees that our four nuclei lie on a mirror plane, which is an element
  that the 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -16195,7 +16198,7 @@ Therefore the points
  group does not contain.
  
 \lang english
-Therefore we need more than four atoms for the point group of the system
+Therefore we need more than four nuclei for the point group of the system
  to be 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -16207,21 +16210,21 @@ Therefore we need more than four atoms for the point group of the system
 \begin_layout Standard
 
 \lang british
-If we have five atoms, the fifth one must be at the origin, because atoms
+If we have five nuclei, the fifth one must be at the origin, because nuclei
  need to either be paired or at the origin in order for the inversion operation
- to be valid on the system of atoms.
- However, the other four atoms in the five-atom system will form a plane
+ to be valid on the overall system.
+ However, the other four nuclei in the five-atom system will form a plane
  that contains the origin (because two lines that intersect at the origin
  form a plane that contains the origin).
  Therefore the fifth atom will also be on the same plane as the other four
- atoms, and again we will have a mirror plane that the 
+ nuclei, and again we will have a mirror plane that the 
 \begin_inset Formula $C_{i}$
 \end_inset
 
  group does not contain.
  
 \lang english
-Therefore we need more than five atoms for the point group of the system
+Therefore we need more than five nuclei for the point group of the system
  to be 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -16233,7 +16236,7 @@ Therefore we need more than five atoms for the point group of the system
 \begin_layout Standard
 
 \lang british
-Six atoms is enough for the point group of a system to be 
+Six nuclei is enough for the point group of a system to be 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -16260,13 +16263,13 @@ Cl
 \color blue
 six
 \emph default
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{i}$
 \end_inset
 
 , and the most general chemical formula allowed for a structure with the
- minimum number of atoms is A
+ minimum number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16293,7 +16296,7 @@ if desired, B and C can be chosen to be equal to A without changing the
 \begin_layout Standard
 
 \lang british
-Any even number of atoms can be added to the minimal 6-atom structure while
+Any even number of nuclei can be added to the minimal 6-atom structure while
  maintaining the point group 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -16311,7 +16314,7 @@ center
  Therefore
 \series bold
 \color blue
- any number of atoms that is greater than or equal to 
+ any number of nuclei that is greater than or equal to 
 \emph on
 six
 \emph default
@@ -16323,7 +16326,7 @@ six
 \begin_inset Formula $C_{i}$
 \end_inset
 
- structure with an even number of atoms is A
+ structure with an even number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16339,7 +16342,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of atoms the most general chemical formula is AB
+, and for an odd number of nuclei the most general chemical formula is AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16424,7 +16427,7 @@ check this term
 \end_layout
 
 \begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
+If we have any fewer than three nuclei, the point group of the system will
  be promoted to 
 \begin_inset Formula $K_{h},D_{\infty h}$
 \end_inset
@@ -16473,16 +16476,16 @@ If we have any fewer than three atoms, the point group of the system will
 \end_inset
 
  and the third atom would need to be at the origin.
- We therefore would have two identical atoms on a 
+ We therefore would have two identical nuclei on a 
 \emph on
 line
 \emph default
  going through the origin, and a third atom in the center of that line.
- We therefore would need a minimum of four atoms for the 
+ We therefore would need a minimum of four nuclei for the 
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- point group, and indeed four atoms is enough as in the case of Br
+ point group, and indeed four nuclei is enough as in the case of Br
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16512,7 +16515,7 @@ noprefix "false"
 \lang british
 four
 \emph default
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $D_{2h}$
 \end_inset
@@ -16521,7 +16524,7 @@ four
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16566,7 +16569,7 @@ symmetrically around the inversion center in order for the inversion operation
 \begin_inset Formula $\hat{i}$
 \end_inset
 
- to remain valid, and such pairs of atoms can be added to the primary 
+ to remain valid, and such pairs of nuclei can be added to the primary 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -16579,7 +16582,7 @@ symmetrically around the inversion center in order for the inversion operation
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -16591,7 +16594,7 @@ four
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- structure with an even number of atoms is A
+ structure with an even number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16607,7 +16610,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of atoms the most general chemical formula is AB
+, and for an odd number of nuclei the most general chemical formula is AB
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -16676,7 +16679,7 @@ Since a regular
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is a 
+-gon with identical nuclei at each vertex is a 
 \emph on
 necessary
 \emph default
@@ -16710,7 +16713,7 @@ noprefix "false"
 
 
 \color blue
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $D_{nh}$
 \end_inset
@@ -16720,7 +16723,7 @@ noprefix "false"
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -16733,7 +16736,7 @@ noprefix "false"
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclei can be added on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -16772,7 +16775,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \begin_inset Formula $n$
 \end_inset
 
@@ -16788,7 +16791,7 @@ any number of atoms that is greater than or equal to
 \begin_inset Formula $n$
 \end_inset
 
- atoms plus an even number of additional atoms is A
+ nuclei plus an even number of additional nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -16804,7 +16807,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is A
 \begin_inset Formula $_{n}$
 \end_inset
@@ -16928,13 +16931,14 @@ The
 \end_inset
 
  point group does not include any horizontal mirror planes, and since any
- three atoms can form a plane which can serve as a horizontal mirror plane,
- we need at least four atoms for the point group of the system to be 
+ three nuclear centres form a plane which can serve as a horizontal mirror
+ plane, we need at least four nuclei for the point group of the system to
+ be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
 .
- Four atoms is indeed enough for the point group of the system to be 
+ Four nuclei is indeed enough for the point group of the system to be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
@@ -16986,7 +16990,7 @@ perpendicular
 \color blue
 four 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $D_{2d}$
 \end_inset
@@ -16995,7 +16999,7 @@ is the minimum number of atoms required to form a structure whose point
 \begin_inset Formula $D_{2d}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -17010,13 +17014,13 @@ is the minimum number of atoms required to form a structure whose point
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclear centers can be added on the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that the corresponding nuclei are added in 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -17046,7 +17050,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -17058,7 +17062,8 @@ four
 \begin_inset Formula $D_{2d}$
 \end_inset
 
- structure with four atoms plus an even number of additional atoms is A
+ structure with four nuclei plus an even number of additional nuclei is
+ A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -17074,7 +17079,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{4}$
 \end_inset
@@ -17179,7 +17184,7 @@ noprefix "false"
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
- operation on its own, must at least have a subset of atoms that form the
+ operation on its own, must at least have a subset of nuclei that form the
  shape shown for the appropriate 
 \begin_inset Formula $n$
 \end_inset
@@ -17273,7 +17278,7 @@ minimal
 \begin_inset Formula $2n$
 \end_inset
 
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $D_{nd}$
 \end_inset
@@ -17283,7 +17288,7 @@ minimal
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -17294,7 +17299,7 @@ minimal
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the primary 
+An even number of additional nuclei can be added on the primary 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -17346,7 +17351,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to  
+any number of nuclei that is greater than or equal to  
 \begin_inset Formula $2n$
 \end_inset
 
@@ -17362,7 +17367,7 @@ any number of atoms that is greater than or equal to
 \begin_inset Formula $2n$
 \end_inset
 
- atoms plus an even number of additional atoms is A
+ nuclei plus an even number of additional nuclei is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -17378,7 +17383,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{2n}$
 \end_inset
@@ -17661,13 +17666,14 @@ The
 \end_inset
 
  point group does not contain any horizontal mirror planes, and since any
- three atoms can form a plane which can serve as a horizontal mirror plane,
- we need more than four atoms for the point group of the system to be 
+ three nuclear centers can form a plane which can serve as a horizontal
+ mirror plane, we need more than four nuclei for the point group of the
+ system to be 
 \begin_inset Formula $D_{2d}$
 \end_inset
 
 .
- Four atoms is indeed enough for the point group of the system to be 
+ Four nuclei is indeed enough for the point group of the system to be 
 \begin_inset Formula $D_{2}$
 \end_inset
 
@@ -17725,7 +17731,7 @@ perpendicular
 \lang british
 four 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $D_{2}$
 \end_inset
@@ -17734,7 +17740,7 @@ is the minimum number of atoms required to form a structure whose point
 \begin_inset Formula $D_{2}$
 \end_inset
 
- structure with the minium number of atoms is A
+ structure with the minium number of nuclei is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -17764,13 +17770,13 @@ But our example is
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added along a 
+An even number of additional nuclear centers can be added along a 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that the corresponding nuclei are added in 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -17824,7 +17830,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -17836,7 +17842,8 @@ four
 \begin_inset Formula $D_{2}$
 \end_inset
 
- structure with four atoms plus an even number of additional atoms is A
+ structure with four nuclei plus an even number of additional nuclei is
+ A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -17852,7 +17859,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{4}$
 \end_inset
@@ -18025,7 +18032,7 @@ noprefix "false"
 , and the 
 \series bold
 \color blue
-minimum number of atoms required for each 
+minimum number of nuclei required for each 
 \begin_inset Formula $D_{n}$
 \end_inset
 
@@ -18034,8 +18041,8 @@ minimum number of atoms required for each
 \end_inset
 
  point groups, as are the chemical formulas for structures with the minimum
- number of atoms.
- Likewise, the possible numbers of atoms for structures with 
+ number of nuclei.
+ Likewise, the possible numbers of nuclei for structures with 
 \begin_inset Formula $D_{n}$
 \end_inset
 
@@ -18878,13 +18885,13 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- transformations and to keep track of the atoms that are necessary to include
- in our system, until we do successfully replace the first atom.
+ transformations and to keep track of the number of nuclei that are necessary
+ to include in our system, until we do successfully replace the first atom.
  We show below that 
 \begin_inset Formula $m=4$
 \end_inset
 
- identical atoms are required in order for an 
+ identical nuclei are required in order for an 
 \begin_inset Formula $m$
 \end_inset
 
@@ -18986,7 +18993,7 @@ on the plane with the opposite
 
 .
  We can add at least one more atom (it does not necessarily need to be homo-nucl
-ear in comparison to the first set of four atoms) in order to break the
+ear in comparison to the first set of four nuclei) in order to break the
  
 \begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
@@ -18995,7 +19002,7 @@ ear in comparison to the first set of four atoms) in order to break the
 \begin_inset Formula $D_{2d}$
 \end_inset
 
-, but adding any number of atoms on the 
+, but adding any number of nuclei on the 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
@@ -19024,8 +19031,13 @@ ear in comparison to the first set of four atoms) in order to break the
 \begin_inset Formula $z$
 \end_inset
 
--axis, adding atoms on this axis would mean adding atoms with 
-\begin_inset Formula $(x,y)=(0,0)$
+-axis, adding nuclear centers on this axis would mean that their coordinates
+ would have the form 
+\begin_inset Formula $(x,y,z)=(0,0,z)$
+\end_inset
+
+ for any real-number value for 
+\begin_inset Formula $z$
 \end_inset
 
 .
@@ -19041,7 +19053,8 @@ ear in comparison to the first set of four atoms) in order to break the
 \begin_inset Formula $xy$
 \end_inset
 
--plane, adding atoms on this plane would mean adding atoms with 
+-plane, adding nuclear centers on this plane would mean that their coordinates
+ would have the form 
 \begin_inset Note Note
 status collapsed
 
@@ -19052,7 +19065,15 @@ the third coordinate being 0
 \end_inset
 
 
-\begin_inset Formula $z=0$
+\begin_inset Formula $(x,y,z)=(x,y,0)$
+\end_inset
+
+ for any real-number values for 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
 \end_inset
 
 .
@@ -19119,7 +19140,7 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- operations unless we have another three atoms that are identical
+ operations unless we have another three nuclei that are identical
 \begin_inset Note Note
 status open
 
@@ -19153,7 +19174,7 @@ noprefix "false"
 \end_inset
 
  is able to satisfy the relationships that were described in the previous
- paragraph, among the coordinates of the atoms.
+ paragraph, among the coordinates of the nuclear centers.
  Since the 
 \begin_inset Formula $S_{4}$
 \end_inset
@@ -19189,7 +19210,7 @@ is
 \emph on
  
 \emph default
-the minimum number of atoms required to form a structure whose point group
+the minimum number of nuclei required to form a structure whose point group
  is 
 \begin_inset Formula $S_{4}$
 \end_inset
@@ -19198,7 +19219,7 @@ the minimum number of atoms required to form a structure whose point group
 \begin_inset Formula $S_{4}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -19221,13 +19242,13 @@ if desired, B can be chosen to be equal to A without changing the point
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclear centers can be added on the 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that the corresponding nuclei are added in 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -19261,7 +19282,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 eight
 \emph default
@@ -19273,7 +19294,8 @@ eight
 \begin_inset Formula $S_{4}$
 \end_inset
 
- structure with eight atoms plus an even number of additional atoms is A
+ structure with eight nuclei plus an even number of additional nuclei is
+ A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -19289,7 +19311,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{4}$
 \end_inset
@@ -19358,7 +19380,7 @@ noprefix "false"
 
 \end_inset
 
- we described structures that have the minimum number of atoms required
+ we described structures that have the minimum number of nuclei required
  for an 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
@@ -19385,7 +19407,7 @@ noprefix "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- with as few atoms as possible, we can start with the 
+ with as few nuclei as possible, we can start with the 
 \begin_inset Formula $D_{nd}$
 \end_inset
 
@@ -19401,7 +19423,7 @@ noprefix "false"
 \begin_inset Formula $S_{2n}$
 \end_inset
 
- structure) and we can add atoms to break the extra symmetry elements that
+ structure) and we can add nuclei to break the extra symmetry elements that
  are present in 
 \begin_inset Formula $D_{nd}$
 \end_inset
@@ -19414,7 +19436,7 @@ noprefix "false"
 \begin_inset Formula $S_{2n}.$
 \end_inset
 
- If we add any number of atoms to the 
+ If we add any number of nuclei to the 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
@@ -19457,8 +19479,8 @@ is this true? I'm just guessing
 \end_inset
 
  plane associated with it.
- This atom does not need to be homo-nuclear with the existing atoms in the
- structure, but as we described in Section 
+ This atom does not need to be homo-nuclear with the existing nuclei in
+ the structure, but as we described in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:GeneralPrinciples"
@@ -19545,7 +19567,7 @@ need to verify this too...
 \begin_inset Formula $4n$
 \end_inset
 
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $S_{2n}$
 \end_inset
@@ -19555,7 +19577,7 @@ need to verify this too...
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -19582,17 +19604,17 @@ if desired, B can be chosen to be equal to A without changing the point
 
 \color black
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclear centers can be added on the 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that these additions are 
 \emph on
 homo-nuclear pairs
 \emph default
- symmetrically on each side of the 
+ that are added symmetrically on each side of the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -19614,7 +19636,7 @@ without introducing any new symmetry operations and without invalidating
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of that is greater than or equal to 
 \begin_inset Formula $4n$
 \end_inset
 
@@ -19630,7 +19652,7 @@ any number of atoms that is greater than or equal to
 \begin_inset Formula $4n$
 \end_inset
 
- atoms plus an even number of additional atoms is A
+ nuclei plus an even number of additional nuclei is A
 \begin_inset Formula $_{2n}$
 \end_inset
 
@@ -19646,7 +19668,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{2n}$
 \end_inset
@@ -19824,7 +19846,7 @@ will not satisfy the
 \end_layout
 
 \begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
+If we have any fewer than three nuclei, the point group of the system will
  be promoted to 
 \begin_inset Formula $K_{h},D_{\infty h}$
 \end_inset
@@ -19833,7 +19855,7 @@ If we have any fewer than three atoms, the point group of the system will
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
-, however three atoms is indeed enough for the point group of a molecule
+, however three nuclei is indeed enough for the point group of a molecule
  to be 
 \begin_inset Formula $C_{2v}$
 \end_inset
@@ -19850,7 +19872,7 @@ O (water).
 \lang british
 three 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{2v}$
 \end_inset
@@ -19859,7 +19881,7 @@ is the minimum number of atoms required to form a structure whose point
 \begin_inset Formula $C_{2v}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -19867,7 +19889,7 @@ B
 \series default
 \color inherit
 \lang english
-, since at least two atoms need to be the same in order for the 
+, since at least two nuclei need to be the same in order for the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -19877,7 +19899,7 @@ B
 \end_layout
 
 \begin_layout Standard
-Since extra atoms can be added on the 
+Since extra nuclear centers can be added on the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -19886,7 +19908,7 @@ Since extra atoms can be added on the
 \series bold
 \color blue
 \lang british
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 three
 \emph default
@@ -20003,8 +20025,8 @@ noprefix "false"
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is required in order to have the
- 
+-gon with identical nuclei centered at each vertex is required in order
+ to have the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -20137,7 +20159,7 @@ Therefore
 \begin_inset Formula $n+1$
 \end_inset
 
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  grouop is 
 \begin_inset Formula $C_{nv}$
 \end_inset
@@ -20147,7 +20169,7 @@ Therefore
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -20164,7 +20186,7 @@ if desired, B can be chosen to be equal to A without changing the point
 \end_layout
 
 \begin_layout Standard
-Since any number of additional atoms can be added on the 
+Since any number of additional nuclei can be added on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -20173,7 +20195,7 @@ Since any number of additional atoms can be added on the
 \series bold
 \color blue
 \lang british
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \begin_inset Formula $n+1$
 \end_inset
 
@@ -20250,7 +20272,7 @@ BCD
 \end_layout
 
 \begin_layout Standard
-We need a minimum of four atoms for the 
+We need a minimum of four nuclei for the 
 \begin_inset Formula $C_{2h}$
 \end_inset
 
@@ -20268,8 +20290,8 @@ We need a minimum of four atoms for the
 \end_inset
 
 , and we explained that this is not possible for non-linear molecules with
- fewer than four atoms).
- Indeed four atoms is enough for the point group of a molecule to be 
+ fewer than four nuclei).
+ Indeed four nuclei is enough for the point group of a molecule to be 
 \begin_inset Formula $C_{2h}$
 \end_inset
 
@@ -20299,7 +20321,7 @@ noprefix "false"
 \lang british
 four 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{2h}$
 \end_inset
@@ -20308,7 +20330,7 @@ is the minimum number of atoms required to form a structure whose point
 \begin_inset Formula $C_{2h}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -20331,13 +20353,14 @@ if desired, B can be chosen to be equal to A without changing the point
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclei can be added with their centers on the
+ 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided these nuclei are added in 
 \emph on
 homo-nuclear pairs 
 \emph default
@@ -20355,7 +20378,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -20367,7 +20390,8 @@ four
 \begin_inset Formula $C_{2h}$
 \end_inset
 
- structure with four atoms plus an even number of additional atoms is A
+ structure with four nuclei plus an even number of additional nuclei is
+ A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -20383,7 +20407,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{2}$
 \end_inset
@@ -20460,8 +20484,8 @@ noprefix "false"
 
 \end_inset
 
- we know that the system needs to contain a subset of atoms that form a
- regular 
+ we know that the system needs to contain a subset of nuclei whose centers
+ form a regular 
 \begin_inset Formula $n$
 \end_inset
 
@@ -20487,7 +20511,7 @@ noprefix "false"
 \end_inset
 
 .
- Adding any number of atoms to the 
+ Adding any number of nuclei centered on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -20507,12 +20531,12 @@ noprefix "false"
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms at its vertices, but these atoms do not need to be the
- same as the 
+ identical nuclei centered at its vertices, but these nuclei do not need
+ to be the same as the 
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms that comprised our first 
+ identical nuclei whose centers were at the vertices of our first 
 \begin_inset Formula $n$
 \end_inset
 
@@ -20623,7 +20647,7 @@ Therefore
 \begin_inset Formula $2n$
 \end_inset
 
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{nh}$
 \end_inset
@@ -20633,7 +20657,7 @@ Therefore
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -20656,13 +20680,14 @@ if desired, B can be chosen to be equal to A without changing the point
 \begin_layout Standard
 
 \lang british
-An even number of additional atoms can be added on the 
+An even number of additional nuclei can be added with their centers on the
+ 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that these nuclei are added in 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -20680,7 +20705,7 @@ center
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -20696,7 +20721,7 @@ any number of atoms that is greater than or equal to
 \begin_inset Formula $2n$
 \end_inset
 
- atoms plus an even number of additional atoms is A
+ nuclei plus an even number of additional nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -20712,7 +20737,7 @@ D
 \begin_inset Formula $_{2}\cdots$
 \end_inset
 
-, and for an odd number of additional atoms the most general chemical formula
+, and for an odd number of additional nuclei the most general chemical formula
  is AB
 \begin_inset Formula $_{n}$
 \end_inset
@@ -28339,7 +28364,7 @@ CHBrCl
 \end_layout
 
 \begin_layout Standard
-If we have any fewer than three atoms, the point group of the system will
+If we have any fewer than three nuclei, the point group of the system will
  be promoted to 
 \begin_inset Formula $K_{h},D_{\infty h}$
 \end_inset
@@ -28348,18 +28373,18 @@ If we have any fewer than three atoms, the point group of the system will
 \begin_inset Formula $C_{\infty v}$
 \end_inset
 
-; and if we have only three atoms, they form a plane which can act as a
- mirror plane, but the 
+; and if we have only three nuclei, their centers form a plane which can
+ act as a mirror plane, but the 
 \begin_inset Formula $C_{2}$
 \end_inset
 
- point group does not include any mirror planes, so three atoms would not
+ point group does not include any mirror planes, so three nuclei would not
  be enough for the point group of a system to be 
 \begin_inset Formula $C_{2}$
 \end_inset
 
 .
- Four atoms would be enough, as in the case of H
+ Four nuclei would be enough, as in the case of H
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -28384,7 +28409,7 @@ noprefix "false"
 status collapsed
 
 \begin_layout Plain Layout
-Any number of atoms can be added on the 
+Any number of nuclei can be added on the 
 \begin_inset Formula $C_{2}$
 \end_inset
 
@@ -28405,7 +28430,7 @@ Any number of atoms can be added on the
 \lang british
 four 
 \emph default
-is the minimum number of atoms required to form a structure whose point
+is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{2}$
 \end_inset
@@ -28415,7 +28440,7 @@ is the minimum number of atoms required to form a structure whose point
 \color inherit
  
 \series default
-In terms of the possible chemical formulas, if we have two atoms at positions
+In terms of the possible chemical formulas, if we have two nuclei at positions
  
 \begin_inset Formula $A$
 \end_inset
@@ -28456,7 +28481,7 @@ previous section
 
 \end_inset
 
-), these atoms will be at positions 
+), the centers of these nuclei will be at positions 
 \begin_inset Formula $A^{\prime}=(-x_{1}-y_{1},z_{1})$
 \end_inset
 
@@ -28492,7 +28517,8 @@ respectively, and for the
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
- operation to be valid, the atoms that were originally at positions 
+ operation to be valid, the nuclei that were originally centered at positions
+ 
 \begin_inset Formula $A$
 \end_inset
 
@@ -28500,8 +28526,8 @@ respectively, and for the
 \begin_inset Formula $A^{\prime}$
 \end_inset
 
- need to be identical, and likewise for the atoms that were originally at
- 
+ need to be identical, and likewise for the nuclei that were originally
+ centered at 
 \begin_inset Formula $B$
 \end_inset
 
@@ -28517,7 +28543,7 @@ the most general chemical formula for a
 \begin_inset Formula $C_{2}$
 \end_inset
 
- structure with the minimum number of atoms is A
+ structure with the minimum number of nuclei is A
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -28540,7 +28566,7 @@ if desired, B can be chosen to be equal to A without changing the point
 \begin_layout Standard
 
 \lang british
-Any number of additional atoms can be added on the 
+Any number of additional nuclei can be added with their centers on the 
 \begin_inset Formula $\hat{C}_{2}$
 \end_inset
 
@@ -28558,7 +28584,7 @@ Any number of additional atoms can be added on the
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \emph on
 four
 \emph default
@@ -28608,7 +28634,7 @@ CD
 \begin_inset Formula $\cdots$
 \end_inset
 
- since the extra atoms C,D,
+ since the extra nuclei C,D,
 \begin_inset Formula $\ldots$
 \end_inset
 
@@ -28653,8 +28679,8 @@ Since the point group of a regular
 \begin_inset Formula $n$
 \end_inset
 
--gon with identical atoms at each vertex is required in order to have a
- 
+-gon with identical nuclei centered at each vertex is required in order
+ to have a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -28686,8 +28712,8 @@ noprefix "false"
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- operation to remain valid, we can either add any number of atoms (including
- just one) on the 
+ operation to remain valid, we can either add any number (including just
+ one) of nuclei with their centers on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -28695,11 +28721,11 @@ noprefix "false"
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms (but not necessarily the same as the 
+ identical nuclei (but not necessarily the same as the 
 \begin_inset Formula $n$
 \end_inset
 
- identical atoms that formed the original 
+ identical nuclei that formed the original 
 \begin_inset Formula $n$
 \end_inset
 
@@ -28768,8 +28794,8 @@ noprefix "false"
 \end_inset
 
  groups have, and these symmetry elements can be removed (without introducing
- any new symmetry elements) simply by choosing the bonds between atoms as
- we have done in the 
+ any new symmetry elements) simply by choosing the bonds between nuclei
+ as we have done in the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -28792,7 +28818,7 @@ noprefix "false"
 \begin_inset Formula $2n$
 \end_inset
 
- is the minimum number of atoms required to form a structure whose point
+ is the minimum number of nuclei required to form a structure whose point
  group is 
 \begin_inset Formula $C_{n}$
 \end_inset
@@ -28802,7 +28828,7 @@ noprefix "false"
 \end_inset
 
 , and the most general chemical formula for such a structure with the minimum
- number of atoms is A
+ number of nuclei is A
 \begin_inset Formula $_{n}$
 \end_inset
 
@@ -28821,7 +28847,7 @@ B
 \begin_layout Standard
 
 \lang british
-Any number of additional atoms can be added on the 
+Any number of additional nuclei can be added with their centers on the 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -28830,7 +28856,7 @@ Any number of additional atoms can be added on the
  Therefore 
 \series bold
 \color blue
-any number of atoms that is greater than or equal to 
+any number of nuclei that is greater than or equal to 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -28871,7 +28897,7 @@ B, C, and/or D can be chosen to be equal to A without changing the point
 status open
 
 \begin_layout Plain Layout
-However, adding any number of atoms to the 
+However, adding any number of nuclei to the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -28879,7 +28905,7 @@ However, adding any number of atoms to the
 \begin_inset Formula $\sigma_{v}$
 \end_inset
 
- planes, so by adding one or more atoms to the 
+ planes, so by adding one or more nuclei to the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -28891,7 +28917,7 @@ However, adding any number of atoms to the
 \begin_inset Formula $C_{nv}$
 \end_inset
 
- point group, so instead of adding any number of atoms to the 
+ point group, so instead of adding any number of nuclei to the 
 \begin_inset Formula $C_{n}$
 \end_inset
 
@@ -28899,7 +28925,7 @@ However, adding any number of atoms to the
 \begin_inset Formula $n$
 \end_inset
 
- more atoms forming a regular 
+ more nuclei forming a regular 
 \begin_inset Formula $n$
 \end_inset
 
@@ -28952,7 +28978,7 @@ noprefix "false"
 \series bold
 \color blue
 \lang british
-The minimum number of atoms required is 
+The minimum number of nuclei required is 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -28976,7 +29002,7 @@ B
 \begin_inset Formula $_{n}$
 \end_inset
 
- structure, extra atoms C,D,
+ structure, extra nuclei C,D,
 \begin_inset Formula $\ldots$
 \end_inset
 
@@ -29020,7 +29046,7 @@ point group
 \begin_inset Formula $C_{n}$
 \end_inset
 
- and with the minimum number of atoms, 
+ and with the minimum number of nuclei, 
 \begin_inset Formula $2n$
 \end_inset
 
@@ -29169,7 +29195,7 @@ Pyramid formed from regular n-gon is
 \begin_inset Formula $Cn$
 \end_inset
 
- axis we need to either add any number of atoms on the 
+ axis we need to either add any number of nuclei on the 
 \begin_inset Formula $Cn$
 \end_inset
 
@@ -29177,7 +29203,7 @@ Pyramid formed from regular n-gon is
 \begin_inset Formula $n$
 \end_inset
 
- atoms that are not on the 
+ nuclei that are not on the 
 \begin_inset Formula $Cn$
 \end_inset
 
@@ -29190,8 +29216,8 @@ Pyramid formed from regular n-gon is
 \end_inset
 
  axis in the center of it).
- However, adding any atoms on the axis will not break the vertical mirror
- planes, so we must add at least n more atoms and form a second concentric
+ However, adding any nuclei on the axis will not break the vertical mirror
+ planes, so we must add at least n more nuclei and form a second concentric
  regular n-gon around the 
 \begin_inset Formula $Cn$
 \end_inset
@@ -29289,9 +29315,9 @@ noprefix "false"
 
 \end_inset
 
- only shows the possible point groups for systems with up to 8 atoms because
+ only shows the possible point groups for systems with up to 8 nuclei because
  a smaller font or a change in other aspects of the formatting would be
- needed to extend the table to include systems with 9 atoms, and such an
+ needed to extend the table to include systems with 9 nuclei, and such an
  extension would not be particularly enriching, especially since the general
  chemical formulas presented in Section 
 \begin_inset CommandInset ref
@@ -29321,7 +29347,7 @@ noprefix "false"
 \emph on
 arbitrary
 \emph default
- number of atoms
+ number of nuclei
 \begin_inset Note Note
 status collapsed
 
@@ -29344,8 +29370,8 @@ noprefix "false"
 
 \end_inset
 
- having columns up to 16 atoms is similar, but such a table can be constructed
- to include an arbitrary number of atoms, with each column after 16 atoms
+ having columns up to 16 nuclei is similar, but such a table can be constructed
+ to include an arbitrary number of nuclei, with each column after 16 nuclei
  indicating that the point group of such a system cannot be 
 \begin_inset Formula $K_{h}$
 \end_inset
