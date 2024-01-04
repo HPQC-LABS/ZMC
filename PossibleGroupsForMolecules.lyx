@@ -322,14 +322,14 @@ status collapsed
 \end_layout
 
 \begin_layout Abstract
-For each axial point group, we determine all possible numbers of atoms and
- chemical formulas.
+For each axial point group, we determine the number of nuclei allowed, and
+ all possible chemical formulas.
  We also present a set of principles that can be used for proofs about the
  possibility or impossibility for a certain point group to apply to a molecule
  of a certain size and/or chemical formula.
- For triatomic and tetra-atomic molecules, we provide examples of molecules
+ For tri-nuclear and tetra-nuclear molecules, we provide examples of molecules
  with each possible chemical formula if such molecules are known, and hence
- we determine the types of molecules with under five atoms that are still
+ we determine the types of molecules with under five nuclei that are still
  yet-to-be discovered (in terms of point groups).
  We also resolve some inconsistencies in a table by P.
  Atkins, M.
@@ -403,14 +403,15 @@ literal "false"
 \end_inset
 
  if they have ever come across a list of all possible point groups for a
- 4-atom (tetra-atomic) system, and in all cases we were explicitly told
- that they were unaware of such a list, or we received no response at all.
+ 4-nucleus (tetra-nuclear or tetra-atomic) system, and in all cases we were
+ explicitly told that they were unaware of such a list, or we received no
+ response at all.
  We have now determined all possible point groups for systems with four
- atoms and also for systems with 
+ nuclei and also for systems with 
 \emph on
 any
 \emph default
- number of atoms, and we have gone a step even further by determining all
+ number of nuclei, and we have gone a step even further by determining all
  possible point groups for structures with a given chemical formula.
 \end_layout
 
@@ -645,13 +646,13 @@ literal "false"
 \end_inset
 
 ), the shape with the smallest number of vertices (or the system containing
- the smallest number of atoms) for which the point group is 
+ the smallest number of nuclei) for which the point group is 
 \begin_inset Formula $O$
 \end_inset
 
-, is the snub cube which has 24 vertices (or atoms), but within the last
+, is the snub cube which has 24 vertices (or nuclei), but within the last
  month we have discovered that it is possible to construct an object with
- only 20 vertices (or for the atoms in a 20-atom system to be arranged)
+ only 20 vertices (or for the nuclei in a 20-nucleus system to be arranged)
  such that the point group is 
 \begin_inset Formula $O$
 \end_inset
@@ -904,7 +905,7 @@ literal "false"
 \begin_layout Enumerate
 
 \lang british
-with structures requiring fewer atoms than in 
+with structures requiring fewer nuclei than in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "1970Atkins"
@@ -1000,11 +1001,11 @@ leftmargin=0.6cm
 
 \end_inset
 
-the minimum atom cardinality required (we will use the term 
+the minimum nucleus cardinality required (we will use the term 
 \begin_inset Quotes eld
 \end_inset
 
-atom cardinality
+nucleus cardinality
 \begin_inset Quotes erd
 \end_inset
 
@@ -1012,25 +1013,25 @@ atom cardinality
 \begin_inset Quotes eld
 \end_inset
 
-number of atoms
+number of nuclei
 \begin_inset Quotes erd
 \end_inset
 
- in a molecule or any other system of atoms); 
+ in a molecule or any other system that contains nuclei); 
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-all possible atom cardinalities allowed (the minimum atom cardinality results
- are a special case of this); and 
+all possible nucleus cardinalities allowed (the minimum nucleus cardinality
+ results are a special case of this); and 
 \end_layout
 
 \begin_layout Enumerate
 
 \lang british
-all possible chemical formulas allowed (the list of all possible atom cardinalit
-ies is a special case of this).
+all possible chemical formulas allowed (the list of all possible nucleus
+ cardinalities is a special case of this).
  
 \end_layout
 
@@ -1090,7 +1091,7 @@ noprefix "false"
 \begin_inset Formula $m$
 \end_inset
 
- atoms for 
+ nuclei for 
 \begin_inset Formula $m=1-8$
 \end_inset
 
@@ -1116,7 +1117,7 @@ noprefix "false"
 \begin_inset Formula $m=8$
 \end_inset
 
- was the largest number of atoms that we could include while keeping the
+ was the largest number of nuclei that we could include while keeping the
  table within the paper margins without making significant changes to the
  font, column spacing, or orientation of the table); 
 \end_layout
@@ -1134,7 +1135,7 @@ we also explicitly listed the specific point groups (and diagrams of example
 \begin_inset Formula $_{2}$
 \end_inset
 
-B, and ABC for triatomic systems and A
+B, and ABC for tri-nuclear systems and A
 \begin_inset Formula $_{4}$
 \end_inset
 
@@ -1154,7 +1155,7 @@ B
 \begin_inset Formula $_{2}$
 \end_inset
 
-BC, and ABCD for tetra-atomic systems (analogous lists for 
+BC, and ABCD for tetra-nuclear systems (analogous lists for 
 \emph on
 arbitrary
 \emph default
@@ -1187,8 +1188,9 @@ but we chose to only go up to m=4 because m=5 would need a different tetrahedron
 \begin_layout Enumerate
 
 \lang british
-we attempted to provide examples of known triatomic and tetra-atomic molecules
- with each possible point group and for each type of chemical formula (A
+we attempted to provide examples of known tri-nuclear and tetra-nuclear
+ molecules with each possible point group and for each type of chemical
+ formula (A
 \begin_inset Formula $_{3}$
 \end_inset
 
@@ -1222,13 +1224,13 @@ BC, and ABCD), and this led us to the discovery of shapes for which no molecule
 synthesized
 \lang british
  or found, despite the existence of such molecules being proven to be possible
- (for structures with more atoms it would not be a surprise if certain shapes
- of molecules have not yet been discovered, but we determined that the minimum
- number of atoms required for the point group 
+ (for structures with more nuclei it would not be a surprise if certain
+ shapes of molecules have not yet been discovered, but we determined that
+ the minimum number of nuclei required for the point group 
 \begin_inset Formula $D_{2}$
 \end_inset
 
- is four and yet we could not find any example of a 4-atom molecule with
+ is four and yet we could not find any example of a 4-nucleus molecule with
  the 
 \begin_inset Formula $D_{2}$
 \end_inset
@@ -1328,8 +1330,9 @@ center
 
 \end_inset
 
- Also, all of the diagrams that we present for systems of atoms, were made
- with the most recent version of Avogadro 2 
+ Also, all of the diagrams that we present for molecules or other systems
+ of containing nuclei, were made with the most recent version of Avogadro
+ 2 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hanwell2012"
@@ -2061,7 +2064,7 @@ base
 \begin_inset Quotes erd
 \end_inset
 
- and one with a diatomic 
+ and one with a di-nuclear 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3566,8 +3569,8 @@ categorize
 \begin_inset Formula $n$
 \end_inset
 
--atom molecules based on their chemical formulas and point groups (the Landolt–B
-örnstein volumes and related books 
+-nucleus molecules based on their chemical formulas and point groups (the
+ Landolt–Börnstein volumes and related books 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutton1958,Sutton1965,Landolt-Bornstein25A,Landolt-Bornstein25B,Landolt-Bornstein25C,Landolt-Bornstein25D,Landolt-Bornstein28A,Landolt-Bornstein28B,Landolt-Bornstein28C,Landolt-Bornstein28D,Landolt-Bornstein30A,Landolt-Bornstein30B,2019Vogt"
@@ -3636,8 +3639,9 @@ chemical formulas
 \begin_inset Formula $n$
 \end_inset
 
--atom system.
- For example, in order for a 7-atom molecule to have the point group 
+-nucleus system.
+ For example, in order for a 7-nucleus molecule to have the point group
+ 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -3654,7 +3658,7 @@ D
 \end_inset
 
  (with any of the variables B, C, or D being allowed to be a duplicate of
- one of the previous letters) but a 7-atom molecule whose chemical formula
+ one of the previous letters) but a 7-nucleus molecule whose chemical formula
  does not have that structure cannot have the point group 
 \begin_inset Formula $C_{i}$
 \end_inset
@@ -4327,17 +4331,17 @@ literal "false"
 \end_inset
 
  does not make it clear what precisely is being shown: most readers will
- likely assume that each polygon vertex represents an atom (although this
+ likely assume that each polygon vertex represents a nucleus (although this
  is not made obvious, nor explained anywhere), but what about the thin lines
  and small triangles that appear at some vertices? Do the thin lines represent
- one additional atom each, while the triangles depict more than one additional
- atom each? In fact, both the straight lines and the small triangles probably
- represent just one additional atom in each case, but the triangles depict
- nuclei that are outside of the plane of the shown polygon, and the straight
- lines depict nuclei that are in the same plane as the shown polygon (but
- many readers, like us and other researchers that we asked, may at first
- think that the use of straight lines versus small triangles was just a
- 
+ one additional nucleus each, while the triangles depict more than one additiona
+l nucleus each? In fact, both the straight lines and the small triangles
+ probably represent just one additional nucleus in each case, but the triangles
+ depict nuclei that are outside of the plane of the shown polygon, and the
+ straight lines depict nuclei that are in the same plane as the shown polygon
+ (but many readers, like us and other researchers that we asked, may at
+ first think that the use of straight lines versus small triangles was just
+ a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4372,7 +4376,7 @@ noprefix "false"
 
 \end_inset
 
- included spheres to depict each atom, and thick lines to depict 
+ included spheres to depict each nucleus, and thick lines to depict 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4385,7 +4389,7 @@ bonding
 much
 \emph default
  easier for our readers to associate our diagrams with the shapes of actual
- molecules or systems of atoms.
+ molecules or actual systems containing nuclei.
 \end_layout
 
 \begin_layout Standard
@@ -4623,7 +4627,7 @@ noprefix "false"
 
 \end_inset
 
-: one with a diatomic 
+: one with a di-nuclear 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8932,7 +8936,7 @@ center
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
- rotation, an atom that originally had coordinates 
+ rotation, a nucleus that originally had coordinates 
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
@@ -8968,7 +8972,7 @@ can be or must be?
 \begin_inset Formula $(x,y)$
 \end_inset
 
- coordinates of another identical atom in the system
+ coordinates of another identical nucleus in the system
 \begin_inset Note Note
 status open
 
@@ -9671,7 +9675,7 @@ The
 \end_inset
 
  operation for the entire system.
- At least one atom needs to not be on the 
+ At least one nucleus needs to not be centered on the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -9679,7 +9683,7 @@ The
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation, and if it is on the 
+ operation, and if that nucleus is on the 
 \begin_inset Formula $\hat{C}_{2n}$
 \end_inset
 
@@ -9695,7 +9699,7 @@ The
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation would require the 
+ operation for a specific nucleus would require the 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
@@ -9703,12 +9707,12 @@ The
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation to be a valid 
+ operation to also be a valid 
 \begin_inset Formula $\hat{\sigma}_{h}$
 \end_inset
 
- plane for the atom too; so at least one atom needs to be neither on the
- 
+ plane for that specific nucleus; so at least one nuclear center needs to
+ be neither on the 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
@@ -9778,7 +9782,7 @@ The
 \begin_inset Formula $-z_{1}$
 \end_inset
 
-, and an identical atom needs to be at this new point: 
+, and an identical nucleus needs to be centered at this new point: 
 \begin_inset Formula $(x_{2},y_{2},-z_{1})$
 \end_inset
 
@@ -9787,7 +9791,7 @@ The
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
- operation on the atom at 
+ operation on the nucleus centered at 
 \begin_inset Formula $(x_{2},y_{2},-z_{1})$
 \end_inset
 
@@ -9807,7 +9811,7 @@ The
 \begin_inset Formula $+z_{1}$
 \end_inset
 
-, and an identical atom needs to be at this new point.
+, and an identical nucleus needs to be centered at this new point.
  By repeating this procedure, we will be forced to have a regular 
 \begin_inset Formula $n$
 \end_inset
@@ -9925,7 +9929,7 @@ If there is a center of inversion, we can choose for it to be at the origin
 \begin_inset Formula $(0,0,0),$
 \end_inset
 
- so if an atom is located at 
+ so if an nucleus is centered at 
 \begin_inset Formula $(x,y,z)$
 \end_inset
 
@@ -9984,7 +9988,7 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 \begin_inset Formula $D_{2h}$
 \end_inset
 
- transform a homo-nuclear diatomic molecule into an identical molecule,
+ transform a homo-nuclear di-nuclear molecule into an identical molecule,
  the point group is considered to be 
 \begin_inset Formula $D_{\infty h}$
 \end_inset
@@ -9999,7 +10003,7 @@ well not identical because H_1 is now H_2, etc., but what's the word for
 all 
 \series default
 \emph default
-of the elements that transform a homo-nuclear diatomic molecule into an
+of the elements that transform a homo-nuclear di-nuclear molecule into an
  identical molecule
 \begin_inset Note Note
 status open
@@ -10192,7 +10196,7 @@ three
 \begin_inset Formula $C_{s}$
 \end_inset
 
-, and such a structure can be formed with any triatomic chemical formula
+, and such a structure can be formed with any tri-nuclear chemical formula
 \begin_inset Note Note
 status open
 
@@ -10218,8 +10222,8 @@ We can add as many more nuclei as we wish without changing the point group
 
 : for example, the point group will not change if all of these additional
  nuclei remain on the same plane as the first three nuclei and they are
- not of the same periodic table element (having atoms with different elements
- guarantees that no 
+ not of the same periodic table element (having nuclei associated with different
+ periodic table elements guarantees that no 
 \emph on
 new 
 \emph default
@@ -10395,7 +10399,7 @@ is the minimum number of nuclei required to form a structure whose point
 \begin_inset Formula $C_{1}$
 \end_inset
 
-, and such a structure can be formed with any tetra-atomic chemical formula
+, and such a structure can be formed with any tetra-nuclear chemical formula
 \begin_inset Note Note
 status open
 
@@ -10421,8 +10425,8 @@ We can add as many more nuclei as we wish without changing the point group
 \end_inset
 
 : for example, the point group will not change if all of these additional
- nuclei are not of the same periodic table element (having atoms with different
- elements guarantees that no 
+ nuclei are not of the same periodic table element (having nuclei associated
+ with different periodic table elements guarantees that no 
 \emph on
 new 
 \emph default
@@ -16116,19 +16120,19 @@ center
 \begin_inset Formula $\hat{i}$
 \end_inset
 
-: an atom at the point 
+: a nucleus centered at the point 
 \begin_inset Formula $A=(x_{1},y_{1},z_{1})$
 \end_inset
 
- will be paired with an atom at the point 
+ will be paired with an identical nucleus centered at the point 
 \begin_inset Formula $-A=(-x_{1},-y_{1},-z_{1})$
 \end_inset
 
- and an atom at the point 
+ and a nucleus entered at the point 
 \begin_inset Formula $B=(x_{2},y_{2},z_{2})$
 \end_inset
 
- will be paired with an atom at the point 
+ will be paired with an identical nucleus centered at the point 
 \begin_inset Formula $-B=(-x_{2},-y_{2},-z_{2}).$
 \end_inset
 
@@ -16213,11 +16217,11 @@ Therefore we need more than four nuclei for the point group of the system
 If we have five nuclei, the fifth one must be at the origin, because nuclei
  need to either be paired or at the origin in order for the inversion operation
  to be valid on the overall system.
- However, the other four nuclei in the five-atom system will form a plane
+ However, the other four nuclei in the five-nucleus system will form a plane
  that contains the origin (because two lines that intersect at the origin
  form a plane that contains the origin).
- Therefore the fifth atom will also be on the same plane as the other four
- nuclei, and again we will have a mirror plane that the 
+ Therefore the fifth nucleus will also be centered on the same plane as
+ the other four nuclei, and again we will have a mirror plane that the 
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -16296,15 +16300,15 @@ if desired, B and C can be chosen to be equal to A without changing the
 \begin_layout Standard
 
 \lang british
-Any even number of nuclei can be added to the minimal 6-atom structure while
- maintaining the point group 
+Any even number of nuclei can be added to the minimal 6-nucleus structure
+ while maintaining the point group 
 \begin_inset Formula $C_{i}$
 \end_inset
 
 , as long as they are added in pairs of identical periodic table elements
  symmetrically around the inversion center.
- One additional atom of any periodic table element can be added to the inversion
- 
+ One additional nucleus associated with any periodic table element can be
+ added to the inversion 
 \lang american
 center
 \lang british
@@ -16453,8 +16457,8 @@ If we have any fewer than three nuclei, the point group of the system will
 \end_inset
 
 , and for a reason that is explained in the next sentence, the only way
- for a three atom system to have an inversion element is for it to be linear,
- which would promote it either to 
+ for a system wtih three nuclei to have an inversion element is for it to
+ be linear, which would promote it either to 
 \begin_inset Formula $D_{\infty h}$
 \end_inset
 
@@ -16467,20 +16471,22 @@ If we have any fewer than three nuclei, the point group of the system will
 \begin_inset Formula $(0,0,0)$
 \end_inset
 
- to be the center of inversion, and one atom is at the position 
+ to be the center of inversion, and one nucleus is centered at the position
+ 
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
-, then an identical atom would need to be at the position 
+, then an identical nucleus would need to be centered at the position 
 \begin_inset Formula $(-x_{1},-y_{1},-z_{1})$
 \end_inset
 
- and the third atom would need to be at the origin.
- We therefore would have two identical nuclei on a 
+ and the third nucleus would need to be centered at the origin.
+ We therefore would have two identical nuclei forming a 
 \emph on
-line
+line segment
 \emph default
- going through the origin, and a third atom in the center of that line.
+ going through the origin, and a third nucleus centered in the center of
+ that line segment.
  We therefore would need a minimum of four nuclei for the 
 \begin_inset Formula $D_{2h}$
 \end_inset
@@ -16547,7 +16553,7 @@ if desired, B can be chosen to be equal to A without changing the point
 \begin_layout Standard
 
 \lang british
-Any atom can be added to the inversion 
+Any nucleus can be added to the inversion 
 \lang american
 center
 \lang british
@@ -16556,16 +16562,16 @@ center
 \end_inset
 
  symmetry elements.
- If an atom is to be added anywhere else, it needs to be 
+ If a nucleus is to be added anywhere else, it needs to be 
 \emph on
 paired 
 \emph default
-with an atom of the 
+with an 
 \emph on
-same element 
+identical 
 \emph default
-symmetrically around the inversion center in order for the inversion operation
- 
+nucleus such that both nuclei that form the pair are added symmetrically
+ around the inversion center in order for the inversion operation 
 \begin_inset Formula $\hat{i}$
 \end_inset
 
@@ -16742,7 +16748,7 @@ An even number of additional nuclei can be added on the
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that these additions are added in 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -16763,7 +16769,7 @@ on each side of the plane formed by the
 \end_inset
 
 -gon.
- One additional atom can also be added at the 
+ One additional nucleus can also be added at the 
 \lang american
 center
 \lang british
@@ -17041,7 +17047,8 @@ homo-nuclear pairs
 \end_inset
 
 -plane).
- One additional atom can also be added at the 
+ One additional nucleus of any type can also be added such that it is centered
+ at the 
 \lang american
 center
 \lang british
@@ -17305,7 +17312,7 @@ An even number of additional nuclei can be added on the primary
 
  axis in such a way that no new valid symmetry operations are made possible,
  and such that none of the existing valid symmetry operations are invalidated,
- provided that these atoms are added in 
+ provided that these additions are 
 \emph on
 homo-nuclear pairs
 \emph default
@@ -17342,7 +17349,8 @@ around the plane that contains all
 \end_inset
 
 -plane).
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
@@ -17821,7 +17829,8 @@ around the plane containing the two other
 \end_inset
 
 -plane).
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
@@ -18077,7 +18086,7 @@ status open
 
 \begin_layout Plain Layout
 Possible point groups and example systems for all possible chemical formula
- types for triatomic systems.
+ types for tri-nuclear systems.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossiblePointGroupsForTriatomics"
@@ -18846,7 +18855,7 @@ noprefix "false"
 \end_inset
 
 .
- If our first atom is at the position 
+ If our first nucleus is centered at the position 
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
 
@@ -18858,7 +18867,7 @@ noprefix "false"
 \begin_inset Formula $(-y_{1},x_{1},-z_{1})$
 \end_inset
 
-, and an identical atom must be there for the 
+, and an identical nucleus must be centered there for the 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
@@ -18867,7 +18876,7 @@ noprefix "false"
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- transformation, the atom at the position 
+ transformation, the nucleus that was centered at the position 
 \begin_inset Formula $(-y_{1},x_{1},-z_{1})$
 \end_inset
 
@@ -18875,8 +18884,8 @@ noprefix "false"
 \begin_inset Formula $(-x_{1},-y_{1},z_{1})$
 \end_inset
 
- and an identical atom must be there too.
- Since no atom has yet replaced our first atom which was at the position
+ and an identical nucleus must be centered there too.
+ Since no nucleus has yet replaced our first nucleus which was at the position
  
 \begin_inset Formula $(x_{1},y_{1},z_{1})$
 \end_inset
@@ -18886,7 +18895,7 @@ noprefix "false"
 \end_inset
 
  transformations and to keep track of the number of nuclei that are necessary
- to include in our system, until we do successfully replace the first atom.
+ to include in our system, until we do successfully replace the first nucleus.
  We show below that 
 \begin_inset Formula $m=4$
 \end_inset
@@ -18895,11 +18904,11 @@ noprefix "false"
 \begin_inset Formula $m$
 \end_inset
 
--atom system to undergo an 
+-nucleus structure to undergo an 
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
 
- transformation and recover the same system:
+ transformation and recover the same structure:
 \end_layout
 
 \begin_layout Standard
@@ -18992,9 +19001,9 @@ on the plane with the opposite
 \end_inset
 
 .
- We can add at least one more atom (it does not necessarily need to be homo-nucl
-ear in comparison to the first set of four nuclei) in order to break the
- 
+ We can add at least one more nucleus (it does not necessarily need to be
+ homo-nuclear in comparison to the first set of four nuclei) in order to
+ break the 
 \begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
@@ -19078,7 +19087,7 @@ the third coordinate being 0
 
 .
  Furthermore, regardless of the conventions that were mentioned in the previous
- two sentences, any atom on one of the 
+ two sentences, any nucleus whose center is on one of the 
 \begin_inset Formula $\pm z$
 \end_inset
 
@@ -19099,7 +19108,7 @@ the third coordinate being 0
 \begin_inset Formula $\hat{\sigma}_{d}$
 \end_inset
 
- planes, we therefore need an atom at a different 
+ planes, we therefore need a nucleus that is centered at a different 
 \begin_inset Formula $z$
 \end_inset
 
@@ -19124,8 +19133,8 @@ the third coordinate being 0
 \begin_inset Formula $y$
 \end_inset
 
--values of this new atom (which would be the fifth atom), the pattern in
- (
+-values of this new nucleus (which would be the fifth nucleus), the pattern
+ in (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:S4coordinates"
@@ -19135,7 +19144,7 @@ noprefix "false"
 
 \end_inset
 
-) shows that we will not recover the position of the new atom by applying
+) shows that we will not recover the position of the new nucleus by applying
  
 \begin_inset Formula $\hat{S}_{4}$
 \end_inset
@@ -19150,7 +19159,7 @@ better word than identical?
 
 \end_inset
 
- to the fifth atom.
+ to the fifth nucleus.
  
 \end_layout
 
@@ -19193,7 +19202,7 @@ noprefix "false"
 \begin_inset Formula $S_{4}$
 \end_inset
 
- point group, the point group of this 8-atom structure is 
+ point group, the point group of this 8-nucleus structure is 
 \begin_inset Formula $S_{4}$
 \end_inset
 
@@ -19273,7 +19282,8 @@ around the
 \end_inset
 
  operation.
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
@@ -19469,8 +19479,8 @@ is this true? I'm just guessing
 
 \end_inset
 
-, so we need to add at least one atom to a location that is neither on the
- 
+, so we need to add at least one nucleus to a location such that it is centered
+ neither on the 
 \begin_inset Formula $\hat{S}_{2n}$
 \end_inset
 
@@ -19479,8 +19489,8 @@ is this true? I'm just guessing
 \end_inset
 
  plane associated with it.
- This atom does not need to be homo-nuclear with the existing nuclei in
- the structure, but as we described in Section 
+ This nucleus does not need to be homo-nuclear with the existing nuclei
+ in the structure, but as we described in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:GeneralPrinciples"
@@ -19490,7 +19500,7 @@ noprefix "false"
 
 \end_inset
 
-, we would have no choice but to add not just this one atom but two entire
+, we would have no choice but to add not just this one nucleus but two entire
  regular 
 \begin_inset Formula $n$
 \end_inset
@@ -19623,11 +19633,12 @@ homo-nuclear pairs
 \end_inset
 
  operation.
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
- of the overall system 
+ of the overall structure 
 \color inherit
 without introducing any new symmetry operations and without invalidating
  any existing ones
@@ -20048,8 +20059,8 @@ noprefix "false"
 \begin_inset Formula $D_{nh}$
 \end_inset
 
-, we would need at least one additional atom to break any symmetries in
- 
+, we would need at least one additional nucleus to break any symmetries
+ in 
 \begin_inset Formula $D_{nh}$
 \end_inset
 
@@ -20058,8 +20069,8 @@ noprefix "false"
 \end_inset
 
 .
- It turns out that only one such atom is sufficient, since if this atom
- is placed on a 
+ It turns out that only one such addition is sufficient, since if this nucleus
+ is placed with is center on a 
 \begin_inset Formula $\hat{C}_{n}$
 \end_inset
 
@@ -20369,7 +20380,8 @@ that are placed symmetrically around the
 \end_inset
 
  plane.
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
@@ -20501,7 +20513,7 @@ noprefix "false"
 \begin_inset Formula $D_{nh}$
 \end_inset
 
-, so we need to add at least one more atom in order to break the symmetry
+, so we need to add at least one more nucleus in order to break the symmetry
  elements that 
 \begin_inset Formula $D_{nh}$
 \end_inset
@@ -20696,7 +20708,8 @@ homo-nuclear pairs
 \end_inset
 
  plane.
- One additional atom can also be added at the 
+ One additional nucleus can also be added such that it is centered at the
+ 
 \lang american
 center
 \lang british
@@ -23231,7 +23244,7 @@ status open
 
 \begin_layout Plain Layout
 Possible point groups and example systems for all possible chemical formula
- types for tetra-atomic systems.
+ types for tetra-nuclear systems.
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:PossiblePointGroupsForTetratomics"
@@ -28698,7 +28711,7 @@ noprefix "false"
 \begin_inset Formula $D_{nh}$
 \end_inset
 
-, we would need at least one additional atom to break any symmetry elements
+, we would need at least one additional nucleus to break any symmetry elements
  in the point group 
 \begin_inset Formula $D_{nh}$
 \end_inset
